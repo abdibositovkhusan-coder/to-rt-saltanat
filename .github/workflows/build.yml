@@ -45,9 +45,8 @@ jobs:
 
       - name: Android sozlamalari (SDK va debug kalit)
         run: |
-          keytool -genkeypair -v -keystore "$RUNNER_TEMP/debug.keystore" -storepass android \
-            -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 \
-            -dname "CN=Android Debug,O=Android,C=US"
+          # Doimiy debug kalit (repo'da) — shunda yangi APK eskisining ustidan o'rnatiladi
+          cp ci/debug.keystore "$RUNNER_TEMP/debug.keystore"
           mkdir -p "$HOME/.config/godot"
           for f in editor_settings-4.tres editor_settings-4.3.tres; do
           cat > "$HOME/.config/godot/$f" <<EOF
@@ -89,6 +88,12 @@ jobs:
           godot --headless --path . --export-debug "Android" build/TortSaltanat.apk 2>&1 | tee export.log
           test -f build/TortSaltanat.apk || (echo "::error::APK yaratilmadi" && exit 1)
           cp build/TortSaltanat.apk ../TortSaltanat.apk
+
+      - name: APK'ni tekshirish (imzo va butunlik)
+        run: |
+          BT=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
+          "$BT/apksigner" verify --verbose TortSaltanat.apk | head -8
+          unzip -tq TortSaltanat.apk
 
       - uses: actions/upload-artifact@v4
         with:
