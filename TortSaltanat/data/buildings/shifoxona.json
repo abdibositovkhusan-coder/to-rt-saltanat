@@ -1,0 +1,34 @@
+{
+ "name": "Shifoxona",
+ "role": "Tabiblarni o'rgatadi",
+ "hp": 850,
+ "armor": 5,
+ "radius": 1.8,
+ "cost": {
+  "oltin": 150,
+  "yogoch": 80
+ },
+ "build_time": 30,
+ "trains": [
+  "tabib"
+ ],
+ "research": [
+  "shifo_kuchi"
+ ],
+ "requires": {
+  "buildings": [
+   "temirchi"
+  ]
+ },
+ "bar_height": 5.6,
+ "model": "kaykit/medieval/building_church_blue.gltf",
+ "model_scale": 3.1,
+ "model_yaw": 180,
+ "id": "shifoxona",
+ "faction": "odamlar",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "food": 0,
+ "sight": 9,
+ "style": "barracks"
+}

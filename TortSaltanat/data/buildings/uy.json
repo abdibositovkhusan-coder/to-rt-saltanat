@@ -1,0 +1,24 @@
+{
+ "name": "Uy",
+ "faction": "odamlar",
+ "role": "Oziq: +6",
+ "hp": 500,
+ "armor": 3,
+ "radius": 1.3,
+ "cost": {
+  "oltin": 80,
+  "yogoch": 20
+ },
+ "build_time": 18,
+ "food": 6,
+ "trains": [],
+ "style": "house",
+ "bar_height": 2.8,
+ "id": "uy",
+ "dropoff": false,
+ "armor_type": "mustahkam",
+ "sight": 9,
+ "model": "kaykit/medieval/building_home_A_blue.gltf",
+ "model_scale": 2.9,
+ "model_yaw": 180
+}

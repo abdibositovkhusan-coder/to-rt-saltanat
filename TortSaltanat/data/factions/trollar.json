@@ -1,0 +1,61 @@
+{
+ "id": "trollar",
+ "name": "Trollar va Devlar Saltanati",
+ "title": "Qoyatosh Davlati",
+ "color": "#3e7d3a",
+ "accent": "#c4441c",
+ "skin": "#6f9a52",
+ "worker": "qulbon",
+ "hall": "tosh_gor",
+ "builds": [
+  "totem_ustuni",
+  "jangchilar_arenasi",
+  "shamon_kulbasi",
+  "lava_ochogi",
+  "devlar_chuquri",
+  "ilonlar_uyasi",
+  "qoriqchi_tosh",
+  "tosh_gor"
+ ],
+ "tower": "qoriqchi_tosh",
+ "heroes": [
+  "qoyaqul",
+  "boronbek",
+  "zahrinoz",
+  "saidxon"
+ ],
+ "barracks": "jangchilar_arenasi",
+ "start": {
+  "hall": "tosh_gor",
+  "food": "totem_ustuni",
+  "barracks": "jangchilar_arenasi",
+  "worker": "qulbon",
+  "army": [
+   [
+    "toshtish_troll",
+    3
+   ],
+   [
+    "nayza_otar",
+    2
+   ]
+  ]
+ },
+ "mechanic": "G'azab Olovi: jangda g'azab yig'iladi, 100 ga yetganda birlik kattalashib, 8 soniya 40% kuchliroq uradi. Trollar o'zi tez tiklanadi.",
+ "desc": "Shimoliy tog'larning ulkan, kuchli devlari va trollari.",
+ "ai": {
+  "style": "Erta bosim",
+  "prefer": {
+   "toshtish_troll": 4,
+   "nayza_otar": 2,
+   "botqoq_jodugari": 1,
+   "ikki_boshli_dev": 2,
+   "mamont_chavandoz": 2,
+   "qoya_otar_gigant": 1,
+   "vulqon_ilon": 1
+  },
+  "first_wave_mult": 0.65,
+  "wave_growth": 1,
+  "towers": 1
+ }
+}

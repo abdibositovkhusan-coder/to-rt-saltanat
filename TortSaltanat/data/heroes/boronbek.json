@@ -1,0 +1,175 @@
+{
+ "name": "Bo'ronbek",
+ "title": "Ikki Boltali Troll",
+ "faction": "trollar",
+ "role": "Qahramon — g'azabli jangchi",
+ "hp": 650,
+ "mana": 210,
+ "mana_regen": 0.6,
+ "hp_regen": 1.4,
+ "damage": [
+  26,
+  32
+ ],
+ "attack_type": "qahramon",
+ "armor": 3,
+ "armor_type": "qahramon",
+ "attack_range": 1.0,
+ "attack_cooldown": 1.3,
+ "move_speed": 3.5,
+ "acquire_range": 9,
+ "radius": 0.6,
+ "bar_height": 3.2,
+ "sight": 11,
+ "cost": {
+  "oltin": 300,
+  "yogoch": 80
+ },
+ "food": 5,
+ "train_time": 30,
+ "growth": {
+  "hp": 70,
+  "mana": 15,
+  "damage": 3.5,
+  "armor": 0.4
+ },
+ "tags": [
+  "melee",
+  "armored",
+  "hero",
+  "rage"
+ ],
+ "look": {
+  "body": "troll",
+  "scale": 1.3,
+  "cloth": "#5a2a1a",
+  "weapon": "axe",
+  "tusks": true,
+  "model": "kaykit/characters/Barbarian.glb",
+  "hide": [
+   "Barbarian_Round_Shield",
+   "2H_Axe",
+   "Mug"
+  ],
+  "tint": "#c4dc8a",
+  "model_scale": 0.95,
+  "ring": 0.75,
+  "anims": {
+   "attack": "Dualwield_Melee_Attack_Chop"
+  }
+ },
+ "abilities": [
+  {
+   "id": "bolta_boroni",
+   "name": "Bolta Bo'roni",
+   "desc": "Aylanib, atrofdagilarga zarar beradi",
+   "kind": "none",
+   "effect": "aoe",
+   "radius": 3.0,
+   "mana": [
+    80,
+    90,
+    100
+   ],
+   "cooldown": [
+    10,
+    9,
+    8
+   ],
+   "damage": [
+    70,
+    130,
+    190
+   ]
+  },
+  {
+   "id": "bolta_otish",
+   "name": "Bolta Otish",
+   "desc": "Boltani otib, dushmanni sekinlashtiradi",
+   "kind": "unit",
+   "effect": "strike",
+   "target": "enemy",
+   "range": 8,
+   "mana": [
+    60,
+    60,
+    60
+   ],
+   "cooldown": [
+    9,
+    8,
+    7
+   ],
+   "damage": [
+    80,
+    150,
+    220
+   ],
+   "slow": [
+    2,
+    2.5,
+    3
+   ]
+  },
+  {
+   "id": "qon_hidi",
+   "name": "Qon Hidi",
+   "desc": "Passiv: ba'zan ikki barobar zarba",
+   "kind": "passive",
+   "effect": "passive_crit",
+   "value": [
+    0.1,
+    0.15,
+    0.2
+   ],
+   "mult": 2.0
+  },
+  {
+   "id": "cheksiz_gazab",
+   "name": "Cheksiz G'azab",
+   "desc": "ULTI: zarar, tezlik va hayot so'rish",
+   "kind": "none",
+   "effect": "self_buff",
+   "ult": true,
+   "mana": [
+    150,
+    150
+   ],
+   "cooldown": [
+    110,
+    90
+   ],
+   "buffs": [
+    {
+     "name": "dmg_bonus",
+     "value": 0.6
+    },
+    {
+     "name": "speed_bonus",
+     "value": 0.25
+    },
+    {
+     "name": "lifesteal",
+     "value": 0.3
+    }
+   ],
+   "scale": 1.15,
+   "duration": [
+    20,
+    28
+   ]
+  }
+ ],
+ "voice_select": [
+  "Bo'ronbek!",
+  "Boltalarim och!"
+ ],
+ "voice_move": [
+  "Hrr!"
+ ],
+ "voice_attack": [
+  "Qon!"
+ ],
+ "id": "boronbek",
+ "hero": true
+}

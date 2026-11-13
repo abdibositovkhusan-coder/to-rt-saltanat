@@ -1,0 +1,8 @@
+{
+  "_izoh": "Hujum turi -> sovut turi zarar koeffitsienti",
+  "oddiy":    {"yengil": 1.0,  "orta": 1.5,  "ogir": 1.0,  "mustahkam": 0.7,  "qahramon": 1.0},
+  "teshuvchi":{"yengil": 2.0,  "orta": 0.75, "ogir": 1.0,  "mustahkam": 0.35, "qahramon": 0.5},
+  "sehrli":   {"yengil": 1.25, "orta": 0.75, "ogir": 2.0,  "mustahkam": 0.35, "qahramon": 0.5},
+  "qamal":    {"yengil": 1.0,  "orta": 0.5,  "ogir": 1.0,  "mustahkam": 1.5,  "qahramon": 0.5},
+  "qahramon": {"yengil": 1.0,  "orta": 1.0,  "ogir": 1.0,  "mustahkam": 0.5,  "qahramon": 1.0}
+}

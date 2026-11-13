@@ -1,0 +1,111 @@
+name: Google Play (AAB + imzolangan APK)
+# Faqat qo'lda ishga tushiriladi: Actions → "Google Play (AAB + imzolangan APK)" → Run workflow.
+# Kerakli GitHub Secrets (Settings → Secrets and variables → Actions):
+#   RELEASE_KEYSTORE_BASE64  — release.keystore faylining base64 ko'rinishi
+#   RELEASE_KEYSTORE_PASSWORD — keystore paroli
+#   RELEASE_KEY_ALIAS        — kalit nomi (alias)
+# Natija: TortSaltanat.aab (Google Play uchun) va TortSaltanat-release.apk — Artifacts bo'limida.
+
+on:
+  workflow_dispatch:
+
+env:
+  GODOT_VERSION: "4.3"
+
+jobs:
+  play:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Loyihani ochish (zip bo'lsa)
+        run: |
+          if [ -f TortSaltanat.zip ]; then unzip -o -q TortSaltanat.zip; fi
+          test -f TortSaltanat/project.godot
+
+      - name: Secrets borligini tekshirish
+        env:
+          KS: ${{ secrets.RELEASE_KEYSTORE_BASE64 }}
+        run: |
+          if [ -z "$KS" ]; then
+            echo "::error::RELEASE_KEYSTORE_BASE64 secret yo'q. docs/GOOGLE_PLAY.md dagi 2-qadamni bajaring."
+            exit 1
+          fi
+
+      - name: 3D modellarni yuklab olish (KayKit, CC0)
+        run: bash TortSaltanat/tools/fetch_models.sh
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Godot va eksport shablonlari
+        run: |
+          cd "$RUNNER_TEMP"
+          BASE="https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}-stable"
+          wget -q "$BASE/Godot_v${GODOT_VERSION}-stable_linux.x86_64.zip"
+          wget -q "$BASE/Godot_v${GODOT_VERSION}-stable_export_templates.tpz"
+          unzip -q "Godot_v${GODOT_VERSION}-stable_linux.x86_64.zip"
+          sudo mv "Godot_v${GODOT_VERSION}-stable_linux.x86_64" /usr/local/bin/godot
+          TPL="$HOME/.local/share/godot/export_templates/${GODOT_VERSION}.stable"
+          mkdir -p "$TPL"
+          unzip -q "Godot_v${GODOT_VERSION}-stable_export_templates.tpz"
+          mv templates/* "$TPL/"
+          echo "TPL=$TPL" >> "$GITHUB_ENV"
+
+      - name: Android Gradle shablonini o'rnatish
+        working-directory: TortSaltanat
+        run: |
+          rm -rf android
+          mkdir -p android/build
+          unzip -q "$TPL/android_source.zip" -d android/build
+          echo "${GODOT_VERSION}.stable" > android/.build_version
+          touch android/build/.gdignore
+
+      - name: Kalitlar va SDK sozlamalari
+        env:
+          KS: ${{ secrets.RELEASE_KEYSTORE_BASE64 }}
+        run: |
+          echo "$KS" | base64 -d > "$RUNNER_TEMP/release.keystore"
+          keytool -genkeypair -v -keystore "$RUNNER_TEMP/debug.keystore" -storepass android \
+            -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 \
+            -dname "CN=Android Debug,O=Android,C=US"
+          mkdir -p "$HOME/.config/godot"
+          for f in editor_settings-4.tres editor_settings-4.3.tres; do
+          cat > "$HOME/.config/godot/$f" <<EOT
+          [gd_resource type="EditorSettings" format=3]
+
+          [resource]
+          export/android/android_sdk_path = "$ANDROID_HOME"
+          export/android/java_sdk_path = "$JAVA_HOME"
+          export/android/debug_keystore = "$RUNNER_TEMP/debug.keystore"
+          export/android/debug_keystore_user = "androiddebugkey"
+          export/android/debug_keystore_pass = "android"
+          EOT
+          sed -i 's/^          //' "$HOME/.config/godot/$f"
+          done
+
+      - name: Import
+        working-directory: TortSaltanat
+        run: godot --headless --path . --import 2>&1 | tail -20 || true
+
+      - name: AAB va imzolangan APK eksport
+        working-directory: TortSaltanat
+        env:
+          GODOT_ANDROID_KEYSTORE_RELEASE_PATH: ${{ runner.temp }}/release.keystore
+          GODOT_ANDROID_KEYSTORE_RELEASE_USER: ${{ secrets.RELEASE_KEY_ALIAS }}
+          GODOT_ANDROID_KEYSTORE_RELEASE_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_PASSWORD }}
+        run: |
+          mkdir -p build
+          godot --headless --path . --export-release "Android AAB" build/TortSaltanat.aab 2>&1 | tee aab.log
+          godot --headless --path . --export-release "Android" build/TortSaltanat-release.apk 2>&1 | tee apk.log
+          ls -la build
+          test -f build/TortSaltanat.aab || (echo "::error::AAB yaratilmadi — aab.log ni Claude'ga yuboring" && exit 1)
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: TortSaltanat-google-play
+          path: |
+            TortSaltanat/build/TortSaltanat.aab
+            TortSaltanat/build/TortSaltanat-release.apk

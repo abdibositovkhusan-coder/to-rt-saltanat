@@ -1,0 +1,68 @@
+{
+ "id": "toshtish_troll",
+ "name": "Toshtish Troll",
+ "faction": "trollar",
+ "role": "Piyoda jangchi",
+ "hp": 480,
+ "hp_regen": 1.4,
+ "armor": 1,
+ "armor_type": "orta",
+ "damage": [
+  14,
+  18
+ ],
+ "attack_type": "oddiy",
+ "attack_range": 1.0,
+ "attack_cooldown": 1.55,
+ "move_speed": 3.0,
+ "acquire_range": 8.0,
+ "radius": 0.55,
+ "bar_height": 2.7,
+ "look": {
+  "body": "troll",
+  "scale": 1.2,
+  "cloth": "#4a3b2a",
+  "armor": "#7d7d7d",
+  "weapon": "axe",
+  "tusks": true,
+  "model": "kaykit/characters/Barbarian.glb",
+  "hide": [
+   "1H_Axe_Offhand",
+   "Barbarian_Round_Shield",
+   "1H_Axe",
+   "Mug"
+  ],
+  "tint": "#9ad08a",
+  "model_scale": 0.95,
+  "ring": 0.75,
+  "anims": {
+   "attack": "2H_Melee_Attack_Chop",
+   "idle": "2H_Melee_Idle",
+   "walk": "Walking_C"
+  }
+ },
+ "voice_select": [
+  "Grrr... nima?",
+  "Toshtish tayyor!"
+ ],
+ "voice_move": [
+  "Ketdik!",
+  "Uh-uh!"
+ ],
+ "voice_attack": [
+  "Ezamiz!",
+  "Qoyatosh uchun!"
+ ],
+ "cost": {
+  "oltin": 140
+ },
+ "food": 2,
+ "train_time": 18,
+ "sight": 10,
+ "tags": [
+  "armored",
+  "rage",
+  "melee",
+  "infantry"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "barg_tigi",
+ "name": "Barg tig'i",
+ "desc": "Yaqin jangchilar zarari +2",
+ "levels": [
+  {
+   "cost": {
+    "oltin": 100,
+    "yogoch": 50
+   },
+   "time": 40,
+   "tier": 1
+  },
+  {
+   "cost": {
+    "oltin": 175,
+    "yogoch": 100
+   },
+   "time": 50,
+   "tier": 2
+  },
+  {
+   "cost": {
+    "oltin": 250,
+    "yogoch": 150
+   },
+   "time": 60,
+   "tier": 3
+  }
+ ],
+ "effects": [
+  {
+   "tags": [
+    "melee"
+   ],
+   "stat": "damage",
+   "add": 2
+  }
+ ]
+}

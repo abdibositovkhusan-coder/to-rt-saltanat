@@ -1,0 +1,63 @@
+{
+ "name": "Vulqon Ilon",
+ "role": "Uchuvchi — lava qanotli ilon",
+ "hp": 420,
+ "armor": 1,
+ "armor_type": "yengil",
+ "damage": [
+  18,
+  22
+ ],
+ "attack_type": "sehrli",
+ "attack_range": 5.5,
+ "attack_cooldown": 1.6,
+ "move_speed": 4.2,
+ "radius": 0.7,
+ "bar_height": 4.6,
+ "flying": true,
+ "projectile": {
+  "kind": "fire",
+  "speed": 16,
+  "arc": 0.2,
+  "splash": 1.0
+ },
+ "sight": 12,
+ "cost": {
+  "oltin": 220,
+  "yogoch": 100
+ },
+ "food": 3,
+ "train_time": 32,
+ "requires": {
+  "tier": 3,
+  "buildings": [
+   "ilonlar_uyasi"
+  ]
+ },
+ "tags": [
+  "ranged",
+  "flying"
+ ],
+ "look": {
+  "creature": "serpent",
+  "color": "#c8401a",
+  "accent": "#ffb020",
+  "wings": true,
+  "size": 1.0,
+  "fly_height": 2.6,
+  "ring": 0.8
+ },
+ "voice_select": [
+  "Ssss..."
+ ],
+ "voice_attack": [
+  "Kuyib ket!"
+ ],
+ "id": "vulqon_ilon",
+ "faction": "trollar",
+ "hp_regen": 0.3,
+ "acquire_range": 9,
+ "voice_move": [
+  "Boraman!"
+ ]
+}

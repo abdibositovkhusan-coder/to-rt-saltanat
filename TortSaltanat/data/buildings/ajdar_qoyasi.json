@@ -1,0 +1,31 @@
+{
+ "name": "Ajdar Qoyasi",
+ "role": "Uch Boshli Ajdarlar",
+ "hp": 1200,
+ "radius": 1.4,
+ "cost": {
+  "oltin": 200,
+  "yogoch": 180
+ },
+ "build_time": 45,
+ "trains": [
+  "uch_boshli_ajdar"
+ ],
+ "requires": {
+  "tier": 3
+ },
+ "bar_height": 5.8,
+ "model": "kaykit/halloween/pillar.gltf",
+ "model_scale": 1.2,
+ "tint": "#a890c0",
+ "mist": 9.0,
+ "id": "ajdar_qoyasi",
+ "faction": "yalmogiz",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "research": [],
+ "food": 0,
+ "sight": 9,
+ "style": "barracks",
+ "armor": 5
+}

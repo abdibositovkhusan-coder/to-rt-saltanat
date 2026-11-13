@@ -1,0 +1,71 @@
+{
+ "name": "Yulduz Olimi",
+ "role": "Sehrgar — sehrli zarba, dushmanni sekinlashtiradi",
+ "hp": 260,
+ "hp_regen": 0.3,
+ "armor": 0,
+ "armor_type": "yengil",
+ "damage": [
+  10,
+  13
+ ],
+ "attack_type": "sehrli",
+ "attack_range": 7.5,
+ "attack_cooldown": 1.8,
+ "move_speed": 3.1,
+ "acquire_range": 10,
+ "radius": 0.4,
+ "bar_height": 2.3,
+ "sight": 11,
+ "projectile": {
+  "kind": "magic",
+  "speed": 18.0,
+  "arc": 0.4,
+  "slow": 3.0
+ },
+ "cost": {
+  "oltin": 140,
+  "yogoch": 40
+ },
+ "food": 2,
+ "train_time": 22,
+ "requires": {
+  "buildings": [
+   "rasadxona"
+  ]
+ },
+ "tags": [
+  "caster",
+  "ranged"
+ ],
+ "look": {
+  "body": "human",
+  "cloth": "#3a5fbf",
+  "weapon": "staff",
+  "glow": "#9fc4ff",
+  "model": "kaykit/characters/Mage.glb",
+  "hide": [
+   "Spellbook",
+   "Spellbook_open",
+   "1H_Wand"
+  ],
+  "tint": "#b4c8ff",
+  "anims": {
+   "attack": "Spellcast_Shoot",
+   "ranged": "Spellcast_Shoot"
+  }
+ },
+ "voice_select": [
+  "Yulduzlar nima deydi?",
+  "Ilm — kuch!"
+ ],
+ "voice_move": [
+  "Boraman."
+ ],
+ "voice_attack": [
+  "Osmon g'azabi!",
+  "Meteor yog'sin!"
+ ],
+ "id": "yulduz_olimi",
+ "faction": "odamlar"
+}

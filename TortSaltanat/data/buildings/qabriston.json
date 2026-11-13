@@ -1,0 +1,26 @@
+{
+ "name": "Qabriston",
+ "role": "Oziq: +6",
+ "hp": 500,
+ "armor": 3,
+ "radius": 1.3,
+ "cost": {
+  "oltin": 80,
+  "yogoch": 20
+ },
+ "build_time": 18,
+ "food": 6,
+ "bar_height": 3.0,
+ "mist": 6.0,
+ "model": "kaykit/halloween/grave_A.gltf",
+ "model_scale": 1.2,
+ "tint": "#c0b0d0",
+ "id": "qabriston",
+ "faction": "yalmogiz",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "trains": [],
+ "research": [],
+ "sight": 9,
+ "style": "barracks"
+}

@@ -1,0 +1,73 @@
+{
+ "id": "mission1",
+ "title": "1-missiya: Chegaradagi jang",
+ "objective": "Trollar hujumini qaytaring — barcha dushmanni yo'q qiling",
+ "player_faction": "odamlar",
+ "enemy_faction": "trollar",
+ "intro": "intro",
+ "outro": "mission1_end",
+ "env": "day",
+ "enemy_attack_after": 25,
+ "camera_start": [
+  -12,
+  0,
+  8
+ ],
+ "resources": {
+  "oltin": 500,
+  "yogoch": 250,
+  "oziq": 8,
+  "oziq_max": 20
+ },
+ "player_units": [
+  {
+   "id": "alpomish",
+   "count": 1,
+   "at": [
+    -11,
+    0,
+    5
+   ]
+  },
+  {
+   "id": "navkar",
+   "count": 5,
+   "at": [
+    -14,
+    0,
+    8
+   ]
+  },
+  {
+   "id": "mergan",
+   "count": 3,
+   "at": [
+    -17,
+    0,
+    11
+   ]
+  }
+ ],
+ "enemy_units": [
+  {
+   "id": "toshtish_troll",
+   "count": 7,
+   "at": [
+    14,
+    0,
+    -8
+   ]
+  },
+  {
+   "id": "nayza_otar",
+   "count": 2,
+   "at": [
+    17,
+    0,
+    -11
+   ]
+  }
+ ],
+ "next": "mission2",
+ "difficulty": "orta"
+}

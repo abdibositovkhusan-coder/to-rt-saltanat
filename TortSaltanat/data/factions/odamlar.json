@@ -1,0 +1,65 @@
+{
+ "id": "odamlar",
+ "name": "Odamlar Saltanati",
+ "title": "Oltin Vodiy Saltanati",
+ "color": "#2d5fa8",
+ "accent": "#d4a63a",
+ "skin": "#e0b48c",
+ "worker": "dehqon",
+ "hall": "qishloq_markazi",
+ "builds": [
+  "uy",
+  "navkarxona",
+  "kamonchilar_maydoni",
+  "temirchi",
+  "shifoxona",
+  "rasadxona",
+  "otxona",
+  "ustaxona",
+  "minora",
+  "devor",
+  "qishloq_markazi"
+ ],
+ "tower": "minora",
+ "heroes": [
+  "alpomish",
+  "barchinoy",
+  "mavlono_nurali",
+  "husan"
+ ],
+ "barracks": "navkarxona",
+ "start": {
+  "hall": "qishloq_markazi",
+  "food": "uy",
+  "barracks": "navkarxona",
+  "worker": "dehqon",
+  "army": [
+   [
+    "navkar",
+    3
+   ],
+   [
+    "mergan",
+    2
+   ]
+  ]
+ },
+ "mechanic": "Karvon Yo'li: ikkinchi bosh bino qurilsa, har 20 soniyada karvon qo'shimcha oltin olib keladi. Eng moslashuvchan saltanat: 3 davr, kuchli muhandislik.",
+ "desc": "Markaziy Oltin Vodiyning botirlari, merganlari va olimlari.",
+ "ai": {
+  "style": "Kengayish va karvonlar",
+  "prefer": {
+   "navkar": 3,
+   "mergan": 3,
+   "yulduz_olimi": 1,
+   "tabib": 1,
+   "otliq_botir": 2,
+   "manjaniq": 1,
+   "uchar_gilam": 1,
+   "oltin_gvardiya": 1
+  },
+  "expand": true,
+  "towers": 3,
+  "first_wave_mult": 1.0
+ }
+}

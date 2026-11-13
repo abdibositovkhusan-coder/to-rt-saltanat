@@ -1,0 +1,29 @@
+{
+ "name": "Ilonlar Uyasi",
+ "role": "Vulqon Ilonlarini o'stiradi",
+ "hp": 1000,
+ "radius": 1.6,
+ "cost": {
+  "oltin": 180,
+  "yogoch": 160
+ },
+ "build_time": 40,
+ "trains": [
+  "vulqon_ilon"
+ ],
+ "requires": {
+  "tier": 3
+ },
+ "bar_height": 6.0,
+ "model": "kaykit/medieval/building_tower_B_red.gltf",
+ "model_scale": 2.3,
+ "id": "ilonlar_uyasi",
+ "faction": "trollar",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "research": [],
+ "food": 0,
+ "sight": 9,
+ "style": "barracks",
+ "armor": 5
+}

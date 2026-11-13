@@ -1,0 +1,29 @@
+{
+ "name": "Qal'a",
+ "role": "Bosh bino (2-davr) — ishchilar, resurs topshirish",
+ "hp": 2000,
+ "armor": 6,
+ "radius": 2.6,
+ "cost": {
+  "oltin": 320,
+  "yogoch": 210
+ },
+ "build_time": 60,
+ "food": 10,
+ "trains": [
+  "dehqon"
+ ],
+ "dropoff": true,
+ "style": "hall",
+ "bar_height": 9.6,
+ "sight": 13,
+ "tier": 2,
+ "upgrade_to": "poytaxt_saroyi",
+ "model": "kaykit/medieval/building_castle_blue.gltf",
+ "model_scale": 2.2,
+ "model_yaw": 180,
+ "id": "qala",
+ "faction": "odamlar",
+ "armor_type": "mustahkam",
+ "research": []
+}

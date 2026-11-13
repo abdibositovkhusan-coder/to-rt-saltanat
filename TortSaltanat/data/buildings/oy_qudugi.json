@@ -1,0 +1,31 @@
+{
+ "name": "Oy Qudug'i",
+ "role": "Elflar texnologiyalari",
+ "hp": 800,
+ "radius": 1.6,
+ "cost": {
+  "oltin": 140,
+  "yogoch": 60
+ },
+ "build_time": 30,
+ "research": [
+  "barg_tigi",
+  "kumush_oq",
+  "daraxt_postlogi",
+  "oy_barakasi",
+  "chuqur_ildizlar"
+ ],
+ "bar_height": 3.0,
+ "model": "kaykit/medieval/building_well_green.gltf",
+ "model_scale": 3.0,
+ "tint": "#c8e8ff",
+ "id": "oy_qudugi",
+ "faction": "elflar",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "trains": [],
+ "food": 0,
+ "sight": 9,
+ "style": "barracks",
+ "armor": 5
+}

@@ -1,0 +1,61 @@
+{
+ "name": "Tikanli Ildiz",
+ "role": "Qamal — binolarni tikanlar bilan buzadi",
+ "hp": 450,
+ "armor": 2,
+ "armor_type": "ogir",
+ "damage": [
+  55,
+  70
+ ],
+ "attack_type": "qamal",
+ "attack_range": 11.0,
+ "min_range": 2.5,
+ "attack_cooldown": 3.2,
+ "move_speed": 1.8,
+ "radius": 0.9,
+ "bar_height": 3.6,
+ "projectile": {
+  "kind": "spear",
+  "speed": 16,
+  "arc": 3.0,
+  "splash": 1.2
+ },
+ "cost": {
+  "oltin": 200,
+  "yogoch": 120
+ },
+ "food": 3,
+ "train_time": 34,
+ "requires": {
+  "tier": 2,
+  "buildings": [
+   "qoriqchilar_daraxtzori"
+  ]
+ },
+ "tags": [
+  "siege"
+ ],
+ "look": {
+  "body": "machine",
+  "model": "kaykit/halloween/tree_dead_medium.gltf",
+  "model_scale": 1.2,
+  "tint": "#a0d080",
+  "walker": true,
+  "ring": 1.0
+ },
+ "voice_select": [
+  "Shitirr..."
+ ],
+ "voice_attack": [
+  "Tikan!"
+ ],
+ "id": "tikanli_ildiz",
+ "faction": "elflar",
+ "hp_regen": 0.3,
+ "acquire_range": 9,
+ "sight": 10,
+ "voice_move": [
+  "Boraman!"
+ ]
+}

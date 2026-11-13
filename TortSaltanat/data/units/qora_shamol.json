@@ -1,0 +1,56 @@
+{
+ "name": "Qora Shamol",
+ "role": "Super birlik (1 ta) — ruhlar bo'roni",
+ "hp": 2900,
+ "armor": 5,
+ "armor_type": "ogir",
+ "damage": [
+  40,
+  50
+ ],
+ "attack_type": "sehrli",
+ "attack_range": 1.5,
+ "attack_cooldown": 1.6,
+ "move_speed": 3.6,
+ "radius": 1.2,
+ "bar_height": 6.0,
+ "aura_damage": {
+  "dps": 20,
+  "radius": 3.5,
+  "weak": 0.25
+ },
+ "limit": 1,
+ "cost": {
+  "oltin": 600,
+  "yogoch": 400
+ },
+ "food": 8,
+ "train_time": 60,
+ "requires": {
+  "tier": 3
+ },
+ "tags": [
+  "elite"
+ ],
+ "look": {
+  "creature": "storm",
+  "color": "#2a1838",
+  "accent": "#9a6aff",
+  "size": 1.6,
+  "ring": 1.4
+ },
+ "voice_select": [
+  "Uuuuu..."
+ ],
+ "voice_attack": [
+  "Hammasi so'nadi..."
+ ],
+ "id": "qora_shamol",
+ "faction": "yalmogiz",
+ "hp_regen": 0.3,
+ "acquire_range": 9,
+ "sight": 10,
+ "voice_move": [
+  "Boraman!"
+ ]
+}

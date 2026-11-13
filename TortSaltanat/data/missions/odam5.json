@@ -1,0 +1,423 @@
+{
+ "id": "odam5",
+ "title": "5-missiya: Jon Tuxumlari",
+ "objective": "Dushmanning barcha Jon Tuxumlarini yo'q qiling",
+ "player_faction": "odamlar",
+ "enemy_faction": "yalmogiz",
+ "intro": "",
+ "outro": "",
+ "next": "odam6",
+ "env": "dusk",
+ "camera_start": [
+  -33,
+  0,
+  30
+ ],
+ "resources": {
+  "oltin": 600,
+  "yogoch": 350
+ },
+ "enemy_resources": {
+  "oltin": 600,
+  "yogoch": 350
+ },
+ "ai": {
+  "economy": true,
+  "first_wave": 330,
+  "wave_size": 5,
+  "wave_growth": 2,
+  "workers": 6,
+  "heroes": true
+ },
+ "clear_spots": [
+  [
+   -36,
+   0,
+   34,
+   22
+  ],
+  [
+   36,
+   0,
+   -34,
+   22
+  ],
+  [
+   0,
+   0,
+   0,
+   10
+  ],
+  [
+   -14,
+   0,
+   38,
+   7
+  ],
+  [
+   14,
+   0,
+   -38,
+   7
+  ],
+  [
+   -42,
+   0,
+   6,
+   7
+  ],
+  [
+   42,
+   0,
+   -6,
+   7
+  ],
+  [
+   0,
+   0,
+   26,
+   7
+  ],
+  [
+   0,
+   0,
+   -26,
+   7
+  ],
+  [
+   -12,
+   0,
+   -12,
+   7
+  ],
+  [
+   12,
+   0,
+   12,
+   7
+  ]
+ ],
+ "player_buildings": [],
+ "enemy_buildings": [
+  {
+   "id": "jon_tuxumi",
+   "at": [
+    28,
+    0,
+    -42
+   ]
+  },
+  {
+   "id": "jon_tuxumi",
+   "at": [
+    44,
+    0,
+    -26
+   ]
+  },
+  {
+   "id": "jon_tuxumi",
+   "at": [
+    30,
+    0,
+    -24
+   ]
+  }
+ ],
+ "player_units": [
+  {
+   "id": "alpomish",
+   "count": 1,
+   "at": [
+    -30,
+    0,
+    30
+   ],
+   "level": 5
+  },
+  {
+   "id": "barchinoy",
+   "count": 1,
+   "at": [
+    -32,
+    0,
+    31
+   ],
+   "level": 4
+  }
+ ],
+ "enemy_units": [],
+ "resource_nodes": [
+  {
+   "kind": "gold",
+   "at": [
+    -45,
+    0,
+    25
+   ],
+   "amount": 12000
+  },
+  {
+   "kind": "gold",
+   "at": [
+    45,
+    0,
+    -25
+   ],
+   "amount": 12000
+  },
+  {
+   "kind": "gold",
+   "at": [
+    2,
+    0,
+    -3
+   ],
+   "amount": 8000
+  }
+ ],
+ "forests": [
+  {
+   "at": [
+    -24,
+    0,
+    46
+   ],
+   "radius": 6,
+   "count": 26
+  },
+  {
+   "at": [
+    -48,
+    0,
+    42
+   ],
+   "radius": 5,
+   "count": 18
+  },
+  {
+   "at": [
+    24,
+    0,
+    -46
+   ],
+   "radius": 6,
+   "count": 26
+  },
+  {
+   "at": [
+    48,
+    0,
+    -42
+   ],
+   "radius": 5,
+   "count": 18
+  }
+ ],
+ "fog": true,
+ "neutral_buildings": [
+  {
+   "id": "karvonsaroy",
+   "at": [
+    -12,
+    0,
+    -12
+   ]
+  },
+  {
+   "id": "choyxona",
+   "at": [
+    12,
+    0,
+    12
+   ]
+  }
+ ],
+ "creep_camps": [
+  {
+   "at": [
+    -14,
+    0,
+    38
+   ],
+   "units": [
+    {
+     "id": "qaroqchi",
+     "count": 2
+    },
+    {
+     "id": "qaroqchi_kamonchi",
+     "count": 1
+    }
+   ],
+   "drop": "oddiy"
+  },
+  {
+   "at": [
+    14,
+    0,
+    -38
+   ],
+   "units": [
+    {
+     "id": "qaroqchi",
+     "count": 2
+    },
+    {
+     "id": "qaroqchi_kamonchi",
+     "count": 1
+    }
+   ],
+   "drop": "oddiy"
+  },
+  {
+   "at": [
+    -42,
+    0,
+    6
+   ],
+   "units": [
+    {
+     "id": "tosh_golem",
+     "count": 1
+    },
+    {
+     "id": "lanatli_jangchi",
+     "count": 2
+    }
+   ],
+   "drop": "noyob"
+  },
+  {
+   "at": [
+    42,
+    0,
+    -6
+   ],
+   "units": [
+    {
+     "id": "tosh_golem",
+     "count": 1
+    },
+    {
+     "id": "lanatli_jangchi",
+     "count": 2
+    }
+   ],
+   "drop": "noyob"
+  },
+  {
+   "at": [
+    0,
+    0,
+    26
+   ],
+   "units": [
+    {
+     "id": "qadimgi_qoriqchi",
+     "count": 1
+    },
+    {
+     "id": "lanatli_jangchi",
+     "count": 2
+    }
+   ],
+   "drop": "afsonaviy"
+  },
+  {
+   "at": [
+    0,
+    0,
+    -26
+   ],
+   "units": [
+    {
+     "id": "tosh_golem",
+     "count": 2
+    }
+   ],
+   "drop": "epik"
+  }
+ ],
+ "auto_start": true,
+ "player_base": [
+  -36,
+  0,
+  34
+ ],
+ "enemy_base": [
+  36,
+  0,
+  -34
+ ],
+ "difficulty": "orta",
+ "victory": {
+  "type": "destroy_buildings",
+  "buildings": [
+   "jon_tuxumi"
+  ]
+ },
+ "triggers": [
+  {
+   "when": {
+    "time": 2
+   },
+   "do": [
+    {
+     "say": [
+      "Mavlono Nurali",
+      "Kashsheyning kuchi Jon Tuxumlarida. Ular butun tursa, uning askarlari qayta-qayta tiriladi."
+     ],
+     "team": 0
+    }
+   ]
+  },
+  {
+   "when": {
+    "time": 9
+   },
+   "do": [
+    {
+     "say": [
+      "Alpomish",
+      "Unda avval qo'shin, keyin tuxumlar. Mavlono, siz biz bilan bo'ling!"
+     ],
+     "team": 0
+    }
+   ]
+  },
+  {
+   "when": {
+    "time": 5
+   },
+   "do": [
+    {
+     "spawn": {
+      "id": "mavlono_nurali",
+      "count": 1,
+      "at": [
+       -34,
+       0,
+       26
+      ],
+      "team": 0,
+      "level": 3
+     }
+    }
+   ]
+  },
+  {
+   "when": {
+    "time": 240
+   },
+   "do": [
+    {
+     "say": [
+      "Barchinoy",
+      "Karvonsaroyda yaxshi buyumlar bor. Qahramonlarni kuchaytiring!"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "name": "Qaroqchi Kamonchi",
+ "role": "Neytral — o'q otuvchi qaroqchi",
+ "hp": 260,
+ "hp_regen": 0.5,
+ "armor": 0,
+ "armor_type": "orta",
+ "damage": [
+  12,
+  16
+ ],
+ "attack_type": "teshuvchi",
+ "attack_range": 6.5,
+ "attack_cooldown": 1.6,
+ "move_speed": 3.1,
+ "radius": 0.42,
+ "bar_height": 2.3,
+ "xp": 35,
+ "bounty": 15,
+ "projectile": {
+  "kind": "arrow",
+  "speed": 22,
+  "arc": 1.0
+ },
+ "look": {
+  "body": "human",
+  "cloth": "#4a4a4a",
+  "weapon": "bow",
+  "hood": true,
+  "model": "kaykit/characters/Rogue_Hooded.glb",
+  "hide": [
+   "Knife_Offhand",
+   "1H_Crossbow",
+   "Knife",
+   "Throwable"
+  ],
+  "tint": "#a8a8a8",
+  "anims": {
+   "attack": "2H_Ranged_Shoot",
+   "ranged": "2H_Ranged_Shoot"
+  }
+ },
+ "id": "qaroqchi_kamonchi",
+ "faction": "neytral",
+ "food": 0,
+ "tags": [],
+ "acquire_range": 6,
+ "leash": 14,
+ "sight": 8
+}

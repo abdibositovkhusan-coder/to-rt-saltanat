@@ -1,0 +1,33 @@
+{
+ "name": "Ayiq Uyasi",
+ "role": "Ayiqlar, ilon otlilar va kulbalar",
+ "hp": 1200,
+ "radius": 2.1,
+ "cost": {
+  "oltin": 200,
+  "yogoch": 140
+ },
+ "build_time": 38,
+ "trains": [
+  "temir_tishli_ayiq",
+  "ilon_otli",
+  "tovuq_oyoqli_kulba"
+ ],
+ "requires": {
+  "tier": 2
+ },
+ "bar_height": 4.6,
+ "model": "kaykit/halloween/arch_gate.gltf",
+ "model_scale": 0.9,
+ "tint": "#b8a8c8",
+ "mist": 9.0,
+ "id": "ayiq_uyasi",
+ "faction": "yalmogiz",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "research": [],
+ "food": 0,
+ "sight": 9,
+ "style": "barracks",
+ "armor": 5
+}

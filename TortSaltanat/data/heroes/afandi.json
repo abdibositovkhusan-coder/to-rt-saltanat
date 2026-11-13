@@ -1,0 +1,164 @@
+{
+ "name": "Nasriddin Afandi",
+ "title": "Hiylakor Donishmand",
+ "faction": "neytral",
+ "role": "Yollanma qahramon — hiyla va kulgi",
+ "mercenary": true,
+ "hp": 520,
+ "mana": 250,
+ "mana_regen": 0.9,
+ "hp_regen": 0.8,
+ "damage": [
+  18,
+  24
+ ],
+ "attack_type": "qahramon",
+ "armor": 2,
+ "armor_type": "qahramon",
+ "attack_range": 1.0,
+ "attack_cooldown": 1.4,
+ "move_speed": 3.4,
+ "acquire_range": 9,
+ "radius": 0.5,
+ "bar_height": 2.8,
+ "sight": 12,
+ "cost": {
+  "oltin": 400,
+  "yogoch": 0
+ },
+ "food": 5,
+ "train_time": 1,
+ "growth": {
+  "hp": 60,
+  "mana": 20,
+  "damage": 2,
+  "armor": 0.3
+ },
+ "tags": [
+  "melee",
+  "hero"
+ ],
+ "look": {
+  "body": "human",
+  "scale": 1.1,
+  "cloth": "#7a5a30",
+  "model": "kaykit/characters/Barbarian.glb",
+  "hide": [
+   "Barbarian_Hat",
+   "Barbarian_Round_Shield",
+   "2H_Axe",
+   "1H_Axe",
+   "1H_Axe_Offhand"
+  ],
+  "tint": "#f0dcb4",
+  "anims": {
+   "attack": "Unarmed_Melee_Attack_Punch_A",
+   "idle": "Unarmed_Idle"
+  }
+ },
+ "abilities": [
+  {
+   "id": "eshak_tepkisi",
+   "name": "Eshak Tepkisi",
+   "desc": "Eshagi dushmanni tepadi — karaxt",
+   "kind": "unit",
+   "effect": "strike",
+   "target": "enemy",
+   "range": 2.5,
+   "mana": [
+    65,
+    65,
+    65
+   ],
+   "cooldown": [
+    11,
+    10,
+    9
+   ],
+   "damage": [
+    40,
+    80,
+    120
+   ],
+   "stun": [
+    2.0,
+    2.5,
+    3.0
+   ]
+  },
+  {
+   "id": "hazil",
+   "name": "Hazil-mutoyiba",
+   "desc": "Atrofdagi dushmanlar kulgidan hujum qila olmaydi",
+   "kind": "none",
+   "effect": "enemy_debuff",
+   "radius": 4,
+   "mana": [
+    80,
+    90,
+    100
+   ],
+   "cooldown": [
+    18,
+    17,
+    16
+   ],
+   "debuff": "disarm",
+   "duration": [
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "id": "oltin_topar",
+   "name": "Oltin Topar",
+   "desc": "Passiv: har bir o'ldirishdan qo'shimcha oltin",
+   "kind": "passive",
+   "effect": "passive_bounty",
+   "value": [
+    3,
+    6,
+    9
+   ]
+  },
+  {
+   "id": "xalq_kulgisi",
+   "name": "Xalq Kulgisi",
+   "desc": "ULTI: katta hududda dushmanlar kulib, sekinlashadi",
+   "kind": "none",
+   "effect": "enemy_debuff",
+   "ult": true,
+   "radius": 10,
+   "mana": [
+    150,
+    150
+   ],
+   "cooldown": [
+    110,
+    90
+   ],
+   "debuff": "disarm",
+   "duration": [
+    5,
+    7
+   ],
+   "slow": [
+    5,
+    7
+   ]
+  }
+ ],
+ "voice_select": [
+  "Assalomu alaykum!",
+  "Eshagim qayerda?"
+ ],
+ "voice_move": [
+  "Shoshilgan qiz erga yolchimas!"
+ ],
+ "voice_attack": [
+  "Mana senga hazil!"
+ ],
+ "id": "afandi",
+ "hero": true
+}

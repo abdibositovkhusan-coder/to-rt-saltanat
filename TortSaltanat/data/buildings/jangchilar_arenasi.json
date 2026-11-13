@@ -1,0 +1,27 @@
+{
+ "name": "Jangchilar Arenasi",
+ "faction": "trollar",
+ "role": "Trollarni o'rgatadi",
+ "hp": 1150,
+ "armor": 5,
+ "radius": 2.2,
+ "cost": {
+  "oltin": 180,
+  "yogoch": 50
+ },
+ "build_time": 30,
+ "food": 0,
+ "trains": [
+  "toshtish_troll",
+  "nayza_otar"
+ ],
+ "style": "arena",
+ "bar_height": 3.4,
+ "id": "jangchilar_arenasi",
+ "dropoff": false,
+ "armor_type": "mustahkam",
+ "sight": 9,
+ "model": "kaykit/medieval/building_barracks_red.gltf",
+ "model_scale": 2.8,
+ "model_yaw": 0
+}

@@ -1,0 +1,28 @@
+{
+ "name": "Poytaxt Saroyi",
+ "role": "Bosh bino (3-davr) — saltanat yuragi",
+ "hp": 2500,
+ "armor": 7,
+ "radius": 2.6,
+ "cost": {
+  "oltin": 360,
+  "yogoch": 300
+ },
+ "build_time": 75,
+ "food": 12,
+ "trains": [
+  "dehqon"
+ ],
+ "dropoff": true,
+ "style": "hall",
+ "bar_height": 11.5,
+ "sight": 14,
+ "tier": 3,
+ "model": "kaykit/medieval/building_castle_blue.gltf",
+ "model_scale": 2.6,
+ "model_yaw": 180,
+ "id": "poytaxt_saroyi",
+ "faction": "odamlar",
+ "armor_type": "mustahkam",
+ "research": []
+}

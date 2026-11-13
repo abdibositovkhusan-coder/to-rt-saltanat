@@ -1,0 +1,62 @@
+{
+ "name": "Simurg'",
+ "role": "Super birlik (1 ta) — kuldan qayta tug'iladi",
+ "hp": 2400,
+ "armor": 6,
+ "armor_type": "ogir",
+ "damage": [
+  50,
+  62
+ ],
+ "attack_type": "sehrli",
+ "attack_range": 6.0,
+ "attack_cooldown": 1.8,
+ "move_speed": 4.0,
+ "radius": 1.2,
+ "bar_height": 6.4,
+ "flying": true,
+ "rebirth": true,
+ "projectile": {
+  "kind": "fire",
+  "speed": 18,
+  "arc": 0.2,
+  "splash": 2.0
+ },
+ "limit": 1,
+ "sight": 14,
+ "cost": {
+  "oltin": 600,
+  "yogoch": 400
+ },
+ "food": 8,
+ "train_time": 60,
+ "requires": {
+  "tier": 3
+ },
+ "tags": [
+  "ranged",
+  "flying",
+  "elite"
+ ],
+ "look": {
+  "creature": "bird",
+  "color": "#ff6a20",
+  "accent": "#ffd040",
+  "size": 2.2,
+  "fly_height": 3.6,
+  "ring": 1.4
+ },
+ "voice_select": [
+  "Olovdan tug'ilganman."
+ ],
+ "voice_attack": [
+  "Yonib ket!"
+ ],
+ "id": "simurg",
+ "faction": "elflar",
+ "hp_regen": 0.3,
+ "acquire_range": 9,
+ "voice_move": [
+  "Boraman!"
+ ]
+}

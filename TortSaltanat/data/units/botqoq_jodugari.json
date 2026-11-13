@@ -1,0 +1,74 @@
+{
+ "name": "Botqoq Jodugari",
+ "role": "Sehrgar — sekinlashtiradi va davolaydi",
+ "hp": 300,
+ "armor": 0,
+ "armor_type": "yengil",
+ "damage": [
+  10,
+  13
+ ],
+ "attack_type": "sehrli",
+ "attack_range": 7.0,
+ "attack_cooldown": 1.8,
+ "projectile": {
+  "kind": "magic_green",
+  "speed": 17,
+  "arc": 0.4,
+  "slow": 2.0
+ },
+ "healer": {
+  "amount": 15,
+  "range": 6,
+  "cooldown": 2.5
+ },
+ "cost": {
+  "oltin": 135,
+  "yogoch": 30
+ },
+ "food": 2,
+ "train_time": 22,
+ "requires": {
+  "buildings": [
+   "shamon_kulbasi"
+  ]
+ },
+ "tags": [
+  "caster",
+  "ranged",
+  "healer",
+  "rage"
+ ],
+ "sight": 11,
+ "look": {
+  "body": "human",
+  "model": "kaykit/characters/Mage.glb",
+  "hide": [
+   "Spellbook",
+   "Spellbook_open",
+   "1H_Wand"
+  ],
+  "tint": "#a8d88a",
+  "anims": {
+   "attack": "Spellcast_Shoot",
+   "ranged": "Spellcast_Shoot"
+  }
+ },
+ "voice_select": [
+  "Botqoq so'zlaydi...",
+  "Ha?"
+ ],
+ "voice_attack": [
+  "Zahar!"
+ ],
+ "id": "botqoq_jodugari",
+ "faction": "trollar",
+ "hp_regen": 0.3,
+ "acquire_range": 9,
+ "radius": 0.5,
+ "bar_height": 2.6,
+ "move_speed": 3.2,
+ "voice_move": [
+  "Boraman!"
+ ]
+}

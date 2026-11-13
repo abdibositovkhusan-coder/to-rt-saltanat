@@ -1,0 +1,279 @@
+{
+ "id": "troll1",
+ "title": "1-missiya: Vulqon uyg'ondi",
+ "objective": "Qoyaqulni janubi-sharqdagi dovonga olib boring",
+ "player_faction": "trollar",
+ "enemy_faction": "yalmogiz",
+ "env": "dusk",
+ "difficulty": "orta",
+ "intro": "troll_intro",
+ "outro": "",
+ "next": "troll2",
+ "camera_start": [
+  -38,
+  0,
+  -36
+ ],
+ "resources": {
+  "oltin": 0,
+  "yogoch": 0
+ },
+ "auto_waves": false,
+ "fog": true,
+ "clear_spots": [
+  [
+   -38,
+   0,
+   38,
+   10
+  ],
+  [
+   0,
+   0,
+   0,
+   12
+  ],
+  [
+   36,
+   0,
+   -36,
+   12
+  ],
+  [
+   -30,
+   0,
+   -20,
+   9
+  ],
+  [
+   28,
+   0,
+   22,
+   9
+  ]
+ ],
+ "player_units": [
+  {
+   "id": "qoyaqul",
+   "count": 1,
+   "at": [
+    -38,
+    0,
+    -38
+   ],
+   "level": 2
+  },
+  {
+   "id": "toshtish_troll",
+   "count": 4,
+   "at": [
+    -40,
+    0,
+    -34
+   ]
+  },
+  {
+   "id": "nayza_otar",
+   "count": 3,
+   "at": [
+    -36,
+    0,
+    -32
+   ]
+  },
+  {
+   "id": "qulbon",
+   "count": 3,
+   "at": [
+    -42,
+    0,
+    -38
+   ]
+  }
+ ],
+ "enemy_units": [
+  {
+   "id": "lanatli_jangchi",
+   "count": 3,
+   "at": [
+    -10,
+    0,
+    -14
+   ]
+  },
+  {
+   "id": "tosh_golem",
+   "count": 2,
+   "at": [
+    6,
+    0,
+    4
+   ]
+  },
+  {
+   "id": "suyak_askar",
+   "count": 4,
+   "at": [
+    24,
+    0,
+    20
+   ]
+  }
+ ],
+ "player_buildings": [],
+ "enemy_buildings": [],
+ "resource_nodes": [],
+ "forests": [
+  {
+   "at": [
+    -46,
+    0,
+    10
+   ],
+   "radius": 5,
+   "count": 16
+  },
+  {
+   "at": [
+    12,
+    0,
+    44
+   ],
+   "radius": 6,
+   "count": 18
+  },
+  {
+   "at": [
+    44,
+    0,
+    6
+   ],
+   "radius": 5,
+   "count": 16
+  },
+  {
+   "at": [
+    -8,
+    0,
+    -44
+   ],
+   "radius": 6,
+   "count": 18
+  }
+ ],
+ "triggers": [
+  {
+   "when": {
+    "time": 1
+   },
+   "do": [
+    {
+     "say": [
+      "Qoyaqul",
+      "Tog' yonmoqda! Lava g'orlarimizni yutdi. Janubga, birodarlar!"
+     ]
+    },
+    {
+     "reveal": [
+      40,
+      40,
+      8
+     ],
+     "reveal_time": 15
+    }
+   ]
+  },
+  {
+   "when": {
+    "time": 10
+   },
+   "do": [
+    {
+     "say": [
+      "Saidxon",
+      "Qoyaqul! Yo'lda la'natlangan jangchilar bor. Ular tabiiy emas — kimdir ularni uyg'otgan."
+     ],
+     "team": 0
+    }
+   ]
+  },
+  {
+   "every": 45,
+   "from": 30,
+   "until": 200,
+   "do": [
+    {
+     "spawn": [
+      {
+       "id": "lanatli_jangchi",
+       "count": 2,
+       "at": [
+        -46,
+        0,
+        -46
+       ],
+       "team": 1,
+       "attack": true
+      }
+     ]
+    },
+    {
+     "say": [
+      "Qoyaqul",
+      "Orqadan ham kelishyapti! To'xtamang!"
+     ],
+     "team": 1
+    }
+   ]
+  },
+  {
+   "when": {
+    "time": 6
+   },
+   "do": [
+    {
+     "spawn": {
+      "id": "saidxon",
+      "count": 1,
+      "at": [
+       -34,
+       0,
+       -40
+      ],
+      "team": 0,
+      "level": 2
+     }
+    }
+   ]
+  },
+  {
+   "when": {
+    "area": [
+     24,
+     20,
+     12
+    ]
+   },
+   "do": [
+    {
+     "say": [
+      "Saidxon",
+      "Suyaklar! Bu Kashsheyning askarlari-ku. Ular bu yerda nima qilyapti?"
+     ]
+    }
+   ]
+  }
+ ],
+ "victory": {
+  "type": "reach",
+  "area": [
+   40,
+   40,
+   7
+  ],
+  "unit": "qoyaqul"
+ },
+ "defeat": {
+  "protect_unit": "qoyaqul"
+ }
+}

@@ -1,0 +1,181 @@
+{
+ "id": "ulugbek",
+ "hero": true,
+ "faction": "elflar",
+ "name": "Ulug'bek",
+ "title": "Yulduzlar Kuzatuvchisi",
+ "role": "Do'st qahramoni — yulduzlar ilmi",
+ "armor_type": "qahramon",
+ "attack_type": "qahramon",
+ "cost": {
+  "oltin": 300,
+  "yogoch": 80
+ },
+ "food": 5,
+ "train_time": 30,
+ "acquire_range": 10,
+ "radius": 0.55,
+ "bar_height": 3.0,
+ "sight": 12,
+ "friend": true,
+ "voice_select": [
+  "Yulduzlar hisobini bilaman.",
+  "Ulug'bek!"
+ ],
+ "voice_move": [
+  "Oldinga!"
+ ],
+ "voice_attack": [
+  "Osmon hukmi!"
+ ],
+ "hp": 480,
+ "mana": 320,
+ "mana_regen": 0.9,
+ "hp_regen": 1.0,
+ "damage": [
+  20,
+  26
+ ],
+ "armor": 2,
+ "attack_range": 8.0,
+ "attack_cooldown": 1.7,
+ "move_speed": 3.3,
+ "growth": {
+  "hp": 55,
+  "mana": 32,
+  "damage": 2.2,
+  "armor": 0.35
+ },
+ "look": {
+  "body": "elf",
+  "scale": 1.15,
+  "model": "kaykit/characters/Mage.glb",
+  "hide": [
+   "Spellbook",
+   "1H_Wand",
+   "Mage_Hat"
+  ],
+  "tint": "#c0d8ff",
+  "anims": {
+   "attack": "Spellcast_Shoot",
+   "ranged": "Spellcast_Shoot"
+  }
+ },
+ "abilities": [
+  {
+   "id": "meteor_oqi",
+   "name": "Meteor O'qi",
+   "desc": "Kuchli yulduz o'qi",
+   "kind": "unit",
+   "effect": "strike",
+   "target": "enemy",
+   "range": 11,
+   "mana": [
+    80,
+    85,
+    90
+   ],
+   "cooldown": [
+    9,
+    8,
+    7
+   ],
+   "damage": [
+    90,
+    160,
+    230
+   ]
+  },
+  {
+   "id": "osmon_qalqoni",
+   "name": "Osmon Qalqoni",
+   "desc": "Atrofdagi ittifoqchilar sovuti oshadi",
+   "kind": "none",
+   "effect": "ally_buff",
+   "radius": 8,
+   "buff": "armor_bonus",
+   "value": [
+    4,
+    6,
+    8
+   ],
+   "duration": [
+    12,
+    12,
+    12
+   ],
+   "mana": [
+    70,
+    70,
+    70
+   ],
+   "cooldown": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "id": "yulduz_xaritasi",
+   "name": "Yulduz Xaritasi",
+   "desc": "Uzoqdagi hududni ochadi",
+   "kind": "point",
+   "effect": "reveal",
+   "range": 40,
+   "radius": 12,
+   "duration": [
+    15,
+    20,
+    25
+   ],
+   "mana": [
+    40,
+    40,
+    40
+   ],
+   "cooldown": [
+    16,
+    14,
+    12
+   ]
+  },
+  {
+   "id": "yulduzlar_yomgiri",
+   "name": "Yulduzlar Yomg'iri",
+   "desc": "ULTI: osmondan yulduzlar yog'iladi",
+   "kind": "point",
+   "effect": "aoe",
+   "ult": true,
+   "range": 12,
+   "radius": 7,
+   "delay": 1.5,
+   "damage": [
+    320,
+    480
+   ],
+   "stun": [
+    1.5,
+    1.5
+   ],
+   "mana": [
+    200,
+    200
+   ],
+   "cooldown": [
+    120,
+    100
+   ]
+  }
+ ],
+ "tags": [
+  "hero",
+  "ranged",
+  "caster",
+  "elf"
+ ],
+ "projectile": {
+  "kind": "magic",
+  "speed": 22,
+  "arc": 0.4
+ }
+}

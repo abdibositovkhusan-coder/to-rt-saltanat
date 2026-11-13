@@ -1,0 +1,67 @@
+{
+ "name": "Humo Qushi",
+ "role": "Uchuvchi — soyasi ittifoqchilarni davolaydi",
+ "hp": 360,
+ "armor": 0,
+ "armor_type": "yengil",
+ "damage": [
+  10,
+  12
+ ],
+ "attack_type": "sehrli",
+ "attack_range": 5.0,
+ "attack_cooldown": 1.6,
+ "move_speed": 4.4,
+ "radius": 0.7,
+ "bar_height": 4.6,
+ "flying": true,
+ "projectile": {
+  "kind": "magic",
+  "speed": 18,
+  "arc": 0.2
+ },
+ "healer": {
+  "amount": 14,
+  "range": 6,
+  "cooldown": 2.0
+ },
+ "sight": 13,
+ "cost": {
+  "oltin": 200,
+  "yogoch": 100
+ },
+ "food": 3,
+ "train_time": 30,
+ "requires": {
+  "tier": 2,
+  "buildings": [
+   "osmon_uyasi"
+  ]
+ },
+ "tags": [
+  "ranged",
+  "flying",
+  "healer"
+ ],
+ "look": {
+  "creature": "bird",
+  "color": "#ffd040",
+  "accent": "#30c0b0",
+  "size": 1.0,
+  "fly_height": 2.8,
+  "ring": 0.8
+ },
+ "voice_select": [
+  "Baxt qushi!"
+ ],
+ "voice_attack": [
+  "Nur!"
+ ],
+ "id": "humo_qushi",
+ "faction": "elflar",
+ "hp_regen": 0.3,
+ "acquire_range": 9,
+ "voice_move": [
+  "Boraman!"
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "id": "yal3",
+ "title": "3-missiya: Birinchi bo'lak",
+ "objective": "Qadimgi qo'riqchini yengib, bo'lakni oling",
+ "player_faction": "yalmogiz",
+ "enemy_faction": "trollar",
+ "env": "night",
+ "difficulty": "orta",
+ "intro": "",
+ "outro": "",
+ "next": "yal4",
+ "camera_start": [
+  -38,
+  0,
+  38
+ ],
+ "resources": {
+  "oltin": 0,
+  "yogoch": 0
+ },
+ "auto_waves": false,
+ "fog": true,
+ "clear_spots": [
+  [
+   -38,
+   0,
+   38,
+   10
+  ],
+  [
+   0,
+   0,
+   0,
+   12
+  ],
+  [
+   36,
+   0,
+   -36,
+   12
+  ],
+  [
+   -30,
+   0,
+   -20,
+   9
+  ],
+  [
+   28,
+   0,
+   22,
+   9
+  ]
+ ],
+ "player_units": [
+  {
+   "id": "kashshey",
+   "count": 1,
+   "at": [
+    -38,
+    0,
+    36
+   ],
+   "level": 4
+  },
+  {
+   "id": "olimxon",
+   "count": 1,
+   "at": [
+    -36,
+    0,
+    38
+   ],
+   "level": 3
+  },
+  {
+   "id": "suyak_askar",
+   "count": 5,
+   "at": [
+    -40,
+    0,
+    40
+   ]
+  },
+  {
+   "id": "alvasti",
+   "count": 2,
+   "at": [
+    -36,
+    0,
+    42
+   ]
+  },
+  {
+   "id": "qarga_jodugar",
+   "count": 2,
+   "at": [
+    -42,
+    0,
+    38
+   ]
+  }
+ ],
+ "enemy_units": [
+  {
+   "id": "qadimgi_qoriqchi",
+   "count": 1,
+   "at": [
+    36,
+    0,
+    -36
+   ],
+   "tag": "nishon",
+   "level": 1
+  },
+  {
+   "id": "tosh_golem",
+   "count": 3,
+   "at": [
+    30,
+    0,
+    -30
+   ]
+  }
+ ],
+ "player_buildings": [],
+ "enemy_buildings": [],
+ "resource_nodes": [],
+ "forests": [
+  {
+   "at": [
+    -46,
+    0,
+    10
+   ],
+   "radius": 5,
+   "count": 16
+  },
+  {
+   "at": [
+    12,
+    0,
+    44
+   ],
+   "radius": 6,
+   "count": 18
+  },
+  {
+   "at": [
+    44,
+    0,
+    6
+   ],
+   "radius": 5,
+   "count": 16
+  },
+  {
+   "at": [
+    -8,
+    0,
+    -44
+   ],
+   "radius": 6,
+   "count": 18
+  }
+ ],
+ "triggers": [
+  {
+   "when": {
+    "time": 2
+   },
+   "do": [
+    {
+     "say": [
+      "Olimxon",
+      "Bo'lakni qadimgi qo'riqchi saqlaydi. Avval lagerlardan buyum yig'ing — u juda kuchli."
+     ],
+     "team": 0
+    }
+   ]
+  },
+  {
+   "when": {
+    "time": 9
+   },
+   "do": [
+    {
+     "say": [
+      "Kashshey",
+      "Qo'riqchi... Men uni ming yil oldin ham ko'rganman."
+     ],
+     "team": 0
+    }
+   ]
+  },
+  {
+   "when": {
+    "area": [
+     30,
+     -30,
+     14
+    ]
+   },
+   "do": [
+    {
+     "say": [
+      "Qadimgi Qo'riqchi",
+      "Yer Yuragi hech kimga tegishli emas. Ortga qayt, o'lmas!"
+     ],
+     "team": 1
+    }
+   ]
+  }
+ ],
+ "creep_camps": [
+  {
+   "at": [
+    -8,
+    0,
+    8
+   ],
+   "units": [
+    {
+     "id": "tosh_golem",
+     "count": 2
+    }
+   ],
+   "drop": "noyob"
+  },
+  {
+   "at": [
+    20,
+    0,
+    20
+   ],
+   "units": [
+    {
+     "id": "lanatli_jangchi",
+     "count": 3
+    }
+   ],
+   "drop": "noyob"
+  },
+  {
+   "at": [
+    -20,
+    0,
+    -18
+   ],
+   "units": [
+    {
+     "id": "qaroqchi",
+     "count": 3
+    },
+    {
+     "id": "qaroqchi_kamonchi",
+     "count": 2
+    }
+   ],
+   "drop": "epik"
+  }
+ ],
+ "victory": {
+  "type": "kill_targets",
+  "tag": "nishon"
+ },
+ "defeat": {
+  "protect_unit": "kashshey"
+ }
+}

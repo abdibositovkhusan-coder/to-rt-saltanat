@@ -1,0 +1,30 @@
+{
+ "name": "Yalmog'iz Kulbasi",
+ "role": "Bosh bino — ishchilar, resurs topshirish",
+ "hp": 1500,
+ "radius": 2.6,
+ "cost": {
+  "oltin": 385,
+  "yogoch": 185
+ },
+ "build_time": 60,
+ "food": 10,
+ "trains": [
+  "suyak_qul"
+ ],
+ "dropoff": true,
+ "tier": 1,
+ "upgrade_to": "suyak_qasr",
+ "bar_height": 5.2,
+ "sight": 12,
+ "mist": 12.0,
+ "model": "kaykit/halloween/crypt.gltf",
+ "model_scale": 0.55,
+ "tint": "#b49ad0",
+ "id": "yalmogiz_kulbasi",
+ "faction": "yalmogiz",
+ "armor_type": "mustahkam",
+ "research": [],
+ "style": "barracks",
+ "armor": 5
+}

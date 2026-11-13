@@ -1,0 +1,2337 @@
+{
+"_info": "Kalit - o'zbekcha matn. Qiymat: [ruscha, inglizcha]. %s va %d tartibi saqlanadi.",
+"tips": [
+"Kechasi elflar harakatsiz tursa ko'rinmas bo'ladi.",
+"Trollar g'azablansa kuchayadi, lekin olovdan qo'rqadi.",
+"Yalmog'iz binolari faqat Qora Tuman ichiga quriladi.",
+"Odamlar ikkinchi bosh bino qursa, karvonlar oltin olib keladi.",
+"Neytral lagerlarni tozalasangiz, qahramoningiz buyum topadi.",
+"Karvonsaroyda buyum sotib olish mumkin.",
+"Choyxonada yollanma qahramon — Nasriddin Afandi bor.",
+"Qahramon 6-darajada ultimativ qobiliyatni o'rganadi.",
+"Oziq tugasa, yangi askar tayyorlab bo'lmaydi — Uy quring.",
+"Kuchsiz askarni orqaga torting — qahramon tajribani saqlaydi."
+],
+"t": {
+"%d ta birlik tanlandi": [
+"Выбрано юнитов: %d",
+"%d units selected"
+],
+"%d-missiya": [
+"Миссия %d",
+"Mission %d"
+],
+"%s\n%d-daraja": [
+"%s\nур. %d",
+"%s\nlevel %d"
+],
+"%s\n(halok)": [
+"%s\n(пал)",
+"%s\n(fallen)"
+],
+"%s %d-darajaga chiqdi!": [
+"%s достиг уровня %d!",
+"%s reached level %d!"
+],
+"%s Jon Tuxumida %d soniyadan keyin tiriladi": [
+"%s возродится в Яйце души через %d с",
+"%s will rise from the Soul Egg in %d s"
+],
+"%s halok bo'ldi — bosh binoda tiriltirish mumkin": [
+"%s пал — можно воскресить в главном здании",
+"%s has fallen — revive at the main hall"
+],
+"%s ko'pi bilan %d ta bo'ladi": [
+"%s: не больше %d",
+"%s: at most %d"
+],
+"%s kuldan qayta tug'ildi!": [
+"%s возродился из пепла!",
+"%s was reborn from the ashes!"
+],
+"%s qurilmoqda": [
+"Строится: %s",
+"Building %s"
+],
+"%s tayyor! Yangi imkoniyatlar ochildi": [
+"%s готово! Открыты новые возможности",
+"%s is ready! New options unlocked"
+],
+"%s — %d-daraja": [
+"%s — ур. %d",
+"%s — level %d"
+],
+"%s: %s olindi": [
+"%s: получено «%s»",
+"%s: picked up %s"
+],
+"1-missiya: Chegaradagi jang": [
+"Миссия 1: Битва на границе",
+"Mission 1: Battle at the Border"
+],
+"2-missiya: Vodiyni tiklash": [
+"Миссия 2: Возрождение долины",
+"Mission 2: Restoring the Valley"
+],
+"3D modellar": [
+"3D-модели",
+"3D models"
+],
+"Abadiy Bog'": [
+"Вечный сад",
+"Eternal Garden"
+],
+"Abadiy Tun": [
+"Вечная ночь",
+"Eternal Night"
+],
+"Adolat Sardori": [
+"Вождь справедливости",
+"Champion of Justice"
+],
+"Afsonalar Urushi": [
+"Война легенд",
+"War of Legends"
+],
+"Ajdar Qoyasi": [
+"Драконья скала",
+"Dragon Rock"
+],
+"Ajina": [
+"Аджина",
+"Ajina"
+],
+"Alpomish": [
+"Алпамыш",
+"Alpomish"
+],
+"Alvasti": [
+"Албасты",
+"Albasty"
+],
+"Alvasti Malika": [
+"Царица Албасты",
+"Queen Albasty"
+],
+"Askar yoki binoga bosing.\nDehqon bilan konga yoki daraxtga bosing — yig'adi.\nQora joylar — hali ko'rilmagan hudud.": [
+"Нажмите на воина или здание.\nКрестьянином нажмите на шахту или дерево — он начнёт добычу.\nТёмные места — неразведанная земля.",
+"Tap a soldier or a building.\nWith a peasant, tap a mine or a tree to gather.\nDark areas are unexplored land."
+],
+"Avval askarlarni tanlang": [
+"Сначала выберите воинов",
+"Select soldiers first"
+],
+"Avval navbatni bo'shating": [
+"Сначала освободите очередь",
+"Clear the queue first"
+],
+"Avval o'rganing": [
+"Сначала изучите",
+"Learn it first"
+],
+"Avvalgi missiyani bajaring": [
+"Пройдите предыдущую миссию",
+"Complete the previous mission"
+],
+"Ayiq Uyasi": [
+"Медвежья берлога",
+"Bear Den"
+],
+"Bajarildi": [
+"Пройдено",
+"Completed"
+],
+"Barchinoy": [
+"Барчиной",
+"Barchinoy"
+],
+"Barg Bo'roni": [
+"Буря листьев",
+"Leaf Storm"
+],
+"Barg Qilichli Qo'riqchi": [
+"Страж с листовым клинком",
+"Leafblade Warden"
+],
+"Barg tig'i": [
+"Листовой клинок",
+"Leaf Blade"
+],
+"Bekor": [
+"Отмена",
+"Cancel"
+],
+"Bilim Nuri": [
+"Свет знаний",
+"Light of Knowledge"
+],
+"Bino yangilanmoqda": [
+"Здание улучшается",
+"Building is upgrading"
+],
+"Bo'ronbek": [
+"Буранбек",
+"Boronbek"
+],
+"Bo'sh\nishchi": [
+"Свободный\nрабочий",
+"Idle\nworker"
+],
+"Bo'sh ishchi yo'q — hammasi ishda!": [
+"Свободных рабочих нет — все заняты!",
+"No idle workers — everyone is busy!"
+],
+"Bo'sh katak": [
+"Пустая ячейка",
+"Empty slot"
+],
+"Bolta Bo'roni": [
+"Буря топоров",
+"Axe Storm"
+],
+"Bolta Otish": [
+"Бросок топора",
+"Axe Throw"
+],
+"Bosh bino": [
+"Главное здание",
+"Main hall"
+],
+"Bosh bino yo'q": [
+"Нет главного здания",
+"No main hall"
+],
+"Boshlash": [
+"Начать",
+"Start"
+],
+"Boshlash!": [
+"Начать!",
+"Start!"
+],
+"Botir Zarbasi": [
+"Удар богатыря",
+"Hero Strike"
+],
+"Botqoq Jodugari": [
+"Болотная ведьма",
+"Swamp Witch"
+],
+"Botqoq Shifosi": [
+"Болотное исцеление",
+"Swamp Healing"
+],
+"Botqoq Yutadi": [
+"Болото поглощает",
+"Swamp Swallows"
+],
+"Bu bino buni o'rgata olmaydi": [
+"Это здание этого не обучает",
+"This building can't train that"
+],
+"Bu binoda bunday tadqiqot yo'q": [
+"Здесь нет такого исследования",
+"No such research here"
+],
+"Bu binoni yangilab bo'lmaydi": [
+"Это здание нельзя улучшить",
+"This building can't be upgraded"
+],
+"Bu nishonga ta'sir qilib bo'lmaydi": [
+"Нельзя применить к этой цели",
+"Can't target that"
+],
+"Bu passiv qobiliyat": [
+"Это пассивная способность",
+"This is a passive ability"
+],
+"Bu qahramon allaqachon bor": [
+"Этот герой уже есть",
+"This hero already exists"
+],
+"Bu qahramon allaqachon sizda": [
+"Этот герой уже у вас",
+"You already have this hero"
+],
+"Bu tadqiqot allaqachon ketmoqda": [
+"Это исследование уже идёт",
+"This research is already in progress"
+],
+"Bu texnologiya to'liq o'rganilgan": [
+"Технология полностью изучена",
+"This technology is fully researched"
+],
+"Bu yerda bunday qahramon yo'q": [
+"Здесь нет такого героя",
+"No such hero here"
+],
+"Bu yerga qurib bo'lmaydi": [
+"Здесь строить нельзя",
+"Can't build here"
+],
+"Bu yerga qurib bo'lmaydi — boshqa joy tanlang": [
+"Здесь строить нельзя — выберите другое место",
+"Can't build here — choose another spot"
+],
+"Bug'ular Yaylovi": [
+"Оленье пастбище",
+"Stag Meadow"
+],
+"Bunday halok bo'lgan qahramon yo'q": [
+"Нет такого павшего героя",
+"No such fallen hero"
+],
+"Burgut pati": [
+"Перо беркута",
+"Eagle Feather"
+],
+"Cheksiz G'azab": [
+"Безграничная ярость",
+"Endless Rage"
+],
+"Chiqish": [
+"Выход",
+"Exit"
+],
+"Chopqir Hujum": [
+"Стремительная атака",
+"Charge"
+],
+"Chopqir etik": [
+"Сапоги скакуна",
+"Racer's Boots"
+],
+"Choyxona": [
+"Чайхана",
+"Teahouse"
+],
+"Choyxona yonida askaringiz bo'lishi kerak": [
+"Рядом с чайханой нужен ваш воин",
+"You need a unit next to the teahouse"
+],
+"Choyxonada yollanma qahramon — Nasriddin Afandi bor.": [
+"В чайхане можно нанять героя — Насреддина Афанди.",
+"Nasreddin Afandi can be hired at the Teahouse."
+],
+"Chuqur ildizlar": [
+"Глубокие корни",
+"Deep Roots"
+],
+"Dalil": [
+"Улика",
+"Evidence"
+],
+"Damashq qilichi": [
+"Дамасский меч",
+"Damascus Sword"
+],
+"Daraja %d": [
+"Уровень %d",
+"Level %d"
+],
+"Daraxt": [
+"Дерево",
+"Tree"
+],
+"Daraxt Tiriltirish": [
+"Оживление деревьев",
+"Awaken Trees"
+],
+"Daraxt po'stlog'i": [
+"Древесная кора",
+"Bark Skin"
+],
+"Davo malhami": [
+"Целебная мазь",
+"Healing Salve"
+],
+"Davom": [
+"Продолжить",
+"Resume"
+],
+"Davom etish": [
+"Продолжить",
+"Continue"
+],
+"Davom ettirish": [
+"Продолжить игру",
+"Continue game"
+],
+"Davom ettirish uchun bosing": [
+"Нажмите, чтобы продолжить",
+"Tap to continue"
+],
+"Dehqon": [
+"Крестьянин",
+"Peasant"
+],
+"Devlar Chuquri": [
+"Логово дэвов",
+"Dev Pit"
+],
+"Donolik tasbehi": [
+"Чётки мудрости",
+"Beads of Wisdom"
+],
+"Dushman bazasini butunlay yo'q qiling": [
+"Полностью уничтожьте вражескую базу",
+"Completely destroy the enemy base"
+],
+"Dushman: %s": [
+"Враг: %s",
+"Enemy: %s"
+],
+"Dushmanni tanlang": [
+"Выберите врага",
+"Choose an enemy"
+],
+"Elflar Saltanati": [
+"Царство эльфов",
+"Elven Kingdom"
+],
+"Endi xaritaga bosing — yo'lda uchraganga hujum qiladi": [
+"Теперь нажмите на карту — атакует всех на пути",
+"Now tap the map — they attack everything on the way"
+],
+"Eshak Tepkisi": [
+"Удар осла",
+"Donkey Kick"
+],
+"Faqat Qora Tuman ichiga qurish mumkin": [
+"Строить можно только внутри Чёрного тумана",
+"You can only build inside the Black Mist"
+],
+"Faqat bosh binoda tiriltiriladi": [
+"Воскрешать можно только в главном здании",
+"Revive only at the main hall"
+],
+"Feruza uzuk": [
+"Бирюзовое кольцо",
+"Turquoise Ring"
+],
+"Filmni ko'rish": [
+"Смотреть ролик",
+"Watch cutscene"
+],
+"G'ALABA!": [
+"ПОБЕДА!",
+"VICTORY!"
+],
+"G'azab sharbati": [
+"Напиток ярости",
+"Rage Draught"
+],
+"G'oya va loyiha muallifi": [
+"Идея и автор проекта",
+"Idea and project author"
+],
+"Grafika": [
+"Графика",
+"Graphics"
+],
+"Grafika sifati": [
+"Качество графики",
+"Graphics quality"
+],
+"Gul Bog'i": [
+"Цветочный сад",
+"Flower Garden"
+],
+"Gulchi": [
+"Садовница",
+"Gardener"
+],
+"Hayot Daraxti": [
+"Древо жизни",
+"Tree of Life"
+],
+"Hayot Nafasi": [
+"Дыхание жизни",
+"Breath of Life"
+],
+"Hayot tumori": [
+"Амулет жизни",
+"Amulet of Life"
+],
+"Hazil-mutoyiba": [
+"Шутки-прибаутки",
+"Jest"
+],
+"Hech narsa tanlanmagan": [
+"Ничего не выбрано",
+"Nothing selected"
+],
+"Hikoya, dialoglar va qobiliyat tavsiflari hozircha o'zbekcha": [
+"Сюжет, диалоги и описания способностей пока на узбекском",
+"Story, dialogue and ability descriptions are in Uzbek for now"
+],
+"Himoya o'rami": [
+"Свиток защиты",
+"Scroll of Protection"
+],
+"Hiylakor Donishmand": [
+"Хитрый мудрец",
+"Cunning Sage"
+],
+"Hujum": [
+"Атака",
+"Attack"
+],
+"Hujumga! Vodiyning oltinlari bizniki!": [
+"В атаку! Золото долины наше!",
+"Attack! The valley's gold is ours!"
+],
+"Hukm": [
+"Приговор",
+"Judgment"
+],
+"Humo Qushi": [
+"Птица Хумо",
+"Huma Bird"
+],
+"Humo pati": [
+"Перо Хумо",
+"Huma Feather"
+],
+"Husan": [
+"Хусан",
+"Husan"
+],
+"Igna Sirri": [
+"Тайна иглы",
+"Secret of the Needle"
+],
+"Ikki Boltali Troll": [
+"Тролль с двумя топорами",
+"Twin-Axe Troll"
+],
+"Ikki Boshli Dev": [
+"Двуглавый дэв",
+"Two-Headed Dev"
+],
+"Ildiz Tuzog'i": [
+"Ловушка корней",
+"Root Trap"
+],
+"Ilon Otli Chavandoz": [
+"Наездник на змее",
+"Serpent Rider"
+],
+"Ilonlar Uyasi": [
+"Змеиное гнездо",
+"Serpent Nest"
+],
+"Ishchi": [
+"Рабочий",
+"Worker"
+],
+"Jangchilar Arenasi": [
+"Арена воинов",
+"Warrior Arena"
+],
+"Jangni tark etish": [
+"Покинуть бой",
+"Leave battle"
+],
+"Jangovar Hayqiriq": [
+"Боевой клич",
+"War Cry"
+],
+"Jarayon: %s %d%%%s": [
+"Процесс: %s %d%%%s",
+"Progress: %s %d%%%s"
+],
+"Jinlar Qudug'i": [
+"Колодец джиннов",
+"Djinn Well"
+],
+"Jodugarlar Qozoni": [
+"Котёл ведьм",
+"Witches' Cauldron"
+],
+"Jon So'rish": [
+"Высасывание души",
+"Soul Drain"
+],
+"Jon Tuxumi": [
+"Яйцо души",
+"Soul Egg"
+],
+"Jon ignasi": [
+"Игла души",
+"Soul Needle"
+],
+"Joylash\n%s": [
+"Поставить\n%s",
+"Place\n%s"
+],
+"Kadr chastotasi": [
+"Частота кадров",
+"Frame rate"
+],
+"Kamon Otishma": [
+"Залп из лука",
+"Bow Volley"
+],
+"Kamon Ustaxonasi": [
+"Мастерская луков",
+"Bowyer"
+],
+"Kamonchilar Maydoni": [
+"Стрельбище",
+"Archery Range"
+],
+"Kampaniya": [
+"Кампания",
+"Campaign"
+],
+"Kampaniya: Vodiy Uyg'onadi": [
+"Кампания: Пробуждение долины",
+"Campaign: The Valley Awakens"
+],
+"Karaxt holatda": [
+"Оглушён",
+"Stunned"
+],
+"Karvon keldi: +%d oltin": [
+"Пришёл караван: +%d золота",
+"A caravan arrived: +%d gold"
+],
+"Karvonsaroy": [
+"Караван-сарай",
+"Caravanserai"
+],
+"Karvonsaroyda buyum sotib olish mumkin.": [
+"В караван-сарае можно купить предметы.",
+"You can buy items at the Caravanserai."
+],
+"Kashshey": [
+"Кащей",
+"Kashchei"
+],
+"Katta sog'liq ichimligi": [
+"Большое зелье здоровья",
+"Greater Health Potion"
+],
+"Kecha": [
+"Ночь",
+"Night"
+],
+"Kechasi elflar harakatsiz tursa ko'rinmas bo'ladi.": [
+"Ночью неподвижные эльфы становятся невидимыми.",
+"At night, idle elves turn invisible."
+],
+"Kechki Ko'z": [
+"Ночной глаз",
+"Night Eye"
+],
+"Kerak: %d-daraja": [
+"Нужен уровень %d",
+"Requires level %d"
+],
+"Kerak: %d-davr (bosh binoni yangilang)": [
+"Нужна эпоха %d (улучшите главное здание)",
+"Requires tier %d (upgrade the main hall)"
+],
+"Kerak: %s": [
+"Нужно: %s",
+"Requires: %s"
+],
+"Keyingi\n(%d/%d)": [
+"Далее\n(%d/%d)",
+"Next\n(%d/%d)"
+],
+"Ko'k choy": [
+"Зелёный чай",
+"Green Tea"
+],
+"Ko'nikma ochkosi yo'q": [
+"Нет очков навыков",
+"No skill points"
+],
+"Ko'pi bilan %d ta qahramon": [
+"Не больше %d героев",
+"At most %d heroes"
+],
+"Ko'pkari": [
+"Кокпар",
+"Kokpar"
+],
+"Ko'rinmaslik": [
+"Невидимость",
+"Invisibility"
+],
+"Ko'zgu Aksi": [
+"Отражение зеркала",
+"Mirror Image"
+],
+"Ko'zgu Bekasi": [
+"Госпожа зеркал",
+"Lady of Mirrors"
+],
+"Kod: Claude (Anthropic) yordamida": [
+"Код: с помощью Claude (Anthropic)",
+"Code: with help from Claude (Anthropic)"
+],
+"Kuch uzugi": [
+"Кольцо силы",
+"Ring of Strength"
+],
+"Kuchsiz askarni orqaga torting — qahramon tajribani saqlaydi.": [
+"Отводите раненых — герой сохранит опыт.",
+"Pull back wounded units to keep your army alive."
+],
+"Kumush Kamonchi": [
+"Серебряная лучница",
+"Silver Archer"
+],
+"Kumush Yomg'ir": [
+"Серебряный дождь",
+"Silver Rain"
+],
+"Kumush kamar": [
+"Серебряный пояс",
+"Silver Belt"
+],
+"Kumush o'q": [
+"Серебряная стрела",
+"Silver Arrow"
+],
+"Kun": [
+"День",
+"Day"
+],
+"Kunduz": [
+"День",
+"Daytime"
+],
+"La'nat": [
+"Проклятие",
+"Curse"
+],
+"La'nat o'qlari": [
+"Проклятые стрелы",
+"Cursed Arrows"
+],
+"La'natli Jangchi": [
+"Проклятый воин",
+"Cursed Warrior"
+],
+"Lagerdan narsa tushdi: %s": [
+"Из лагеря выпал предмет: %s",
+"A camp dropped an item: %s"
+],
+"Lava Mushti": [
+"Лавовый кулак",
+"Lava Fist"
+],
+"Lava O'chog'i": [
+"Лавовый очаг",
+"Lava Forge"
+],
+"MAG'LUBIYAT": [
+"ПОРАЖЕНИЕ",
+"DEFEAT"
+],
+"Mamont Chavandoz": [
+"Всадник на мамонте",
+"Mammoth Rider"
+],
+"Mana": [
+"Мана",
+"Mana"
+],
+"Mana ichimligi": [
+"Зелье маны",
+"Mana Potion"
+],
+"Mana tumori": [
+"Амулет маны",
+"Amulet of Mana"
+],
+"Mana yetarli emas": [
+"Не хватает маны",
+"Not enough mana"
+],
+"Manjaniq": [
+"Манджаник",
+"Catapult"
+],
+"Maslahat": [
+"Совет",
+"Tip"
+],
+"Mavlono Nurali": [
+"Мавлоно Нурали",
+"Mavlono Nurali"
+],
+"Menyu": [
+"Меню",
+"Menu"
+],
+"Menyuga chiqish": [
+"Выйти в меню",
+"Exit to menu"
+],
+"Mergan Kamonchi": [
+"Меткий лучник",
+"Marksman"
+],
+"Meteor": [
+"Метеор",
+"Meteor"
+],
+"Meteor O'qi": [
+"Метеорная стрела",
+"Meteor Bolt"
+],
+"Ming Tig'": [
+"Тысяча клинков",
+"Thousand Blades"
+],
+"Minora": [
+"Башня",
+"Tower"
+],
+"Mualliflar": [
+"Авторы",
+"Credits"
+],
+"Muhit:": [
+"Время суток:",
+"Setting:"
+],
+"Munajjimlik": [
+"Астрология",
+"Astrology"
+],
+"Muqaddima filmini ko'rish": [
+"Смотреть вступление",
+"Watch the intro"
+],
+"Musiqa": [
+"Музыка",
+"Music"
+],
+"Muz Zanjir": [
+"Ледяная цепь",
+"Ice Chain"
+],
+"Nasriddin Afandi": [
+"Насреддин Афанди",
+"Nasreddin Afandi"
+],
+"Navbat to'la": [
+"Очередь заполнена",
+"Queue is full"
+],
+"Navbatdan\nchiqarish": [
+"Убрать\nиз очереди",
+"Remove\nfrom queue"
+],
+"Navkar": [
+"Нукер",
+"Footman"
+],
+"Navkarxona": [
+"Казарма",
+"Barracks"
+],
+"Nayza Otar Troll": [
+"Тролль-копейщик",
+"Spear Troll"
+],
+"Neytral lagerlarni tozalasangiz, qahramoningiz buyum topadi.": [
+"Очищая нейтральные лагеря, герой находит предметы.",
+"Clear neutral camps to find items for your hero."
+],
+"Nishon sifatida dushmanni tanlang": [
+"Выберите врага как цель",
+"Pick an enemy as the target"
+],
+"Nishon tumori": [
+"Амулет меткости",
+"Amulet of Aim"
+],
+"Nishon yo'q": [
+"Нет цели",
+"No target"
+],
+"Nishonni tanlang: %s": [
+"Выберите цель: %s",
+"Choose a target: %s"
+],
+"O'chirilgan": [
+"Выкл",
+"Off"
+],
+"O'lmas Shoh": [
+"Бессмертный царь",
+"Undying King"
+],
+"O'lmaslar Taxti": [
+"Трон бессмертных",
+"Throne of the Undying"
+],
+"O'q-yoy": [
+"Лук и стрелы",
+"Bow and Arrow"
+],
+"O'rganish\n(+%d)": [
+"Изучить\n(+%d)",
+"Learn\n(+%d)"
+],
+"O'rmon Ruhi": [
+"Дух леса",
+"Forest Spirit"
+],
+"O'rmon Uyg'onishi": [
+"Пробуждение леса",
+"Forest Awakens"
+],
+"O'rta": [
+"Средне",
+"Normal"
+],
+"O'yin dvigateli": [
+"Игровой движок",
+"Game engine"
+],
+"O'yin saqlandi": [
+"Игра сохранена",
+"Game saved"
+],
+"Odamlar Saltanati": [
+"Царство людей",
+"Human Kingdom"
+],
+"Odamlar ikkinchi bosh bino qursa, karvonlar oltin olib keladi.": [
+"Если люди построят второе главное здание, караваны принесут золото.",
+"When humans build a second hall, caravans bring gold."
+],
+"Olimxon": [
+"Алимхан",
+"Olimxon"
+],
+"Oliy Hukm": [
+"Высший приговор",
+"Supreme Judgment"
+],
+"Olovli Sakrash": [
+"Огненный прыжок",
+"Fire Leap"
+],
+"Oltin Gvardiya": [
+"Золотая гвардия",
+"Golden Guard"
+],
+"Oltin Topar": [
+"Золотоискатель",
+"Gold Finder"
+],
+"Oltin Vodiy Saltanati": [
+"Царство Золотой долины",
+"Golden Valley Realm"
+],
+"Oltin koni": [
+"Золотая шахта",
+"Gold Mine"
+],
+"Oltin yetarli emas!": [
+"Не хватает золота!",
+"Not enough gold!"
+],
+"Oltin: %d": [
+"Золото: %d",
+"Gold: %d"
+],
+"Oq Bug'u Chavandoz": [
+"Всадник на белом олене",
+"White Stag Rider"
+],
+"Orqaga": [
+"Назад",
+"Back"
+],
+"Osmon Qalqoni": [
+"Небесный щит",
+"Sky Shield"
+],
+"Osmon Uyasi": [
+"Небесное гнездо",
+"Sky Nest"
+],
+"Oson": [
+"Легко",
+"Easy"
+],
+"Ot Ustasi": [
+"Мастер коней",
+"Horse Master"
+],
+"Otashfishon": [
+"Извержение",
+"Eruption"
+],
+"Otlar Hamdardligi": [
+"Дружба коней",
+"Horse Bond"
+],
+"Otliq Botir": [
+"Конный богатырь",
+"Mounted Hero"
+],
+"Otxona": [
+"Конюшня",
+"Stables"
+],
+"Ovoz": [
+"Звук",
+"Audio"
+],
+"Ovoz effektlari": [
+"Звуковые эффекты",
+"Sound effects"
+],
+"Oy Ibodatxonasi": [
+"Лунный храм",
+"Moon Temple"
+],
+"Oy Kamonchisi": [
+"Лунная лучница",
+"Moon Archer"
+],
+"Oy O'qi": [
+"Лунная стрела",
+"Moon Arrow"
+],
+"Oy Qudug'i": [
+"Лунный колодец",
+"Moon Well"
+],
+"Oy barakasi": [
+"Благословение луны",
+"Moon Blessing"
+],
+"Oydin O'rmon Saltanati": [
+"Царство Лунного леса",
+"Moonlit Forest Realm"
+],
+"Oydinoy": [
+"Ойдиной",
+"Oydinoy"
+],
+"Oziq tugasa, yangi askar tayyorlab bo'lmaydi — Uy quring.": [
+"Без пищи нельзя обучать войска — стройте дома.",
+"No food means no new troops — build houses."
+],
+"Oziq yetarli emas — Uy quring!": [
+"Не хватает пищи — постройте дом!",
+"Not enough food — build a House!"
+],
+"Oziq: %d/%d": [
+"Пища: %d/%d",
+"Food: %d/%d"
+],
+"PAUZA — buyruq berishingiz mumkin": [
+"ПАУЗА — можно отдавать приказы",
+"PAUSED — you can still give orders"
+],
+"Past": [
+"Низкое",
+"Low"
+],
+"Pauza": [
+"Пауза",
+"Pause"
+],
+"Po'lat qalqon": [
+"Стальной щит",
+"Steel Shield"
+],
+"Poytaxt Saroyi": [
+"Столичный дворец",
+"Capital Palace"
+],
+"Qabriston": [
+"Кладбище",
+"Graveyard"
+],
+"Qadimgi Daraxt Qo'riqchisi": [
+"Древний страж-дерево",
+"Ancient Treeguard"
+],
+"Qadimgi Qo'riqchi": [
+"Древний страж",
+"Ancient Guardian"
+],
+"Qadimgi Tog' Ruhi": [
+"Древний дух горы",
+"Ancient Mountain Spirit"
+],
+"Qadimgi totem": [
+"Древний тотем",
+"Ancient Totem"
+],
+"Qahramon 6-darajada ultimativ qobiliyatni o'rganadi.": [
+"На 6-м уровне герой изучает ультимейт.",
+"Heroes learn their ultimate at level 6."
+],
+"Qahramoningizni do'kon yoniga olib keling": [
+"Подведите героя к лавке",
+"Bring your hero next to the shop"
+],
+"Qahramonlar": [
+"Герои",
+"Heroes"
+],
+"Qahramonlar Zali": [
+"Зал героев",
+"Hall of Heroes"
+],
+"Qal'a": [
+"Крепость",
+"Keep"
+],
+"Qal'a Devori": [
+"Крепостная стена",
+"Fortress Wall"
+],
+"Qal'a muhandisligi": [
+"Крепостная инженерия",
+"Fortification"
+],
+"Qarg'a Galasi": [
+"Стая воронов",
+"Raven Flock"
+],
+"Qarg'a Jodugar": [
+"Воронья ведьма",
+"Raven Witch"
+],
+"Qarg'a Minorasi": [
+"Воронья башня",
+"Raven Tower"
+],
+"Qaroqchi": [
+"Разбойник",
+"Bandit"
+],
+"Qaroqchi Kamonchi": [
+"Разбойник-лучник",
+"Bandit Archer"
+],
+"Qayta o'ynash": [
+"Сыграть снова",
+"Play again"
+],
+"Qaytish o'rami": [
+"Свиток возврата",
+"Scroll of Return"
+],
+"Qilich va nayza": [
+"Меч и копьё",
+"Sword and Spear"
+],
+"Qishloq Markazi": [
+"Сельский центр",
+"Town Hall"
+],
+"Qishloqni tiklang, qo'shin to'plang va trollar qarorgohini yo'q qiling": [
+"Восстановите деревню, соберите войско и уничтожьте лагерь троллей",
+"Rebuild the village, raise an army and destroy the troll camp"
+],
+"Qiyin": [
+"Сложно",
+"Hard"
+],
+"Qiyinlik:": [
+"Сложность:",
+"Difficulty:"
+],
+"Qo'ng'irot Botiri": [
+"Богатырь из Конграта",
+"Hero of Kungrat"
+],
+"Qo'qon pichog'i": [
+"Кокандский нож",
+"Kokand Knife"
+],
+"Qo'riqchi Tosh": [
+"Камень-страж",
+"Guardian Stone"
+],
+"Qo'riqchilar Daraxtzori": [
+"Роща стражей",
+"Warden Grove"
+],
+"Qo'rquv Qichqirig'i": [
+"Крик страха",
+"Terror Scream"
+],
+"Qo'shin": [
+"Войско",
+"Army"
+],
+"Qobiliyat yo'q": [
+"Нет способности",
+"No ability"
+],
+"Qobiliyatlar": [
+"Способности",
+"Abilities"
+],
+"Qolgan: %d %s\nDehqonni tanlab, shu yerga bosing": [
+"Осталось: %d %s\nВыберите крестьянина и нажмите сюда",
+"Remaining: %d %s\nSelect a peasant and tap here"
+],
+"Qon Hidi": [
+"Запах крови",
+"Blood Scent"
+],
+"Qon regeneratsiyasi": [
+"Регенерация крови",
+"Blood Regeneration"
+],
+"Qonun Qalqoni": [
+"Щит закона",
+"Shield of Law"
+],
+"Qora Qarg'alar Hukmdori": [
+"Повелитель чёрных воронов",
+"Lord of Black Ravens"
+],
+"Qora Shamol": [
+"Чёрный ветер",
+"Black Wind"
+],
+"Qora Tuman Saltanati": [
+"Царство Чёрного тумана",
+"Black Mist Realm"
+],
+"Qorako'l telpak": [
+"Каракулевая шапка",
+"Karakul Hat"
+],
+"Qoraygan yer": [
+"Чёрная земля",
+"Blackened Earth"
+],
+"Qoya Otar Gigant": [
+"Великан-камнемёт",
+"Boulder Giant"
+],
+"Qoya Qal'a": [
+"Скальная крепость",
+"Rock Fortress"
+],
+"Qoya Qalqon": [
+"Скальный щит",
+"Rock Shield"
+],
+"Qoyaqul": [
+"Каякул",
+"Qoyaqul"
+],
+"Qoyatosh Davlati": [
+"Скальная держава",
+"Rockstone Dominion"
+],
+"Qozon Bekasi": [
+"Хозяйка котла",
+"Mistress of the Cauldron"
+],
+"Qozon Qaynashi": [
+"Кипение котла",
+"Cauldron Boil"
+],
+"Qulbon": [
+"Кулбан",
+"Thrall"
+],
+"Qulflangan": [
+"Закрыто",
+"Locked"
+],
+"Qurbaqaga Aylantirish": [
+"Превращение в лягушку",
+"Frog Hex"
+],
+"Qurilish tugadi!": [
+"Строительство завершено!",
+"Construction complete!"
+],
+"Qurish": [
+"Строить",
+"Build"
+],
+"Qurish uchun ishchi tanlang": [
+"Выберите рабочего для стройки",
+"Select a worker to build"
+],
+"Quyosh Tutilishi": [
+"Солнечное затмение",
+"Solar Eclipse"
+],
+"Rahmat!": [
+"Спасибо!",
+"Thank you!"
+],
+"Ramka": [
+"Рамка",
+"Box"
+],
+"Raqib:": [
+"Противник:",
+"Opponent:"
+],
+"Raqib: %s (%s)": [
+"Противник: %s (%s)",
+"Opponent: %s (%s)"
+],
+"Raqs Zarbasi": [
+"Танцующий удар",
+"Dance Strike"
+],
+"Rasadxona": [
+"Обсерватория",
+"Observatory"
+],
+"Rasadxona Allomasi": [
+"Учёный обсерватории",
+"Sage of the Observatory"
+],
+"Rustam sovuti": [
+"Доспех Рустама",
+"Rustam's Armor"
+],
+"Sabr toshi": [
+"Камень терпения",
+"Stone of Patience"
+],
+"Saidxon": [
+"Саидхан",
+"Saidxon"
+],
+"Saltanat mexanikasi": [
+"Механика царства",
+"Kingdom mechanic"
+],
+"Saltanatingizni tanlang": [
+"Выберите своё царство",
+"Choose your kingdom"
+],
+"Saqlab bo'lmadi": [
+"Не удалось сохранить",
+"Could not save"
+],
+"Saqlab menyuga chiqish": [
+"Сохранить и выйти",
+"Save and exit"
+],
+"Saqlangan o'yin": [
+"Сохранённая игра",
+"Saved game"
+],
+"Saqlash": [
+"Сохранить",
+"Save"
+],
+"Sehrli oyna": [
+"Волшебное зеркало",
+"Magic Mirror"
+],
+"Shamol Minorasi": [
+"Башня ветра",
+"Wind Tower"
+],
+"Shamol Qadami": [
+"Шаг ветра",
+"Wind Step"
+],
+"Shamol Qilichbozi": [
+"Мечник ветра",
+"Wind Blademaster"
+],
+"Shamol Raqqosasi": [
+"Танцовщица ветра",
+"Wind Dancer"
+],
+"Shamol nayi": [
+"Флейта ветра",
+"Wind Flute"
+],
+"Shamon Kulbasi": [
+"Хижина шамана",
+"Shaman Hut"
+],
+"Shamshod": [
+"Шамшод",
+"Shamshod"
+],
+"Sher yuragi": [
+"Львиное сердце",
+"Lion Heart"
+],
+"Shifo kuchi": [
+"Сила исцеления",
+"Healing Power"
+],
+"Shifo o'rami": [
+"Свиток исцеления",
+"Scroll of Healing"
+],
+"Shifoxona": [
+"Лечебница",
+"Infirmary"
+],
+"Shom": [
+"Сумерки",
+"Dusk"
+],
+"Simurg'": [
+"Симург",
+"Simurgh"
+],
+"Sog'liq": [
+"Здоровье",
+"Health"
+],
+"Sog'liq ichimligi": [
+"Зелье здоровья",
+"Health Potion"
+],
+"Sovut": [
+"Броня",
+"Armor"
+],
+"Sovut halqasi": [
+"Кольцо брони",
+"Ring of Armor"
+],
+"Soya Qadami": [
+"Шаг тени",
+"Shadow Step"
+],
+"Soyalar": [
+"Тени",
+"Shadows"
+],
+"Sozlamalar": [
+"Настройки",
+"Settings"
+],
+"Sulaymon muhri": [
+"Печать Сулеймана",
+"Seal of Solomon"
+],
+"Supurgi Parvozi": [
+"Полёт на метле",
+"Broom Flight"
+],
+"Suyak Askar": [
+"Костяной воин",
+"Bone Soldier"
+],
+"Suyak Qasr": [
+"Костяной замок",
+"Bone Castle"
+],
+"Suyak Qo'shini": [
+"Костяное войско",
+"Bone Army"
+],
+"Suyak Qul": [
+"Костяной раб",
+"Bone Slave"
+],
+"Suyak qilich": [
+"Костяной меч",
+"Bone Sword"
+],
+"Suyak sovut": [
+"Костяная броня",
+"Bone Armor"
+],
+"TO'RT SALTANAT": [
+"ЧЕТЫРЕ ЦАРСТВА",
+"FOUR KINGDOMS"
+],
+"Tabib": [
+"Лекарь",
+"Healer"
+],
+"Tadqiqot tugadi: %s %s": [
+"Исследование завершено: %s %s",
+"Research complete: %s %s"
+],
+"Tandir non": [
+"Тандырная лепёшка",
+"Tandoor Bread"
+],
+"Tasodifiy": [
+"Случайно",
+"Random"
+],
+"Tayyor emas (%d s)": [
+"Не готово (%d с)",
+"Not ready (%d s)"
+],
+"Temir Iroda": [
+"Железная воля",
+"Iron Will"
+],
+"Temir Tishli Ayiq": [
+"Железнозубый медведь",
+"Ironfang Bear"
+],
+"Temir sovut": [
+"Железные латы",
+"Iron Armor"
+],
+"Temirchi": [
+"Кузница",
+"Blacksmith"
+],
+"Tezkor jang": [
+"Быстрый бой",
+"Skirmish"
+],
+"Tezkor jang: saltanat tanlash": [
+"Быстрый бой: выбор царства",
+"Skirmish: choose a kingdom"
+],
+"Tezlik etigi": [
+"Сапоги скорости",
+"Boots of Speed"
+],
+"Tikan Qo'rg'oni": [
+"Шипастая цитадель",
+"Thorn Citadel"
+],
+"Tikanli Ildiz": [
+"Шипастый корень",
+"Thorn Root"
+],
+"Tiklanish marjoni": [
+"Ожерелье восстановления",
+"Necklace of Renewal"
+],
+"Til": [
+"Язык",
+"Language"
+],
+"Til o'zgarishi menyuga qaytganda to'liq qo'llanadi": [
+"Язык полностью применится после возврата в меню",
+"Language fully applies after returning to the menu"
+],
+"Tilla kamar": [
+"Золотой пояс",
+"Golden Belt"
+],
+"Tiriltirish:\n%s %do": [
+"Воскресить:\n%s %dз",
+"Revive:\n%s %dg"
+],
+"Tiriltirish: %s": [
+"Воскрешение: %s",
+"Revive: %s"
+],
+"To'lin Oy": [
+"Полнолуние",
+"Full Moon"
+],
+"To'liq o'rganilgan": [
+"Полностью изучено",
+"Fully learned"
+],
+"To'plash nuqtasi belgilandi": [
+"Точка сбора установлена",
+"Rally point set"
+],
+"To'xta": [
+"Стоп",
+"Stop"
+],
+"Tog' Devi": [
+"Горный дэв",
+"Mountain Dev"
+],
+"Tog'ning Uyg'onishi": [
+"Пробуждение горы",
+"Mountain Awakens"
+],
+"Tosh G'or": [
+"Каменная пещера",
+"Stone Cave"
+],
+"Tosh Golem": [
+"Каменный голем",
+"Stone Golem"
+],
+"Tosh Teri": [
+"Каменная кожа",
+"Stone Skin"
+],
+"Tosh bolta": [
+"Каменный топор",
+"Stone Axe"
+],
+"Tosh teri": [
+"Каменная кожа",
+"Stone Skin"
+],
+"Toshtish Troll": [
+"Каменнозубый тролль",
+"Stonetooth Troll"
+],
+"Tovuq Oyoqli Kulba": [
+"Избушка на курьих ножках",
+"Chicken-Legged Hut"
+],
+"Tovuq Oyoqli Qal'a": [
+"Крепость на курьих ножках",
+"Chicken-Legged Fortress"
+],
+"Troll Chodiri": [
+"Шатёр троллей",
+"Troll Tent"
+],
+"Trollar g'azablansa kuchayadi, lekin olovdan qo'rqadi.": [
+"Тролли сильнеют в ярости, но боятся огня.",
+"Trolls grow stronger in rage, but fear fire."
+],
+"Trollar hujumini qaytaring — barcha dushmanni yo'q qiling": [
+"Отразите атаку троллей — уничтожьте всех врагов",
+"Repel the troll attack — destroy all enemies"
+],
+"Trollar sardori": [
+"Вождь троллей",
+"Troll chieftain"
+],
+"Trollar va Devlar Saltanati": [
+"Царство троллей и дэвов",
+"Kingdom of Trolls and Devs"
+],
+"Tulpor egari": [
+"Седло тулпара",
+"Tulpar Saddle"
+],
+"Tun": [
+"Ночь",
+"Night"
+],
+"Tush Qamog'i": [
+"Плен сна",
+"Dream Prison"
+],
+"Uch Boshli Ajdar": [
+"Трёхглавый дракон",
+"Three-Headed Dragon"
+],
+"Uchar Gilam Sehrgari": [
+"Маг на ковре-самолёте",
+"Flying Carpet Mage"
+],
+"Ultimativ (6-daraja)": [
+"Ультимейт (ур. 6)",
+"Ultimate (level 6)"
+],
+"Ulug'bek": [
+"Улугбек",
+"Ulugh Beg"
+],
+"Ulug'bek jadvali": [
+"Таблицы Улугбека",
+"Ulugh Beg's Tables"
+],
+"Ushla": [
+"Держать",
+"Hold"
+],
+"Ustaxona": [
+"Мастерская",
+"Workshop"
+],
+"Uy": [
+"Дом",
+"House"
+],
+"Uzoq o'q": [
+"Дальняя стрела",
+"Long Arrow"
+],
+"Vaqt Sekinlashuvi": [
+"Замедление времени",
+"Time Slow"
+],
+"Vodiy Uyg'onadi": [
+"Пробуждение долины",
+"The Valley Awakens"
+],
+"Vulqon Bahodiri": [
+"Вулканический воитель",
+"Volcano Champion"
+],
+"Vulqon Ilon": [
+"Вулканический змей",
+"Volcano Serpent"
+],
+"Vulqon Qalbi": [
+"Сердце вулкана",
+"Volcano Heart"
+],
+"Vulqon Taxti": [
+"Вулканический трон",
+"Volcano Throne"
+],
+"Xabar": [
+"Весть",
+"News"
+],
+"Xalq Kulgisi": [
+"Народный смех",
+"People's Laughter"
+],
+"Xaritaga bosib joyni tanlang, keyin «Joylash»": [
+"Нажмите на карту, затем «Поставить»",
+"Tap the map to pick a spot, then «Place»"
+],
+"Yalmog'iz Kampir": [
+"Старуха Ялмогиз",
+"Old Yalmogiz"
+],
+"Yalmog'iz Kulbasi": [
+"Хижина Ялмогиз",
+"Yalmogiz Hut"
+],
+"Yalmog'iz binolari faqat Qora Tuman ichiga quriladi.": [
+"Здания Ялмогиз строятся только внутри Чёрного тумана.",
+"Yalmogiz buildings can only be placed inside the Black Mist."
+],
+"Yalmog'iz va Kashsheylar Saltanati": [
+"Царство Ялмогиз и Кащеев",
+"Kingdom of Yalmogiz and Kashcheis"
+],
+"Yangilash:\n%s %s": [
+"Улучшить:\n%s %s",
+"Upgrade:\n%s %s"
+],
+"Yangilash: %s": [
+"Улучшение: %s",
+"Upgrade: %s"
+],
+"Yashin nayzasi": [
+"Копьё молнии",
+"Lightning Spear"
+],
+"Yer Yorig'i": [
+"Разлом земли",
+"Earth Rift"
+],
+"Yetti Yillik Zindon Kuchi": [
+"Сила семи лет темницы",
+"Strength of Seven Years' Dungeon"
+],
+"Yog'och yetarli emas!": [
+"Не хватает дерева!",
+"Not enough wood!"
+],
+"Yog'och: %d": [
+"Дерево: %d",
+"Wood: %d"
+],
+"Yoqilgan": [
+"Вкл",
+"On"
+],
+"Yuklanmoqda...": [
+"Загрузка...",
+"Loading..."
+],
+"Yulduz Ko'zi": [
+"Звёздный глаз",
+"Star Eye"
+],
+"Yulduz Olimi": [
+"Звездочёт",
+"Star Scholar"
+],
+"Yulduz Xaritasi": [
+"Звёздная карта",
+"Star Map"
+],
+"Yulduzlar Kuzatuvchisi": [
+"Наблюдатель звёзд",
+"Star Watcher"
+],
+"Yulduzlar Yomg'iri": [
+"Звёздный дождь",
+"Starfall"
+],
+"Yuqori": [
+"Высокое",
+"High"
+],
+"Zaharli Bulut": [
+"Ядовитое облако",
+"Poison Cloud"
+],
+"Zaharli nayza": [
+"Отравленное копьё",
+"Poisoned Spear"
+],
+"Zahrinoz": [
+"Захриноз",
+"Zahrinoz"
+],
+"Zarar": [
+"Урон",
+"Damage"
+],
+"Zarbof chopon": [
+"Златотканый чапан",
+"Gold-Woven Chapan"
+],
+"Zulfiqor": [
+"Зульфикар",
+"Zulfiqar"
+],
+"Zumrad": [
+"Зумрад",
+"Zumrad"
+],
+"dushmanga bosing": [
+"нажмите на врага",
+"tap an enemy"
+],
+"oltin": [
+"золота",
+"gold"
+],
+"xaritaga bosing": [
+"нажмите на карту",
+"tap the map"
+],
+"yog'och": [
+"дерева",
+"wood"
+],
+"%s\nSog'liq: %d / %d\nZarar: %d–%d (%s)  Sovut: %d": [
+"%s\nЗдоровье: %d / %d\nУрон: %d–%d (%s)  Броня: %d",
+"%s\nHealth: %d / %d\nDamage: %d–%d (%s)  Armor: %d"
+],
+"%s\nSog'liq: %d/%d · Mana: %d/%d\nZarar: %d–%d · Sovut: %d · XP: %s": [
+"%s\nЗдоровье: %d/%d · Мана: %d/%d\nУрон: %d–%d · Броня: %d · Опыт: %s",
+"%s\nHealth: %d/%d · Mana: %d/%d\nDamage: %d–%d · Armor: %d · XP: %s"
+],
+"%s\nSog'liq: %d / %d\nHolat: %s%s": [
+"%s\nЗдоровье: %d / %d\nСостояние: %s%s",
+"%s\nHealth: %d / %d\nStatus: %s%s"
+],
+" · yuk: %d %s": [
+" · груз: %d %s",
+" · carrying: %d %s"
+],
+"Sog'liq: %d / %d": [
+"Здоровье: %d / %d",
+"Health: %d / %d"
+],
+"Qurilmoqda: %d%%": [
+"Строится: %d%%",
+"Under construction: %d%%"
+],
+"  (+%d navbatda)": [
+"  (+%d в очереди)",
+"  (+%d queued)"
+],
+"Oziq beradi: +%d": [
+"Даёт пищу: +%d",
+"Provides food: +%d"
+],
+"Zarar: %d–%d · masofa: %d": [
+"Урон: %d–%d · дальность: %d",
+"Damage: %d–%d · range: %d"
+],
+"Dehqonni tanlab, binoga bosing — yordam beradi": [
+"Выберите крестьянина и нажмите на здание — он поможет",
+"Select a peasant and tap the building to help"
+],
+"Ildiz tarmog'iga ulangan (+3 sog'liq/s)": [
+"Подключено к сети корней (+3 здоровья/с)",
+"Linked to the root network (+3 health/s)"
+],
+"Qora Tuman yoyadi": [
+"Распространяет Чёрный туман",
+"Spreads the Black Mist"
+],
+"maks.": [
+"макс.",
+"max"
+],
+"Bo'sh": [
+"Свободен",
+"Idle"
+],
+"Oltin qazimoqda": [
+"Добывает золото",
+"Mining gold"
+],
+"Daraxt kesmoqda": [
+"Рубит дерево",
+"Chopping wood"
+],
+"Yukni olib bormoqda": [
+"Несёт груз",
+"Carrying cargo"
+],
+"Qurmoqda": [
+"Строит",
+"Building"
+],
+"Yo'lda": [
+"В пути",
+"Moving"
+],
+"%do": [
+"%dз",
+"%dg"
+],
+"%dy": [
+"%dд",
+"%dw"
+],
+"Odamlar": [
+"Люди",
+"Humans"
+],
+"Trollar": [
+"Тролли",
+"Trolls"
+],
+"Elflar": [
+"Эльфы",
+"Elves"
+],
+"Yalmog'iz": [
+"Ялмогиз",
+"Yalmogiz"
+],
+"Kunduzi": [
+"Днём",
+"Day"
+],
+"Tunda": [
+"Ночью",
+"Night"
+],
+"Saqlangan o'yin yuklandi": [
+"Сохранённая игра загружена",
+"Saved game loaded"
+],
+"Dushman hujumigacha: %d s": [
+"До атаки врага: %d с",
+"Enemy attack in: %d s"
+],
+"Dushman butunlay yengildi!": [
+"Враг полностью разбит!",
+"The enemy is utterly defeated!"
+],
+"Vodiy himoyachilari yengildi...": [
+"Защитники долины разбиты...",
+"The valley's defenders have fallen..."
+],
+"Missiya": [
+"Миссия",
+"Mission"
+],
+"Birinchi hujumgacha: %d:%02d": [
+"До первой атаки: %d:%02d",
+"First attack in: %d:%02d"
+],
+"O'tkazib yuborish »": [
+"Пропустить »",
+"Skip »"
+],
+"Hikoyachi": [
+"Рассказчик",
+"Narrator"
+],
+"Oqsoqol": [
+"Старейшина",
+"Elder"
+],
+"Kashshey — O'lmas Shoh": [
+"Кащей — Бессмертный царь",
+"Kashchei — the Undying King"
+],
+"Qoyaqul — Tog' Devi": [
+"Каякул — Горный дэв",
+"Qoyaqul — the Mountain Dev"
+],
+"Oltin Vodiy — markaziy vodiylar": [
+"Золотая долина — центральные долины",
+"Golden Valley — the central valleys"
+],
+"2-missiya": [
+"Миссия 2",
+"Mission 2"
+],
+"Vodiyni tiklash": [
+"Возрождение долины",
+"Restoring the Valley"
+],
+"Vazifa": [
+"Задача",
+"Objective"
+],
+"Qishloqni tiklang · Qo'shin to'plang · Trollar qarorgohini yo'q qiling": [
+"Восстановите деревню · Соберите войско · Уничтожьте лагерь троллей",
+"Rebuild the village · Raise an army · Destroy the troll camp"
+],
+"Davomi bor...": [
+"Продолжение следует...",
+"To be continued..."
+],
+"Endi: 2-missiya — Vodiyni tiklash": [
+"Далее: Миссия 2 — Возрождение долины",
+"Next: Mission 2 — Restoring the Valley"
+],
+"Keyingi bosqichda: tuman urushi, minoralar va yo'l topish": [
+"Далее: туман войны, башни и поиск пути",
+"Next: fog of war, towers and pathfinding"
+],
+"Ko'hna Zamin": [
+"Древняя Земля",
+"The Ancient Land"
+],
+"Qadim zamonlarda...": [
+"В давние времена...",
+"Long, long ago..."
+],
+"Trollar hujumini qaytaring": [
+"Отразите атаку троллей",
+"Repel the troll attack"
+],
+"Oydin O'rmon — g'arbiy o'rmonlar": [
+"Лунный лес — западные леса",
+"Moonlit Forest — the western woods"
+],
+"Qoyatosh Davlati — shimoliy tog'lar": [
+"Скальная держава — северные горы",
+"Rockstone Dominion — the northern mountains"
+],
+"Qora Tuman — la'natlangan sharq": [
+"Чёрный туман — проклятый восток",
+"Black Mist — the cursed east"
+],
+"3-missiya: Tumandagi asir": [
+"Миссия 3: Пленница в тумане",
+"Mission 3: Captive in the Mist"
+],
+"Qarg'a jodugarlarni yo'q qilib, Barchinoyni ozod qiling": [
+"Уничтожьте вороньих ведьм и освободите Барчиной",
+"Destroy the raven witches and free Barchinoy"
+],
+"4-missiya: Uzun tun": [
+"Миссия 4: Долгая ночь",
+"Mission 4: The Long Night"
+],
+"Tong otguncha (7 daqiqa) qishloqni himoya qiling": [
+"Защищайте деревню до рассвета (7 минут)",
+"Defend the village until dawn (7 minutes)"
+],
+"5-missiya: Jon Tuxumlari": [
+"Миссия 5: Яйца души",
+"Mission 5: Soul Eggs"
+],
+"Dushmanning barcha Jon Tuxumlarini yo'q qiling": [
+"Уничтожьте все Яйца души врага",
+"Destroy all of the enemy's Soul Eggs"
+],
+"6-missiya: Qora Tuman qal'asi": [
+"Миссия 6: Крепость Чёрного тумана",
+"Mission 6: The Black Mist Fortress"
+],
+"Qora Tuman qo'shinini butunlay yo'q qiling": [
+"Полностью уничтожьте войско Чёрного тумана",
+"Completely destroy the Black Mist army"
+],
+"1-bob tugadi": [
+"Глава 1 завершена",
+"Chapter 1 complete"
+],
+"Keyingi: Tog'lar Gumburlaydi": [
+"Далее: Горы грохочут",
+"Next: The Mountains Rumble"
+],
+"Tog'lar Gumburlaydi": [
+"Горы грохочут",
+"The Mountains Rumble"
+],
+"1-missiya: Vulqon uyg'ondi": [
+"Миссия 1: Вулкан проснулся",
+"Mission 1: The Volcano Wakes"
+],
+"Qoyaqulni janubi-sharqdagi dovonga olib boring": [
+"Доведите Каякула до перевала на юго-востоке",
+"Lead Qoyaqul to the south-eastern pass"
+],
+"2-bob": [
+"Глава 2",
+"Chapter 2"
+],
+"2-missiya: Yangi makon": [
+"Миссия 2: Новый дом",
+"Mission 2: A New Home"
+],
+"Qoyatosh qarorgohini quring va odamlar posbonlarini haydang": [
+"Постройте лагерь и прогоните дозоры людей",
+"Build a stronghold and drive off the human outposts"
+],
+"3-missiya: Boronbek sinovi": [
+"Миссия 3: Испытание Буранбека",
+"Mission 3: Boronbek's Trial"
+],
+"Arena chempionlarini yengib, Boronbekni qo'shiling": [
+"Победите чемпионов арены и привлеките Буранбека",
+"Defeat the arena champions and win Boronbek over"
+],
+"4-missiya: Tog' dovoni": [
+"Миссия 4: Горный перевал",
+"Mission 4: The Mountain Pass"
+],
+"Odamlar hujumidan 6 daqiqa davomida qarorgohni himoya qiling": [
+"Удерживайте лагерь 6 минут против атаки людей",
+"Hold the stronghold against the humans for 6 minutes"
+],
+"5-missiya: Devlar kengashi": [
+"Миссия 5: Совет дэвов",
+"Mission 5: Council of Devs"
+],
+"Elflarning Hayot Daraxtini yiqiting": [
+"Срубите Древо жизни эльфов",
+"Bring down the elves' Tree of Life"
+],
+"6-missiya: Tog'lar qasosi": [
+"Миссия 6: Месть гор",
+"Mission 6: Vengeance of the Mountains"
+],
+"Haqiqiy dushman — Qora Tumanni yo'q qiling": [
+"Уничтожьте настоящего врага — Чёрный туман",
+"Destroy the true enemy — the Black Mist"
+],
+"2-bob tugadi": [
+"Глава 2 завершена",
+"Chapter 2 complete"
+],
+"Keyingi: So'nayotgan O'rmon": [
+"Далее: Угасающий лес",
+"Next: The Fading Forest"
+],
+"So'nayotgan O'rmon": [
+"Угасающий лес",
+"The Fading Forest"
+],
+"1-missiya: Tuman chekkasi": [
+"Миссия 1: Край тумана",
+"Mission 1: Edge of the Mist"
+],
+"O'rmonga kirgan barcha dushmanni yo'q qiling": [
+"Уничтожьте всех врагов, вошедших в лес",
+"Destroy every enemy that entered the forest"
+],
+"3-bob": [
+"Глава 3",
+"Chapter 3"
+],
+"2-missiya: Ildizlarni tiklash": [
+"Миссия 2: Восстановление корней",
+"Mission 2: Restoring the Roots"
+],
+"Hayot Daraxtini saqlab, Qora Tuman qarorgohini yo'q qiling": [
+"Сохраните Древо жизни и уничтожьте лагерь Чёрного тумана",
+"Keep the Tree of Life alive and destroy the Black Mist camp"
+],
+"3-missiya: Yulduzlar kuzatuvchisi": [
+"Миссия 3: Наблюдатель звёзд",
+"Mission 3: The Star Watcher"
+],
+"Qamal qilingan rasadxonaga yetib, Ulug'bekni qutqaring": [
+"Доберитесь до осаждённой обсерватории и спасите Улугбека",
+"Reach the besieged observatory and rescue Ulugh Beg"
+],
+"4-missiya: Ittifoqmi?": [
+"Миссия 4: Союз?",
+"Mission 4: Alliance?"
+],
+"Qoyaqulni duelda yengib, ittifoqqa ko'ndiring": [
+"Победите Каякула в поединке и склоните к союзу",
+"Defeat Qoyaqul in a duel and win the alliance"
+],
+"5-missiya: To'lin oy kechasi": [
+"Миссия 5: Ночь полнолуния",
+"Mission 5: Night of the Full Moon"
+],
+"To'lin oy botguncha (7 daqiqa) Hayot Daraxtini himoya qiling": [
+"Защищайте Древо жизни до заката луны (7 минут)",
+"Protect the Tree of Life until moonset (7 minutes)"
+],
+"6-missiya: O'rmon uyg'onadi": [
+"Миссия 6: Лес пробуждается",
+"Mission 6: The Forest Awakens"
+],
+"Qora Tuman qarorgohini butunlay yo'q qiling": [
+"Полностью уничтожьте лагерь Чёрного тумана",
+"Completely destroy the Black Mist camp"
+],
+"3-bob tugadi": [
+"Глава 3 завершена",
+"Chapter 3 complete"
+],
+"Keyingi: O'lmas Shohning Qaytishi": [
+"Далее: Возвращение Бессмертного царя",
+"Next: Return of the Undying King"
+],
+"O'lmas Shohning Qaytishi": [
+"Возвращение Бессмертного царя",
+"Return of the Undying King"
+],
+"1-missiya: Qabrdan uyg'onish": [
+"Миссия 1: Пробуждение из могилы",
+"Mission 1: Rising from the Grave"
+],
+"Chegara posbonlarini yo'q qiling": [
+"Уничтожьте пограничные дозоры",
+"Wipe out the border patrols"
+],
+"4-bob": [
+"Глава 4",
+"Chapter 4"
+],
+"2-missiya: Tuman yoyilmoqda": [
+"Миссия 2: Туман расползается",
+"Mission 2: The Mist Spreads"
+],
+"Qora Tumanni yoyib, elflar qarorgohini yo'q qiling": [
+"Распространите туман и уничтожьте лагерь эльфов",
+"Spread the mist and destroy the elven camp"
+],
+"3-missiya: Birinchi bo'lak": [
+"Миссия 3: Первый осколок",
+"Mission 3: The First Shard"
+],
+"Qadimgi qo'riqchini yengib, bo'lakni oling": [
+"Победите древнего стража и заберите осколок",
+"Defeat the ancient guardian and take the shard"
+],
+"4-missiya: Trollar tog'i": [
+"Миссия 4: Гора троллей",
+"Mission 4: Troll Mountain"
+],
+"Trollarning Tosh G'orini yo'q qiling va tog' bo'lagini oling": [
+"Разрушьте Каменную пещеру троллей и заберите осколок",
+"Destroy the trolls' Stone Cave and take the mountain shard"
+],
+"5-missiya: Ittifoq hujumi": [
+"Миссия 5: Удар союза",
+"Mission 5: The Alliance Strikes"
+],
+"Odamlar va elflar hujumidan 8 daqiqa davomida Jon Tuxumini saqlang": [
+"Удерживайте Яйцо души 8 минут против людей и эльфов",
+"Keep the Soul Egg alive for 8 minutes against humans and elves"
+],
+"6-missiya: O'lmas Shoh": [
+"Миссия 6: Бессмертный царь",
+"Mission 6: The Undying King"
+],
+"Odamlar poytaxtini butunlay yo'q qiling": [
+"Полностью уничтожьте столицу людей",
+"Completely destroy the human capital"
+],
+"4-bob tugadi": [
+"Глава 4 завершена",
+"Chapter 4 complete"
+],
+"Oxirgi jang: Yer Yuragi": [
+"Последняя битва: Сердце Земли",
+"Final battle: The Heart of the Earth"
+],
+"Yer Yuragi": [
+"Сердце Земли",
+"The Heart of the Earth"
+],
+"Final: Yer Yuragi": [
+"Финал: Сердце Земли",
+"Finale: The Heart of the Earth"
+],
+"Dushman qo'shinini butunlay yo'q qiling": [
+"Полностью уничтожьте вражеское войско",
+"Completely destroy the enemy army"
+],
+"Qaysi saltanat bilan oxirgi jangga kirasiz?": [
+"С каким царством вы вступите в последний бой?",
+"Which kingdom will you lead into the final battle?"
+],
+"G'alabadan keyin Yer Yuragini nima qilasiz?": [
+"Что вы сделаете с Сердцем Земли после победы?",
+"What will you do with the Heart of the Earth after victory?"
+],
+"Bo'laklarni to'rt saltanatga qaytarish": [
+"Вернуть осколки четырём царствам",
+"Return the shards to the four kingdoms"
+],
+"Yurakni o'zim uchun olish": [
+"Забрать Сердце себе",
+"Take the Heart for myself"
+],
+"Final": [
+"Финал",
+"Finale"
+],
+"Tinchlik yakuni": [
+"Финал мира",
+"Ending: Peace"
+],
+"To'rt saltanat yangi davrni birga boshladi. Rahmat, Husan!": [
+"Четыре царства вместе начали новую эпоху. Спасибо, Хусан!",
+"The four kingdoms began a new era together. Thank you, Husan!"
+],
+"Hukmdor yakuni": [
+"Финал власти",
+"Ending: Power"
+],
+"Davomi bormi? Buni faqat vaqt ko'rsatadi...": [
+"Продолжение? Покажет только время...",
+"To be continued? Only time will tell..."
+],
+"Endi: 3-missiya — Tumandagi asir": [
+"Далее: Миссия 3 — Пленница в тумане",
+"Next: Mission 3 — Captive in the Mist"
+],
+"Omon qoling: %d:%02d": [
+"Продержитесь: %d:%02d",
+"Survive: %d:%02d"
+],
+"Odamlar sardori": [
+"Вождь людей",
+"Human commander"
+],
+"Kampaniyani tugating": [
+"Завершите кампании",
+"Finish the campaigns"
+],
+"Barcha 4 bobni tugating": [
+"Пройдите все 4 главы",
+"Complete all 4 chapters"
+],
+"Tanlang": [
+"Выберите",
+"Choose"
+],
+"Vaqt: %d:%02d · Tayyorlangan: %d · Qurilgan: %d\nYo'q qilingan dushman: %d · Yo'qotish: %d · Yig'ilgan oltin: %d": [
+"Время: %d:%02d · Обучено: %d · Построено: %d\nУничтожено врагов: %d · Потери: %d · Собрано золота: %d",
+"Time: %d:%02d · Trained: %d · Built: %d\nEnemies destroyed: %d · Losses: %d · Gold gathered: %d"
+]
+}
+}

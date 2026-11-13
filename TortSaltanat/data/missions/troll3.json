@@ -1,0 +1,246 @@
+{
+ "id": "troll3",
+ "title": "3-missiya: Boronbek sinovi",
+ "objective": "Arena chempionlarini yengib, Boronbekni qo'shiling",
+ "player_faction": "trollar",
+ "enemy_faction": "elflar",
+ "env": "day",
+ "difficulty": "orta",
+ "intro": "",
+ "outro": "troll3_end",
+ "next": "troll4",
+ "camera_start": [
+  -38,
+  0,
+  38
+ ],
+ "resources": {
+  "oltin": 0,
+  "yogoch": 0
+ },
+ "auto_waves": false,
+ "fog": true,
+ "clear_spots": [
+  [
+   -38,
+   0,
+   38,
+   10
+  ],
+  [
+   0,
+   0,
+   0,
+   12
+  ],
+  [
+   36,
+   0,
+   -36,
+   12
+  ],
+  [
+   -30,
+   0,
+   -20,
+   9
+  ],
+  [
+   28,
+   0,
+   22,
+   9
+  ]
+ ],
+ "player_units": [
+  {
+   "id": "qoyaqul",
+   "count": 1,
+   "at": [
+    -38,
+    0,
+    36
+   ],
+   "level": 4
+  },
+  {
+   "id": "saidxon",
+   "count": 1,
+   "at": [
+    -36,
+    0,
+    38
+   ],
+   "level": 3
+  },
+  {
+   "id": "toshtish_troll",
+   "count": 4,
+   "at": [
+    -40,
+    0,
+    40
+   ]
+  },
+  {
+   "id": "botqoq_jodugari",
+   "count": 2,
+   "at": [
+    -42,
+    0,
+    38
+   ]
+  }
+ ],
+ "enemy_units": [
+  {
+   "id": "barg_qilichli",
+   "count": 4,
+   "at": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "kumush_kamonchi",
+   "count": 3,
+   "at": [
+    4,
+    0,
+    -4
+   ]
+  },
+  {
+   "id": "shamshod",
+   "count": 1,
+   "at": [
+    2,
+    0,
+    2
+   ],
+   "level": 4,
+   "tag": "nishon"
+  },
+  {
+   "id": "oq_bugu_chavandoz",
+   "count": 2,
+   "at": [
+    28,
+    0,
+    22
+   ]
+  },
+  {
+   "id": "daraxt_qoriqchi",
+   "count": 1,
+   "at": [
+    30,
+    0,
+    18
+   ],
+   "tag": "nishon"
+  }
+ ],
+ "player_buildings": [],
+ "enemy_buildings": [],
+ "resource_nodes": [],
+ "forests": [
+  {
+   "at": [
+    -46,
+    0,
+    10
+   ],
+   "radius": 5,
+   "count": 16
+  },
+  {
+   "at": [
+    12,
+    0,
+    44
+   ],
+   "radius": 6,
+   "count": 18
+  },
+  {
+   "at": [
+    44,
+    0,
+    6
+   ],
+   "radius": 5,
+   "count": 16
+  },
+  {
+   "at": [
+    -8,
+    0,
+    -44
+   ],
+   "radius": 6,
+   "count": 18
+  }
+ ],
+ "triggers": [
+  {
+   "when": {
+    "time": 2
+   },
+   "do": [
+    {
+     "say": [
+      "Boronbek",
+      "Qoyaqul! Elflar mening arenam yonida qarorgoh qurishdi. Ularning sardorlarini yengsang — boltalarim seniki!"
+     ],
+     "team": 1
+    }
+   ]
+  },
+  {
+   "when": {
+    "time": 9
+   },
+   "do": [
+    {
+     "say": [
+      "Qoyaqul",
+      "Kelishdik, Boronbek. Shamol qilichbozi va o'rmon qo'riqchisi — ikkalasi!"
+     ],
+     "team": 0
+    }
+   ]
+  },
+  {
+   "when": {
+    "time": 4
+   },
+   "do": [
+    {
+     "reveal": [
+      2,
+      2,
+      10
+     ],
+     "reveal_time": 10
+    },
+    {
+     "reveal": [
+      30,
+      18,
+      10
+     ],
+     "reveal_time": 10
+    }
+   ]
+  }
+ ],
+ "victory": {
+  "type": "kill_targets",
+  "tag": "nishon"
+ },
+ "defeat": {
+  "protect_unit": "qoyaqul"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "name": "Kamon Ustaxonasi",
+ "role": "Kumush Kamonchilar",
+ "hp": 900,
+ "radius": 1.9,
+ "cost": {
+  "oltin": 140,
+  "yogoch": 90
+ },
+ "build_time": 28,
+ "trains": [
+  "kumush_kamonchi"
+ ],
+ "research": [
+  "elf_uzoq_oq"
+ ],
+ "bar_height": 3.2,
+ "model": "kaykit/medieval/building_archeryrange_green.gltf",
+ "model_scale": 2.2,
+ "tint": "#e0f0ff",
+ "id": "kamon_ustaxonasi",
+ "faction": "elflar",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "food": 0,
+ "sight": 9,
+ "style": "barracks",
+ "armor": 5
+}

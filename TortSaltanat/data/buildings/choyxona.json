@@ -1,0 +1,27 @@
+{
+ "name": "Choyxona",
+ "faction": "neytral",
+ "role": "Yollanma qahramonlar — yaqinda o'z askaringiz bo'lsin",
+ "hp": 5000,
+ "armor": 10,
+ "radius": 1.9,
+ "tavern": true,
+ "neutral": true,
+ "mercenaries": [
+  "afandi"
+ ],
+ "cost": {},
+ "build_time": 1,
+ "bar_height": 4.4,
+ "style": "house",
+ "model": "kaykit/medieval/building_tavern_yellow.gltf",
+ "model_scale": 3.0,
+ "model_yaw": 180,
+ "id": "choyxona",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "trains": [],
+ "research": [],
+ "food": 0,
+ "sight": 0
+}

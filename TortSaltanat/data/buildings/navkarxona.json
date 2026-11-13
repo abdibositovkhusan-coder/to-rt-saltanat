@@ -1,0 +1,28 @@
+{
+ "name": "Navkarxona",
+ "faction": "odamlar",
+ "role": "Navkarlarni o'rgatadi",
+ "hp": 1100,
+ "armor": 5,
+ "radius": 2.0,
+ "cost": {
+  "oltin": 160,
+  "yogoch": 60
+ },
+ "build_time": 30,
+ "food": 0,
+ "trains": [
+  "navkar",
+  "oltin_gvardiya"
+ ],
+ "style": "barracks",
+ "bar_height": 3.6,
+ "id": "navkarxona",
+ "dropoff": false,
+ "armor_type": "mustahkam",
+ "sight": 9,
+ "model": "kaykit/medieval/building_barracks_blue.gltf",
+ "model_scale": 2.5,
+ "model_yaw": 180,
+ "research": []
+}

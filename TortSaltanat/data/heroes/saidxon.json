@@ -1,0 +1,173 @@
+{
+ "id": "saidxon",
+ "hero": true,
+ "faction": "trollar",
+ "name": "Saidxon",
+ "title": "Vulqon Bahodiri",
+ "role": "Do'st qahramoni — lava kuchi",
+ "armor_type": "qahramon",
+ "attack_type": "qahramon",
+ "cost": {
+  "oltin": 300,
+  "yogoch": 80
+ },
+ "food": 5,
+ "train_time": 30,
+ "acquire_range": 10,
+ "radius": 0.55,
+ "bar_height": 3.0,
+ "sight": 12,
+ "friend": true,
+ "voice_select": [
+  "Saidxon keldi!",
+  "Lava qaynayapti!"
+ ],
+ "voice_move": [
+  "Oldinga!"
+ ],
+ "voice_attack": [
+  "Otashfishon!",
+  "Kuyib ket!"
+ ],
+ "hp": 760,
+ "mana": 220,
+ "mana_regen": 0.7,
+ "hp_regen": 1.0,
+ "damage": [
+  28,
+  34
+ ],
+ "armor": 4,
+ "attack_range": 1.1,
+ "attack_cooldown": 1.6,
+ "move_speed": 3.4,
+ "growth": {
+  "hp": 85,
+  "mana": 15,
+  "damage": 3.2,
+  "armor": 0.5
+ },
+ "look": {
+  "body": "troll",
+  "scale": 1.35,
+  "model": "kaykit/characters/Barbarian.glb",
+  "hide": [
+   "1H_Axe_Offhand",
+   "Barbarian_Round_Shield",
+   "1H_Axe",
+   "Mug"
+  ],
+  "tint": "#ffb090",
+  "model_scale": 0.95,
+  "ring": 0.8,
+  "anims": {
+   "attack": "2H_Melee_Attack_Chop",
+   "idle": "2H_Melee_Idle"
+  }
+ },
+ "abilities": [
+  {
+   "id": "lava_mushti",
+   "name": "Lava Mushti",
+   "desc": "Olovli zarba va karaxtlik",
+   "kind": "unit",
+   "effect": "strike",
+   "target": "enemy",
+   "range": 2.5,
+   "mana": [
+    70,
+    70,
+    70
+   ],
+   "cooldown": [
+    9,
+    8,
+    7
+   ],
+   "damage": [
+    70,
+    140,
+    210
+   ],
+   "stun": [
+    1,
+    1.5,
+    2
+   ]
+  },
+  {
+   "id": "olovli_sakrash",
+   "name": "Olovli Sakrash",
+   "desc": "Nishonga sakrab boradi",
+   "kind": "unit",
+   "effect": "dash",
+   "target": "enemy",
+   "range": 9,
+   "mana": [
+    75,
+    75,
+    75
+   ],
+   "cooldown": [
+    12,
+    11,
+    10
+   ],
+   "damage": [
+    50,
+    100,
+    150
+   ],
+   "stun": [
+    0.5,
+    0.75,
+    1
+   ]
+  },
+  {
+   "id": "vulqon_qalbi",
+   "name": "Vulqon Qalbi",
+   "desc": "Passiv: ba'zan kuchli zarba",
+   "kind": "passive",
+   "effect": "passive_crit",
+   "value": [
+    0.12,
+    0.18,
+    0.24
+   ],
+   "mult": 2.2
+  },
+  {
+   "id": "otashfishon",
+   "name": "Otashfishon",
+   "desc": "ULTI: atrofda vulqon otilib chiqadi",
+   "kind": "none",
+   "effect": "aoe",
+   "ult": true,
+   "radius": 6,
+   "delay": 1.2,
+   "mana": [
+    175,
+    175
+   ],
+   "cooldown": [
+    110,
+    90
+   ],
+   "damage": [
+    300,
+    450
+   ],
+   "stun": [
+    1.5,
+    2
+   ]
+  }
+ ],
+ "tags": [
+  "hero",
+  "melee",
+  "armored",
+  "rage"
+ ]
+}

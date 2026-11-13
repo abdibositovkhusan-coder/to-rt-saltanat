@@ -1,0 +1,29 @@
+{
+ "name": "Qoya Qal'a",
+ "role": "Bosh bino (2-davr)",
+ "hp": 2100,
+ "armor": 6,
+ "radius": 2.7,
+ "cost": {
+  "oltin": 320,
+  "yogoch": 210
+ },
+ "build_time": 60,
+ "food": 10,
+ "trains": [
+  "qulbon"
+ ],
+ "dropoff": true,
+ "bar_height": 8.6,
+ "sight": 13,
+ "tier": 2,
+ "upgrade_to": "vulqon_taxti",
+ "model": "kaykit/medieval/building_castle_red.gltf",
+ "model_scale": 2.0,
+ "tint": "#c8d8b8",
+ "id": "qoya_qala",
+ "faction": "trollar",
+ "armor_type": "mustahkam",
+ "research": [],
+ "style": "barracks"
+}

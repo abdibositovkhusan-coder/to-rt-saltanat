@@ -1,0 +1,73 @@
+{
+ "name": "Oltin Gvardiya",
+ "role": "Saltanatning eng zo'r qo'riqchilari (ko'pi bilan 5 ta)",
+ "hp": 1100,
+ "hp_regen": 0.5,
+ "armor": 6,
+ "armor_type": "ogir",
+ "damage": [
+  30,
+  36
+ ],
+ "attack_type": "oddiy",
+ "attack_range": 1.1,
+ "attack_cooldown": 1.4,
+ "move_speed": 3.2,
+ "acquire_range": 9,
+ "radius": 0.55,
+ "bar_height": 2.8,
+ "sight": 10,
+ "cost": {
+  "oltin": 300,
+  "yogoch": 120
+ },
+ "food": 4,
+ "train_time": 40,
+ "limit": 5,
+ "requires": {
+  "tier": 3,
+  "buildings": [
+   "navkarxona"
+  ]
+ },
+ "tags": [
+  "melee",
+  "armored",
+  "infantry",
+  "elite"
+ ],
+ "look": {
+  "body": "human",
+  "scale": 1.15,
+  "cloth": "#d4a63a",
+  "weapon": "sword",
+  "shield": false,
+  "helmet": true,
+  "model": "kaykit/characters/Knight.glb",
+  "hide": [
+   "1H_Sword_Offhand",
+   "Badge_Shield",
+   "Round_Shield",
+   "Spike_Shield",
+   "Rectangle_Shield",
+   "1H_Sword"
+  ],
+  "tint": "#ffd970",
+  "anims": {
+   "attack": "2H_Melee_Attack_Slice",
+   "idle": "2H_Melee_Idle"
+  }
+ },
+ "voice_select": [
+  "Oltin Gvardiya!",
+  "Shoh uchun!"
+ ],
+ "voice_move": [
+  "Safda!"
+ ],
+ "voice_attack": [
+  "Hech kim o'tolmaydi!"
+ ],
+ "id": "oltin_gvardiya",
+ "faction": "odamlar"
+}

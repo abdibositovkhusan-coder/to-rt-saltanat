@@ -1,0 +1,30 @@
+{
+ "name": "Bug'ular Yaylovi",
+ "role": "Oq Bug'u Chavandozlari",
+ "hp": 1000,
+ "radius": 2.0,
+ "cost": {
+  "oltin": 180,
+  "yogoch": 120
+ },
+ "build_time": 35,
+ "trains": [
+  "oq_bugu_chavandoz"
+ ],
+ "requires": {
+  "tier": 2
+ },
+ "bar_height": 3.6,
+ "model": "kaykit/medieval/building_lumbermill_green.gltf",
+ "model_scale": 2.9,
+ "tint": "#f0f8e8",
+ "id": "bugular_yaylovi",
+ "faction": "elflar",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "research": [],
+ "food": 0,
+ "sight": 9,
+ "style": "barracks",
+ "armor": 5
+}

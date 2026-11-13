@@ -1,0 +1,29 @@
+{
+ "name": "Qishloq Markazi",
+ "faction": "odamlar",
+ "role": "Bosh bino — ishchilar, resurs topshirish",
+ "hp": 1500,
+ "armor": 5,
+ "radius": 2.6,
+ "cost": {
+  "oltin": 385,
+  "yogoch": 185
+ },
+ "build_time": 60,
+ "food": 10,
+ "trains": [
+  "dehqon"
+ ],
+ "dropoff": true,
+ "style": "hall",
+ "bar_height": 5.6,
+ "id": "qishloq_markazi",
+ "armor_type": "mustahkam",
+ "sight": 12,
+ "model": "kaykit/medieval/building_tavern_blue.gltf",
+ "model_scale": 3.6,
+ "model_yaw": 180,
+ "tier": 1,
+ "upgrade_to": "qala",
+ "research": []
+}

@@ -1,0 +1,30 @@
+{
+ "name": "Suyak Qasr",
+ "role": "Bosh bino (2-davr)",
+ "hp": 2000,
+ "armor": 6,
+ "radius": 2.6,
+ "cost": {
+  "oltin": 320,
+  "yogoch": 210
+ },
+ "build_time": 60,
+ "food": 10,
+ "trains": [
+  "suyak_qul"
+ ],
+ "dropoff": true,
+ "tier": 2,
+ "upgrade_to": "olmaslar_taxti",
+ "bar_height": 6.0,
+ "sight": 13,
+ "mist": 13.0,
+ "model": "kaykit/halloween/crypt.gltf",
+ "model_scale": 0.65,
+ "tint": "#9a80c0",
+ "id": "suyak_qasr",
+ "faction": "yalmogiz",
+ "armor_type": "mustahkam",
+ "research": [],
+ "style": "barracks"
+}

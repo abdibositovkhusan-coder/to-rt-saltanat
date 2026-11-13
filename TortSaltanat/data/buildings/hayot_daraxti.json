@@ -1,0 +1,29 @@
+{
+ "name": "Hayot Daraxti",
+ "role": "Bosh bino — ishchilar, resurs topshirish",
+ "hp": 1500,
+ "radius": 2.6,
+ "cost": {
+  "oltin": 385,
+  "yogoch": 185
+ },
+ "build_time": 60,
+ "food": 10,
+ "trains": [
+  "gulchi"
+ ],
+ "dropoff": true,
+ "tier": 1,
+ "upgrade_to": "oy_ibodatxonasi",
+ "bar_height": 7.0,
+ "sight": 12,
+ "model": "kaykit/halloween/tree_pine_yellow_large.gltf",
+ "model_scale": 0.75,
+ "tint": "#9fe8a8",
+ "id": "hayot_daraxti",
+ "faction": "elflar",
+ "armor_type": "mustahkam",
+ "research": [],
+ "style": "barracks",
+ "armor": 5
+}

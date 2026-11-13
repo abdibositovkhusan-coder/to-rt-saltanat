@@ -1,0 +1,34 @@
+{
+ "name": "Jodugarlar Qozoni",
+ "role": "Qarg'a Jodugarlar va texnologiyalar",
+ "hp": 1000,
+ "radius": 1.6,
+ "cost": {
+  "oltin": 150,
+  "yogoch": 120
+ },
+ "build_time": 32,
+ "trains": [
+  "qarga_jodugar"
+ ],
+ "research": [
+  "suyak_qilich",
+  "lanat_oqlari",
+  "suyak_sovut",
+  "qoraygan_yer",
+  "jon_ignasi"
+ ],
+ "bar_height": 3.8,
+ "model": "kaykit/halloween/shrine_candles.gltf",
+ "model_scale": 1.8,
+ "tint": "#d0a8ff",
+ "mist": 9.0,
+ "id": "jodugarlar_qozoni",
+ "faction": "yalmogiz",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "food": 0,
+ "sight": 9,
+ "style": "barracks",
+ "armor": 5
+}

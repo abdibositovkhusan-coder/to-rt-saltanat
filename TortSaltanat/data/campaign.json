@@ -1,0 +1,60 @@
+{
+ "chapters": [
+  {
+   "title": "Vodiy Uyg'onadi",
+   "faction": "odamlar",
+   "missions": [
+    "mission1",
+    "mission2",
+    "odam3",
+    "odam4",
+    "odam5",
+    "odam6"
+   ]
+  },
+  {
+   "title": "Tog'lar Gumburlaydi",
+   "faction": "trollar",
+   "missions": [
+    "troll1",
+    "troll2",
+    "troll3",
+    "troll4",
+    "troll5",
+    "troll6"
+   ]
+  },
+  {
+   "title": "So'nayotgan O'rmon",
+   "faction": "elflar",
+   "missions": [
+    "elf1",
+    "elf2",
+    "elf3",
+    "elf4",
+    "elf5",
+    "elf6"
+   ]
+  },
+  {
+   "title": "O'lmas Shohning Qaytishi",
+   "faction": "yalmogiz",
+   "missions": [
+    "yal1",
+    "yal2",
+    "yal3",
+    "yal4",
+    "yal5",
+    "yal6"
+   ]
+  },
+  {
+   "title": "Yer Yuragi",
+   "faction": "",
+   "missions": [
+    "final"
+   ],
+   "requires_all": true
+  }
+ ]
+}

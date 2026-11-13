@@ -1,0 +1,68 @@
+{
+ "name": "Ikki Boshli Dev",
+ "role": "Og'ir jangchi",
+ "hp": 950,
+ "armor": 3,
+ "armor_type": "ogir",
+ "damage": [
+  26,
+  32
+ ],
+ "attack_range": 1.1,
+ "attack_cooldown": 1.7,
+ "move_speed": 2.9,
+ "radius": 0.75,
+ "bar_height": 3.6,
+ "cost": {
+  "oltin": 220,
+  "yogoch": 50
+ },
+ "food": 4,
+ "train_time": 30,
+ "requires": {
+  "tier": 2,
+  "buildings": [
+   "devlar_chuquri"
+  ]
+ },
+ "tags": [
+  "melee",
+  "armored",
+  "rage"
+ ],
+ "look": {
+  "body": "troll",
+  "scale": 1.6,
+  "model": "kaykit/characters/Barbarian.glb",
+  "hide": [
+   "1H_Axe_Offhand",
+   "Barbarian_Round_Shield",
+   "1H_Axe",
+   "Mug"
+  ],
+  "tint": "#86b874",
+  "model_scale": 0.95,
+  "ring": 0.9,
+  "anims": {
+   "attack": "2H_Melee_Attack_Spin",
+   "idle": "2H_Melee_Idle",
+   "walk": "Walking_C"
+  }
+ },
+ "voice_select": [
+  "Biz ikkovmiz!",
+  "Gum!"
+ ],
+ "voice_attack": [
+  "Ezamiz!"
+ ],
+ "id": "ikki_boshli_dev",
+ "faction": "trollar",
+ "hp_regen": 0.3,
+ "acquire_range": 9,
+ "sight": 10,
+ "attack_type": "oddiy",
+ "voice_move": [
+  "Boraman!"
+ ]
+}

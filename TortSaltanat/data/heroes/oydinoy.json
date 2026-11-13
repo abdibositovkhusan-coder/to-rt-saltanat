@@ -1,0 +1,170 @@
+{
+ "id": "oydinoy",
+ "hero": true,
+ "faction": "elflar",
+ "name": "Oydinoy",
+ "title": "Oy Kamonchisi",
+ "role": "Qahramon — oy nuri kamonchisi",
+ "armor_type": "qahramon",
+ "attack_type": "qahramon",
+ "cost": {
+  "oltin": 300,
+  "yogoch": 80
+ },
+ "food": 5,
+ "train_time": 30,
+ "acquire_range": 10,
+ "radius": 0.55,
+ "bar_height": 3.0,
+ "sight": 12,
+ "friend": false,
+ "voice_select": [
+  "Oy yo'l ko'rsatadi.",
+  "Oydinoy!"
+ ],
+ "voice_move": [
+  "Oldinga!"
+ ],
+ "voice_attack": [
+  "Oy o'qi!"
+ ],
+ "hp": 520,
+ "mana": 260,
+ "mana_regen": 0.9,
+ "hp_regen": 1.0,
+ "damage": [
+  22,
+  28
+ ],
+ "armor": 3,
+ "attack_range": 8.0,
+ "attack_cooldown": 1.4,
+ "move_speed": 3.7,
+ "growth": {
+  "hp": 60,
+  "mana": 22,
+  "damage": 3,
+  "armor": 0.5
+ },
+ "look": {
+  "body": "elf",
+  "scale": 1.15,
+  "model": "kaykit/characters/Rogue.glb",
+  "hide": [
+   "Knife_Offhand",
+   "1H_Crossbow",
+   "Knife",
+   "Throwable"
+  ],
+  "tint": "#e6f2ff",
+  "anims": {
+   "attack": "2H_Ranged_Shoot",
+   "ranged": "2H_Ranged_Shoot",
+   "walk": "Running_B"
+  }
+ },
+ "abilities": [
+  {
+   "id": "oy_oqi",
+   "name": "Oy O'qi",
+   "desc": "Oy o'qi: zarar va karaxtlik",
+   "kind": "unit",
+   "effect": "strike",
+   "target": "enemy",
+   "range": 11,
+   "mana": [
+    70,
+    70,
+    70
+   ],
+   "cooldown": [
+    10,
+    9,
+    8
+   ],
+   "damage": [
+    70,
+    120,
+    170
+   ],
+   "stun": [
+    1,
+    1.5,
+    2
+   ]
+  },
+  {
+   "id": "kumush_yomgir",
+   "name": "Kumush Yomg'ir",
+   "desc": "Hududga kumush o'qlar yog'adi",
+   "kind": "point",
+   "effect": "aoe",
+   "range": 11,
+   "radius": 4,
+   "mana": [
+    90,
+    100,
+    110
+   ],
+   "cooldown": [
+    13,
+    12,
+    11
+   ],
+   "damage": [
+    90,
+    150,
+    210
+   ]
+  },
+  {
+   "id": "yulduz_kozi",
+   "name": "Yulduz Ko'zi",
+   "desc": "Passiv: kritik zarba",
+   "kind": "passive",
+   "effect": "passive_crit",
+   "value": [
+    0.15,
+    0.2,
+    0.25
+   ],
+   "mult": 2.0
+  },
+  {
+   "id": "tolin_oy",
+   "name": "To'lin Oy",
+   "desc": "ULTI: dushmanlar ko'r bo'lib hujum qila olmaydi",
+   "kind": "none",
+   "effect": "enemy_debuff",
+   "ult": true,
+   "radius": 12,
+   "debuff": "disarm",
+   "duration": [
+    5,
+    7
+   ],
+   "slow": [
+    5,
+    7
+   ],
+   "mana": [
+    175,
+    175
+   ],
+   "cooldown": [
+    120,
+    100
+   ]
+  }
+ ],
+ "tags": [
+  "hero",
+  "ranged",
+  "elf"
+ ],
+ "projectile": {
+  "kind": "arrow",
+  "speed": 22,
+  "arc": 0.4
+ }
+}

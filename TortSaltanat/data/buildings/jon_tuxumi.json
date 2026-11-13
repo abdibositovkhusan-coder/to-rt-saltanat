@@ -1,0 +1,31 @@
+{
+ "name": "Jon Tuxumi",
+ "role": "Maxsus (1 ta): elita birliklar va qahramonlar shu yerda qayta tiriladi",
+ "hp": 1200,
+ "armor": 6,
+ "radius": 1.6,
+ "cost": {
+  "oltin": 200,
+  "yogoch": 150
+ },
+ "build_time": 40,
+ "limit": 1,
+ "requires": {
+  "tier": 2
+ },
+ "bar_height": 2.4,
+ "model": "kaykit/halloween/coffin_decorated.gltf",
+ "model_scale": 1.1,
+ "tint": "#e0c8ff",
+ "soul_egg": true,
+ "mist": 9.0,
+ "id": "jon_tuxumi",
+ "faction": "yalmogiz",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "trains": [],
+ "research": [],
+ "food": 0,
+ "sight": 9,
+ "style": "barracks"
+}

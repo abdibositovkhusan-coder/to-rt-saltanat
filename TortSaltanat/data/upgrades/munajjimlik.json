@@ -1,0 +1,31 @@
+{
+ "name": "Munajjimlik",
+ "desc": "Sehrgarlar zarari +4, masofasi +1",
+ "levels": [
+  {
+   "cost": {
+    "oltin": 150,
+    "yogoch": 100
+   },
+   "time": 45,
+   "tier": 2
+  }
+ ],
+ "effects": [
+  {
+   "tags": [
+    "caster"
+   ],
+   "stat": "damage",
+   "add": 4
+  },
+  {
+   "tags": [
+    "caster"
+   ],
+   "stat": "range",
+   "add": 1
+  }
+ ],
+ "id": "munajjimlik"
+}

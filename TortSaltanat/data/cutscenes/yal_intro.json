@@ -1,0 +1,168 @@
+{
+ "id": "yal_intro",
+ "shots": [
+  {
+   "duration": 4.5,
+   "cam": {
+    "from": [
+     0,
+     9,
+     12
+    ],
+    "to": [
+     0,
+     8,
+     10
+    ],
+    "look": [
+     0,
+     0,
+     0
+    ]
+   },
+   "env": "dark",
+   "fade_in": true,
+   "title": {
+    "t": 0.3,
+    "text": "4-bob",
+    "sub": "O'lmas Shohning Qaytishi",
+    "hold": 2.8
+   }
+  },
+  {
+   "duration": 9,
+   "cam": {
+    "from": [
+     0,
+     3.4,
+     11
+    ],
+    "to": [
+     1.2,
+     2.8,
+     8.5
+    ],
+    "look": [
+     0,
+     1.6,
+     0
+    ]
+   },
+   "env": "dark",
+   "fade_in": true,
+   "spawn": [
+    {
+     "kind": "mist",
+     "id": "tuman",
+     "pos": [
+      0,
+      0,
+      -2
+     ],
+     "radius": 7,
+     "color": "#2a1238"
+    },
+    {
+     "kind": "light",
+     "id": "yashil",
+     "pos": [
+      0,
+      2.5,
+      0
+     ],
+     "color": "#7fff3f",
+     "energy": 2.5,
+     "range": 12
+    },
+    {
+     "kind": "unit",
+     "id": "kashshey",
+     "unit": "kashshey",
+     "pos": [
+      0,
+      0,
+      1
+     ],
+     "face": [
+      0,
+      0,
+      8
+     ],
+     "team": 0
+    },
+    {
+     "kind": "unit",
+     "id": "skeletlar",
+     "unit": "suyak_askar",
+     "pos": [
+      0,
+      0,
+      -1.5
+     ],
+     "face": [
+      0,
+      0,
+      8
+     ],
+     "team": 0,
+     "count": 8,
+     "cols": 4,
+     "spacing": 1.4
+    }
+   ],
+   "lines": [
+    {
+     "t": 0.5,
+     "speaker": "Hikoyachi",
+     "text": "Sharqning la'natlangan yerlarida qadimiy qabr ochildi."
+    },
+    {
+     "t": 4.2,
+     "speaker": "Kashshey",
+     "text": "To'rt bo'lak... to'rt saltanat... Hammasi menga bo'ysunadi."
+    }
+   ],
+   "actions": [
+    {
+     "t": 0.6,
+     "actor": "kashshey",
+     "do": "rise"
+    },
+    {
+     "t": 2.0,
+     "actor": "skeletlar",
+     "do": "rise"
+    }
+   ]
+  },
+  {
+   "duration": 6,
+   "cam": {
+    "from": [
+     2.5,
+     2,
+     5
+    ],
+    "to": [
+     2,
+     1.9,
+     4
+    ],
+    "look": [
+     0,
+     1.5,
+     1
+    ]
+   },
+   "clear": false,
+   "fade_out": true,
+   "lines": [
+    {
+     "t": 0.4,
+     "speaker": "Kashshey",
+     "text": "Tuman, yoyil! Bugun tiriklar dunyosi bizni eslaydi."
+    }
+   ]
+  }
+ ]
+}

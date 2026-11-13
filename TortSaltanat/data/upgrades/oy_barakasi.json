@@ -1,0 +1,16 @@
+{
+ "id": "oy_barakasi",
+ "name": "Oy barakasi",
+ "desc": "Kechasi elflar har soniyada +2 sog'liq tiklaydi",
+ "levels": [
+  {
+   "cost": {
+    "oltin": 150,
+    "yogoch": 100
+   },
+   "time": 45,
+   "tier": 2
+  }
+ ],
+ "effects": []
+}

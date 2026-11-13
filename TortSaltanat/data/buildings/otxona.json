@@ -1,0 +1,33 @@
+{
+ "name": "Otxona",
+ "role": "Otliq Botirlarni o'rgatadi",
+ "hp": 1100,
+ "armor": 5,
+ "radius": 2.0,
+ "cost": {
+  "oltin": 180,
+  "yogoch": 120
+ },
+ "build_time": 35,
+ "trains": [
+  "otliq_botir"
+ ],
+ "requires": {
+  "tier": 2,
+  "buildings": [
+   "temirchi"
+  ]
+ },
+ "bar_height": 3.6,
+ "model": "kaykit/medieval/building_lumbermill_blue.gltf",
+ "model_scale": 2.9,
+ "model_yaw": 180,
+ "id": "otxona",
+ "faction": "odamlar",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "research": [],
+ "food": 0,
+ "sight": 9,
+ "style": "barracks"
+}

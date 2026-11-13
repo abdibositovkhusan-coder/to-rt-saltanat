@@ -1,0 +1,389 @@
+{
+ "id": "troll5",
+ "title": "5-missiya: Devlar kengashi",
+ "objective": "Elflarning Hayot Daraxtini yiqiting",
+ "player_faction": "trollar",
+ "enemy_faction": "elflar",
+ "intro": "",
+ "outro": "",
+ "next": "troll6",
+ "env": "dusk",
+ "camera_start": [
+  -33,
+  0,
+  30
+ ],
+ "resources": {
+  "oltin": 600,
+  "yogoch": 350
+ },
+ "enemy_resources": {
+  "oltin": 600,
+  "yogoch": 350
+ },
+ "ai": {
+  "economy": true,
+  "first_wave": 320,
+  "wave_size": 5,
+  "wave_growth": 2,
+  "workers": 6,
+  "heroes": true
+ },
+ "clear_spots": [
+  [
+   -36,
+   0,
+   34,
+   22
+  ],
+  [
+   36,
+   0,
+   -34,
+   22
+  ],
+  [
+   0,
+   0,
+   0,
+   10
+  ],
+  [
+   -14,
+   0,
+   38,
+   7
+  ],
+  [
+   14,
+   0,
+   -38,
+   7
+  ],
+  [
+   -42,
+   0,
+   6,
+   7
+  ],
+  [
+   42,
+   0,
+   -6,
+   7
+  ],
+  [
+   0,
+   0,
+   26,
+   7
+  ],
+  [
+   0,
+   0,
+   -26,
+   7
+  ],
+  [
+   -12,
+   0,
+   -12,
+   7
+  ],
+  [
+   12,
+   0,
+   12,
+   7
+  ]
+ ],
+ "player_buildings": [],
+ "enemy_buildings": [],
+ "player_units": [
+  {
+   "id": "qoyaqul",
+   "count": 1,
+   "at": [
+    -30,
+    0,
+    30
+   ],
+   "level": 6
+  },
+  {
+   "id": "boronbek",
+   "count": 1,
+   "at": [
+    -32,
+    0,
+    31
+   ],
+   "level": 5
+  },
+  {
+   "id": "zahrinoz",
+   "count": 1,
+   "at": [
+    -28,
+    0,
+    32
+   ],
+   "level": 3
+  }
+ ],
+ "enemy_units": [],
+ "resource_nodes": [
+  {
+   "kind": "gold",
+   "at": [
+    -45,
+    0,
+    25
+   ],
+   "amount": 12000
+  },
+  {
+   "kind": "gold",
+   "at": [
+    45,
+    0,
+    -25
+   ],
+   "amount": 12000
+  },
+  {
+   "kind": "gold",
+   "at": [
+    2,
+    0,
+    -3
+   ],
+   "amount": 8000
+  }
+ ],
+ "forests": [
+  {
+   "at": [
+    -24,
+    0,
+    46
+   ],
+   "radius": 6,
+   "count": 26
+  },
+  {
+   "at": [
+    -48,
+    0,
+    42
+   ],
+   "radius": 5,
+   "count": 18
+  },
+  {
+   "at": [
+    24,
+    0,
+    -46
+   ],
+   "radius": 6,
+   "count": 26
+  },
+  {
+   "at": [
+    48,
+    0,
+    -42
+   ],
+   "radius": 5,
+   "count": 18
+  }
+ ],
+ "fog": true,
+ "neutral_buildings": [
+  {
+   "id": "karvonsaroy",
+   "at": [
+    -12,
+    0,
+    -12
+   ]
+  },
+  {
+   "id": "choyxona",
+   "at": [
+    12,
+    0,
+    12
+   ]
+  }
+ ],
+ "creep_camps": [
+  {
+   "at": [
+    -14,
+    0,
+    38
+   ],
+   "units": [
+    {
+     "id": "qaroqchi",
+     "count": 2
+    },
+    {
+     "id": "qaroqchi_kamonchi",
+     "count": 1
+    }
+   ],
+   "drop": "oddiy"
+  },
+  {
+   "at": [
+    14,
+    0,
+    -38
+   ],
+   "units": [
+    {
+     "id": "qaroqchi",
+     "count": 2
+    },
+    {
+     "id": "qaroqchi_kamonchi",
+     "count": 1
+    }
+   ],
+   "drop": "oddiy"
+  },
+  {
+   "at": [
+    -42,
+    0,
+    6
+   ],
+   "units": [
+    {
+     "id": "tosh_golem",
+     "count": 1
+    },
+    {
+     "id": "lanatli_jangchi",
+     "count": 2
+    }
+   ],
+   "drop": "noyob"
+  },
+  {
+   "at": [
+    42,
+    0,
+    -6
+   ],
+   "units": [
+    {
+     "id": "tosh_golem",
+     "count": 1
+    },
+    {
+     "id": "lanatli_jangchi",
+     "count": 2
+    }
+   ],
+   "drop": "noyob"
+  },
+  {
+   "at": [
+    0,
+    0,
+    26
+   ],
+   "units": [
+    {
+     "id": "qadimgi_qoriqchi",
+     "count": 1
+    },
+    {
+     "id": "lanatli_jangchi",
+     "count": 2
+    }
+   ],
+   "drop": "afsonaviy"
+  },
+  {
+   "at": [
+    0,
+    0,
+    -26
+   ],
+   "units": [
+    {
+     "id": "tosh_golem",
+     "count": 2
+    }
+   ],
+   "drop": "epik"
+  }
+ ],
+ "auto_start": true,
+ "player_base": [
+  -36,
+  0,
+  34
+ ],
+ "enemy_base": [
+  36,
+  0,
+  -34
+ ],
+ "difficulty": "orta",
+ "victory": {
+  "type": "destroy_buildings",
+  "buildings": [
+   "hayot_daraxti"
+  ]
+ },
+ "triggers": [
+  {
+   "when": {
+    "time": 2
+   },
+   "do": [
+    {
+     "say": [
+      "Zahrinoz",
+      "Devlar kengashi qaror qildi: tog'dagi bo'lak elflar daraxti ildizlariga yashiringan!"
+     ],
+     "team": 0
+    }
+   ]
+  },
+  {
+   "when": {
+    "time": 9
+   },
+   "do": [
+    {
+     "say": [
+      "Qoyaqul",
+      "Unda daraxtni yiqitamiz. Olovdan ehtiyot bo'ling — o'zimizni ham kuydiradi."
+     ],
+     "team": 0
+    }
+   ]
+  },
+  {
+   "when": {
+    "time": 60
+   },
+   "do": [
+    {
+     "say": [
+      "Saidxon",
+      "Kechasi elflar ko'rinmas bo'ladi. Kunduzi hujum qilish osonroq!"
+     ],
+     "team": 0
+    }
+   ]
+  }
+ ]
+}

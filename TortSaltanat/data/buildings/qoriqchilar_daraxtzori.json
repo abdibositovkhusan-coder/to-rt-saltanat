@@ -1,0 +1,29 @@
+{
+ "name": "Qo'riqchilar Daraxtzori",
+ "role": "Jangchilar, daraxt qo'riqchilari, tikanli ildizlar",
+ "hp": 1100,
+ "radius": 2.0,
+ "cost": {
+  "oltin": 160,
+  "yogoch": 60
+ },
+ "build_time": 30,
+ "trains": [
+  "barg_qilichli",
+  "daraxt_qoriqchi",
+  "tikanli_ildiz"
+ ],
+ "bar_height": 3.6,
+ "model": "kaykit/medieval/building_barracks_green.gltf",
+ "model_scale": 2.5,
+ "tint": "#c8f0e0",
+ "id": "qoriqchilar_daraxtzori",
+ "faction": "elflar",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "research": [],
+ "food": 0,
+ "sight": 9,
+ "style": "barracks",
+ "armor": 5
+}

@@ -1,0 +1,56 @@
+{
+ "name": "Barg Qilichli Qo'riqchi",
+ "role": "Yengil tez jangchi, ikki tig'",
+ "hp": 380,
+ "armor": 1,
+ "damage": [
+  12,
+  14
+ ],
+ "attack_range": 0.9,
+ "attack_cooldown": 1.1,
+ "move_speed": 3.7,
+ "cost": {
+  "oltin": 120
+ },
+ "food": 2,
+ "train_time": 17,
+ "tags": [
+  "melee",
+  "armored",
+  "elf"
+ ],
+ "look": {
+  "body": "elf",
+  "model": "kaykit/characters/Rogue.glb",
+  "hide": [
+   "1H_Crossbow",
+   "2H_Crossbow",
+   "Throwable"
+  ],
+  "tint": "#a0e8b8",
+  "anims": {
+   "attack": "Dualwield_Melee_Attack_Slice",
+   "walk": "Running_B"
+  }
+ },
+ "voice_select": [
+  "Barglar shivirlaydi.",
+  "Tayyorman!"
+ ],
+ "voice_attack": [
+  "Oy uchun!"
+ ],
+ "id": "barg_qilichli",
+ "faction": "elflar",
+ "hp_regen": 0.3,
+ "acquire_range": 9,
+ "radius": 0.5,
+ "bar_height": 2.6,
+ "sight": 10,
+ "armor_type": "orta",
+ "attack_type": "oddiy",
+ "voice_move": [
+  "Boraman!"
+ ]
+}

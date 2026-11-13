@@ -1,0 +1,24 @@
+{
+ "name": "Uzoq o'q",
+ "desc": "Merganlar masofasi +1.5",
+ "levels": [
+  {
+   "cost": {
+    "oltin": 150,
+    "yogoch": 100
+   },
+   "time": 40,
+   "tier": 2
+  }
+ ],
+ "effects": [
+  {
+   "tags": [
+    "archer"
+   ],
+   "stat": "range",
+   "add": 1.5
+  }
+ ],
+ "id": "uzoq_oq"
+}

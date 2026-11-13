@@ -1,0 +1,65 @@
+{
+ "name": "Manjaniq",
+ "role": "Qamal mashinasi — binolarga katta zarar, sachratma",
+ "hp": 360,
+ "hp_regen": 0,
+ "armor": 2,
+ "armor_type": "ogir",
+ "damage": [
+  55,
+  70
+ ],
+ "attack_type": "qamal",
+ "attack_range": 13.0,
+ "min_range": 3.0,
+ "attack_cooldown": 3.5,
+ "move_speed": 1.7,
+ "acquire_range": 13,
+ "radius": 0.9,
+ "bar_height": 3.2,
+ "sight": 10,
+ "projectile": {
+  "kind": "rock",
+  "speed": 14.0,
+  "arc": 4.0,
+  "splash": 1.8
+ },
+ "cost": {
+  "oltin": 200,
+  "yogoch": 100
+ },
+ "food": 3,
+ "train_time": 35,
+ "requires": {
+  "tier": 2,
+  "buildings": [
+   "ustaxona"
+  ]
+ },
+ "tags": [
+  "siege",
+  "machine"
+ ],
+ "look": {
+  "body": "machine",
+  "model": "kaykit/medieval/building_tower_catapult_blue.gltf",
+  "model_scale": 1.6,
+  "strip_root": true,
+  "model_offset_y": -1.75,
+  "wheels": true,
+  "machine_arm": "catapult_arm_blue",
+  "ring": 1.0,
+  "base": true
+ },
+ "voice_select": [
+  "G'ijir-g'ijir..."
+ ],
+ "voice_move": [
+  "G'ildiraklar aylanadi!"
+ ],
+ "voice_attack": [
+  "Ot!"
+ ],
+ "id": "manjaniq",
+ "faction": "odamlar"
+}

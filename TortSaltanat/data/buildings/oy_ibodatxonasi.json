@@ -1,0 +1,29 @@
+{
+ "name": "Oy Ibodatxonasi",
+ "role": "Bosh bino (2-davr)",
+ "hp": 2000,
+ "armor": 6,
+ "radius": 2.6,
+ "cost": {
+  "oltin": 320,
+  "yogoch": 210
+ },
+ "build_time": 60,
+ "food": 10,
+ "trains": [
+  "gulchi"
+ ],
+ "dropoff": true,
+ "tier": 2,
+ "upgrade_to": "abadiy_bog",
+ "bar_height": 8.2,
+ "sight": 13,
+ "model": "kaykit/halloween/tree_pine_yellow_large.gltf",
+ "model_scale": 0.9,
+ "tint": "#b8e8ff",
+ "id": "oy_ibodatxonasi",
+ "faction": "elflar",
+ "armor_type": "mustahkam",
+ "research": [],
+ "style": "barracks"
+}

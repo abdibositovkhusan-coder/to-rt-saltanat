@@ -1,0 +1,58 @@
+{
+ "name": "Tovuq Oyoqli Kulba",
+ "role": "Qamal — yuruvchi kulba, binolarni tepadi",
+ "hp": 650,
+ "armor": 3,
+ "armor_type": "ogir",
+ "damage": [
+  58,
+  72
+ ],
+ "attack_type": "qamal",
+ "attack_range": 1.6,
+ "attack_cooldown": 2.6,
+ "move_speed": 2.2,
+ "radius": 1.1,
+ "bar_height": 4.6,
+ "cost": {
+  "oltin": 220,
+  "yogoch": 120
+ },
+ "food": 4,
+ "train_time": 36,
+ "requires": {
+  "tier": 2,
+  "buildings": [
+   "ayiq_uyasi"
+  ]
+ },
+ "tags": [
+  "siege"
+ ],
+ "look": {
+  "body": "machine",
+  "model": "kaykit/medieval/building_home_A_blue.gltf",
+  "model_scale": 2.0,
+  "tint": "#a888b8",
+  "mount": {
+   "kind": "chicken",
+   "color": "#e0b040",
+   "size": 1.0
+  },
+  "ring": 1.2
+ },
+ "voice_select": [
+  "Ko-ko-ko!"
+ ],
+ "voice_attack": [
+  "TEP!"
+ ],
+ "id": "tovuq_oyoqli_kulba",
+ "faction": "yalmogiz",
+ "hp_regen": 0.3,
+ "acquire_range": 9,
+ "sight": 10,
+ "voice_move": [
+  "Boraman!"
+ ]
+}

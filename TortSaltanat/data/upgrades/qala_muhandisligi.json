@@ -1,0 +1,31 @@
+{
+ "name": "Qal'a muhandisligi",
+ "desc": "Binolar sovuti +3, sog'lig'i +20%",
+ "levels": [
+  {
+   "cost": {
+    "oltin": 150,
+    "yogoch": 200
+   },
+   "time": 50,
+   "tier": 2
+  }
+ ],
+ "effects": [
+  {
+   "tags": [
+    "building"
+   ],
+   "stat": "armor",
+   "add": 3
+  },
+  {
+   "tags": [
+    "building"
+   ],
+   "stat": "hp_pct",
+   "add": 20
+  }
+ ],
+ "id": "qala_muhandisligi"
+}

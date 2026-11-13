@@ -1,0 +1,29 @@
+{
+ "name": "Tosh G'or",
+ "faction": "trollar",
+ "role": "Bosh bino — ishchilar, resurs topshirish",
+ "hp": 1600,
+ "armor": 5,
+ "radius": 2.7,
+ "cost": {
+  "oltin": 385,
+  "yogoch": 185
+ },
+ "build_time": 60,
+ "food": 10,
+ "trains": [
+  "qulbon"
+ ],
+ "dropoff": true,
+ "style": "cave",
+ "bar_height": 4.2,
+ "id": "tosh_gor",
+ "armor_type": "mustahkam",
+ "sight": 12,
+ "model": "kaykit/medieval/building_mine_red.gltf",
+ "model_scale": 3.0,
+ "model_yaw": 0,
+ "tier": 1,
+ "upgrade_to": "qoya_qala",
+ "research": []
+}

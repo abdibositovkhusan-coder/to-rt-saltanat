@@ -1,0 +1,32 @@
+{
+ "name": "Devlar Chuquri",
+ "role": "Devlar, mamontlar va gigantlar",
+ "hp": 1200,
+ "radius": 2.0,
+ "cost": {
+  "oltin": 200,
+  "yogoch": 140
+ },
+ "build_time": 38,
+ "trains": [
+  "ikki_boshli_dev",
+  "mamont_chavandoz",
+  "qoya_otar_gigant"
+ ],
+ "requires": {
+  "tier": 2
+ },
+ "bar_height": 4.6,
+ "model": "kaykit/medieval/building_tavern_red.gltf",
+ "model_scale": 3.4,
+ "tint": "#d0c0a0",
+ "id": "devlar_chuquri",
+ "faction": "trollar",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "research": [],
+ "food": 0,
+ "sight": 9,
+ "style": "barracks",
+ "armor": 5
+}

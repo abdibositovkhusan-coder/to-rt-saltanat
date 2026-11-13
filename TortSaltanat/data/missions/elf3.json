@@ -1,0 +1,270 @@
+{
+ "id": "elf3",
+ "title": "3-missiya: Yulduzlar kuzatuvchisi",
+ "objective": "Qamal qilingan rasadxonaga yetib, Ulug'bekni qutqaring",
+ "player_faction": "elflar",
+ "enemy_faction": "trollar",
+ "env": "dusk",
+ "difficulty": "orta",
+ "intro": "",
+ "outro": "elf3_end",
+ "next": "elf4",
+ "camera_start": [
+  -38,
+  0,
+  38
+ ],
+ "resources": {
+  "oltin": 0,
+  "yogoch": 0
+ },
+ "auto_waves": false,
+ "fog": true,
+ "clear_spots": [
+  [
+   -38,
+   0,
+   38,
+   10
+  ],
+  [
+   0,
+   0,
+   0,
+   12
+  ],
+  [
+   36,
+   0,
+   -36,
+   12
+  ],
+  [
+   -30,
+   0,
+   -20,
+   9
+  ],
+  [
+   28,
+   0,
+   22,
+   9
+  ]
+ ],
+ "player_units": [
+  {
+   "id": "oydinoy",
+   "count": 1,
+   "at": [
+    -38,
+    0,
+    36
+   ],
+   "level": 4
+  },
+  {
+   "id": "shamshod",
+   "count": 1,
+   "at": [
+    -36,
+    0,
+    38
+   ],
+   "level": 4
+  },
+  {
+   "id": "kumush_kamonchi",
+   "count": 4,
+   "at": [
+    -40,
+    0,
+    40
+   ]
+  },
+  {
+   "id": "oq_bugu_chavandoz",
+   "count": 2,
+   "at": [
+    -42,
+    0,
+    36
+   ]
+  }
+ ],
+ "enemy_units": [
+  {
+   "id": "toshtish_troll",
+   "count": 3,
+   "at": [
+    -8,
+    0,
+    8
+   ]
+  },
+  {
+   "id": "nayza_otar",
+   "count": 3,
+   "at": [
+    8,
+    0,
+    -4
+   ]
+  },
+  {
+   "id": "ikki_boshli_dev",
+   "count": 1,
+   "at": [
+    26,
+    0,
+    6
+   ]
+  },
+  {
+   "id": "toshtish_troll",
+   "count": 4,
+   "at": [
+    32,
+    0,
+    -24
+   ]
+  },
+  {
+   "id": "nayza_otar",
+   "count": 2,
+   "at": [
+    38,
+    0,
+    -30
+   ]
+  }
+ ],
+ "player_buildings": [],
+ "enemy_buildings": [],
+ "resource_nodes": [],
+ "forests": [
+  {
+   "at": [
+    -46,
+    0,
+    10
+   ],
+   "radius": 5,
+   "count": 16
+  },
+  {
+   "at": [
+    12,
+    0,
+    44
+   ],
+   "radius": 6,
+   "count": 18
+  },
+  {
+   "at": [
+    44,
+    0,
+    6
+   ],
+   "radius": 5,
+   "count": 16
+  },
+  {
+   "at": [
+    -8,
+    0,
+    -44
+   ],
+   "radius": 6,
+   "count": 18
+  }
+ ],
+ "triggers": [
+  {
+   "when": {
+    "time": 2
+   },
+   "do": [
+    {
+     "say": [
+      "Oydinoy",
+      "Ulug'bek yulduzlardan bo'laklarning joyini hisoblay oladi. Trollar uni rasadxonada qamal qilishgan."
+     ],
+     "team": 0
+    }
+   ]
+  },
+  {
+   "when": {
+    "time": 9
+   },
+   "do": [
+    {
+     "say": [
+      "Shamshod",
+      "Trollar juda ko'p. Yo'lni aylanib o'tsak bo'ladi — o'rmon orqali."
+     ],
+     "team": 0
+    }
+   ]
+  },
+  {
+   "when": {
+    "time": 4
+   },
+   "do": [
+    {
+     "reveal": [
+      36,
+      -36,
+      8
+     ],
+     "reveal_time": 12
+    }
+   ]
+  },
+  {
+   "when": {
+    "area": [
+     30,
+     -28,
+     14
+    ]
+   },
+   "do": [
+    {
+     "say": [
+      "Ulug'bek",
+      "Elflar?! Kim bo'lsangiz ham — tezroq! Ular eshikni buzishyapti!"
+     ]
+    },
+    {
+     "wave": true
+    }
+   ]
+  }
+ ],
+ "neutral_buildings": [
+  {
+   "id": "karvonsaroy",
+   "at": [
+    -30,
+    0,
+    -20
+   ]
+  }
+ ],
+ "victory": {
+  "type": "reach",
+  "area": [
+   36,
+   -36,
+   7
+  ],
+  "unit": "oydinoy"
+ },
+ "defeat": {
+  "protect_unit": "oydinoy"
+ }
+}

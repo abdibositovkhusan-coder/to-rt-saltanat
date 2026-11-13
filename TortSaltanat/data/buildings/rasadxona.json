@@ -1,0 +1,32 @@
+{
+ "name": "Rasadxona",
+ "role": "Yulduz Olimlarini o'rgatadi",
+ "hp": 1000,
+ "armor": 5,
+ "radius": 1.6,
+ "cost": {
+  "oltin": 150,
+  "yogoch": 140
+ },
+ "build_time": 35,
+ "trains": [
+  "yulduz_olimi"
+ ],
+ "research": [
+  "munajjimlik"
+ ],
+ "requires": {
+  "tier": 2
+ },
+ "bar_height": 6.2,
+ "sight": 14,
+ "model": "kaykit/medieval/building_tower_B_blue.gltf",
+ "model_scale": 2.3,
+ "model_yaw": 180,
+ "id": "rasadxona",
+ "faction": "odamlar",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "food": 0,
+ "style": "barracks"
+}

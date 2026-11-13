@@ -1,0 +1,31 @@
+{
+ "name": "Ustaxona",
+ "role": "Manjaniq va Uchar Gilam yasaydi",
+ "hp": 1000,
+ "armor": 5,
+ "radius": 1.9,
+ "cost": {
+  "oltin": 160,
+  "yogoch": 150
+ },
+ "build_time": 35,
+ "trains": [
+  "manjaniq",
+  "uchar_gilam"
+ ],
+ "requires": {
+  "tier": 2
+ },
+ "bar_height": 4.2,
+ "model": "kaykit/medieval/building_watermill_blue.gltf",
+ "model_scale": 3.0,
+ "model_yaw": 180,
+ "id": "ustaxona",
+ "faction": "odamlar",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "research": [],
+ "food": 0,
+ "sight": 9,
+ "style": "barracks"
+}

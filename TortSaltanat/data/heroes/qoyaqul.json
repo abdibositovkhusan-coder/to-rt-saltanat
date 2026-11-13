@@ -1,0 +1,176 @@
+{
+ "name": "Qoyaqul",
+ "title": "Tog' Devi",
+ "faction": "trollar",
+ "role": "Qahramon — tosh dev",
+ "hp": 800,
+ "mana": 200,
+ "mana_regen": 0.6,
+ "hp_regen": 1.6,
+ "damage": [
+  28,
+  34
+ ],
+ "attack_type": "qahramon",
+ "armor": 4,
+ "armor_type": "qahramon",
+ "attack_range": 1.1,
+ "attack_cooldown": 1.7,
+ "move_speed": 3.1,
+ "acquire_range": 9,
+ "radius": 0.7,
+ "bar_height": 3.6,
+ "sight": 11,
+ "cost": {
+  "oltin": 300,
+  "yogoch": 80
+ },
+ "food": 5,
+ "train_time": 30,
+ "growth": {
+  "hp": 90,
+  "mana": 12,
+  "damage": 3,
+  "armor": 0.5
+ },
+ "tags": [
+  "melee",
+  "armored",
+  "hero",
+  "rage"
+ ],
+ "look": {
+  "body": "troll",
+  "scale": 1.45,
+  "cloth": "#3a2e22",
+  "weapon": "axe",
+  "tusks": true,
+  "model": "kaykit/characters/Barbarian.glb",
+  "hide": [
+   "1H_Axe_Offhand",
+   "Barbarian_Round_Shield",
+   "1H_Axe",
+   "Mug"
+  ],
+  "tint": "#8fc47e",
+  "model_scale": 0.95,
+  "ring": 0.8,
+  "anims": {
+   "attack": "2H_Melee_Attack_Chop",
+   "idle": "2H_Melee_Idle"
+  }
+ },
+ "abilities": [
+  {
+   "id": "yer_yorigi",
+   "name": "Yer Yorig'i",
+   "desc": "Yerni yorib, atrofdagilarni karaxt qiladi",
+   "kind": "none",
+   "effect": "aoe",
+   "radius": 3.5,
+   "mana": [
+    90,
+    100,
+    110
+   ],
+   "cooldown": [
+    12,
+    11,
+    10
+   ],
+   "damage": [
+    60,
+    110,
+    160
+   ],
+   "stun": [
+    1.5,
+    2.0,
+    2.5
+   ]
+  },
+  {
+   "id": "qoya_qalqon",
+   "name": "Qoya Qalqon",
+   "desc": "Zarbalarning 60% ini yutadi",
+   "kind": "none",
+   "effect": "self_buff",
+   "mana": [
+    75,
+    75,
+    75
+   ],
+   "cooldown": [
+    20,
+    18,
+    16
+   ],
+   "buffs": [
+    {
+     "name": "dr",
+     "value": 0.6
+    }
+   ],
+   "duration": [
+    6,
+    8,
+    10
+   ]
+  },
+  {
+   "id": "tosh_teri",
+   "name": "Tosh Teri",
+   "desc": "Passiv: sovut ortadi",
+   "kind": "passive",
+   "effect": "passive_armor",
+   "value": [
+    3,
+    6,
+    9
+   ]
+  },
+  {
+   "id": "togning_uygonishi",
+   "name": "Tog'ning Uyg'onishi",
+   "desc": "ULTI: ulkan tosh gigantga aylanadi",
+   "kind": "none",
+   "effect": "self_buff",
+   "ult": true,
+   "mana": [
+    150,
+    150
+   ],
+   "cooldown": [
+    120,
+    100
+   ],
+   "buffs": [
+    {
+     "name": "dmg_bonus",
+     "value": 1.0
+    },
+    {
+     "name": "armor_bonus",
+     "value": 5
+    }
+   ],
+   "scale": 1.5,
+   "duration": [
+    20,
+    30
+   ]
+  }
+ ],
+ "voice_select": [
+  "Qoyaqul!",
+  "Tog' gapiradi..."
+ ],
+ "voice_move": [
+  "Gum-gum."
+ ],
+ "voice_attack": [
+  "Ezaman!"
+ ],
+ "id": "qoyaqul",
+ "hero": true
+}

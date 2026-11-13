@@ -1,0 +1,39 @@
+{
+ "id": "minora",
+ "name": "Minora",
+ "faction": "odamlar",
+ "role": "Mudofaa — yaqinlashgan dushmanga o'q otadi",
+ "hp": 600,
+ "armor": 5,
+ "armor_type": "mustahkam",
+ "radius": 1.2,
+ "cost": {
+  "oltin": 110,
+  "yogoch": 80
+ },
+ "build_time": 25,
+ "food": 0,
+ "trains": [],
+ "dropoff": false,
+ "style": "tower",
+ "bar_height": 5.8,
+ "sight": 14,
+ "attack": {
+  "damage": [
+   18,
+   22
+  ],
+  "attack_type": "teshuvchi",
+  "range": 10.0,
+  "cooldown": 1.1,
+  "fire_height": 4.6,
+  "projectile": {
+   "kind": "arrow",
+   "speed": 24.0,
+   "arc": 0.8
+  }
+ },
+ "model": "kaykit/medieval/building_tower_A_blue.gltf",
+ "model_scale": 2.2,
+ "model_yaw": 0
+}

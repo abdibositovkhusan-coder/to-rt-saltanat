@@ -1,0 +1,27 @@
+{
+ "name": "Shamol Minorasi",
+ "role": "Shamol Raqqosalari",
+ "hp": 900,
+ "radius": 1.7,
+ "cost": {
+  "oltin": 150,
+  "yogoch": 120
+ },
+ "build_time": 30,
+ "trains": [
+  "shamol_raqqosasi"
+ ],
+ "bar_height": 4.0,
+ "model": "kaykit/medieval/building_windmill_green.gltf",
+ "model_scale": 3.0,
+ "tint": "#d8fff0",
+ "id": "shamol_minorasi",
+ "faction": "elflar",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "research": [],
+ "food": 0,
+ "sight": 9,
+ "style": "barracks",
+ "armor": 5
+}

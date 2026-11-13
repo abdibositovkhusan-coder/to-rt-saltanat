@@ -1,0 +1,526 @@
+{
+ "id": "elf5",
+ "title": "5-missiya: To'lin oy kechasi",
+ "objective": "To'lin oy botguncha (7 daqiqa) Hayot Daraxtini himoya qiling",
+ "player_faction": "elflar",
+ "enemy_faction": "yalmogiz",
+ "intro": "",
+ "outro": "",
+ "next": "elf6",
+ "env": "night",
+ "camera_start": [
+  -33,
+  0,
+  30
+ ],
+ "resources": {
+  "oltin": 700,
+  "yogoch": 400
+ },
+ "enemy_resources": {
+  "oltin": 700,
+  "yogoch": 400
+ },
+ "clear_spots": [
+  [
+   -36,
+   0,
+   34,
+   22
+  ],
+  [
+   36,
+   0,
+   -34,
+   22
+  ],
+  [
+   0,
+   0,
+   0,
+   10
+  ],
+  [
+   -14,
+   0,
+   38,
+   7
+  ],
+  [
+   14,
+   0,
+   -38,
+   7
+  ],
+  [
+   -42,
+   0,
+   6,
+   7
+  ],
+  [
+   42,
+   0,
+   -6,
+   7
+  ],
+  [
+   0,
+   0,
+   26,
+   7
+  ],
+  [
+   0,
+   0,
+   -26,
+   7
+  ],
+  [
+   -12,
+   0,
+   -12,
+   7
+  ],
+  [
+   12,
+   0,
+   12,
+   7
+  ]
+ ],
+ "player_buildings": [],
+ "enemy_buildings": [],
+ "player_units": [
+  {
+   "id": "oydinoy",
+   "count": 1,
+   "at": [
+    -30,
+    0,
+    30
+   ],
+   "level": 6
+  },
+  {
+   "id": "zumrad",
+   "count": 1,
+   "at": [
+    -32,
+    0,
+    31
+   ],
+   "level": 4
+  },
+  {
+   "id": "ulugbek",
+   "count": 1,
+   "at": [
+    -28,
+    0,
+    32
+   ],
+   "level": 4
+  }
+ ],
+ "enemy_units": [],
+ "resource_nodes": [
+  {
+   "kind": "gold",
+   "at": [
+    -45,
+    0,
+    25
+   ],
+   "amount": 12000
+  },
+  {
+   "kind": "gold",
+   "at": [
+    45,
+    0,
+    -25
+   ],
+   "amount": 12000
+  },
+  {
+   "kind": "gold",
+   "at": [
+    2,
+    0,
+    -3
+   ],
+   "amount": 8000
+  }
+ ],
+ "forests": [
+  {
+   "at": [
+    -24,
+    0,
+    46
+   ],
+   "radius": 6,
+   "count": 26
+  },
+  {
+   "at": [
+    -48,
+    0,
+    42
+   ],
+   "radius": 5,
+   "count": 18
+  },
+  {
+   "at": [
+    24,
+    0,
+    -46
+   ],
+   "radius": 6,
+   "count": 26
+  },
+  {
+   "at": [
+    48,
+    0,
+    -42
+   ],
+   "radius": 5,
+   "count": 18
+  }
+ ],
+ "fog": true,
+ "neutral_buildings": [
+  {
+   "id": "karvonsaroy",
+   "at": [
+    -12,
+    0,
+    -12
+   ]
+  },
+  {
+   "id": "choyxona",
+   "at": [
+    12,
+    0,
+    12
+   ]
+  }
+ ],
+ "creep_camps": [
+  {
+   "at": [
+    -14,
+    0,
+    38
+   ],
+   "units": [
+    {
+     "id": "qaroqchi",
+     "count": 2
+    },
+    {
+     "id": "qaroqchi_kamonchi",
+     "count": 1
+    }
+   ],
+   "drop": "oddiy"
+  },
+  {
+   "at": [
+    14,
+    0,
+    -38
+   ],
+   "units": [
+    {
+     "id": "qaroqchi",
+     "count": 2
+    },
+    {
+     "id": "qaroqchi_kamonchi",
+     "count": 1
+    }
+   ],
+   "drop": "oddiy"
+  },
+  {
+   "at": [
+    -42,
+    0,
+    6
+   ],
+   "units": [
+    {
+     "id": "tosh_golem",
+     "count": 1
+    },
+    {
+     "id": "lanatli_jangchi",
+     "count": 2
+    }
+   ],
+   "drop": "noyob"
+  },
+  {
+   "at": [
+    42,
+    0,
+    -6
+   ],
+   "units": [
+    {
+     "id": "tosh_golem",
+     "count": 1
+    },
+    {
+     "id": "lanatli_jangchi",
+     "count": 2
+    }
+   ],
+   "drop": "noyob"
+  },
+  {
+   "at": [
+    0,
+    0,
+    26
+   ],
+   "units": [
+    {
+     "id": "qadimgi_qoriqchi",
+     "count": 1
+    },
+    {
+     "id": "lanatli_jangchi",
+     "count": 2
+    }
+   ],
+   "drop": "afsonaviy"
+  },
+  {
+   "at": [
+    0,
+    0,
+    -26
+   ],
+   "units": [
+    {
+     "id": "tosh_golem",
+     "count": 2
+    }
+   ],
+   "drop": "epik"
+  }
+ ],
+ "auto_start": true,
+ "player_base": [
+  -36,
+  0,
+  34
+ ],
+ "enemy_base": [
+  36,
+  0,
+  -34
+ ],
+ "difficulty": "orta",
+ "auto_start_teams": [
+  0
+ ],
+ "auto_waves": false,
+ "victory": {
+  "type": "survive",
+  "seconds": 420
+ },
+ "triggers": [
+  {
+   "when": {
+    "time": 1
+   },
+   "do": [
+    {
+     "night": 430
+    }
+   ]
+  },
+  {
+   "when": {
+    "time": 2
+   },
+   "do": [
+    {
+     "say": [
+      "Zumrad",
+      "O'rmon ruhlari uyg'ondi. Bu tun daraxtlar ham jang qiladi!"
+     ],
+     "team": 0
+    }
+   ]
+  },
+  {
+   "when": {
+    "time": 9
+   },
+   "do": [
+    {
+     "say": [
+      "Ulug'bek",
+      "Kashshey to'lin oyda bo'lakni olmoqchi. 7 daqiqa — keyin oy botadi!"
+     ],
+     "team": 0
+    }
+   ]
+  },
+  {
+   "every": 50,
+   "from": 60,
+   "until": 400,
+   "do": [
+    {
+     "spawn": [
+      {
+       "id": "suyak_askar",
+       "count": 5,
+       "at": [
+        44,
+        0,
+        -44
+       ],
+       "team": 1,
+       "attack": true
+      },
+      {
+       "id": "ajina",
+       "count": 2,
+       "at": [
+        48,
+        0,
+        0
+       ],
+       "team": 1,
+       "attack": true
+      }
+     ]
+    },
+    {
+     "say": [
+      "Yalmog'iz Kampir",
+      "Daraxtingizni qozonimga tashlayman!"
+     ],
+     "team": 1
+    }
+   ]
+  },
+  {
+   "every": 85,
+   "from": 150,
+   "until": 400,
+   "do": [
+    {
+     "spawn": [
+      {
+       "id": "ilon_otli",
+       "count": 3,
+       "at": [
+        0,
+        0,
+        -48
+       ],
+       "team": 1,
+       "attack": true
+      },
+      {
+       "id": "qarga_jodugar",
+       "count": 2,
+       "at": [
+        0,
+        0,
+        -48
+       ],
+       "team": 1,
+       "attack": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "every": 120,
+   "from": 250,
+   "until": 400,
+   "do": [
+    {
+     "spawn": [
+      {
+       "id": "uch_boshli_ajdar",
+       "count": 1,
+       "at": [
+        44,
+        0,
+        -44
+       ],
+       "team": 1,
+       "attack": true
+      },
+      {
+       "id": "temir_tishli_ayiq",
+       "count": 2,
+       "at": [
+        48,
+        0,
+        0
+       ],
+       "team": 1,
+       "attack": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "when": {
+    "time": 200
+   },
+   "do": [
+    {
+     "spawn": {
+      "id": "qoyaqul",
+      "count": 1,
+      "at": [
+       -44,
+       0,
+       20
+      ],
+      "team": 0,
+      "level": 6
+     }
+    },
+    {
+     "spawn": {
+      "id": "toshtish_troll",
+      "count": 4,
+      "at": [
+       -44,
+       0,
+       22
+      ],
+      "team": 0
+     }
+    },
+    {
+     "say": [
+      "Qoyaqul",
+      "Va'da — va'da! Trollar yetib keldi!"
+     ]
+    }
+   ]
+  }
+ ],
+ "defeat": {
+  "protect_building": "hayot_daraxti"
+ }
+}

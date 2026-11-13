@@ -1,0 +1,59 @@
+{
+ "name": "Qadimgi Daraxt Qo'riqchisi",
+ "role": "Og'ir jangchi — ildizlari ushlab qoladi",
+ "hp": 1050,
+ "armor": 4,
+ "armor_type": "ogir",
+ "damage": [
+  24,
+  30
+ ],
+ "attack_range": 1.3,
+ "attack_cooldown": 1.9,
+ "move_speed": 2.5,
+ "radius": 0.9,
+ "bar_height": 4.4,
+ "on_hit": {
+  "slow": 1.5
+ },
+ "cost": {
+  "oltin": 220,
+  "yogoch": 80
+ },
+ "food": 4,
+ "train_time": 32,
+ "requires": {
+  "tier": 2,
+  "buildings": [
+   "qoriqchilar_daraxtzori"
+  ]
+ },
+ "tags": [
+  "melee",
+  "armored",
+  "elf"
+ ],
+ "look": {
+  "body": "machine",
+  "model": "kaykit/medieval/tree_single_B.gltf",
+  "model_scale": 3.4,
+  "walker": true,
+  "eyes_glow": "#ffe070",
+  "ring": 1.0
+ },
+ "voice_select": [
+  "Mmm... ming yil..."
+ ],
+ "voice_attack": [
+  "Ildizlar!"
+ ],
+ "id": "daraxt_qoriqchi",
+ "faction": "elflar",
+ "hp_regen": 0.3,
+ "acquire_range": 9,
+ "sight": 10,
+ "attack_type": "oddiy",
+ "voice_move": [
+  "Boraman!"
+ ]
+}

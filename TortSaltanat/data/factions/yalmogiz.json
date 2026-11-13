@@ -1,0 +1,65 @@
+{
+ "id": "yalmogiz",
+ "name": "Yalmog'iz va Kashsheylar Saltanati",
+ "title": "Qora Tuman Saltanati",
+ "color": "#6a2c8a",
+ "accent": "#7fff3f",
+ "skin": "#c9c9d6",
+ "worker": "suyak_qul",
+ "hall": "yalmogiz_kulbasi",
+ "builds": [
+  "qabriston",
+  "jinlar_qudugi",
+  "jodugarlar_qozoni",
+  "ayiq_uyasi",
+  "ajdar_qoyasi",
+  "jon_tuxumi",
+  "qarga_minorasi",
+  "yalmogiz_kulbasi"
+ ],
+ "heroes": [
+  "kashshey",
+  "yalmogiz_kampir",
+  "alvasti_malika",
+  "olimxon"
+ ],
+ "tower": "qarga_minorasi",
+ "barracks": "jinlar_qudugi",
+ "mist_build": true,
+ "start": {
+  "hall": "yalmogiz_kulbasi",
+  "food": "qabriston",
+  "barracks": "jinlar_qudugi",
+  "worker": "suyak_qul",
+  "army": [
+   [
+    "ajina",
+    3
+   ],
+   [
+    "alvasti",
+    2
+   ]
+  ]
+ },
+ "mechanic": "Qora Tuman: binolar atrofga tuman yoyadi — unda o'z askarlaring tiklanadi, dushman sekinlashadi; binolar faqat tuman ichiga quriladi. Jon Tuxumi: elita va qahramonlar qayta tiriladi.",
+ "desc": "La'natlangan sharq: O'lmas Kashshey, yalmog'iz kampirlar va tirilgan skeletlar.",
+ "ai": {
+  "style": "Tuman yoyish va tungi hujum",
+  "prefer": {
+   "ajina": 3,
+   "alvasti": 3,
+   "qarga_jodugar": 1,
+   "temir_tishli_ayiq": 2,
+   "ilon_otli": 1,
+   "tovuq_oyoqli_kulba": 1,
+   "uch_boshli_ajdar": 1
+  },
+  "night_attack": true,
+  "extra_mist": true,
+  "priority_buildings": [
+   "jon_tuxumi"
+  ],
+  "towers": 2
+ }
+}

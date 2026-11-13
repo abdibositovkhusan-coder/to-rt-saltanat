@@ -1,0 +1,534 @@
+{
+ "items": [
+  {
+   "id": "sogliq_ichimligi",
+   "name": "Sog'liq ichimligi",
+   "desc": "250 sog'liq tiklaydi",
+   "rarity": "oddiy",
+   "cost": 50,
+   "shop": true,
+   "consumable": true,
+   "charges": 1,
+   "use": {
+    "type": "heal",
+    "value": 250
+   }
+  },
+  {
+   "id": "katta_sogliq",
+   "name": "Katta sog'liq ichimligi",
+   "desc": "500 sog'liq tiklaydi",
+   "rarity": "noyob",
+   "cost": 130,
+   "shop": true,
+   "consumable": true,
+   "charges": 1,
+   "use": {
+    "type": "heal",
+    "value": 500
+   }
+  },
+  {
+   "id": "mana_ichimligi",
+   "name": "Mana ichimligi",
+   "desc": "150 mana tiklaydi",
+   "rarity": "oddiy",
+   "cost": 75,
+   "shop": true,
+   "consumable": true,
+   "charges": 1,
+   "use": {
+    "type": "mana",
+    "value": 150
+   }
+  },
+  {
+   "id": "davo_malhami",
+   "name": "Davo malhami",
+   "desc": "3 marta: 120 sog'liq",
+   "rarity": "oddiy",
+   "cost": 90,
+   "shop": true,
+   "consumable": true,
+   "charges": 3,
+   "use": {
+    "type": "heal",
+    "value": 120
+   }
+  },
+  {
+   "id": "qaytish_orami",
+   "name": "Qaytish o'rami",
+   "desc": "Bosh binoga qaytaradi",
+   "rarity": "oddiy",
+   "cost": 100,
+   "shop": true,
+   "consumable": true,
+   "charges": 1,
+   "use": {
+    "type": "teleport"
+   }
+  },
+  {
+   "id": "shifo_orami",
+   "name": "Shifo o'rami",
+   "desc": "Atrofdagi ittifoqchilarga 200 sog'liq",
+   "rarity": "noyob",
+   "cost": 160,
+   "shop": true,
+   "consumable": true,
+   "charges": 1,
+   "use": {
+    "type": "heal_area",
+    "value": 200,
+    "radius": 8
+   }
+  },
+  {
+   "id": "himoya_orami",
+   "name": "Himoya o'rami",
+   "desc": "Atrofdagilar sovuti +5 (15 s)",
+   "rarity": "noyob",
+   "cost": 140,
+   "shop": true,
+   "consumable": true,
+   "charges": 1,
+   "use": {
+    "type": "buff_area",
+    "buff": "armor_bonus",
+    "value": 5,
+    "radius": 8,
+    "duration": 15
+   }
+  },
+  {
+   "id": "shamol_nayi",
+   "name": "Shamol nayi",
+   "desc": "Tezlik +40% (10 s)",
+   "rarity": "oddiy",
+   "cost": 80,
+   "shop": true,
+   "consumable": true,
+   "charges": 2,
+   "use": {
+    "type": "self_buff",
+    "buff": "speed_bonus",
+    "value": 0.4,
+    "duration": 10
+   }
+  },
+  {
+   "id": "gazab_sharbati",
+   "name": "G'azab sharbati",
+   "desc": "Zarar +40% (12 s)",
+   "rarity": "noyob",
+   "cost": 120,
+   "shop": true,
+   "consumable": true,
+   "charges": 1,
+   "use": {
+    "type": "self_buff",
+    "buff": "dmg_bonus",
+    "value": 0.4,
+    "duration": 12
+   }
+  },
+  {
+   "id": "kuch_uzugi",
+   "name": "Kuch uzugi",
+   "desc": "+3 zarar",
+   "rarity": "oddiy",
+   "cost": 150,
+   "shop": true,
+   "consumable": false,
+   "stats": {
+    "damage": 3
+   }
+  },
+  {
+   "id": "sovut_halqasi",
+   "name": "Sovut halqasi",
+   "desc": "+2 sovut",
+   "rarity": "oddiy",
+   "cost": 150,
+   "shop": true,
+   "consumable": false,
+   "stats": {
+    "armor": 2
+   }
+  },
+  {
+   "id": "hayot_tumori",
+   "name": "Hayot tumori",
+   "desc": "+150 sog'liq",
+   "rarity": "oddiy",
+   "cost": 175,
+   "shop": true,
+   "consumable": false,
+   "stats": {
+    "hp": 150
+   }
+  },
+  {
+   "id": "mana_tumori",
+   "name": "Mana tumori",
+   "desc": "+100 mana",
+   "rarity": "oddiy",
+   "cost": 150,
+   "shop": true,
+   "consumable": false,
+   "stats": {
+    "mana": 100
+   }
+  },
+  {
+   "id": "tezlik_etigi",
+   "name": "Tezlik etigi",
+   "desc": "+15% tezlik",
+   "rarity": "oddiy",
+   "cost": 200,
+   "shop": true,
+   "consumable": false,
+   "stats": {
+    "speed": 0.15
+   }
+  },
+  {
+   "id": "tiklanish_marjoni",
+   "name": "Tiklanish marjoni",
+   "desc": "+2 sog'liq/s",
+   "rarity": "oddiy",
+   "cost": 160,
+   "shop": true,
+   "consumable": false,
+   "stats": {
+    "regen": 2.0
+   }
+  },
+  {
+   "id": "donolik_tasbehi",
+   "name": "Donolik tasbehi",
+   "desc": "+1 mana/s",
+   "rarity": "oddiy",
+   "cost": 170,
+   "shop": true,
+   "consumable": false,
+   "stats": {
+    "mana_regen": 1.0
+   }
+  },
+  {
+   "id": "pichoq",
+   "name": "Qo'qon pichog'i",
+   "desc": "+5 zarar",
+   "rarity": "noyob",
+   "cost": 275,
+   "shop": true,
+   "consumable": false,
+   "stats": {
+    "damage": 5
+   }
+  },
+  {
+   "id": "polat_qalqon",
+   "name": "Po'lat qalqon",
+   "desc": "+4 sovut",
+   "rarity": "noyob",
+   "cost": 300,
+   "shop": true,
+   "consumable": false,
+   "stats": {
+    "armor": 4
+   }
+  },
+  {
+   "id": "chopon",
+   "name": "Zarbof chopon",
+   "desc": "+250 sog'liq, +1 sovut",
+   "rarity": "noyob",
+   "cost": 325,
+   "shop": true,
+   "consumable": false,
+   "stats": {
+    "hp": 250,
+    "armor": 1
+   }
+  },
+  {
+   "id": "telpak",
+   "name": "Qorako'l telpak",
+   "desc": "+150 mana, +0.5 mana/s",
+   "rarity": "noyob",
+   "cost": 300,
+   "shop": true,
+   "consumable": false,
+   "stats": {
+    "mana": 150,
+    "mana_regen": 0.5
+   }
+  },
+  {
+   "id": "kamar",
+   "name": "Kumush kamar",
+   "desc": "+3 zarar, +2 sovut, +100 sog'liq",
+   "rarity": "noyob",
+   "cost": 375,
+   "shop": true,
+   "consumable": false,
+   "stats": {
+    "damage": 3,
+    "armor": 2,
+    "hp": 100
+   }
+  },
+  {
+   "id": "chopqir_etik",
+   "name": "Chopqir etik",
+   "desc": "+25% tezlik, +100 sog'liq",
+   "rarity": "noyob",
+   "cost": 400,
+   "shop": true,
+   "consumable": false,
+   "stats": {
+    "speed": 0.25,
+    "hp": 100
+   }
+  },
+  {
+   "id": "damashq_qilichi",
+   "name": "Damashq qilichi",
+   "desc": "+10 zarar",
+   "rarity": "epik",
+   "cost": 600,
+   "shop": false,
+   "consumable": false,
+   "stats": {
+    "damage": 10
+   }
+  },
+  {
+   "id": "sher_yuragi",
+   "name": "Sher yuragi",
+   "desc": "+350 sog'liq, +5 zarar",
+   "rarity": "epik",
+   "cost": 650,
+   "shop": false,
+   "consumable": false,
+   "stats": {
+    "hp": 350,
+    "damage": 5
+   }
+  },
+  {
+   "id": "ulugbek_jadvali",
+   "name": "Ulug'bek jadvali",
+   "desc": "+250 mana, +1.5 mana/s",
+   "rarity": "epik",
+   "cost": 600,
+   "shop": false,
+   "consumable": false,
+   "stats": {
+    "mana": 250,
+    "mana_regen": 1.5
+   }
+  },
+  {
+   "id": "temir_sovut",
+   "name": "Temir sovut",
+   "desc": "+6 sovut, +150 sog'liq",
+   "rarity": "epik",
+   "cost": 650,
+   "shop": false,
+   "consumable": false,
+   "stats": {
+    "armor": 6,
+    "hp": 150
+   }
+  },
+  {
+   "id": "bургут_pati",
+   "name": "Burgut pati",
+   "desc": "+8 zarar, +15% tezlik",
+   "rarity": "epik",
+   "cost": 650,
+   "shop": false,
+   "consumable": false,
+   "stats": {
+    "damage": 8,
+    "speed": 0.15
+   }
+  },
+  {
+   "id": "burgut_pati",
+   "name": "Feruza uzuk",
+   "desc": "+4 sog'liq/s, +2 sovut",
+   "rarity": "epik",
+   "cost": 550,
+   "shop": false,
+   "consumable": false,
+   "stats": {
+    "regen": 4.0,
+    "armor": 2
+   }
+  },
+  {
+   "id": "tilla_kamar",
+   "name": "Tilla kamar",
+   "desc": "+6 zarar, +4 sovut, +200 sog'liq",
+   "rarity": "epik",
+   "cost": 750,
+   "shop": false,
+   "consumable": false,
+   "stats": {
+    "damage": 6,
+    "armor": 4,
+    "hp": 200
+   }
+  },
+  {
+   "id": "sulaymon_muhri",
+   "name": "Sulaymon muhri",
+   "desc": "+6 sovut, +300 sog'liq, +3 sog'liq/s",
+   "rarity": "afsonaviy",
+   "cost": 1200,
+   "shop": false,
+   "consumable": false,
+   "stats": {
+    "armor": 6,
+    "hp": 300,
+    "regen": 3
+   }
+  },
+  {
+   "id": "zulfiqor",
+   "name": "Zulfiqor",
+   "desc": "+18 zarar",
+   "rarity": "afsonaviy",
+   "cost": 1300,
+   "shop": false,
+   "consumable": false,
+   "stats": {
+    "damage": 18
+   }
+  },
+  {
+   "id": "humo_pati",
+   "name": "Humo pati",
+   "desc": "+400 mana, +2 mana/s, +200 sog'liq",
+   "rarity": "afsonaviy",
+   "cost": 1200,
+   "shop": false,
+   "consumable": false,
+   "stats": {
+    "mana": 400,
+    "mana_regen": 2,
+    "hp": 200
+   }
+  },
+  {
+   "id": "rustam_sovuti",
+   "name": "Rustam sovuti",
+   "desc": "+10 sovut, +400 sog'liq",
+   "rarity": "afsonaviy",
+   "cost": 1400,
+   "shop": false,
+   "consumable": false,
+   "stats": {
+    "armor": 10,
+    "hp": 400
+   }
+  },
+  {
+   "id": "tulpor_egari",
+   "name": "Tulpor egari",
+   "desc": "+35% tezlik, +6 zarar",
+   "rarity": "afsonaviy",
+   "cost": 1200,
+   "shop": false,
+   "consumable": false,
+   "stats": {
+    "speed": 0.35,
+    "damage": 6
+   }
+  },
+  {
+   "id": "non",
+   "name": "Tandir non",
+   "desc": "100 sog'liq",
+   "rarity": "oddiy",
+   "cost": 25,
+   "shop": true,
+   "consumable": true,
+   "charges": 2,
+   "use": {
+    "type": "heal",
+    "value": 100
+   }
+  },
+  {
+   "id": "kok_choy",
+   "name": "Ko'k choy",
+   "desc": "80 mana",
+   "rarity": "oddiy",
+   "cost": 40,
+   "shop": true,
+   "consumable": true,
+   "charges": 2,
+   "use": {
+    "type": "mana",
+    "value": 80
+   }
+  },
+  {
+   "id": "nishon_tumori",
+   "name": "Nishon tumori",
+   "desc": "+1 zarar, +1 sovut",
+   "rarity": "oddiy",
+   "cost": 120,
+   "shop": true,
+   "consumable": false,
+   "stats": {
+    "damage": 1,
+    "armor": 1
+   }
+  },
+  {
+   "id": "sabr_toshi",
+   "name": "Sabr toshi",
+   "desc": "+300 sog'liq",
+   "rarity": "noyob",
+   "cost": 350,
+   "shop": true,
+   "consumable": false,
+   "stats": {
+    "hp": 300
+   }
+  },
+  {
+   "id": "yashin_nayzasi",
+   "name": "Yashin nayzasi",
+   "desc": "+7 zarar, +10% tezlik",
+   "rarity": "epik",
+   "cost": 600,
+   "shop": false,
+   "consumable": false,
+   "stats": {
+    "damage": 7,
+    "speed": 0.1
+   }
+  },
+  {
+   "id": "oyna",
+   "name": "Sehrli oyna",
+   "desc": "+5 sovut, +200 mana",
+   "rarity": "epik",
+   "cost": 650,
+   "shop": false,
+   "consumable": false,
+   "stats": {
+    "armor": 5,
+    "mana": 200
+   }
+  }
+ ]
+}

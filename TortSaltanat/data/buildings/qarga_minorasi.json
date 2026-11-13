@@ -1,0 +1,43 @@
+{
+ "name": "Qarg'a Minorasi",
+ "role": "Mudofaa — la'nat o'qlari",
+ "hp": 600,
+ "radius": 1.2,
+ "cost": {
+  "oltin": 110,
+  "yogoch": 80
+ },
+ "build_time": 25,
+ "bar_height": 5.6,
+ "sight": 14,
+ "attack": {
+  "damage": [
+   17,
+   21
+  ],
+  "attack_type": "sehrli",
+  "range": 10.0,
+  "cooldown": 1.2,
+  "fire_height": 4.6,
+  "projectile": {
+   "kind": "magic_purple",
+   "speed": 20,
+   "arc": 0.4,
+   "weak": 0.15,
+   "weak_time": 3
+  }
+ },
+ "model": "kaykit/halloween/tree_dead_large_decorated.gltf",
+ "model_scale": 1.0,
+ "tint": "#c8b0e0",
+ "mist": 9.0,
+ "id": "qarga_minorasi",
+ "faction": "yalmogiz",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "trains": [],
+ "research": [],
+ "food": 0,
+ "style": "barracks",
+ "armor": 5
+}

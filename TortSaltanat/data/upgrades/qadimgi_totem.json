@@ -1,0 +1,16 @@
+{
+ "id": "qadimgi_totem",
+ "name": "Qadimgi totem",
+ "desc": "G'azab 50% tezroq to'planadi",
+ "levels": [
+  {
+   "cost": {
+    "oltin": 150,
+    "yogoch": 150
+   },
+   "time": 50,
+   "tier": 2
+  }
+ ],
+ "effects": []
+}

@@ -1,0 +1,182 @@
+{
+ "id": "shamshod",
+ "hero": true,
+ "faction": "elflar",
+ "name": "Shamshod",
+ "title": "O'rmon Ruhi",
+ "role": "Qahramon — tabiat yordamchisi",
+ "armor_type": "qahramon",
+ "attack_type": "qahramon",
+ "cost": {
+  "oltin": 300,
+  "yogoch": 80
+ },
+ "food": 5,
+ "train_time": 30,
+ "acquire_range": 10,
+ "radius": 0.55,
+ "bar_height": 3.0,
+ "sight": 12,
+ "friend": false,
+ "voice_select": [
+  "O'rmon nafas oladi.",
+  "Shamshod tinglaydi."
+ ],
+ "voice_move": [
+  "Oldinga!"
+ ],
+ "voice_attack": [
+  "Ildizlar!"
+ ],
+ "hp": 500,
+ "mana": 300,
+ "mana_regen": 0.9,
+ "hp_regen": 1.0,
+ "damage": [
+  18,
+  24
+ ],
+ "armor": 2,
+ "attack_range": 7.0,
+ "attack_cooldown": 1.8,
+ "move_speed": 3.3,
+ "growth": {
+  "hp": 58,
+  "mana": 30,
+  "damage": 2,
+  "armor": 0.35
+ },
+ "look": {
+  "body": "elf",
+  "scale": 1.15,
+  "model": "kaykit/characters/Mage.glb",
+  "hide": [
+   "Spellbook",
+   "Spellbook_open",
+   "1H_Wand"
+  ],
+  "tint": "#a8f0b8",
+  "anims": {
+   "attack": "Spellcast_Shoot",
+   "ranged": "Spellcast_Shoot"
+  }
+ },
+ "abilities": [
+  {
+   "id": "ildiz_tuzogi",
+   "name": "Ildiz Tuzog'i",
+   "desc": "Ildizlar dushmanni ushlab qoladi",
+   "kind": "unit",
+   "effect": "strike",
+   "target": "enemy",
+   "range": 9,
+   "mana": [
+    70,
+    70,
+    70
+   ],
+   "cooldown": [
+    11,
+    10,
+    9
+   ],
+   "damage": [
+    40,
+    80,
+    120
+   ],
+   "stun": [
+    1.5,
+    2,
+    2.5
+   ]
+  },
+  {
+   "id": "hayot_nafasi",
+   "name": "Hayot Nafasi",
+   "desc": "Atrofdagi ittifoqchilarni davolaydi",
+   "kind": "none",
+   "effect": "heal_allies",
+   "radius": 8,
+   "value": [
+    150,
+    250,
+    350
+   ],
+   "mana": [
+    90,
+    100,
+    110
+   ],
+   "cooldown": [
+    14,
+    13,
+    12
+   ]
+  },
+  {
+   "id": "daraxt_tiriltirish",
+   "name": "Daraxt Tiriltirish",
+   "desc": "Daraxt qo'riqchilarini chaqiradi",
+   "kind": "none",
+   "effect": "summon",
+   "unit": "daraxt_qoriqchi",
+   "count": [
+    1,
+    2,
+    3
+   ],
+   "life": [
+    30,
+    30,
+    30
+   ],
+   "mana": [
+    100,
+    110,
+    120
+   ],
+   "cooldown": [
+    25,
+    25,
+    25
+   ]
+  },
+  {
+   "id": "ormon_uygonishi",
+   "name": "O'rmon Uyg'onishi",
+   "desc": "ULTI: butun o'rmon jangga kiradi",
+   "kind": "none",
+   "effect": "summon",
+   "ult": true,
+   "unit": "daraxt_qoriqchi",
+   "count": [
+    5,
+    7
+   ],
+   "life": [
+    40,
+    50
+   ],
+   "mana": [
+    175,
+    175
+   ],
+   "cooldown": [
+    120,
+    100
+   ]
+  }
+ ],
+ "tags": [
+  "hero",
+  "ranged",
+  "caster",
+  "elf"
+ ],
+ "projectile": {
+  "kind": "magic",
+  "speed": 22,
+  "arc": 0.4
+ }
+}

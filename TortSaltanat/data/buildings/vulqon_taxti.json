@@ -1,0 +1,29 @@
+{
+ "name": "Vulqon Taxti",
+ "role": "Bosh bino (3-davr)",
+ "hp": 2600,
+ "armor": 7,
+ "radius": 2.7,
+ "cost": {
+  "oltin": 360,
+  "yogoch": 300
+ },
+ "build_time": 75,
+ "food": 12,
+ "trains": [
+  "qulbon",
+  "qadimgi_tog_ruhi"
+ ],
+ "dropoff": true,
+ "bar_height": 10.2,
+ "sight": 14,
+ "tier": 3,
+ "model": "kaykit/medieval/building_castle_red.gltf",
+ "model_scale": 2.4,
+ "tint": "#ffb8a0",
+ "id": "vulqon_taxti",
+ "faction": "trollar",
+ "armor_type": "mustahkam",
+ "research": [],
+ "style": "barracks"
+}

@@ -1,0 +1,193 @@
+{
+ "name": "Husan",
+ "title": "Adolat Sardori",
+ "faction": "odamlar",
+ "role": "Do'st qahramoni — qonun va adolat qo'mondoni",
+ "friend": true,
+ "hp": 560,
+ "mana": 270,
+ "mana_regen": 0.9,
+ "hp_regen": 0.8,
+ "damage": [
+  20,
+  26
+ ],
+ "attack_type": "qahramon",
+ "armor": 3,
+ "armor_type": "qahramon",
+ "attack_range": 6.0,
+ "attack_cooldown": 1.6,
+ "move_speed": 3.4,
+ "acquire_range": 10,
+ "radius": 0.5,
+ "bar_height": 2.8,
+ "sight": 12,
+ "cost": {
+  "oltin": 300,
+  "yogoch": 80
+ },
+ "food": 5,
+ "train_time": 30,
+ "projectile": {
+  "kind": "magic",
+  "speed": 20,
+  "arc": 0.3
+ },
+ "growth": {
+  "hp": 60,
+  "mana": 25,
+  "damage": 2,
+  "armor": 0.4
+ },
+ "tags": [
+  "caster",
+  "ranged",
+  "hero"
+ ],
+ "look": {
+  "body": "human",
+  "scale": 1.15,
+  "cloth": "#22305a",
+  "weapon": "staff",
+  "model": "kaykit/characters/Mage.glb",
+  "hide": [
+   "Spellbook",
+   "2H_Staff",
+   "Mage_Hat"
+  ],
+  "tint": "#9fb4ff",
+  "anims": {
+   "attack": "Spellcast_Shoot",
+   "ranged": "Spellcast_Shoot"
+  }
+ },
+ "abilities": [
+  {
+   "id": "hukm",
+   "name": "Hukm",
+   "desc": "Dushmanni belgilaydi: unga hamma ko'proq zarar beradi",
+   "kind": "unit",
+   "effect": "strike",
+   "target": "enemy",
+   "range": 10,
+   "mana": [
+    50,
+    50,
+    50
+   ],
+   "cooldown": [
+    10,
+    9,
+    8
+   ],
+   "damage": [
+    30,
+    60,
+    90
+   ],
+   "vuln": [
+    0.3,
+    0.45,
+    0.6
+   ],
+   "duration": [
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "id": "qonun_qalqoni",
+   "name": "Qonun Qalqoni",
+   "desc": "Atrofdagi ittifoqchilar sovuti oshadi",
+   "kind": "none",
+   "effect": "ally_buff",
+   "radius": 8,
+   "mana": [
+    70,
+    70,
+    70
+   ],
+   "cooldown": [
+    20,
+    20,
+    20
+   ],
+   "buff": "armor_bonus",
+   "value": [
+    4,
+    6,
+    8
+   ],
+   "duration": [
+    12,
+    12,
+    12
+   ]
+  },
+  {
+   "id": "dalil",
+   "name": "Dalil",
+   "desc": "Hududni ochadi — yashirin dushmanlarni fosh qiladi",
+   "kind": "point",
+   "effect": "reveal",
+   "range": 30,
+   "radius": 9,
+   "mana": [
+    40,
+    40,
+    40
+   ],
+   "cooldown": [
+    18,
+    16,
+    14
+   ],
+   "duration": [
+    12,
+    16,
+    20
+   ]
+  },
+  {
+   "id": "oliy_hukm",
+   "name": "Oliy Hukm",
+   "desc": "ULTI: atrofdagi dushmanlar qurolsizlanadi va zarar oladi",
+   "kind": "none",
+   "effect": "enemy_debuff",
+   "ult": true,
+   "radius": 9,
+   "mana": [
+    150,
+    150
+   ],
+   "cooldown": [
+    100,
+    80
+   ],
+   "debuff": "disarm",
+   "duration": [
+    5,
+    7
+   ],
+   "damage": [
+    150,
+    250
+   ]
+  }
+ ],
+ "voice_select": [
+  "Adolat qaror topadi!",
+  "Qonun ustuvor!",
+  "Husan xizmatda."
+ ],
+ "voice_move": [
+  "Dalillarni yig'amiz!"
+ ],
+ "voice_attack": [
+  "Hukm o'qildi!",
+  "Sud tugadi!"
+ ],
+ "id": "husan",
+ "hero": true
+}

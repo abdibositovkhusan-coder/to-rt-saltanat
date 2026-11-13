@@ -1,0 +1,71 @@
+{
+ "id": "dehqon",
+ "name": "Dehqon",
+ "faction": "odamlar",
+ "role": "Ishchi — yig'adi va quradi",
+ "hp": 220,
+ "hp_regen": 0.25,
+ "armor": 0,
+ "armor_type": "orta",
+ "damage": [
+  5,
+  7
+ ],
+ "attack_type": "oddiy",
+ "attack_range": 0.8,
+ "attack_cooldown": 1.8,
+ "move_speed": 3.2,
+ "acquire_range": 0,
+ "radius": 0.4,
+ "bar_height": 2.1,
+ "cost": {
+  "oltin": 75
+ },
+ "food": 1,
+ "train_time": 12,
+ "worker": {
+  "carry": 10,
+  "gold_time": 1.6,
+  "wood_time": 2.6
+ },
+ "look": {
+  "body": "human",
+  "scale": 0.92,
+  "cloth": "#8a6a3a",
+  "armor": "#6a5030",
+  "weapon": "axe",
+  "model": "kaykit/characters/Barbarian.glb",
+  "hide": [
+   "1H_Axe_Offhand",
+   "Barbarian_Round_Shield",
+   "2H_Axe",
+   "Mug"
+  ],
+  "model_scale": 0.8,
+  "anims": {
+   "attack": "1H_Melee_Attack_Chop",
+   "idle": "Unarmed_Idle"
+  }
+ },
+ "voice_select": [
+  "Ha, xo'jayin?",
+  "Ish bormi?",
+  "Dehqon tayyor!"
+ ],
+ "voice_move": [
+  "Xo'p!",
+  "Boraman!"
+ ],
+ "voice_attack": [
+  "Ketmon bilan bo'lsa ham!"
+ ],
+ "voice_work": [
+  "Ishga kirishdim!",
+  "Qurib beraman!",
+  "Hozir!"
+ ],
+ "sight": 9,
+ "tags": [
+  "worker"
+ ]
+}

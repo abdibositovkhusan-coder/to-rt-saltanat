@@ -1,0 +1,68 @@
+{
+ "name": "Shamol Raqqosasi",
+ "role": "Sehrgar — bo'ron bilan sekinlashtiradi",
+ "hp": 280,
+ "armor": 0,
+ "armor_type": "yengil",
+ "damage": [
+  11,
+  14
+ ],
+ "attack_type": "sehrli",
+ "attack_range": 7.0,
+ "attack_cooldown": 1.7,
+ "projectile": {
+  "kind": "magic",
+  "speed": 19,
+  "arc": 0.3,
+  "slow": 2.5
+ },
+ "cost": {
+  "oltin": 140,
+  "yogoch": 40
+ },
+ "food": 2,
+ "train_time": 22,
+ "requires": {
+  "buildings": [
+   "shamol_minorasi"
+  ]
+ },
+ "tags": [
+  "caster",
+  "ranged",
+  "elf"
+ ],
+ "look": {
+  "body": "elf",
+  "model": "kaykit/characters/Mage.glb",
+  "hide": [
+   "Spellbook",
+   "Spellbook_open",
+   "2H_Staff",
+   "Mage_Hat"
+  ],
+  "tint": "#a8ffe8",
+  "anims": {
+   "attack": "Spellcast_Shoot",
+   "ranged": "Spellcast_Shoot"
+  }
+ },
+ "voice_select": [
+  "Shamol menga do'st."
+ ],
+ "voice_attack": [
+  "Bo'ron!"
+ ],
+ "id": "shamol_raqqosasi",
+ "faction": "elflar",
+ "hp_regen": 0.3,
+ "acquire_range": 9,
+ "radius": 0.5,
+ "bar_height": 2.6,
+ "sight": 10,
+ "move_speed": 3.2,
+ "voice_move": [
+  "Boraman!"
+ ]
+}

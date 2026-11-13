@@ -1,0 +1,230 @@
+{
+ "id": "elf4",
+ "title": "4-missiya: Ittifoqmi?",
+ "objective": "Qoyaqulni duelda yengib, ittifoqqa ko'ndiring",
+ "player_faction": "elflar",
+ "enemy_faction": "trollar",
+ "env": "day",
+ "difficulty": "orta",
+ "intro": "",
+ "outro": "elf4_end",
+ "next": "elf5",
+ "camera_start": [
+  -38,
+  0,
+  38
+ ],
+ "resources": {
+  "oltin": 0,
+  "yogoch": 0
+ },
+ "auto_waves": false,
+ "fog": true,
+ "clear_spots": [
+  [
+   -38,
+   0,
+   38,
+   10
+  ],
+  [
+   0,
+   0,
+   0,
+   12
+  ],
+  [
+   36,
+   0,
+   -36,
+   12
+  ],
+  [
+   -30,
+   0,
+   -20,
+   9
+  ],
+  [
+   28,
+   0,
+   22,
+   9
+  ]
+ ],
+ "player_units": [
+  {
+   "id": "oydinoy",
+   "count": 1,
+   "at": [
+    -38,
+    0,
+    36
+   ],
+   "level": 5
+  },
+  {
+   "id": "shamshod",
+   "count": 1,
+   "at": [
+    -36,
+    0,
+    38
+   ],
+   "level": 5
+  },
+  {
+   "id": "ulugbek",
+   "count": 1,
+   "at": [
+    -40,
+    0,
+    38
+   ],
+   "level": 3
+  },
+  {
+   "id": "barg_qilichli",
+   "count": 4,
+   "at": [
+    -40,
+    0,
+    40
+   ]
+  },
+  {
+   "id": "kumush_kamonchi",
+   "count": 4,
+   "at": [
+    -36,
+    0,
+    42
+   ]
+  }
+ ],
+ "enemy_units": [
+  {
+   "id": "qoyaqul",
+   "count": 1,
+   "at": [
+    4,
+    0,
+    -4
+   ],
+   "level": 6,
+   "tag": "nishon"
+  },
+  {
+   "id": "toshtish_troll",
+   "count": 5,
+   "at": [
+    8,
+    0,
+    -8
+   ]
+  },
+  {
+   "id": "qoya_otar_gigant",
+   "count": 1,
+   "at": [
+    12,
+    0,
+    -12
+   ]
+  },
+  {
+   "id": "mamont_chavandoz",
+   "count": 2,
+   "at": [
+    -4,
+    0,
+    -14
+   ]
+  }
+ ],
+ "player_buildings": [],
+ "enemy_buildings": [],
+ "resource_nodes": [],
+ "forests": [
+  {
+   "at": [
+    -46,
+    0,
+    10
+   ],
+   "radius": 5,
+   "count": 16
+  },
+  {
+   "at": [
+    12,
+    0,
+    44
+   ],
+   "radius": 6,
+   "count": 18
+  },
+  {
+   "at": [
+    44,
+    0,
+    6
+   ],
+   "radius": 5,
+   "count": 16
+  },
+  {
+   "at": [
+    -8,
+    0,
+    -44
+   ],
+   "radius": 6,
+   "count": 18
+  }
+ ],
+ "triggers": [
+  {
+   "when": {
+    "time": 2
+   },
+   "do": [
+    {
+     "say": [
+      "Qoyaqul",
+      "Elflar! Trollar faqat kuchliga quloq soladi. Meni yengsangiz — gaplashamiz."
+     ],
+     "team": 1
+    }
+   ]
+  },
+  {
+   "when": {
+    "time": 9
+   },
+   "do": [
+    {
+     "say": [
+      "Oydinoy",
+      "Qabul qildik. Lekin o'ldirmaymiz — faqat yengamiz!"
+     ],
+     "team": 0
+    }
+   ]
+  },
+  {
+   "when": {
+    "time": 20
+   },
+   "do": [
+    {
+     "wave": true
+    }
+   ]
+  }
+ ],
+ "victory": {
+  "type": "kill_targets",
+  "tag": "nishon"
+ }
+}

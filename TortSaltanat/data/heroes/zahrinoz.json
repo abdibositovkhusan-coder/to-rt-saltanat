@@ -1,0 +1,177 @@
+{
+ "id": "zahrinoz",
+ "hero": true,
+ "faction": "trollar",
+ "name": "Zahrinoz",
+ "title": "Botqoq Jodugari",
+ "role": "Qahramon — botqoq sehrgari",
+ "armor_type": "qahramon",
+ "attack_type": "qahramon",
+ "cost": {
+  "oltin": 300,
+  "yogoch": 80
+ },
+ "food": 5,
+ "train_time": 30,
+ "acquire_range": 10,
+ "radius": 0.55,
+ "bar_height": 3.0,
+ "sight": 12,
+ "friend": false,
+ "voice_select": [
+  "Botqoq kutmoqda...",
+  "Zahrinoz!"
+ ],
+ "voice_move": [
+  "Oldinga!"
+ ],
+ "voice_attack": [
+  "Zahar!",
+  "Qurbaqa bo'l!"
+ ],
+ "hp": 470,
+ "mana": 300,
+ "mana_regen": 0.9,
+ "hp_regen": 1.0,
+ "damage": [
+  18,
+  24
+ ],
+ "armor": 2,
+ "attack_range": 7.0,
+ "attack_cooldown": 1.8,
+ "move_speed": 3.2,
+ "growth": {
+  "hp": 55,
+  "mana": 30,
+  "damage": 2,
+  "armor": 0.3
+ },
+ "look": {
+  "body": "human",
+  "scale": 1.15,
+  "model": "kaykit/characters/Mage.glb",
+  "hide": [
+   "Spellbook",
+   "Spellbook_open",
+   "1H_Wand"
+  ],
+  "tint": "#a8d88a",
+  "anims": {
+   "attack": "Spellcast_Shoot",
+   "ranged": "Spellcast_Shoot"
+  }
+ },
+ "abilities": [
+  {
+   "id": "zaharli_bulut",
+   "name": "Zaharli Bulut",
+   "desc": "Hududga zahar: zarar va sekinlik",
+   "kind": "point",
+   "effect": "aoe",
+   "range": 10,
+   "radius": 3.2,
+   "mana": [
+    85,
+    95,
+    105
+   ],
+   "cooldown": [
+    12,
+    11,
+    10
+   ],
+   "damage": [
+    60,
+    110,
+    160
+   ],
+   "slow": [
+    3,
+    3,
+    3
+   ]
+  },
+  {
+   "id": "qurbaqa",
+   "name": "Qurbaqaga Aylantirish",
+   "desc": "Dushmanni qurbaqa qiladi — harakatsiz",
+   "kind": "unit",
+   "effect": "strike",
+   "target": "enemy",
+   "range": 8,
+   "mana": [
+    75,
+    75,
+    75
+   ],
+   "cooldown": [
+    14,
+    13,
+    12
+   ],
+   "damage": [
+    20,
+    40,
+    60
+   ],
+   "stun": [
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "id": "botqoq_shifosi",
+   "name": "Botqoq Shifosi",
+   "desc": "Passiv aura: ittifoqchilar tiklanishi oshadi",
+   "kind": "passive",
+   "effect": "aura",
+   "buff": "regen",
+   "value": [
+    1,
+    2,
+    3
+   ],
+   "radius": 9
+  },
+  {
+   "id": "botqoq_yutadi",
+   "name": "Botqoq Yutadi",
+   "desc": "ULTI: katta hudud botqoqqa aylanadi",
+   "kind": "point",
+   "effect": "aoe",
+   "ult": true,
+   "range": 10,
+   "radius": 6,
+   "delay": 0.5,
+   "mana": [
+    175,
+    175
+   ],
+   "cooldown": [
+    120,
+    100
+   ],
+   "damage": [
+    250,
+    400
+   ],
+   "slow": [
+    6,
+    8
+   ]
+  }
+ ],
+ "tags": [
+  "hero",
+  "ranged",
+  "caster",
+  "rage"
+ ],
+ "projectile": {
+  "kind": "magic",
+  "speed": 22,
+  "arc": 0.4
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "name": "Lava O'chog'i",
+ "role": "Qurol va terini yaxshilaydi",
+ "hp": 900,
+ "radius": 1.9,
+ "cost": {
+  "oltin": 140,
+  "yogoch": 60
+ },
+ "build_time": 30,
+ "research": [
+  "tosh_bolta",
+  "zahar_nayza",
+  "tosh_teri_tex",
+  "qon_regeneratsiyasi",
+  "qadimgi_totem"
+ ],
+ "bar_height": 3.4,
+ "model": "kaykit/medieval/building_blacksmith_red.gltf",
+ "model_scale": 2.9,
+ "id": "lava_ochogi",
+ "faction": "trollar",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "trains": [],
+ "food": 0,
+ "sight": 9,
+ "style": "barracks",
+ "armor": 5
+}

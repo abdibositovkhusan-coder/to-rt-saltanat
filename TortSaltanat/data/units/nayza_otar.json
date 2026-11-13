@@ -1,0 +1,72 @@
+{
+ "id": "nayza_otar",
+ "name": "Nayza Otar Troll",
+ "faction": "trollar",
+ "role": "Uzoqdan hujum",
+ "hp": 300,
+ "hp_regen": 1.0,
+ "armor": 0,
+ "armor_type": "orta",
+ "damage": [
+  18,
+  22
+ ],
+ "attack_type": "teshuvchi",
+ "attack_range": 8.0,
+ "attack_cooldown": 1.9,
+ "move_speed": 3.1,
+ "acquire_range": 9.5,
+ "radius": 0.5,
+ "bar_height": 2.6,
+ "projectile": {
+  "kind": "spear",
+  "speed": 18.0,
+  "arc": 1.6
+ },
+ "look": {
+  "body": "troll",
+  "scale": 1.1,
+  "cloth": "#5b4a2f",
+  "armor": "#7d7d7d",
+  "weapon": "spear",
+  "tusks": true,
+  "model": "kaykit/characters/Barbarian.glb",
+  "hide": [
+   "1H_Axe_Offhand",
+   "Barbarian_Round_Shield",
+   "2H_Axe",
+   "Mug"
+  ],
+  "tint": "#a6c98a",
+  "model_scale": 0.9,
+  "ring": 0.7,
+  "anims": {
+   "attack": "Throw",
+   "ranged": "Throw",
+   "walk": "Walking_C"
+  }
+ },
+ "voice_select": [
+  "Nayzam o'tkir!",
+  "Hmm?"
+ ],
+ "voice_move": [
+  "Boraman!"
+ ],
+ "voice_attack": [
+  "Uloqtir!",
+  "Zahar tatib ko'r!"
+ ],
+ "cost": {
+  "oltin": 125,
+  "yogoch": 20
+ },
+ "food": 2,
+ "train_time": 17,
+ "sight": 11,
+ "tags": [
+  "armored",
+  "rage",
+  "ranged"
+ ]
+}

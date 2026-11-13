@@ -1,0 +1,75 @@
+{
+ "name": "Uchar Gilam Sehrgari",
+ "role": "Uchuvchi — faqat uzoqdan otuvchilar urishi mumkin",
+ "hp": 380,
+ "hp_regen": 0.3,
+ "armor": 1,
+ "armor_type": "yengil",
+ "damage": [
+  16,
+  20
+ ],
+ "attack_type": "sehrli",
+ "attack_range": 6.0,
+ "attack_cooldown": 1.6,
+ "move_speed": 4.0,
+ "acquire_range": 9,
+ "radius": 0.6,
+ "bar_height": 4.6,
+ "sight": 13,
+ "flying": true,
+ "projectile": {
+  "kind": "fire",
+  "speed": 16.0,
+  "arc": 0.2,
+  "splash": 1.2
+ },
+ "cost": {
+  "oltin": 210,
+  "yogoch": 90
+ },
+ "food": 3,
+ "train_time": 30,
+ "requires": {
+  "tier": 3,
+  "buildings": [
+   "ustaxona"
+  ]
+ },
+ "tags": [
+  "caster",
+  "ranged",
+  "flying"
+ ],
+ "look": {
+  "body": "human",
+  "model": "kaykit/characters/Mage.glb",
+  "hide": [
+   "Spellbook",
+   "Spellbook_open",
+   "1H_Wand"
+  ],
+  "tint": "#ffd8b0",
+  "carpet": true,
+  "fly_height": 2.6,
+  "anims": {
+   "idle": "Sit_Floor_Idle",
+   "walk": "Sit_Floor_Idle",
+   "attack": "Spellcast_Shoot",
+   "ranged": "Spellcast_Shoot",
+   "death": "Death_B"
+  }
+ },
+ "voice_select": [
+  "Gilam uchishga shay!",
+  "Osmondan ko'raman!"
+ ],
+ "voice_move": [
+  "Uchdik!"
+ ],
+ "voice_attack": [
+  "Olovli shisha!"
+ ],
+ "id": "uchar_gilam",
+ "faction": "odamlar"
+}

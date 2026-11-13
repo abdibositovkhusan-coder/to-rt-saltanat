@@ -1,0 +1,27 @@
+{
+ "name": "Shamon Kulbasi",
+ "role": "Botqoq Jodugarlarini o'rgatadi",
+ "hp": 850,
+ "radius": 1.6,
+ "cost": {
+  "oltin": 150,
+  "yogoch": 80
+ },
+ "build_time": 30,
+ "trains": [
+  "botqoq_jodugari"
+ ],
+ "bar_height": 4.4,
+ "model": "kaykit/medieval/building_home_B_red.gltf",
+ "model_scale": 3.0,
+ "tint": "#b8e0a0",
+ "id": "shamon_kulbasi",
+ "faction": "trollar",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "research": [],
+ "food": 0,
+ "sight": 9,
+ "style": "barracks",
+ "armor": 5
+}

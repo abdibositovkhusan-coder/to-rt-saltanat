@@ -1,0 +1,322 @@
+{
+ "id": "mission2_end",
+ "shots": [
+  {
+   "duration": 7,
+   "env": "dusk",
+   "fade_in": true,
+   "spawn": [
+    {
+     "kind": "building",
+     "id": "gor",
+     "building": "tosh_gor",
+     "pos": [
+      0,
+      0,
+      -5
+     ],
+     "team": 1
+    },
+    {
+     "kind": "mist",
+     "id": "smoke",
+     "pos": [
+      0,
+      0,
+      -5
+     ],
+     "radius": 3,
+     "color": "#3a3030"
+    },
+    {
+     "kind": "light",
+     "id": "fire",
+     "pos": [
+      0,
+      2,
+      -3
+     ],
+     "color": "#ff6a20",
+     "energy": 3.0,
+     "range": 12
+    },
+    {
+     "kind": "unit",
+     "id": "alpomish",
+     "faction": "odamlar",
+     "look": {
+      "body": "human",
+      "scale": 1.3,
+      "cloth": "#2d5fa8",
+      "armor": "#d4a63a",
+      "weapon": "sword",
+      "shield": true,
+      "helmet": true,
+      "cape": "#a02020",
+      "model": "kaykit/characters/Knight.glb",
+      "hide": [
+       "1H_Sword_Offhand",
+       "Round_Shield",
+       "Rectangle_Shield",
+       "Spike_Shield",
+       "2H_Sword"
+      ],
+      "anims": {
+       "attack": "1H_Melee_Attack_Slice_Diagonal"
+      }
+     },
+     "pos": [
+      0,
+      0,
+      2.5
+     ],
+     "face": [
+      0,
+      0,
+      -5
+     ]
+    },
+    {
+     "kind": "unit",
+     "id": "navkarlar",
+     "unit": "navkar",
+     "count": 5,
+     "cols": 5,
+     "spacing": 1.5,
+     "pos": [
+      0,
+      0,
+      4.5
+     ],
+     "face": [
+      0,
+      0,
+      -5
+     ]
+    }
+   ],
+   "cam": {
+    "from": [
+     6,
+     3,
+     9
+    ],
+    "to": [
+     4,
+     2.6,
+     7
+    ],
+    "look": [
+     0,
+     1.6,
+     -1
+    ]
+   },
+   "lines": [
+    {
+     "t": 0.4,
+     "speaker": "Navkar",
+     "text": "Trollar qarorgohi yiqildi! Qoyaqul tog'larga qochib ketdi!"
+    },
+    {
+     "t": 3.4,
+     "speaker": "Alpomish",
+     "text": "Yaxshi jang qildingiz, botirlar. Lekin... mana bu nima?"
+    }
+   ],
+   "actions": [
+    {
+     "t": 0.8,
+     "actor": "gor",
+     "do": "die"
+    },
+    {
+     "t": 0.8,
+     "do": "shake",
+     "amount": 0.8
+    },
+    {
+     "t": 1.4,
+     "actor": "navkarlar",
+     "do": "attack",
+     "times": 1
+    }
+   ]
+  },
+  {
+   "duration": 7.5,
+   "clear": false,
+   "spawn": [
+    {
+     "kind": "crystal",
+     "id": "shard",
+     "pos": [
+      0,
+      0.5,
+      0.3
+     ],
+     "size": 0.35,
+     "color": "#b04fe0",
+     "spin": 1.2
+    },
+    {
+     "kind": "unit",
+     "id": "barchinoy",
+     "faction": "odamlar",
+     "look": {
+      "body": "human",
+      "scale": 1.15,
+      "cloth": "#8a2a3a",
+      "armor": "#d4a63a",
+      "weapon": "bow",
+      "cape": "#d4a63a",
+      "hood": false,
+      "model": "kaykit/characters/Rogue.glb",
+      "hide": [
+       "Knife_Offhand",
+       "1H_Crossbow",
+       "Knife",
+       "Throwable"
+      ],
+      "anims": {
+       "attack": "2H_Ranged_Shoot"
+      }
+     },
+     "pos": [
+      -6,
+      0,
+      1
+     ],
+     "face": [
+      0,
+      0,
+      0.5
+     ]
+    }
+   ],
+   "cam": {
+    "from": [
+     2.2,
+     1.8,
+     3.6
+    ],
+    "to": [
+     1.6,
+     1.6,
+     3.0
+    ],
+    "look": [
+     0,
+     0.7,
+     0.6
+    ]
+   },
+   "lines": [
+    {
+     "t": 0.6,
+     "speaker": "Barchinoy",
+     "text": "To'xta, Alpomish! Unga tegma. Bu Qora Tuman belgisi..."
+    },
+    {
+     "t": 4.2,
+     "speaker": "Barchinoy",
+     "text": "Trollarni bizga qarshi Kashshey gij-gijlagan. Uning qo'li bor bunda!"
+    }
+   ],
+   "actions": [
+    {
+     "t": 0.4,
+     "actor": "barchinoy",
+     "do": "walk_to",
+     "to": [
+      -2,
+      0,
+      1.8
+     ],
+     "dur": 2.4
+    },
+    {
+     "t": 0.4,
+     "actor": "alpomish",
+     "do": "face",
+     "to": [
+      -2,
+      0,
+      1.8
+     ]
+    }
+   ]
+  },
+  {
+   "duration": 6,
+   "clear": false,
+   "fade_out": true,
+   "cam": {
+    "from": [
+     -1.0,
+     2.5,
+     6.0
+    ],
+    "to": [
+     -1.2,
+     2.4,
+     5.0
+    ],
+    "look": [
+     -1,
+     2.0,
+     2.2
+    ]
+   },
+   "lines": [
+    {
+     "t": 0.3,
+     "speaker": "Alpomish",
+     "text": "Unda yo'limiz sharqqa — la'natlangan o'rmonlar tomon. Qo'shinni tayyorlang!"
+    }
+   ],
+   "actions": [
+    {
+     "t": 1.5,
+     "actor": "alpomish",
+     "do": "attack",
+     "times": 1
+    },
+    {
+     "t": 1.8,
+     "actor": "navkarlar",
+     "do": "attack",
+     "times": 1
+    }
+   ]
+  },
+  {
+   "duration": 4.5,
+   "env": "dark",
+   "fade_in": true,
+   "cam": {
+    "from": [
+     0,
+     9,
+     12
+    ],
+    "to": [
+     0,
+     8,
+     10
+    ],
+    "look": [
+     0,
+     0,
+     0
+    ]
+   },
+   "title": {
+    "t": 0.3,
+    "text": "Davomi bor...",
+    "sub": "Endi: 3-missiya — Tumandagi asir",
+    "hold": 2.8
+   }
+  }
+ ]
+}

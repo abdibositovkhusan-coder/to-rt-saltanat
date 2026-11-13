@@ -1,0 +1,29 @@
+{
+ "name": "Kamonchilar Maydoni",
+ "faction": "odamlar",
+ "role": "Merganlarni o'rgatadi",
+ "hp": 900,
+ "armor": 4,
+ "radius": 1.9,
+ "cost": {
+  "oltin": 140,
+  "yogoch": 90
+ },
+ "build_time": 28,
+ "food": 0,
+ "trains": [
+  "mergan"
+ ],
+ "style": "range",
+ "bar_height": 3.2,
+ "id": "kamonchilar_maydoni",
+ "dropoff": false,
+ "armor_type": "mustahkam",
+ "sight": 9,
+ "model": "kaykit/medieval/building_archeryrange_blue.gltf",
+ "model_scale": 2.2,
+ "model_yaw": 180,
+ "research": [
+  "uzoq_oq"
+ ]
+}

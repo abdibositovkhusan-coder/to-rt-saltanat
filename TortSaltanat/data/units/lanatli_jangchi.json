@@ -1,0 +1,34 @@
+{
+ "name": "La'natli Jangchi",
+ "role": "Neytral — qadimgi qabristondan tirilgan skelet",
+ "hp": 420,
+ "hp_regen": 0.3,
+ "armor": 2,
+ "armor_type": "ogir",
+ "damage": [
+  15,
+  19
+ ],
+ "attack_type": "oddiy",
+ "attack_range": 1.0,
+ "attack_cooldown": 1.5,
+ "move_speed": 2.9,
+ "radius": 0.45,
+ "bar_height": 2.4,
+ "xp": 45,
+ "bounty": 18,
+ "look": {
+  "body": "dead",
+  "weapon": "sword",
+  "eyes": "#7fff3f",
+  "model": "kaykit/characters/Skeleton_Warrior.glb",
+  "model_scale": 0.85
+ },
+ "id": "lanatli_jangchi",
+ "faction": "neytral",
+ "food": 0,
+ "tags": [],
+ "acquire_range": 6,
+ "leash": 14,
+ "sight": 8
+}

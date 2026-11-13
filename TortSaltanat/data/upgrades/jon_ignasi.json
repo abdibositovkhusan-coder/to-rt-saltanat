@@ -1,0 +1,16 @@
+{
+ "id": "jon_ignasi",
+ "name": "Jon ignasi",
+ "desc": "Jon Tuxumi ikki barobar tezroq tiriltiradi",
+ "levels": [
+  {
+   "cost": {
+    "oltin": 175,
+    "yogoch": 150
+   },
+   "time": 50,
+   "tier": 2
+  }
+ ],
+ "effects": []
+}

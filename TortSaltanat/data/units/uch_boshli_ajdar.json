@@ -1,0 +1,64 @@
+{
+ "name": "Uch Boshli Ajdar",
+ "role": "Uchuvchi — olov, muz, zahar",
+ "hp": 900,
+ "armor": 3,
+ "armor_type": "ogir",
+ "damage": [
+  33,
+  41
+ ],
+ "attack_type": "sehrli",
+ "attack_range": 5.5,
+ "attack_cooldown": 1.8,
+ "move_speed": 3.8,
+ "radius": 1.1,
+ "bar_height": 5.2,
+ "flying": true,
+ "projectile": {
+  "kind": "fire",
+  "speed": 16,
+  "arc": 0.2,
+  "splash": 1.5
+ },
+ "sight": 13,
+ "cost": {
+  "oltin": 300,
+  "yogoch": 160
+ },
+ "food": 5,
+ "train_time": 42,
+ "requires": {
+  "tier": 3,
+  "buildings": [
+   "ajdar_qoyasi"
+  ]
+ },
+ "tags": [
+  "ranged",
+  "flying",
+  "soul"
+ ],
+ "look": {
+  "creature": "dragon",
+  "color": "#4a2a6a",
+  "accent": "#7fff3f",
+  "heads": 3,
+  "size": 1.4,
+  "fly_height": 3.0,
+  "ring": 1.1
+ },
+ "voice_select": [
+  "Uch bosh — bir g'azab!"
+ ],
+ "voice_attack": [
+  "KUY!"
+ ],
+ "id": "uch_boshli_ajdar",
+ "faction": "yalmogiz",
+ "hp_regen": 0.3,
+ "acquire_range": 9,
+ "voice_move": [
+  "Boraman!"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "name": "Shifo kuchi",
+ "desc": "Tabiblar davolashi +10",
+ "levels": [
+  {
+   "cost": {
+    "oltin": 120,
+    "yogoch": 80
+   },
+   "time": 40,
+   "tier": 2
+  }
+ ],
+ "effects": [
+  {
+   "tags": [
+    "healer"
+   ],
+   "stat": "heal",
+   "add": 10
+  }
+ ],
+ "id": "shifo_kuchi"
+}

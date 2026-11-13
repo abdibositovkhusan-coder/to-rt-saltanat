@@ -1,0 +1,25 @@
+{
+ "name": "Gul Bog'i",
+ "role": "Oziq: +6",
+ "hp": 500,
+ "armor": 3,
+ "radius": 1.3,
+ "cost": {
+  "oltin": 80,
+  "yogoch": 20
+ },
+ "build_time": 18,
+ "food": 6,
+ "bar_height": 3.0,
+ "model": "kaykit/medieval/trees_A_small.gltf",
+ "model_scale": 2.2,
+ "tint": "#ffd0f0",
+ "id": "gul_bogi",
+ "faction": "elflar",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "trains": [],
+ "research": [],
+ "sight": 9,
+ "style": "barracks"
+}

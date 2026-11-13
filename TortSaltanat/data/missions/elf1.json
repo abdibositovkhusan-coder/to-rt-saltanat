@@ -1,0 +1,257 @@
+{
+ "id": "elf1",
+ "title": "1-missiya: Tuman chekkasi",
+ "objective": "O'rmonga kirgan barcha dushmanni yo'q qiling",
+ "player_faction": "elflar",
+ "enemy_faction": "yalmogiz",
+ "env": "night",
+ "difficulty": "orta",
+ "intro": "elf_intro",
+ "outro": "",
+ "next": "elf2",
+ "camera_start": [
+  -38,
+  0,
+  38
+ ],
+ "resources": {
+  "oltin": 0,
+  "yogoch": 0
+ },
+ "auto_waves": false,
+ "fog": true,
+ "clear_spots": [
+  [
+   -38,
+   0,
+   38,
+   10
+  ],
+  [
+   0,
+   0,
+   0,
+   12
+  ],
+  [
+   36,
+   0,
+   -36,
+   12
+  ],
+  [
+   -30,
+   0,
+   -20,
+   9
+  ],
+  [
+   28,
+   0,
+   22,
+   9
+  ]
+ ],
+ "player_units": [
+  {
+   "id": "oydinoy",
+   "count": 1,
+   "at": [
+    -38,
+    0,
+    36
+   ],
+   "level": 2
+  },
+  {
+   "id": "kumush_kamonchi",
+   "count": 4,
+   "at": [
+    -40,
+    0,
+    40
+   ]
+  },
+  {
+   "id": "barg_qilichli",
+   "count": 3,
+   "at": [
+    -36,
+    0,
+    40
+   ]
+  },
+  {
+   "id": "shamol_raqqosasi",
+   "count": 2,
+   "at": [
+    -42,
+    0,
+    36
+   ]
+  }
+ ],
+ "enemy_units": [
+  {
+   "id": "suyak_qul",
+   "count": 3,
+   "at": [
+    -12,
+    0,
+    10
+   ]
+  },
+  {
+   "id": "suyak_askar",
+   "count": 3,
+   "at": [
+    -6,
+    0,
+    16
+   ]
+  },
+  {
+   "id": "ajina",
+   "count": 3,
+   "at": [
+    12,
+    0,
+    -6
+   ]
+  },
+  {
+   "id": "suyak_askar",
+   "count": 4,
+   "at": [
+    26,
+    0,
+    22
+   ]
+  },
+  {
+   "id": "qarga_jodugar",
+   "count": 2,
+   "at": [
+    34,
+    0,
+    -30
+   ]
+  },
+  {
+   "id": "temir_tishli_ayiq",
+   "count": 2,
+   "at": [
+    30,
+    0,
+    -34
+   ]
+  }
+ ],
+ "player_buildings": [],
+ "enemy_buildings": [],
+ "resource_nodes": [],
+ "forests": [
+  {
+   "at": [
+    -46,
+    0,
+    10
+   ],
+   "radius": 5,
+   "count": 16
+  },
+  {
+   "at": [
+    12,
+    0,
+    44
+   ],
+   "radius": 6,
+   "count": 18
+  },
+  {
+   "at": [
+    44,
+    0,
+    6
+   ],
+   "radius": 5,
+   "count": 16
+  },
+  {
+   "at": [
+    -8,
+    0,
+    -44
+   ],
+   "radius": 6,
+   "count": 18
+  }
+ ],
+ "triggers": [
+  {
+   "when": {
+    "time": 1
+   },
+   "do": [
+    {
+     "say": [
+      "Oydinoy",
+      "Daraxtlar qurib qolyapti... Tuman ular jonini so'ryapti."
+     ]
+    }
+   ]
+  },
+  {
+   "when": {
+    "time": 8
+   },
+   "do": [
+    {
+     "say": [
+      "Oydinoy",
+      "Kechasi biz ko'rinmasmiz. Jim turing — keyin birdan uring!"
+     ],
+     "team": 0
+    }
+   ]
+  },
+  {
+   "when": {
+    "enemy_below": 8
+   },
+   "do": [
+    {
+     "say": [
+      "Shamshod",
+      "Oydinoy! Shimolda qarg'a jodugarlar — tumanni ular yoyyapti!"
+     ]
+    },
+    {
+     "reveal": [
+      32,
+      -32,
+      12
+     ],
+     "reveal_time": 15
+    },
+    {
+     "spawn": {
+      "id": "shamshod",
+      "count": 1,
+      "at": [
+       -34,
+       0,
+       34
+      ],
+      "team": 0,
+      "level": 2
+     }
+    }
+   ]
+  }
+ ],
+ "victory": {
+  "type": "destroy_all"
+ }
+}

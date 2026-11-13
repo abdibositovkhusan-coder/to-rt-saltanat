@@ -1,0 +1,73 @@
+{
+ "name": "Otliq Botir",
+ "role": "Og'ir chopqir jangchi — tez va kuchli",
+ "hp": 800,
+ "hp_regen": 0.4,
+ "armor": 4,
+ "armor_type": "ogir",
+ "damage": [
+  24,
+  30
+ ],
+ "attack_type": "oddiy",
+ "attack_range": 1.0,
+ "attack_cooldown": 1.6,
+ "move_speed": 4.6,
+ "acquire_range": 9,
+ "radius": 0.65,
+ "bar_height": 2.9,
+ "sight": 11,
+ "cost": {
+  "oltin": 245,
+  "yogoch": 60
+ },
+ "food": 4,
+ "train_time": 30,
+ "requires": {
+  "tier": 2,
+  "buildings": [
+   "otxona",
+   "temirchi"
+  ]
+ },
+ "tags": [
+  "melee",
+  "armored",
+  "cavalry"
+ ],
+ "look": {
+  "body": "human",
+  "scale": 1.25,
+  "cloth": "#2d5fa8",
+  "weapon": "sword",
+  "shield": true,
+  "helmet": true,
+  "model": "kaykit/characters/Knight.glb",
+  "hide": [
+   "1H_Sword_Offhand",
+   "Badge_Shield",
+   "Round_Shield",
+   "Spike_Shield",
+   "2H_Sword"
+  ],
+  "tint": "#f2dfae",
+  "ring": 0.75,
+  "anims": {
+   "walk": "Running_A",
+   "attack": "1H_Melee_Attack_Slice_Horizontal"
+  }
+ },
+ "voice_select": [
+  "Ot egarlangan!",
+  "Botir tayyor!"
+ ],
+ "voice_move": [
+  "Chopdik!"
+ ],
+ "voice_attack": [
+  "Hayt!",
+  "Yov qochsin!"
+ ],
+ "id": "otliq_botir",
+ "faction": "odamlar"
+}

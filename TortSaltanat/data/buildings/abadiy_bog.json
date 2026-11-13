@@ -1,0 +1,29 @@
+{
+ "name": "Abadiy Bog'",
+ "role": "Bosh bino (3-davr)",
+ "hp": 2500,
+ "armor": 7,
+ "radius": 2.6,
+ "cost": {
+  "oltin": 360,
+  "yogoch": 300
+ },
+ "build_time": 75,
+ "food": 12,
+ "trains": [
+  "gulchi",
+  "simurg"
+ ],
+ "dropoff": true,
+ "tier": 3,
+ "bar_height": 9.4,
+ "sight": 14,
+ "model": "kaykit/halloween/tree_pine_orange_large.gltf",
+ "model_scale": 1.0,
+ "tint": "#ffe8f8",
+ "id": "abadiy_bog",
+ "faction": "elflar",
+ "armor_type": "mustahkam",
+ "research": [],
+ "style": "barracks"
+}

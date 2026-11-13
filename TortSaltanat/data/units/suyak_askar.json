@@ -1,0 +1,41 @@
+{
+ "name": "Suyak Askar",
+ "role": "Chaqirilgan skelet (vaqtinchalik)",
+ "hp": 180,
+ "damage": [
+  8,
+  10
+ ],
+ "attack_range": 0.9,
+ "attack_cooldown": 1.4,
+ "move_speed": 3.2,
+ "radius": 0.4,
+ "bar_height": 2.2,
+ "food": 0,
+ "xp": 10,
+ "tags": [
+  "melee"
+ ],
+ "look": {
+  "body": "dead",
+  "model": "kaykit/characters/Skeleton_Minion.glb",
+  "model_scale": 0.8,
+  "tint": "#c8f0a0"
+ },
+ "id": "suyak_askar",
+ "faction": "yalmogiz",
+ "hp_regen": 0.3,
+ "acquire_range": 9,
+ "sight": 10,
+ "armor_type": "orta",
+ "attack_type": "oddiy",
+ "voice_select": [
+  "Tayyor!"
+ ],
+ "voice_move": [
+  "Boraman!"
+ ],
+ "voice_attack": [
+  "Hujum!"
+ ]
+}

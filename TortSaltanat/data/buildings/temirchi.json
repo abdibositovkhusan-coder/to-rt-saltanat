@@ -1,0 +1,30 @@
+{
+ "name": "Temirchi",
+ "role": "Qurol va sovutlarni yaxshilaydi",
+ "hp": 900,
+ "armor": 5,
+ "radius": 1.9,
+ "cost": {
+  "oltin": 140,
+  "yogoch": 60
+ },
+ "build_time": 30,
+ "research": [
+  "qurol",
+  "oq_yoy",
+  "sovut",
+  "qala_muhandisligi"
+ ],
+ "bar_height": 3.4,
+ "model": "kaykit/medieval/building_blacksmith_blue.gltf",
+ "model_scale": 2.9,
+ "model_yaw": 180,
+ "id": "temirchi",
+ "faction": "odamlar",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "trains": [],
+ "food": 0,
+ "sight": 9,
+ "style": "barracks"
+}

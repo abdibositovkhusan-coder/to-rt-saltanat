@@ -1,0 +1,40 @@
+{
+ "name": "Qaroqchi",
+ "role": "Neytral — yo'l qaroqchisi",
+ "hp": 340,
+ "hp_regen": 0.5,
+ "armor": 1,
+ "armor_type": "orta",
+ "damage": [
+  12,
+  15
+ ],
+ "attack_type": "oddiy",
+ "attack_range": 0.9,
+ "attack_cooldown": 1.4,
+ "move_speed": 3.1,
+ "radius": 0.45,
+ "bar_height": 2.3,
+ "xp": 35,
+ "bounty": 15,
+ "look": {
+  "body": "human",
+  "cloth": "#6a3a2a",
+  "weapon": "axe",
+  "model": "kaykit/characters/Barbarian.glb",
+  "hide": [
+   "1H_Axe_Offhand",
+   "Barbarian_Round_Shield",
+   "2H_Axe",
+   "Mug"
+  ],
+  "tint": "#e0b0a0"
+ },
+ "id": "qaroqchi",
+ "faction": "neytral",
+ "food": 0,
+ "tags": [],
+ "acquire_range": 6,
+ "leash": 14,
+ "sight": 8
+}

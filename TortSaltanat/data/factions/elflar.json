@@ -1,0 +1,62 @@
+{
+ "id": "elflar",
+ "name": "Elflar Saltanati",
+ "title": "Oydin O'rmon Saltanati",
+ "color": "#2f8f7a",
+ "accent": "#c8d8ff",
+ "skin": "#f0d6bc",
+ "worker": "gulchi",
+ "hall": "hayot_daraxti",
+ "builds": [
+  "gul_bogi",
+  "qoriqchilar_daraxtzori",
+  "kamon_ustaxonasi",
+  "shamol_minorasi",
+  "oy_qudugi",
+  "bugular_yaylovi",
+  "osmon_uyasi",
+  "tikan_qorgoni",
+  "hayot_daraxti"
+ ],
+ "heroes": [
+  "oydinoy",
+  "shamshod",
+  "zumrad",
+  "ulugbek"
+ ],
+ "tower": "tikan_qorgoni",
+ "barracks": "qoriqchilar_daraxtzori",
+ "start": {
+  "hall": "hayot_daraxti",
+  "food": "gul_bogi",
+  "barracks": "qoriqchilar_daraxtzori",
+  "worker": "gulchi",
+  "army": [
+   [
+    "barg_qilichli",
+    3
+   ],
+   [
+    "kumush_kamonchi",
+    2
+   ]
+  ]
+ },
+ "mechanic": "Ildiz Tarmog'i: yaqin binolar bir-birini davolaydi. Oy va Quyosh: kechasi harakatsiz elflar ko'rinmaydi, kunduzi 15% kuchliroq. Gulchilar daraxtni kesmaydi.",
+ "desc": "G'arbdagi ming yillik o'rmonlarning chaqqon kamonchilari va tabiat sehrgarlari.",
+ "ai": {
+  "style": "Kamonchilar va tungi hujumlar",
+  "prefer": {
+   "barg_qilichli": 2,
+   "kumush_kamonchi": 5,
+   "shamol_raqqosasi": 1,
+   "daraxt_qoriqchi": 1,
+   "oq_bugu_chavandoz": 1,
+   "tikanli_ildiz": 1,
+   "humo_qushi": 1
+  },
+  "night_attack": true,
+  "harass_workers": true,
+  "towers": 2
+ }
+}

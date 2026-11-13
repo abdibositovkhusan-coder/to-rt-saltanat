@@ -1,0 +1,429 @@
+{
+ "id": "final",
+ "title": "Final: Yer Yuragi",
+ "objective": "Dushman qo'shinini butunlay yo'q qiling",
+ "player_faction": "odamlar",
+ "enemy_faction": "yalmogiz",
+ "intro": "final_intro",
+ "outro": "",
+ "next": "",
+ "env": "dusk",
+ "camera_start": [
+  -33,
+  0,
+  30
+ ],
+ "resources": {
+  "oltin": 900,
+  "yogoch": 600
+ },
+ "enemy_resources": {
+  "oltin": 900,
+  "yogoch": 600
+ },
+ "ai": {
+  "economy": true,
+  "first_wave": 260,
+  "wave_size": 5,
+  "wave_growth": 2,
+  "workers": 6,
+  "heroes": true
+ },
+ "clear_spots": [
+  [
+   -36,
+   0,
+   34,
+   22
+  ],
+  [
+   36,
+   0,
+   -34,
+   22
+  ],
+  [
+   0,
+   0,
+   0,
+   10
+  ],
+  [
+   -14,
+   0,
+   38,
+   7
+  ],
+  [
+   14,
+   0,
+   -38,
+   7
+  ],
+  [
+   -42,
+   0,
+   6,
+   7
+  ],
+  [
+   42,
+   0,
+   -6,
+   7
+  ],
+  [
+   0,
+   0,
+   26,
+   7
+  ],
+  [
+   0,
+   0,
+   -26,
+   7
+  ],
+  [
+   -12,
+   0,
+   -12,
+   7
+  ],
+  [
+   12,
+   0,
+   12,
+   7
+  ],
+  [
+   0,
+   0,
+   0,
+   12
+  ]
+ ],
+ "player_buildings": [],
+ "enemy_buildings": [],
+ "player_units": [],
+ "enemy_units": [],
+ "resource_nodes": [
+  {
+   "kind": "gold",
+   "at": [
+    -45,
+    0,
+    25
+   ],
+   "amount": 12000
+  },
+  {
+   "kind": "gold",
+   "at": [
+    45,
+    0,
+    -25
+   ],
+   "amount": 12000
+  },
+  {
+   "kind": "gold",
+   "at": [
+    2,
+    0,
+    -3
+   ],
+   "amount": 8000
+  }
+ ],
+ "forests": [
+  {
+   "at": [
+    -24,
+    0,
+    46
+   ],
+   "radius": 6,
+   "count": 26
+  },
+  {
+   "at": [
+    -48,
+    0,
+    42
+   ],
+   "radius": 5,
+   "count": 18
+  },
+  {
+   "at": [
+    24,
+    0,
+    -46
+   ],
+   "radius": 6,
+   "count": 26
+  },
+  {
+   "at": [
+    48,
+    0,
+    -42
+   ],
+   "radius": 5,
+   "count": 18
+  }
+ ],
+ "fog": true,
+ "neutral_buildings": [
+  {
+   "id": "karvonsaroy",
+   "at": [
+    -12,
+    0,
+    -12
+   ]
+  },
+  {
+   "id": "choyxona",
+   "at": [
+    12,
+    0,
+    12
+   ]
+  }
+ ],
+ "creep_camps": [
+  {
+   "at": [
+    -14,
+    0,
+    38
+   ],
+   "units": [
+    {
+     "id": "qaroqchi",
+     "count": 2
+    },
+    {
+     "id": "qaroqchi_kamonchi",
+     "count": 1
+    }
+   ],
+   "drop": "oddiy"
+  },
+  {
+   "at": [
+    14,
+    0,
+    -38
+   ],
+   "units": [
+    {
+     "id": "qaroqchi",
+     "count": 2
+    },
+    {
+     "id": "qaroqchi_kamonchi",
+     "count": 1
+    }
+   ],
+   "drop": "oddiy"
+  },
+  {
+   "at": [
+    -42,
+    0,
+    6
+   ],
+   "units": [
+    {
+     "id": "tosh_golem",
+     "count": 1
+    },
+    {
+     "id": "lanatli_jangchi",
+     "count": 2
+    }
+   ],
+   "drop": "noyob"
+  },
+  {
+   "at": [
+    42,
+    0,
+    -6
+   ],
+   "units": [
+    {
+     "id": "tosh_golem",
+     "count": 1
+    },
+    {
+     "id": "lanatli_jangchi",
+     "count": 2
+    }
+   ],
+   "drop": "noyob"
+  },
+  {
+   "at": [
+    0,
+    0,
+    26
+   ],
+   "units": [
+    {
+     "id": "qadimgi_qoriqchi",
+     "count": 1
+    },
+    {
+     "id": "lanatli_jangchi",
+     "count": 2
+    }
+   ],
+   "drop": "afsonaviy"
+  },
+  {
+   "at": [
+    0,
+    0,
+    -26
+   ],
+   "units": [
+    {
+     "id": "tosh_golem",
+     "count": 2
+    }
+   ],
+   "drop": "epik"
+  },
+  {
+   "at": [
+    0,
+    0,
+    0
+   ],
+   "units": [
+    {
+     "id": "qadimgi_qoriqchi",
+     "count": 2
+    },
+    {
+     "id": "tosh_golem",
+     "count": 2
+    }
+   ],
+   "drop": "afsonaviy"
+  }
+ ],
+ "auto_start": true,
+ "player_base": [
+  -36,
+  0,
+  34
+ ],
+ "enemy_base": [
+  36,
+  0,
+  -34
+ ],
+ "difficulty": "qiyin",
+ "choices": [
+  {
+   "question": "Qaysi saltanat bilan oxirgi jangga kirasiz?",
+   "options": [
+    {
+     "text": "Odamlar",
+     "set": {
+      "player_faction": "odamlar",
+      "enemy_faction": "yalmogiz"
+     }
+    },
+    {
+     "text": "Trollar",
+     "set": {
+      "player_faction": "trollar",
+      "enemy_faction": "yalmogiz"
+     }
+    },
+    {
+     "text": "Elflar",
+     "set": {
+      "player_faction": "elflar",
+      "enemy_faction": "yalmogiz"
+     }
+    },
+    {
+     "text": "Yalmog'iz",
+     "set": {
+      "player_faction": "yalmogiz",
+      "enemy_faction": "odamlar"
+     }
+    }
+   ]
+  },
+  {
+   "question": "G'alabadan keyin Yer Yuragini nima qilasiz?",
+   "options": [
+    {
+     "text": "Bo'laklarni to'rt saltanatga qaytarish",
+     "set": {
+      "outro": "final_end_peace"
+     }
+    },
+    {
+     "text": "Yurakni o'zim uchun olish",
+     "set": {
+      "outro": "final_end_power"
+     }
+    }
+   ]
+  }
+ ],
+ "triggers": [
+  {
+   "when": {
+    "time": 2
+   },
+   "do": [
+    {
+     "say": [
+      "Hikoyachi",
+      "Yer Yuragi xaritaning markazida uyg'ondi. To'rt saltanat qo'shinlari unga qarab yo'l oldi."
+     ],
+     "team": 0
+    }
+   ]
+  },
+  {
+   "when": {
+    "time": 10
+   },
+   "do": [
+    {
+     "say": [
+      "Hikoyachi",
+      "Markazdagi qadimgi qo'riqchilar Yurakni saqlaydi. Ularni yengganga Yurak kuch beradi."
+     ],
+     "team": 0
+    }
+   ]
+  },
+  {
+   "when": {
+    "time": 1
+   },
+   "do": [
+    {
+     "reveal": [
+      0,
+      0,
+      10
+     ],
+     "reveal_time": 20
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "id": "olimxon",
+ "hero": true,
+ "faction": "yalmogiz",
+ "name": "Olimxon",
+ "title": "Qora Qarg'alar Hukmdori",
+ "role": "Do'st qahramoni — tun va qarg'alar",
+ "armor_type": "qahramon",
+ "attack_type": "qahramon",
+ "cost": {
+  "oltin": 300,
+  "yogoch": 80
+ },
+ "food": 5,
+ "train_time": 30,
+ "acquire_range": 10,
+ "radius": 0.55,
+ "bar_height": 3.0,
+ "sight": 12,
+ "friend": true,
+ "voice_select": [
+  "Olimxon shu yerda.",
+  "Tun — mening do'stim."
+ ],
+ "voice_move": [
+  "Oldinga!"
+ ],
+ "voice_attack": [
+  "Qarg'alar, hujum!"
+ ],
+ "hp": 540,
+ "mana": 280,
+ "mana_regen": 0.9,
+ "hp_regen": 1.0,
+ "damage": [
+  22,
+  28
+ ],
+ "armor": 3,
+ "attack_range": 7.0,
+ "attack_cooldown": 1.5,
+ "move_speed": 3.5,
+ "growth": {
+  "hp": 62,
+  "mana": 26,
+  "damage": 2.8,
+  "armor": 0.4
+ },
+ "look": {
+  "body": "human",
+  "scale": 1.15,
+  "model": "kaykit/characters/Rogue_Hooded.glb",
+  "hide": [
+   "Knife_Offhand",
+   "1H_Crossbow",
+   "Knife",
+   "Throwable"
+  ],
+  "tint": "#7a7aa0",
+  "anims": {
+   "attack": "2H_Ranged_Shoot",
+   "ranged": "2H_Ranged_Shoot"
+  }
+ },
+ "abilities": [
+  {
+   "id": "qarga_galasi",
+   "name": "Qarg'a Galasi",
+   "desc": "Qarg'alar galasi hududga hujum qiladi",
+   "kind": "point",
+   "effect": "aoe",
+   "range": 10,
+   "radius": 3.5,
+   "mana": [
+    80,
+    90,
+    100
+   ],
+   "cooldown": [
+    11,
+    10,
+    9
+   ],
+   "damage": [
+    70,
+    130,
+    190
+   ]
+  },
+  {
+   "id": "soya_qadami",
+   "name": "Soya Qadami",
+   "desc": "Soyaga kirib, boshqa joyda chiqadi",
+   "kind": "point",
+   "effect": "blink",
+   "range": [
+    9,
+    12,
+    15
+   ],
+   "mana": [
+    55,
+    55,
+    55
+   ],
+   "cooldown": [
+    12,
+    10,
+    8
+   ]
+  },
+  {
+   "id": "kechki_koz",
+   "name": "Kechki Ko'z",
+   "desc": "Qarg'a ko'zi bilan hududni ochadi",
+   "kind": "point",
+   "effect": "reveal",
+   "range": 35,
+   "radius": 10,
+   "duration": [
+    15,
+    20,
+    25
+   ],
+   "mana": [
+    40,
+    40,
+    40
+   ],
+   "cooldown": [
+    16,
+    14,
+    12
+   ]
+  },
+  {
+   "id": "abadiy_tun",
+   "name": "Abadiy Tun",
+   "desc": "ULTI: tun tushadi, dushmanlar zaiflashadi va sekinlashadi",
+   "kind": "none",
+   "effect": "enemy_debuff",
+   "ult": true,
+   "radius": 20,
+   "debuff": "weak",
+   "value": [
+    0.35,
+    0.45
+   ],
+   "duration": [
+    10,
+    14
+   ],
+   "slow": [
+    6,
+    8
+   ],
+   "night": true,
+   "mana": [
+    175,
+    175
+   ],
+   "cooldown": [
+    120,
+    100
+   ]
+  }
+ ],
+ "tags": [
+  "hero",
+  "ranged",
+  "soul"
+ ],
+ "projectile": {
+  "kind": "arrow",
+  "speed": 22,
+  "arc": 0.4
+ }
+}

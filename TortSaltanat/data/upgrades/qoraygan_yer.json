@@ -1,0 +1,16 @@
+{
+ "id": "qoraygan_yer",
+ "name": "Qoraygan yer",
+ "desc": "Qora Tuman 60% kengroq yoyiladi",
+ "levels": [
+  {
+   "cost": {
+    "oltin": 150,
+    "yogoch": 150
+   },
+   "time": 45,
+   "tier": 2
+  }
+ ],
+ "effects": []
+}

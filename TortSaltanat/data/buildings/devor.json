@@ -1,0 +1,24 @@
+{
+ "name": "Qal'a Devori",
+ "role": "To'siq — dushman yo'lini to'sadi",
+ "hp": 900,
+ "armor": 8,
+ "radius": 1.0,
+ "cost": {
+  "oltin": 20,
+  "yogoch": 25
+ },
+ "build_time": 10,
+ "bar_height": 2.6,
+ "sight": 5,
+ "model": "kaykit/medieval/wall_straight.gltf",
+ "model_scale": 1.0,
+ "id": "devor",
+ "faction": "odamlar",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "trains": [],
+ "research": [],
+ "food": 0,
+ "style": "barracks"
+}

@@ -1,0 +1,24 @@
+{
+ "name": "Troll Chodiri",
+ "faction": "trollar",
+ "role": "Oziq: +6",
+ "hp": 480,
+ "armor": 3,
+ "radius": 1.0,
+ "cost": {
+  "oltin": 80,
+  "yogoch": 20
+ },
+ "build_time": 18,
+ "food": 6,
+ "trains": [],
+ "style": "totem",
+ "bar_height": 2.6,
+ "id": "totem_ustuni",
+ "dropoff": false,
+ "armor_type": "mustahkam",
+ "sight": 9,
+ "model": "kaykit/medieval/tent.gltf",
+ "model_scale": 3.6,
+ "model_yaw": 0
+}

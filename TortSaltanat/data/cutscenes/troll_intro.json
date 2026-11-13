@@ -1,0 +1,169 @@
+{
+ "id": "troll_intro",
+ "shots": [
+  {
+   "duration": 4.5,
+   "cam": {
+    "from": [
+     0,
+     9,
+     12
+    ],
+    "to": [
+     0,
+     8,
+     10
+    ],
+    "look": [
+     0,
+     0,
+     0
+    ]
+   },
+   "env": "dark",
+   "fade_in": true,
+   "title": {
+    "t": 0.3,
+    "text": "2-bob",
+    "sub": "Tog'lar Gumburlaydi",
+    "hold": 2.8
+   }
+  },
+  {
+   "duration": 9,
+   "cam": {
+    "from": [
+     0,
+     4,
+     12
+    ],
+    "to": [
+     2,
+     3.4,
+     9
+    ],
+    "look": [
+     0,
+     2,
+     0
+    ]
+   },
+   "env": "dusk",
+   "fade_in": true,
+   "spawn": [
+    {
+     "kind": "light",
+     "id": "lava",
+     "pos": [
+      0,
+      3,
+      -6
+     ],
+     "color": "#ff5010",
+     "energy": 4.0,
+     "range": 18
+    },
+    {
+     "kind": "mist",
+     "id": "smoke",
+     "pos": [
+      0,
+      0,
+      -6
+     ],
+     "radius": 5,
+     "color": "#402020"
+    },
+    {
+     "kind": "unit",
+     "id": "qoyaqul",
+     "unit": "qoyaqul",
+     "pos": [
+      0,
+      0,
+      1
+     ],
+     "face": [
+      0,
+      0,
+      8
+     ],
+     "team": 0
+    },
+    {
+     "kind": "unit",
+     "id": "trollar",
+     "unit": "toshtish_troll",
+     "pos": [
+      0,
+      0,
+      -1.5
+     ],
+     "face": [
+      0,
+      0,
+      8
+     ],
+     "team": 0,
+     "count": 6,
+     "cols": 3,
+     "spacing": 1.4
+    }
+   ],
+   "lines": [
+    {
+     "t": 0.5,
+     "speaker": "Hikoyachi",
+     "text": "Shimoliy tog'larda ming yil uxlagan vulqonlar birdaniga uyg'ondi."
+    },
+    {
+     "t": 4.2,
+     "speaker": "Qoyaqul",
+     "text": "Ota-bobolarimiz g'orlari lava ostida qoldi. Bizga yangi makon kerak!"
+    }
+   ],
+   "actions": [
+    {
+     "t": 1.0,
+     "do": "shake",
+     "amount": 0.6
+    },
+    {
+     "t": 5.0,
+     "actor": "trollar",
+     "do": "attack",
+     "times": 1
+    }
+   ]
+  },
+  {
+   "duration": 6,
+   "cam": {
+    "from": [
+     3,
+     2.2,
+     5
+    ],
+    "to": [
+     2,
+     2.0,
+     4
+    ],
+    "look": [
+     0,
+     1.6,
+     1
+    ]
+   },
+   "clear": false,
+   "fade_out": true,
+   "lines": [
+    {
+     "t": 0.4,
+     "speaker": "Qoyaqul",
+     "text": "Janubga yuramiz. Kim yo'limizni to'ssa — tosh bilan uchrashadi!"
+    }
+   ]
+  }
+ ]
+}

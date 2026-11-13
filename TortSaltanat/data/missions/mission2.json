@@ -1,0 +1,419 @@
+{
+ "id": "mission2",
+ "title": "2-missiya: Vodiyni tiklash",
+ "objective": "Qishloqni tiklang, qo'shin to'plang va trollar qarorgohini yo'q qiling",
+ "player_faction": "odamlar",
+ "enemy_faction": "trollar",
+ "intro": "mission2_intro",
+ "outro": "mission2_end",
+ "next": "odam3",
+ "env": "day",
+ "camera_start": [
+  -33,
+  0,
+  30
+ ],
+ "resources": {
+  "oltin": 500,
+  "yogoch": 200
+ },
+ "enemy_resources": {
+  "oltin": 400,
+  "yogoch": 150
+ },
+ "ai": {
+  "economy": true,
+  "first_wave": 240,
+  "wave_size": 5,
+  "wave_growth": 2,
+  "workers": 6,
+  "heroes": true
+ },
+ "clear_spots": [
+  [
+   -36,
+   0,
+   34,
+   22
+  ],
+  [
+   36,
+   0,
+   -34,
+   22
+  ],
+  [
+   0,
+   0,
+   0,
+   10
+  ],
+  [
+   -14,
+   0,
+   38,
+   7
+  ],
+  [
+   14,
+   0,
+   -38,
+   7
+  ],
+  [
+   -42,
+   0,
+   6,
+   7
+  ],
+  [
+   42,
+   0,
+   -6,
+   7
+  ],
+  [
+   0,
+   0,
+   26,
+   7
+  ],
+  [
+   0,
+   0,
+   -26,
+   7
+  ],
+  [
+   -12,
+   0,
+   -12,
+   7
+  ],
+  [
+   12,
+   0,
+   12,
+   7
+  ]
+ ],
+ "player_buildings": [
+  {
+   "id": "qishloq_markazi",
+   "at": [
+    -36,
+    0,
+    34
+   ]
+  },
+  {
+   "id": "uy",
+   "at": [
+    -29,
+    0,
+    41
+   ]
+  },
+  {
+   "id": "uy",
+   "at": [
+    -33,
+    0,
+    43
+   ]
+  }
+ ],
+ "enemy_buildings": [
+  {
+   "id": "tosh_gor",
+   "at": [
+    36,
+    0,
+    -34
+   ]
+  },
+  {
+   "id": "totem_ustuni",
+   "at": [
+    30,
+    0,
+    -40
+   ]
+  },
+  {
+   "id": "totem_ustuni",
+   "at": [
+    41,
+    0,
+    -27
+   ]
+  },
+  {
+   "id": "jangchilar_arenasi",
+   "at": [
+    29,
+    0,
+    -28
+   ]
+  },
+  {
+   "id": "qoriqchi_tosh",
+   "at": [
+    27,
+    0,
+    -35
+   ]
+  }
+ ],
+ "player_units": [
+  {
+   "id": "alpomish",
+   "count": 1,
+   "at": [
+    -30,
+    0,
+    31
+   ]
+  },
+  {
+   "id": "dehqon",
+   "count": 5,
+   "at": [
+    -32,
+    0,
+    30
+   ]
+  },
+  {
+   "id": "navkar",
+   "count": 3,
+   "at": [
+    -30,
+    0,
+    35
+   ]
+  },
+  {
+   "id": "mergan",
+   "count": 2,
+   "at": [
+    -31,
+    0,
+    38
+   ]
+  }
+ ],
+ "enemy_units": [
+  {
+   "id": "qulbon",
+   "count": 4,
+   "at": [
+    33,
+    0,
+    -30
+   ]
+  },
+  {
+   "id": "toshtish_troll",
+   "count": 3,
+   "at": [
+    27,
+    0,
+    -24
+   ]
+  }
+ ],
+ "resource_nodes": [
+  {
+   "kind": "gold",
+   "at": [
+    -45,
+    0,
+    25
+   ],
+   "amount": 12000
+  },
+  {
+   "kind": "gold",
+   "at": [
+    45,
+    0,
+    -25
+   ],
+   "amount": 12000
+  },
+  {
+   "kind": "gold",
+   "at": [
+    2,
+    0,
+    -3
+   ],
+   "amount": 8000
+  }
+ ],
+ "forests": [
+  {
+   "at": [
+    -24,
+    0,
+    46
+   ],
+   "radius": 6,
+   "count": 26
+  },
+  {
+   "at": [
+    -48,
+    0,
+    42
+   ],
+   "radius": 5,
+   "count": 18
+  },
+  {
+   "at": [
+    24,
+    0,
+    -46
+   ],
+   "radius": 6,
+   "count": 26
+  },
+  {
+   "at": [
+    48,
+    0,
+    -42
+   ],
+   "radius": 5,
+   "count": 18
+  }
+ ],
+ "fog": true,
+ "neutral_buildings": [
+  {
+   "id": "karvonsaroy",
+   "at": [
+    -12,
+    0,
+    -12
+   ]
+  },
+  {
+   "id": "choyxona",
+   "at": [
+    12,
+    0,
+    12
+   ]
+  }
+ ],
+ "creep_camps": [
+  {
+   "at": [
+    -14,
+    0,
+    38
+   ],
+   "units": [
+    {
+     "id": "qaroqchi",
+     "count": 2
+    },
+    {
+     "id": "qaroqchi_kamonchi",
+     "count": 1
+    }
+   ],
+   "drop": "oddiy"
+  },
+  {
+   "at": [
+    14,
+    0,
+    -38
+   ],
+   "units": [
+    {
+     "id": "qaroqchi",
+     "count": 2
+    },
+    {
+     "id": "qaroqchi_kamonchi",
+     "count": 1
+    }
+   ],
+   "drop": "oddiy"
+  },
+  {
+   "at": [
+    -42,
+    0,
+    6
+   ],
+   "units": [
+    {
+     "id": "tosh_golem",
+     "count": 1
+    },
+    {
+     "id": "lanatli_jangchi",
+     "count": 2
+    }
+   ],
+   "drop": "noyob"
+  },
+  {
+   "at": [
+    42,
+    0,
+    -6
+   ],
+   "units": [
+    {
+     "id": "tosh_golem",
+     "count": 1
+    },
+    {
+     "id": "lanatli_jangchi",
+     "count": 2
+    }
+   ],
+   "drop": "noyob"
+  },
+  {
+   "at": [
+    0,
+    0,
+    26
+   ],
+   "units": [
+    {
+     "id": "qadimgi_qoriqchi",
+     "count": 1
+    },
+    {
+     "id": "lanatli_jangchi",
+     "count": 2
+    }
+   ],
+   "drop": "afsonaviy"
+  },
+  {
+   "at": [
+    0,
+    0,
+    -26
+   ],
+   "units": [
+    {
+     "id": "tosh_golem",
+     "count": 2
+    }
+   ],
+   "drop": "epik"
+  }
+ ],
+ "difficulty": "orta"
+}

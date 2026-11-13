@@ -1,0 +1,65 @@
+{
+ "name": "Kumush Kamonchi",
+ "role": "Eng uzoq otuvchi",
+ "hp": 250,
+ "armor": 0,
+ "damage": [
+  16,
+  20
+ ],
+ "attack_type": "teshuvchi",
+ "attack_range": 10.0,
+ "attack_cooldown": 1.5,
+ "projectile": {
+  "kind": "arrow",
+  "speed": 26,
+  "arc": 0.9
+ },
+ "cost": {
+  "oltin": 130,
+  "yogoch": 20
+ },
+ "food": 2,
+ "train_time": 17,
+ "tags": [
+  "ranged",
+  "armored",
+  "archer",
+  "elf"
+ ],
+ "sight": 13,
+ "look": {
+  "body": "elf",
+  "model": "kaykit/characters/Rogue_Hooded.glb",
+  "hide": [
+   "Knife_Offhand",
+   "1H_Crossbow",
+   "Knife",
+   "Throwable"
+  ],
+  "tint": "#dde8ff",
+  "anims": {
+   "attack": "2H_Ranged_Shoot",
+   "ranged": "2H_Ranged_Shoot",
+   "idle": "2H_Ranged_Aiming"
+  }
+ },
+ "voice_select": [
+  "Ko'zim oydek.",
+  "Kamon tayyor."
+ ],
+ "voice_attack": [
+  "Kumush o'q!"
+ ],
+ "id": "kumush_kamonchi",
+ "faction": "elflar",
+ "hp_regen": 0.3,
+ "acquire_range": 9,
+ "radius": 0.5,
+ "bar_height": 2.6,
+ "armor_type": "orta",
+ "move_speed": 3.2,
+ "voice_move": [
+  "Boraman!"
+ ]
+}

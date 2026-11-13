@@ -1,0 +1,71 @@
+{
+ "id": "qulbon",
+ "name": "Qulbon",
+ "faction": "trollar",
+ "role": "Ishchi — yig'adi va quradi",
+ "hp": 260,
+ "hp_regen": 1.0,
+ "armor": 0,
+ "armor_type": "orta",
+ "damage": [
+  6,
+  8
+ ],
+ "attack_type": "oddiy",
+ "attack_range": 0.9,
+ "attack_cooldown": 1.9,
+ "move_speed": 2.9,
+ "acquire_range": 0,
+ "radius": 0.45,
+ "bar_height": 2.2,
+ "cost": {
+  "oltin": 75
+ },
+ "food": 1,
+ "train_time": 12,
+ "worker": {
+  "carry": 15,
+  "gold_time": 1.9,
+  "wood_time": 2.9
+ },
+ "look": {
+  "body": "troll",
+  "scale": 0.9,
+  "cloth": "#5a4a30",
+  "armor": "#7d7d7d",
+  "weapon": "axe",
+  "tusks": true,
+  "model": "kaykit/characters/Barbarian.glb",
+  "hide": [
+   "1H_Axe_Offhand",
+   "Barbarian_Round_Shield",
+   "2H_Axe",
+   "Mug",
+   "Barbarian_Cape"
+  ],
+  "tint": "#9ad08a",
+  "model_scale": 0.82,
+  "anims": {
+   "attack": "1H_Melee_Attack_Chop",
+   "idle": "Unarmed_Idle",
+   "walk": "Walking_C"
+  }
+ },
+ "voice_select": [
+  "Uh?",
+  "Qulbon shu yerda."
+ ],
+ "voice_move": [
+  "Uh-uh."
+ ],
+ "voice_attack": [
+  "Grr!"
+ ],
+ "voice_work": [
+  "Ishlayman..."
+ ],
+ "sight": 9,
+ "tags": [
+  "worker"
+ ]
+}

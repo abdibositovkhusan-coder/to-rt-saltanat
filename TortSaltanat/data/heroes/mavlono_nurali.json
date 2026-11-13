@@ -1,0 +1,169 @@
+{
+ "name": "Mavlono Nurali",
+ "title": "Rasadxona Allomasi",
+ "faction": "odamlar",
+ "role": "Qahramon — sehrgar",
+ "hp": 460,
+ "mana": 300,
+ "mana_regen": 1.1,
+ "hp_regen": 0.6,
+ "damage": [
+  18,
+  24
+ ],
+ "attack_type": "qahramon",
+ "armor": 2,
+ "armor_type": "qahramon",
+ "attack_range": 7.0,
+ "attack_cooldown": 1.8,
+ "move_speed": 3.2,
+ "acquire_range": 10,
+ "radius": 0.45,
+ "bar_height": 2.8,
+ "sight": 13,
+ "cost": {
+  "oltin": 300,
+  "yogoch": 80
+ },
+ "food": 5,
+ "train_time": 30,
+ "projectile": {
+  "kind": "magic",
+  "speed": 20,
+  "arc": 0.3
+ },
+ "growth": {
+  "hp": 50,
+  "mana": 30,
+  "damage": 2,
+  "armor": 0.3
+ },
+ "tags": [
+  "caster",
+  "ranged",
+  "hero"
+ ],
+ "look": {
+  "body": "human",
+  "scale": 1.15,
+  "cloth": "#3a5fbf",
+  "weapon": "staff",
+  "glow": "#d0c0ff",
+  "model": "kaykit/characters/Mage.glb",
+  "hide": [
+   "Spellbook",
+   "Spellbook_open",
+   "1H_Wand"
+  ],
+  "tint": "#d8c8ff",
+  "anims": {
+   "attack": "Spellcast_Shoot",
+   "ranged": "Spellcast_Shoot"
+  }
+ },
+ "abilities": [
+  {
+   "id": "meteor",
+   "name": "Meteor",
+   "desc": "Osmondan meteor tushadi: zarar va karaxtlik",
+   "kind": "point",
+   "effect": "aoe",
+   "range": 11,
+   "radius": 3.0,
+   "delay": 1.0,
+   "mana": [
+    90,
+    105,
+    120
+   ],
+   "cooldown": [
+    12,
+    11,
+    10
+   ],
+   "damage": [
+    90,
+    170,
+    250
+   ],
+   "stun": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "id": "vaqt_sekinlashuvi",
+   "name": "Vaqt Sekinlashuvi",
+   "desc": "Hududdagi dushmanlar sekinlashadi",
+   "kind": "point",
+   "effect": "enemy_debuff",
+   "range": 10,
+   "radius": 4.0,
+   "mana": [
+    75,
+    75,
+    75
+   ],
+   "cooldown": [
+    16,
+    15,
+    14
+   ],
+   "debuff": "slow",
+   "duration": [
+    4,
+    6,
+    8
+   ]
+  },
+  {
+   "id": "bilim_nuri",
+   "name": "Bilim Nuri",
+   "desc": "Passiv aura: ittifoqchi qahramonlar manasi tezroq tiklanadi",
+   "kind": "passive",
+   "effect": "aura",
+   "buff": "mana_regen",
+   "value": [
+    0.5,
+    1.0,
+    1.5
+   ],
+   "radius": 10
+  },
+  {
+   "id": "quyosh_tutilishi",
+   "name": "Quyosh Tutilishi",
+   "desc": "ULTI: atrofdagi dushmanlar hujum qila olmaydi",
+   "kind": "none",
+   "effect": "enemy_debuff",
+   "ult": true,
+   "radius": 12,
+   "mana": [
+    175,
+    175
+   ],
+   "cooldown": [
+    120,
+    100
+   ],
+   "debuff": "disarm",
+   "duration": [
+    6,
+    9
+   ]
+  }
+ ],
+ "voice_select": [
+  "Yulduzlar yo'l ko'rsatadi.",
+  "Ilm — nur!"
+ ],
+ "voice_move": [
+  "Boraman."
+ ],
+ "voice_attack": [
+  "Osmon hukmi!"
+ ],
+ "id": "mavlono_nurali",
+ "hero": true
+}

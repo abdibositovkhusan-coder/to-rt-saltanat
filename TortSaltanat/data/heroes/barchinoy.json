@@ -1,0 +1,170 @@
+{
+ "name": "Barchinoy",
+ "title": "Ot Ustasi",
+ "faction": "odamlar",
+ "role": "Qahramon — merganlik va tezlik",
+ "hp": 520,
+ "mana": 255,
+ "mana_regen": 0.8,
+ "hp_regen": 0.8,
+ "damage": [
+  22,
+  28
+ ],
+ "attack_type": "qahramon",
+ "armor": 3,
+ "armor_type": "qahramon",
+ "attack_range": 7.0,
+ "attack_cooldown": 1.4,
+ "move_speed": 3.7,
+ "acquire_range": 10,
+ "radius": 0.5,
+ "bar_height": 2.8,
+ "sight": 13,
+ "cost": {
+  "oltin": 300,
+  "yogoch": 80
+ },
+ "food": 5,
+ "train_time": 30,
+ "projectile": {
+  "kind": "arrow",
+  "speed": 26,
+  "arc": 0.6
+ },
+ "growth": {
+  "hp": 60,
+  "mana": 20,
+  "damage": 3,
+  "armor": 0.5
+ },
+ "tags": [
+  "ranged",
+  "hero"
+ ],
+ "look": {
+  "body": "human",
+  "scale": 1.15,
+  "cloth": "#8a2a3a",
+  "weapon": "bow",
+  "model": "kaykit/characters/Rogue.glb",
+  "hide": [
+   "Knife_Offhand",
+   "1H_Crossbow",
+   "Knife",
+   "Throwable"
+  ],
+  "anims": {
+   "attack": "2H_Ranged_Shoot",
+   "ranged": "2H_Ranged_Shoot",
+   "walk": "Running_B"
+  }
+ },
+ "abilities": [
+  {
+   "id": "chopqir_hujum",
+   "name": "Chopqir Hujum",
+   "desc": "Nishonga otilib borib uradi",
+   "kind": "unit",
+   "effect": "dash",
+   "target": "enemy",
+   "range": 10,
+   "mana": [
+    70,
+    70,
+    70
+   ],
+   "cooldown": [
+    12,
+    11,
+    10
+   ],
+   "damage": [
+    60,
+    120,
+    180
+   ],
+   "stun": [
+    0.5,
+    0.75,
+    1.0
+   ]
+  },
+  {
+   "id": "kamon_otishma",
+   "name": "Kamon Otishma",
+   "desc": "Hududga o'qlar yomg'iri",
+   "kind": "point",
+   "effect": "aoe",
+   "range": 10,
+   "radius": 3.5,
+   "mana": [
+    85,
+    95,
+    105
+   ],
+   "cooldown": [
+    14,
+    13,
+    12
+   ],
+   "damage": [
+    80,
+    140,
+    200
+   ]
+  },
+  {
+   "id": "otlar_hamdardligi",
+   "name": "Otlar Hamdardligi",
+   "desc": "Passiv aura: ittifoqchilar tezroq yuradi",
+   "kind": "passive",
+   "effect": "aura",
+   "buff": "speed_bonus",
+   "value": [
+    0.1,
+    0.15,
+    0.2
+   ],
+   "radius": 10
+  },
+  {
+   "id": "kopkari",
+   "name": "Ko'pkari",
+   "desc": "ULTI: dushmanni ushlab, o'z tomoniga sudrab keladi",
+   "kind": "unit",
+   "effect": "pull",
+   "target": "enemy",
+   "ult": true,
+   "range": 12,
+   "mana": [
+    125,
+    125
+   ],
+   "cooldown": [
+    90,
+    70
+   ],
+   "damage": [
+    200,
+    320
+   ],
+   "stun": [
+    2.0,
+    3.0
+   ]
+  }
+ ],
+ "voice_select": [
+  "Barchinoy tayyor!",
+  "Otim shamoldan tez!"
+ ],
+ "voice_move": [
+  "Chopdik!"
+ ],
+ "voice_attack": [
+  "O'q nishonda!"
+ ],
+ "id": "barchinoy",
+ "hero": true
+}

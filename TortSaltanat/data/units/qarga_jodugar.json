@@ -1,0 +1,73 @@
+{
+ "name": "Qarg'a Jodugar",
+ "role": "Sehrgar — skeletlar chaqiradi",
+ "hp": 300,
+ "armor": 0,
+ "armor_type": "yengil",
+ "damage": [
+  10,
+  13
+ ],
+ "attack_type": "sehrli",
+ "attack_range": 7.0,
+ "attack_cooldown": 1.8,
+ "projectile": {
+  "kind": "magic_purple",
+  "speed": 17,
+  "arc": 0.4,
+  "slow": 2.0
+ },
+ "summoner": {
+  "unit": "suyak_askar",
+  "cooldown": 14,
+  "life": 35,
+  "max": 2
+ },
+ "cost": {
+  "oltin": 150,
+  "yogoch": 50
+ },
+ "food": 2,
+ "train_time": 24,
+ "requires": {
+  "tier": 2,
+  "buildings": [
+   "jodugarlar_qozoni"
+  ]
+ },
+ "tags": [
+  "caster",
+  "ranged"
+ ],
+ "look": {
+  "body": "human",
+  "model": "kaykit/characters/Mage.glb",
+  "hide": [
+   "Spellbook",
+   "Spellbook_open",
+   "1H_Wand"
+  ],
+  "tint": "#8a6aaa",
+  "anims": {
+   "attack": "Spellcast_Shoot",
+   "ranged": "Spellcast_Shoot"
+  }
+ },
+ "voice_select": [
+  "Qarg'alar qag'illaydi..."
+ ],
+ "voice_attack": [
+  "Turinglar, o'liklar!"
+ ],
+ "id": "qarga_jodugar",
+ "faction": "yalmogiz",
+ "hp_regen": 0.3,
+ "acquire_range": 9,
+ "radius": 0.5,
+ "bar_height": 2.6,
+ "sight": 10,
+ "move_speed": 3.2,
+ "voice_move": [
+  "Boraman!"
+ ]
+}

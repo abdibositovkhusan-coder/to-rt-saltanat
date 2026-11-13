@@ -1,0 +1,16 @@
+{
+ "id": "chuqur_ildizlar",
+ "name": "Chuqur ildizlar",
+ "desc": "Ildiz tarmog'i masofasi +50%",
+ "levels": [
+  {
+   "cost": {
+    "oltin": 150,
+    "yogoch": 150
+   },
+   "time": 45,
+   "tier": 2
+  }
+ ],
+ "effects": []
+}

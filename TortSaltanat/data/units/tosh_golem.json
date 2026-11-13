@@ -1,0 +1,36 @@
+{
+ "name": "Tosh Golem",
+ "role": "Neytral — jonlangan qoya",
+ "hp": 900,
+ "hp_regen": 0.5,
+ "armor": 4,
+ "armor_type": "ogir",
+ "damage": [
+  24,
+  30
+ ],
+ "attack_type": "oddiy",
+ "attack_range": 1.2,
+ "attack_cooldown": 2.0,
+ "move_speed": 2.4,
+ "radius": 0.8,
+ "bar_height": 3.6,
+ "xp": 110,
+ "bounty": 40,
+ "look": {
+  "body": "troll",
+  "scale": 1.7,
+  "skin": "#8a8580",
+  "cloth": "#5a5550",
+  "armor": "#6a6560",
+  "weapon": "none",
+  "eyes": "#ffb040"
+ },
+ "id": "tosh_golem",
+ "faction": "neytral",
+ "food": 0,
+ "tags": [],
+ "acquire_range": 6,
+ "leash": 14,
+ "sight": 8
+}

@@ -1,0 +1,65 @@
+{
+ "name": "Gulchi",
+ "role": "Ishchi — daraxtni kesmay nektar yig'adi",
+ "hp": 220,
+ "damage": [
+  5,
+  7
+ ],
+ "attack_range": 0.8,
+ "attack_cooldown": 1.8,
+ "move_speed": 3.3,
+ "acquire_range": 0,
+ "radius": 0.4,
+ "bar_height": 2.2,
+ "cost": {
+  "oltin": 75
+ },
+ "food": 1,
+ "train_time": 12,
+ "worker": {
+  "carry": 8,
+  "gold_time": 1.7,
+  "wood_time": 2.6,
+  "infinite_wood": true
+ },
+ "tags": [
+  "worker",
+  "elf"
+ ],
+ "sight": 9,
+ "look": {
+  "body": "elf",
+  "model": "kaykit/characters/Rogue_Hooded.glb",
+  "hide": [
+   "Knife_Offhand",
+   "1H_Crossbow",
+   "Knife",
+   "Throwable"
+  ],
+  "tint": "#c8f0c8",
+  "model_scale": 0.78,
+  "anims": {
+   "attack": "Interact",
+   "idle": "Idle"
+  }
+ },
+ "voice_select": [
+  "Gullar kuylaydi.",
+  "Ha?"
+ ],
+ "voice_move": [
+  "Boraman."
+ ],
+ "voice_work": [
+  "Nektar yig'aman."
+ ],
+ "id": "gulchi",
+ "faction": "elflar",
+ "hp_regen": 0.3,
+ "armor_type": "orta",
+ "attack_type": "oddiy",
+ "voice_attack": [
+  "Hujum!"
+ ]
+}

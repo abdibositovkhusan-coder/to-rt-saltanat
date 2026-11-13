@@ -1,0 +1,40 @@
+{
+ "id": "suyak_sovut",
+ "name": "Suyak sovut",
+ "desc": "Sovut +2",
+ "levels": [
+  {
+   "cost": {
+    "oltin": 125,
+    "yogoch": 75
+   },
+   "time": 40,
+   "tier": 1
+  },
+  {
+   "cost": {
+    "oltin": 200,
+    "yogoch": 125
+   },
+   "time": 50,
+   "tier": 2
+  },
+  {
+   "cost": {
+    "oltin": 275,
+    "yogoch": 175
+   },
+   "time": 60,
+   "tier": 3
+  }
+ ],
+ "effects": [
+  {
+   "tags": [
+    "armored"
+   ],
+   "stat": "armor",
+   "add": 2
+  }
+ ]
+}

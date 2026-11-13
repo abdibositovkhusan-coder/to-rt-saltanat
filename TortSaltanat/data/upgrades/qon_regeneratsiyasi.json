@@ -1,0 +1,24 @@
+{
+ "id": "qon_regeneratsiyasi",
+ "name": "Qon regeneratsiyasi",
+ "desc": "Trollar tiklanishi +1.5/s",
+ "levels": [
+  {
+   "cost": {
+    "oltin": 150,
+    "yogoch": 100
+   },
+   "time": 45,
+   "tier": 2
+  }
+ ],
+ "effects": [
+  {
+   "tags": [
+    "rage"
+   ],
+   "stat": "regen",
+   "add": 1.5
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "id": "yalmogiz_kampir",
+ "hero": true,
+ "faction": "yalmogiz",
+ "name": "Yalmog'iz Kampir",
+ "title": "Qozon Bekasi",
+ "role": "Qahramon — jodugar",
+ "armor_type": "qahramon",
+ "attack_type": "qahramon",
+ "cost": {
+  "oltin": 300,
+  "yogoch": 80
+ },
+ "food": 5,
+ "train_time": 30,
+ "acquire_range": 10,
+ "radius": 0.55,
+ "bar_height": 3.0,
+ "sight": 12,
+ "friend": false,
+ "voice_select": [
+  "He-he-he...",
+  "Qozon qaynayapti!"
+ ],
+ "voice_move": [
+  "Oldinga!"
+ ],
+ "voice_attack": [
+  "La'nat senga!"
+ ],
+ "hp": 470,
+ "mana": 300,
+ "mana_regen": 0.9,
+ "hp_regen": 1.0,
+ "damage": [
+  18,
+  24
+ ],
+ "armor": 2,
+ "attack_range": 7.0,
+ "attack_cooldown": 1.8,
+ "move_speed": 3.2,
+ "growth": {
+  "hp": 55,
+  "mana": 30,
+  "damage": 2,
+  "armor": 0.3
+ },
+ "look": {
+  "body": "human",
+  "scale": 1.05,
+  "model": "kaykit/characters/Mage.glb",
+  "hide": [
+   "Spellbook",
+   "Spellbook_open",
+   "1H_Wand"
+  ],
+  "tint": "#c8b090",
+  "anims": {
+   "attack": "Spellcast_Shoot",
+   "ranged": "Spellcast_Shoot"
+  }
+ },
+ "abilities": [
+  {
+   "id": "qozon_qaynashi",
+   "name": "Qozon Qaynashi",
+   "desc": "Qaynoq zahar sachratadi",
+   "kind": "point",
+   "effect": "aoe",
+   "range": 9,
+   "radius": 3.0,
+   "mana": [
+    85,
+    95,
+    105
+   ],
+   "cooldown": [
+    11,
+    10,
+    9
+   ],
+   "damage": [
+    80,
+    140,
+    200
+   ]
+  },
+  {
+   "id": "supurgi_parvozi",
+   "name": "Supurgi Parvozi",
+   "desc": "Supurgida uchib, boshqa joyga o'tadi",
+   "kind": "point",
+   "effect": "blink",
+   "range": [
+    10,
+    13,
+    16
+   ],
+   "mana": [
+    60,
+    60,
+    60
+   ],
+   "cooldown": [
+    14,
+    12,
+    10
+   ]
+  },
+  {
+   "id": "lanat",
+   "name": "La'nat",
+   "desc": "Hududdagi dushmanlar zaiflashadi (kamroq zarar beradi)",
+   "kind": "point",
+   "effect": "enemy_debuff",
+   "range": 9,
+   "radius": 4,
+   "debuff": "weak",
+   "value": [
+    0.25,
+    0.3,
+    0.35
+   ],
+   "duration": [
+    6,
+    8,
+    10
+   ],
+   "mana": [
+    70,
+    70,
+    70
+   ],
+   "cooldown": [
+    15,
+    14,
+    13
+   ]
+  },
+  {
+   "id": "tovuq_oyoqli_qala",
+   "name": "Tovuq Oyoqli Qal'a",
+   "desc": "ULTI: yuruvchi kulbalarni chaqiradi",
+   "kind": "none",
+   "effect": "summon",
+   "ult": true,
+   "unit": "tovuq_oyoqli_kulba",
+   "count": [
+    1,
+    2
+   ],
+   "life": [
+    40,
+    50
+   ],
+   "mana": [
+    150,
+    150
+   ],
+   "cooldown": [
+    120,
+    100
+   ]
+  }
+ ],
+ "tags": [
+  "hero",
+  "ranged",
+  "caster",
+  "soul"
+ ],
+ "projectile": {
+  "kind": "magic",
+  "speed": 22,
+  "arc": 0.4
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "id": "elf3_end",
+ "shots": [
+  {
+   "duration": 12.200000000000001,
+   "cam": {
+    "from": [
+     0,
+     2.8,
+     8.5
+    ],
+    "to": [
+     0.8,
+     2.4,
+     7.0
+    ],
+    "look": [
+     0,
+     1.3,
+     0
+    ]
+   },
+   "env": "dusk",
+   "fade_in": true,
+   "fade_out": true,
+   "spawn": [
+    {
+     "kind": "unit",
+     "id": "l0",
+     "unit": "oydinoy",
+     "pos": [
+      -2.2,
+      0,
+      1.2
+     ],
+     "face": [
+      4,
+      0,
+      0.5
+     ],
+     "team": 0
+    },
+    {
+     "kind": "unit",
+     "id": "l1",
+     "unit": "shamshod",
+     "pos": [
+      -3.8000000000000003,
+      0,
+      0.29999999999999993
+     ],
+     "face": [
+      4,
+      0,
+      0.5
+     ],
+     "team": 0
+    },
+    {
+     "kind": "unit",
+     "id": "r0",
+     "unit": "ulugbek",
+     "pos": [
+      2.2,
+      0,
+      1.2
+     ],
+     "face": [
+      -4,
+      0,
+      0.5
+     ],
+     "team": 0
+    }
+   ],
+   "lines": [
+    {
+     "t": 0.6,
+     "speaker": "Ulug'bek",
+     "text": "Rahmat, o'rmon farzandlari. Yulduzlar menga ko'p narsani aytdi."
+    },
+    {
+     "t": 4.2,
+     "speaker": "Ulug'bek",
+     "text": "To'rt bo'lak to'rt saltanatda. Kashshey ikkitasini olgan, uchinchisi — sizning o'rmoningizda."
+    },
+    {
+     "t": 7.8,
+     "speaker": "Oydinoy",
+     "text": "Unda trollar bizga dushman emas... Ular ham aldangan."
+    }
+   ]
+  }
+ ]
+}

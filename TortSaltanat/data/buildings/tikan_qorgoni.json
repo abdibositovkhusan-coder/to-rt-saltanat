@@ -1,0 +1,40 @@
+{
+ "name": "Tikan Qo'rg'oni",
+ "role": "Mudofaa minorasi",
+ "hp": 600,
+ "radius": 1.2,
+ "cost": {
+  "oltin": 110,
+  "yogoch": 80
+ },
+ "build_time": 25,
+ "bar_height": 5.8,
+ "sight": 14,
+ "attack": {
+  "damage": [
+   18,
+   22
+  ],
+  "attack_type": "teshuvchi",
+  "range": 10.0,
+  "cooldown": 1.1,
+  "fire_height": 4.6,
+  "projectile": {
+   "kind": "arrow",
+   "speed": 24,
+   "arc": 0.8
+  }
+ },
+ "model": "kaykit/medieval/building_tower_A_green.gltf",
+ "model_scale": 2.2,
+ "tint": "#d0f0e0",
+ "id": "tikan_qorgoni",
+ "faction": "elflar",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "trains": [],
+ "research": [],
+ "food": 0,
+ "style": "barracks",
+ "armor": 5
+}

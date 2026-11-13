@@ -1,0 +1,176 @@
+{
+ "id": "elf_intro",
+ "shots": [
+  {
+   "duration": 4.5,
+   "cam": {
+    "from": [
+     0,
+     9,
+     12
+    ],
+    "to": [
+     0,
+     8,
+     10
+    ],
+    "look": [
+     0,
+     0,
+     0
+    ]
+   },
+   "env": "dark",
+   "fade_in": true,
+   "title": {
+    "t": 0.3,
+    "text": "3-bob",
+    "sub": "So'nayotgan O'rmon",
+    "hold": 2.8
+   }
+  },
+  {
+   "duration": 9,
+   "cam": {
+    "from": [
+     0,
+     3,
+     11
+    ],
+    "to": [
+     1.5,
+     2.6,
+     8.5
+    ],
+    "look": [
+     0,
+     1.6,
+     0
+    ]
+   },
+   "env": "night",
+   "fade_in": true,
+   "spawn": [
+    {
+     "kind": "forest",
+     "id": "f",
+     "pos": [
+      0,
+      0,
+      -5
+     ],
+     "radius": 6,
+     "count": 14,
+     "seed": 3
+    },
+    {
+     "kind": "mist",
+     "id": "tuman",
+     "pos": [
+      4,
+      0,
+      -4
+     ],
+     "radius": 5,
+     "color": "#3a1a50"
+    },
+    {
+     "kind": "light",
+     "id": "oy",
+     "pos": [
+      0,
+      6,
+      2
+     ],
+     "color": "#9fc8ff",
+     "energy": 2.0,
+     "range": 16
+    },
+    {
+     "kind": "unit",
+     "id": "oydinoy",
+     "unit": "oydinoy",
+     "pos": [
+      0,
+      0,
+      1.5
+     ],
+     "face": [
+      0,
+      0,
+      8
+     ],
+     "team": 0
+    },
+    {
+     "kind": "unit",
+     "id": "elflar",
+     "unit": "kumush_kamonchi",
+     "pos": [
+      0,
+      0,
+      -0.5
+     ],
+     "face": [
+      0,
+      0,
+      8
+     ],
+     "team": 0,
+     "count": 4,
+     "cols": 4,
+     "spacing": 1.4
+    }
+   ],
+   "lines": [
+    {
+     "t": 0.5,
+     "speaker": "Hikoyachi",
+     "text": "G'arbiy o'rmonlarda Qora Tuman har kecha bir qadam oldinga siljiydi."
+    },
+    {
+     "t": 4.5,
+     "speaker": "Oydinoy",
+     "text": "Tuman o'rmonni yeyapti. Agar Hayot Daraxti qursa, elflar ham yo'q bo'ladi."
+    }
+   ]
+  },
+  {
+   "duration": 6,
+   "cam": {
+    "from": [
+     -2.5,
+     2,
+     5
+    ],
+    "to": [
+     -2,
+     1.9,
+     4
+    ],
+    "look": [
+     0,
+     1.5,
+     1
+    ]
+   },
+   "clear": false,
+   "fade_out": true,
+   "lines": [
+    {
+     "t": 0.4,
+     "speaker": "Oydinoy",
+     "text": "Kamonlaringizni tayyorlang. Bu tun — bizniki."
+    }
+   ],
+   "actions": [
+    {
+     "t": 1.2,
+     "actor": "elflar",
+     "do": "attack",
+     "times": 1
+    }
+   ]
+  }
+ ]
+}

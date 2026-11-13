@@ -1,0 +1,175 @@
+{
+ "id": "final_intro",
+ "shots": [
+  {
+   "duration": 4.5,
+   "cam": {
+    "from": [
+     0,
+     9,
+     12
+    ],
+    "to": [
+     0,
+     8,
+     10
+    ],
+    "look": [
+     0,
+     0,
+     0
+    ]
+   },
+   "env": "dark",
+   "fade_in": true,
+   "title": {
+    "t": 0.3,
+    "text": "Final",
+    "sub": "Yer Yuragi",
+    "hold": 2.8
+   }
+  },
+  {
+   "duration": 10,
+   "cam": {
+    "from": [
+     0,
+     4,
+     12
+    ],
+    "to": [
+     0,
+     3,
+     8
+    ],
+    "look": [
+     0,
+     2.2,
+     0
+    ]
+   },
+   "env": "dusk",
+   "fade_in": true,
+   "spawn": [
+    {
+     "kind": "crystal",
+     "id": "yurak",
+     "pos": [
+      0,
+      2.4,
+      0
+     ],
+     "size": 1.0,
+     "color": "#ffd470",
+     "spin": 0.8
+    },
+    {
+     "kind": "light",
+     "id": "nur",
+     "pos": [
+      0,
+      2.6,
+      0
+     ],
+     "color": "#ffd470",
+     "energy": 3.0,
+     "range": 14
+    },
+    {
+     "kind": "unit",
+     "id": "odam",
+     "unit": "alpomish",
+     "pos": [
+      -5,
+      0,
+      2
+     ],
+     "face": [
+      0,
+      0,
+      0
+     ],
+     "team": 0
+    },
+    {
+     "kind": "unit",
+     "id": "troll",
+     "unit": "qoyaqul",
+     "pos": [
+      5,
+      0,
+      2
+     ],
+     "face": [
+      0,
+      0,
+      0
+     ],
+     "team": 0
+    },
+    {
+     "kind": "unit",
+     "id": "elf",
+     "unit": "oydinoy",
+     "pos": [
+      -3,
+      0,
+      5
+     ],
+     "face": [
+      0,
+      0,
+      0
+     ],
+     "team": 0
+    },
+    {
+     "kind": "unit",
+     "id": "yal",
+     "unit": "kashshey",
+     "pos": [
+      3,
+      0,
+      -4
+     ],
+     "face": [
+      0,
+      0,
+      0
+     ],
+     "team": 1
+    }
+   ],
+   "lines": [
+    {
+     "t": 0.5,
+     "speaker": "Hikoyachi",
+     "text": "To'rt bo'lak birlashdi. Ko'hna Zaminning yuragi qayta urmoqda."
+    },
+    {
+     "t": 4.0,
+     "speaker": "Kashshey",
+     "text": "Yurak meniki! Ming yil kutganman!"
+    },
+    {
+     "t": 7.0,
+     "speaker": "Alpomish",
+     "text": "Yurak hech kimniki emas. Uni bugun himoya qilamiz!"
+    }
+   ],
+   "actions": [
+    {
+     "t": 3.0,
+     "do": "shake",
+     "amount": 0.5
+    },
+    {
+     "t": 4.0,
+     "actor": "yal",
+     "do": "attack",
+     "times": 1
+    }
+   ]
+  }
+ ]
+}

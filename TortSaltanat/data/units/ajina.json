@@ -1,0 +1,50 @@
+{
+ "name": "Ajina",
+ "role": "Tez jin — kichik va xavfli",
+ "hp": 330,
+ "armor": 1,
+ "damage": [
+  11,
+  13
+ ],
+ "attack_range": 0.9,
+ "attack_cooldown": 1.0,
+ "move_speed": 4.0,
+ "cost": {
+  "oltin": 110
+ },
+ "food": 2,
+ "train_time": 15,
+ "tags": [
+  "melee",
+  "armored"
+ ],
+ "look": {
+  "body": "dead",
+  "model": "kaykit/characters/Skeleton_Rogue.glb",
+  "model_scale": 0.8,
+  "tint": "#c8a8ff",
+  "anims": {
+   "attack": "1H_Melee_Attack_Stab",
+   "walk": "Running_A"
+  }
+ },
+ "voice_select": [
+  "Hi-hi-hi..."
+ ],
+ "voice_attack": [
+  "Yeyman!"
+ ],
+ "id": "ajina",
+ "faction": "yalmogiz",
+ "hp_regen": 0.3,
+ "acquire_range": 9,
+ "radius": 0.5,
+ "bar_height": 2.6,
+ "sight": 10,
+ "armor_type": "orta",
+ "attack_type": "oddiy",
+ "voice_move": [
+  "Boraman!"
+ ]
+}

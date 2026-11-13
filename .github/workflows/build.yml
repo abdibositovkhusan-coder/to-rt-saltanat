@@ -1,0 +1,104 @@
+name: APK yasash (To'rt Saltanat)
+# Har push'da: Godot 4.3 yuklab olinadi, skriptlar tekshiriladi, Android APK quriladi
+# va Releases bo'limiga yuklanadi.
+
+on: [push, workflow_dispatch]
+
+permissions:
+  contents: write
+
+env:
+  GODOT_VERSION: "4.3"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Loyihani ochish (zip bo'lsa)
+        run: |
+          if [ -f TortSaltanat.zip ]; then unzip -o -q TortSaltanat.zip; fi
+          test -f TortSaltanat/project.godot || (echo "TortSaltanat/project.godot topilmadi" && ls -la && exit 1)
+
+      - name: 3D modellarni yuklab olish (KayKit, CC0)
+        run: bash TortSaltanat/tools/fetch_models.sh
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Godot va eksport shablonlarini yuklab olish
+        run: |
+          cd "$RUNNER_TEMP"
+          BASE="https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}-stable"
+          wget -q "$BASE/Godot_v${GODOT_VERSION}-stable_linux.x86_64.zip"
+          wget -q "$BASE/Godot_v${GODOT_VERSION}-stable_export_templates.tpz"
+          unzip -q "Godot_v${GODOT_VERSION}-stable_linux.x86_64.zip"
+          sudo mv "Godot_v${GODOT_VERSION}-stable_linux.x86_64" /usr/local/bin/godot
+          mkdir -p "$HOME/.local/share/godot/export_templates/${GODOT_VERSION}.stable"
+          unzip -q "Godot_v${GODOT_VERSION}-stable_export_templates.tpz"
+          mv templates/* "$HOME/.local/share/godot/export_templates/${GODOT_VERSION}.stable/"
+          rm -rf templates *.zip *.tpz
+          godot --version
+
+      - name: Android sozlamalari (SDK va debug kalit)
+        run: |
+          keytool -genkeypair -v -keystore "$RUNNER_TEMP/debug.keystore" -storepass android \
+            -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 \
+            -dname "CN=Android Debug,O=Android,C=US"
+          mkdir -p "$HOME/.config/godot"
+          for f in editor_settings-4.tres editor_settings-4.3.tres; do
+          cat > "$HOME/.config/godot/$f" <<EOF
+          [gd_resource type="EditorSettings" format=3]
+
+          [resource]
+          export/android/android_sdk_path = "$ANDROID_HOME"
+          export/android/java_sdk_path = "$JAVA_HOME"
+          export/android/debug_keystore = "$RUNNER_TEMP/debug.keystore"
+          export/android/debug_keystore_user = "androiddebugkey"
+          export/android/debug_keystore_pass = "android"
+          EOF
+          sed -i 's/^          //' "$HOME/.config/godot/$f"
+          done
+          cat "$HOME/.config/godot/editor_settings-4.3.tres"
+
+      - name: Resurslarni import qilish
+        working-directory: TortSaltanat
+        run: |
+          godot --headless --path . --import 2>&1 | tee import.log || true
+
+      - name: Skriptlarni tekshirish
+        working-directory: TortSaltanat
+        run: |
+          godot --headless --path . --script res://tools/check_scripts.gd 2>&1 | tee check.log
+          if grep -E "Parse Error|SCRIPT ERROR|Failed to load script|SKRIPT XATO" check.log import.log; then
+            echo "::error::Skriptlarda xato bor — yuqoridagi qatorlarni Claude'ga yuboring"
+            exit 1
+          fi
+
+      - name: APK eksport
+        working-directory: TortSaltanat
+        env:
+          GODOT_ANDROID_KEYSTORE_DEBUG_PATH: ${{ runner.temp }}/debug.keystore
+          GODOT_ANDROID_KEYSTORE_DEBUG_USER: androiddebugkey
+          GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD: android
+        run: |
+          mkdir -p build
+          godot --headless --path . --export-debug "Android" build/TortSaltanat.apk 2>&1 | tee export.log
+          test -f build/TortSaltanat.apk || (echo "::error::APK yaratilmadi" && exit 1)
+          cp build/TortSaltanat.apk ../TortSaltanat.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: TortSaltanat-apk
+          path: TortSaltanat.apk
+
+      - name: Release yaratish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "v${{ github.run_number }}" TortSaltanat.apk \
+            --title "To'rt Saltanat v1.0.${{ github.run_number }}" \
+            --notes "v1.0 - ovoz va musiqa, effektlar, statistika, do'stlar yuzlari, Google Play tayyorgarligi"

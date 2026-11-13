@@ -1,0 +1,59 @@
+{
+ "name": "Temir Tishli Ayiq",
+ "role": "Og'ir jangchi — tishlaganda qon oqadi",
+ "hp": 1000,
+ "armor": 3,
+ "armor_type": "ogir",
+ "damage": [
+  26,
+  32
+ ],
+ "attack_range": 1.2,
+ "attack_cooldown": 1.7,
+ "move_speed": 3.4,
+ "radius": 0.9,
+ "bar_height": 3.6,
+ "on_hit": {
+  "bleed": 5,
+  "bleed_time": 5
+ },
+ "cost": {
+  "oltin": 230,
+  "yogoch": 60
+ },
+ "food": 4,
+ "train_time": 32,
+ "requires": {
+  "tier": 2,
+  "buildings": [
+   "ayiq_uyasi"
+  ]
+ },
+ "tags": [
+  "melee",
+  "armored"
+ ],
+ "look": {
+  "creature": "bear",
+  "color": "#4a3a4a",
+  "accent": "#9aa0a8",
+  "eyes": "#7fff3f",
+  "size": 1.3,
+  "ring": 1.0
+ },
+ "voice_select": [
+  "Grrrr..."
+ ],
+ "voice_attack": [
+  "GRRAA!"
+ ],
+ "id": "temir_tishli_ayiq",
+ "faction": "yalmogiz",
+ "hp_regen": 0.3,
+ "acquire_range": 9,
+ "sight": 10,
+ "attack_type": "oddiy",
+ "voice_move": [
+  "Boraman!"
+ ]
+}

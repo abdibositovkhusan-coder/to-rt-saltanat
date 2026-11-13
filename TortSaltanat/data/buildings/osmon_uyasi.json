@@ -1,0 +1,30 @@
+{
+ "name": "Osmon Uyasi",
+ "role": "Humo qushlari",
+ "hp": 1000,
+ "radius": 1.6,
+ "cost": {
+  "oltin": 180,
+  "yogoch": 160
+ },
+ "build_time": 40,
+ "trains": [
+  "humo_qushi"
+ ],
+ "requires": {
+  "tier": 2
+ },
+ "bar_height": 6.0,
+ "model": "kaykit/medieval/building_tower_B_green.gltf",
+ "model_scale": 2.3,
+ "tint": "#e8fff8",
+ "id": "osmon_uyasi",
+ "faction": "elflar",
+ "armor_type": "mustahkam",
+ "dropoff": false,
+ "research": [],
+ "food": 0,
+ "sight": 9,
+ "style": "barracks",
+ "armor": 5
+}

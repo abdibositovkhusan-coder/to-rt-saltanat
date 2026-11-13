@@ -1,0 +1,72 @@
+{
+ "id": "mergan",
+ "name": "Mergan Kamonchi",
+ "faction": "odamlar",
+ "role": "Uzoqdan hujum",
+ "hp": 260,
+ "hp_regen": 0.25,
+ "armor": 0,
+ "armor_type": "orta",
+ "damage": [
+  15,
+  19
+ ],
+ "attack_type": "teshuvchi",
+ "attack_range": 9.0,
+ "attack_cooldown": 1.5,
+ "move_speed": 3.3,
+ "acquire_range": 10.0,
+ "radius": 0.4,
+ "bar_height": 2.2,
+ "projectile": {
+  "kind": "arrow",
+  "speed": 22.0,
+  "arc": 1.2
+ },
+ "look": {
+  "body": "human",
+  "scale": 0.95,
+  "cloth": "#3a6fbf",
+  "armor": "#7a5a3a",
+  "weapon": "bow",
+  "hood": true,
+  "model": "kaykit/characters/Rogue_Hooded.glb",
+  "hide": [
+   "Knife_Offhand",
+   "1H_Crossbow",
+   "Knife",
+   "Throwable"
+  ],
+  "anims": {
+   "attack": "2H_Ranged_Shoot",
+   "ranged": "2H_Ranged_Shoot",
+   "idle": "2H_Ranged_Aiming",
+   "walk": "Walking_B"
+  }
+ },
+ "voice_select": [
+  "Kamonim tayyor!",
+  "Ko'zim o'tkir!",
+  "Labbay?"
+ ],
+ "voice_move": [
+  "Joy olamiz!",
+  "Bajaraman!"
+ ],
+ "voice_attack": [
+  "Nishonga ol!",
+  "O'qlar uchsin!"
+ ],
+ "cost": {
+  "oltin": 130,
+  "yogoch": 10
+ },
+ "food": 2,
+ "train_time": 16,
+ "sight": 12,
+ "tags": [
+  "ranged",
+  "armored",
+  "archer"
+ ]
+}

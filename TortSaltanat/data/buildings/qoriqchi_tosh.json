@@ -1,0 +1,39 @@
+{
+ "id": "qoriqchi_tosh",
+ "name": "Qo'riqchi Tosh",
+ "faction": "trollar",
+ "role": "Mudofaa — dushmanga xarsang otadi",
+ "hp": 720,
+ "armor": 5,
+ "armor_type": "mustahkam",
+ "radius": 1.2,
+ "cost": {
+  "oltin": 110,
+  "yogoch": 70
+ },
+ "build_time": 25,
+ "food": 0,
+ "trains": [],
+ "dropoff": false,
+ "style": "guard_stone",
+ "bar_height": 4.4,
+ "sight": 13,
+ "attack": {
+  "damage": [
+   22,
+   28
+  ],
+  "attack_type": "oddiy",
+  "range": 9.0,
+  "cooldown": 1.6,
+  "fire_height": 3.4,
+  "projectile": {
+   "kind": "rock",
+   "speed": 15.0,
+   "arc": 2.2
+  }
+ },
+ "model": "kaykit/medieval/building_tower_catapult_red.gltf",
+ "model_scale": 2.2,
+ "model_yaw": 0
+}

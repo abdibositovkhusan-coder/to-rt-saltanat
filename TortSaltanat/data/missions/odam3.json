@@ -1,0 +1,296 @@
+{
+ "id": "odam3",
+ "title": "3-missiya: Tumandagi asir",
+ "objective": "Qarg'a jodugarlarni yo'q qilib, Barchinoyni ozod qiling",
+ "player_faction": "odamlar",
+ "enemy_faction": "yalmogiz",
+ "env": "dusk",
+ "difficulty": "orta",
+ "intro": "",
+ "outro": "odam3_end",
+ "next": "odam4",
+ "camera_start": [
+  -38,
+  0,
+  38
+ ],
+ "resources": {
+  "oltin": 0,
+  "yogoch": 0
+ },
+ "auto_waves": false,
+ "fog": true,
+ "clear_spots": [
+  [
+   -38,
+   0,
+   38,
+   10
+  ],
+  [
+   0,
+   0,
+   0,
+   12
+  ],
+  [
+   36,
+   0,
+   -36,
+   12
+  ],
+  [
+   -30,
+   0,
+   -20,
+   9
+  ],
+  [
+   28,
+   0,
+   22,
+   9
+  ]
+ ],
+ "player_units": [
+  {
+   "id": "alpomish",
+   "count": 1,
+   "at": [
+    -38,
+    0,
+    36
+   ],
+   "level": 3
+  },
+  {
+   "id": "navkar",
+   "count": 4,
+   "at": [
+    -40,
+    0,
+    40
+   ]
+  },
+  {
+   "id": "mergan",
+   "count": 3,
+   "at": [
+    -36,
+    0,
+    42
+   ]
+  },
+  {
+   "id": "tabib",
+   "count": 1,
+   "at": [
+    -42,
+    0,
+    42
+   ]
+  }
+ ],
+ "enemy_units": [
+  {
+   "id": "suyak_askar",
+   "count": 4,
+   "at": [
+    -12,
+    0,
+    12
+   ]
+  },
+  {
+   "id": "ajina",
+   "count": 3,
+   "at": [
+    10,
+    0,
+    -8
+   ]
+  },
+  {
+   "id": "suyak_askar",
+   "count": 3,
+   "at": [
+    22,
+    0,
+    18
+   ]
+  },
+  {
+   "id": "qarga_jodugar",
+   "count": 3,
+   "at": [
+    36,
+    0,
+    -34
+   ],
+   "tag": "nishon"
+  },
+  {
+   "id": "alvasti",
+   "count": 2,
+   "at": [
+    32,
+    0,
+    -30
+   ]
+  },
+  {
+   "id": "temir_tishli_ayiq",
+   "count": 1,
+   "at": [
+    38,
+    0,
+    -28
+   ]
+  }
+ ],
+ "player_buildings": [],
+ "enemy_buildings": [],
+ "resource_nodes": [],
+ "forests": [
+  {
+   "at": [
+    -46,
+    0,
+    10
+   ],
+   "radius": 5,
+   "count": 16
+  },
+  {
+   "at": [
+    12,
+    0,
+    44
+   ],
+   "radius": 6,
+   "count": 18
+  },
+  {
+   "at": [
+    44,
+    0,
+    6
+   ],
+   "radius": 5,
+   "count": 16
+  },
+  {
+   "at": [
+    -8,
+    0,
+    -44
+   ],
+   "radius": 6,
+   "count": 18
+  }
+ ],
+ "triggers": [
+  {
+   "when": {
+    "time": 2
+   },
+   "do": [
+    {
+     "say": [
+      "Alpomish",
+      "Barchinoy shu tumanning ichida. Qarg'a jodugarlar uni sehr bilan bog'lab qo'yibdi."
+     ],
+     "team": 0
+    }
+   ]
+  },
+  {
+   "when": {
+    "time": 8
+   },
+   "do": [
+    {
+     "say": [
+      "Tabib",
+      "Ehtiyot bo'ling, botir! Agar siz yiqilsangiz, butun vodiy umidsiz qoladi."
+     ],
+     "team": 0
+    }
+   ]
+  },
+  {
+   "id": "yarim",
+   "when": {
+    "area": [
+     0,
+     0,
+     14
+    ]
+   },
+   "do": [
+    {
+     "say": [
+      "Alpomish",
+      "Qarg'alar qichqirig'i yaqin... Sharqi-shimolga!"
+     ]
+    },
+    {
+     "reveal": [
+      36,
+      -34,
+      12
+     ],
+     "reveal_time": 12
+    }
+   ]
+  },
+  {
+   "when": {
+    "area": [
+     30,
+     -28,
+     14
+    ]
+   },
+   "do": [
+    {
+     "say": [
+      "Qarg'a Jodugar",
+      "Odam bolasi! Kashshey seni kutmoqda!"
+     ],
+     "team": 1
+    },
+    {
+     "wave": true
+    }
+   ]
+  }
+ ],
+ "creep_camps": [
+  {
+   "at": [
+    -30,
+    0,
+    -20
+   ],
+   "units": [
+    {
+     "id": "qaroqchi",
+     "count": 2
+    },
+    {
+     "id": "qaroqchi_kamonchi",
+     "count": 1
+    }
+   ],
+   "drop": "noyob"
+  }
+ ],
+ "victory": {
+  "type": "kill_targets",
+  "tag": "nishon"
+ },
+ "defeat": {
+  "protect_unit": "alpomish"
+ }
+}

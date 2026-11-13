@@ -1,0 +1,74 @@
+{
+ "name": "Qoya Otar Gigant",
+ "role": "Qamal — binolarga xarsang otadi",
+ "hp": 600,
+ "armor": 2,
+ "armor_type": "ogir",
+ "damage": [
+  60,
+  75
+ ],
+ "attack_type": "qamal",
+ "attack_range": 12.0,
+ "min_range": 3.0,
+ "attack_cooldown": 3.6,
+ "move_speed": 1.7,
+ "radius": 1.0,
+ "bar_height": 4.6,
+ "projectile": {
+  "kind": "rock",
+  "speed": 14,
+  "arc": 4.0,
+  "splash": 1.8
+ },
+ "cost": {
+  "oltin": 230,
+  "yogoch": 110
+ },
+ "food": 4,
+ "train_time": 38,
+ "requires": {
+  "tier": 2,
+  "buildings": [
+   "devlar_chuquri"
+  ]
+ },
+ "tags": [
+  "siege",
+  "rage"
+ ],
+ "look": {
+  "body": "troll",
+  "scale": 2.0,
+  "model": "kaykit/characters/Barbarian.glb",
+  "hide": [
+   "1H_Axe_Offhand",
+   "Barbarian_Round_Shield",
+   "2H_Axe",
+   "1H_Axe",
+   "Mug"
+  ],
+  "tint": "#a8a89a",
+  "model_scale": 0.95,
+  "ring": 1.1,
+  "anims": {
+   "attack": "Throw",
+   "ranged": "Throw",
+   "idle": "Unarmed_Idle"
+  }
+ },
+ "voice_select": [
+  "Qoya qani?"
+ ],
+ "voice_attack": [
+  "Uloqtir!"
+ ],
+ "id": "qoya_otar_gigant",
+ "faction": "trollar",
+ "hp_regen": 0.3,
+ "acquire_range": 9,
+ "sight": 10,
+ "voice_move": [
+  "Boraman!"
+ ]
+}

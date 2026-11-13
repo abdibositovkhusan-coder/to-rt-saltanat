@@ -1,0 +1,967 @@
+{
+ "id": "intro",
+ "title": "Muqaddima: Yer Yuragi",
+ "shots": [
+  {
+   "duration": 8.5,
+   "env": "dark",
+   "fade_in": true,
+   "spawn": [
+    {
+     "kind": "crystal",
+     "id": "heart",
+     "pos": [
+      0,
+      3,
+      0
+     ],
+     "size": 1.4,
+     "spin": 0.6
+    }
+   ],
+   "cam": {
+    "from": [
+     0,
+     4,
+     13
+    ],
+    "to": [
+     5,
+     4.5,
+     10
+    ],
+    "look": [
+     0,
+     3,
+     0
+    ]
+   },
+   "title": {
+    "t": 0.6,
+    "text": "Ko'hna Zamin",
+    "sub": "Qadim zamonlarda...",
+    "hold": 2.4
+   },
+   "lines": [
+    {
+     "t": 4.0,
+     "speaker": "Hikoyachi",
+     "text": "Qadim zamonlarda butun Ko'hna Zamin bitta yurak bilan urib turardi — Yer Yuragi bilan."
+    }
+   ]
+  },
+  {
+   "duration": 8.5,
+   "clear": false,
+   "fade_out": true,
+   "cam": {
+    "from": [
+     4,
+     4,
+     7
+    ],
+    "to": [
+     2,
+     3.6,
+     5
+    ],
+    "look": [
+     0,
+     3,
+     0
+    ]
+   },
+   "lines": [
+    {
+     "t": 0.3,
+     "speaker": "Hikoyachi",
+     "text": "Uning nuri tog'larni, o'rmonlarni va vodiylarni birdek yashnatardi. Ammo bir kuni zulmat uni yorib yubordi..."
+    },
+    {
+     "t": 5.6,
+     "speaker": "Hikoyachi",
+     "text": "Yurak to'rt bo'lakka bo'linib, dunyoning to'rt tomoniga uchib ketdi."
+    }
+   ],
+   "actions": [
+    {
+     "t": 4.8,
+     "actor": "heart",
+     "do": "shatter"
+    }
+   ]
+  },
+  {
+   "duration": 7,
+   "env": "dusk",
+   "fade_in": true,
+   "spawn": [
+    {
+     "kind": "unit",
+     "id": "trolls",
+     "unit": "toshtish_troll",
+     "count": 6,
+     "cols": 3,
+     "spacing": 1.9,
+     "pos": [
+      0,
+      0,
+      -1.5
+     ],
+     "face": [
+      0,
+      0,
+      12
+     ]
+    },
+    {
+     "kind": "unit",
+     "id": "qoyaqul",
+     "faction": "trollar",
+     "look": {
+      "body": "troll",
+      "scale": 1.9,
+      "cloth": "#3a2e22",
+      "armor": "#7d7d7d",
+      "weapon": "axe",
+      "tusks": true,
+      "cape": "#7a2010",
+      "model": "kaykit/characters/Barbarian.glb",
+      "hide": [
+       "1H_Axe_Offhand",
+       "Barbarian_Round_Shield",
+       "1H_Axe",
+       "Mug"
+      ],
+      "tint": "#8fc47e",
+      "model_scale": 0.95,
+      "anims": {
+       "attack": "2H_Melee_Attack_Chop",
+       "idle": "2H_Melee_Idle"
+      }
+     },
+     "pos": [
+      0,
+      0,
+      1.8
+     ],
+     "face": [
+      0,
+      0,
+      12
+     ]
+    },
+    {
+     "kind": "crystal",
+     "id": "shard",
+     "pos": [
+      0,
+      4.6,
+      -5
+     ],
+     "size": 0.5,
+     "color": "#5fcf4f",
+     "spin": 2.0
+    }
+   ],
+   "cam": {
+    "from": [
+     7,
+     2.8,
+     10
+    ],
+    "to": [
+     4,
+     2.3,
+     7
+    ],
+    "look": [
+     0,
+     2,
+     0
+    ]
+   },
+   "title": {
+    "t": 0.3,
+    "text": "Trollar va Devlar Saltanati",
+    "sub": "Qoyatosh Davlati — shimoliy tog'lar",
+    "hold": 2.0
+   },
+   "lines": [
+    {
+     "t": 3.0,
+     "speaker": "Hikoyachi",
+     "text": "Birinchi bo'lak shimoliy tog'larga — ulkan devlar va trollar qo'liga tushdi."
+    }
+   ],
+   "actions": [
+    {
+     "t": 3.6,
+     "actor": "qoyaqul",
+     "do": "attack",
+     "times": 2
+    },
+    {
+     "t": 4.0,
+     "actor": "trolls",
+     "do": "attack",
+     "times": 1
+    }
+   ]
+  },
+  {
+   "duration": 7.5,
+   "env": "dark",
+   "spawn": [
+    {
+     "kind": "mist",
+     "id": "mist",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "radius": 7,
+     "color": "#6a2c8a"
+    },
+    {
+     "kind": "unit",
+     "id": "kashshey",
+     "faction": "yalmogiz",
+     "look": {
+      "body": "dead",
+      "scale": 1.6,
+      "cloth": "#1a0f24",
+      "skin": "#c9c9d6",
+      "weapon": "staff",
+      "glow": "#7fff3f",
+      "crown": true,
+      "eyes": "#7fff3f",
+      "cape": "#120818",
+      "model": "kaykit/characters/Skeleton_Mage.glb",
+      "tint": "#cdb4ff",
+      "model_scale": 0.85,
+      "anims": {
+       "attack": "Spellcast_Shoot"
+      }
+     },
+     "pos": [
+      0,
+      0,
+      0.5
+     ],
+     "face": [
+      0,
+      0,
+      12
+     ]
+    },
+    {
+     "kind": "unit",
+     "id": "yal1",
+     "faction": "yalmogiz",
+     "look": {
+      "body": "human",
+      "scale": 0.95,
+      "cloth": "#3a2a1a",
+      "skin": "#b8a890",
+      "weapon": "staff",
+      "glow": "#ff9a30",
+      "hood": true,
+      "model": "kaykit/characters/Mage.glb",
+      "hide": [
+       "Spellbook",
+       "Spellbook_open",
+       "1H_Wand"
+      ],
+      "tint": "#b8a888",
+      "anims": {
+       "attack": "Spellcast_Shoot"
+      }
+     },
+     "pos": [
+      -2.4,
+      0,
+      1.2
+     ],
+     "face": [
+      0,
+      0,
+      12
+     ]
+    },
+    {
+     "kind": "unit",
+     "id": "yal2",
+     "faction": "yalmogiz",
+     "look": {
+      "body": "human",
+      "scale": 0.95,
+      "cloth": "#3a2a1a",
+      "skin": "#b8a890",
+      "weapon": "staff",
+      "glow": "#ff9a30",
+      "hood": true,
+      "model": "kaykit/characters/Mage.glb",
+      "hide": [
+       "Spellbook",
+       "Spellbook_open",
+       "1H_Wand"
+      ],
+      "tint": "#b8a888",
+      "anims": {
+       "attack": "Spellcast_Shoot"
+      }
+     },
+     "pos": [
+      2.4,
+      0,
+      1.2
+     ],
+     "face": [
+      0,
+      0,
+      12
+     ]
+    },
+    {
+     "kind": "unit",
+     "id": "ajinalar",
+     "faction": "yalmogiz",
+     "look": {
+      "body": "dead",
+      "scale": 0.9,
+      "skin": "#9a9aa8",
+      "cloth": "#2a1238",
+      "weapon": "sword",
+      "eyes": "#7fff3f",
+      "model": "kaykit/characters/Skeleton_Minion.glb",
+      "model_scale": 0.8
+     },
+     "count": 6,
+     "cols": 3,
+     "pos": [
+      0,
+      0,
+      -2.5
+     ],
+     "face": [
+      0,
+      0,
+      12
+     ]
+    },
+    {
+     "kind": "crystal",
+     "id": "shard",
+     "pos": [
+      0,
+      4.6,
+      -4
+     ],
+     "size": 0.5,
+     "color": "#b04fe0",
+     "spin": 2.0
+    }
+   ],
+   "cam": {
+    "from": [
+     0,
+     2,
+     10
+    ],
+    "to": [
+     0,
+     2.6,
+     6
+    ],
+    "look": [
+     0,
+     2.1,
+     0
+    ]
+   },
+   "title": {
+    "t": 0.3,
+    "text": "Yalmog'iz va Kashsheylar Saltanati",
+    "sub": "Qora Tuman — la'natlangan sharq",
+    "hold": 2.0
+   },
+   "lines": [
+    {
+     "t": 3.0,
+     "speaker": "Hikoyachi",
+     "text": "Ikkinchisini qora tuman ichidagi O'lmas Kashshey va yalmog'iz kampirlar yashirib oldi."
+    }
+   ],
+   "actions": [
+    {
+     "t": 4.2,
+     "actor": "kashshey",
+     "do": "laugh"
+    }
+   ]
+  },
+  {
+   "duration": 7,
+   "env": "night",
+   "spawn": [
+    {
+     "kind": "unit",
+     "id": "elves",
+     "faction": "elflar",
+     "look": {
+      "body": "elf",
+      "cloth": "#2f8f7a",
+      "weapon": "bow",
+      "hood": true,
+      "model": "kaykit/characters/Rogue_Hooded.glb",
+      "hide": [
+       "Knife_Offhand",
+       "1H_Crossbow",
+       "Knife",
+       "Throwable"
+      ],
+      "tint": "#a8e6d6",
+      "anims": {
+       "attack": "2H_Ranged_Shoot",
+       "idle": "2H_Ranged_Aiming"
+      }
+     },
+     "count": 6,
+     "cols": 3,
+     "pos": [
+      0,
+      0,
+      -1.5
+     ],
+     "face": [
+      0,
+      0,
+      12
+     ]
+    },
+    {
+     "kind": "unit",
+     "id": "oydinoy",
+     "faction": "elflar",
+     "look": {
+      "body": "elf",
+      "scale": 1.2,
+      "cloth": "#c8d8ff",
+      "armor": "#c0c8d0",
+      "weapon": "bow",
+      "cape": "#2f8f7a",
+      "model": "kaykit/characters/Rogue.glb",
+      "hide": [
+       "Knife_Offhand",
+       "1H_Crossbow",
+       "Knife",
+       "Throwable"
+      ],
+      "tint": "#e6f2ff",
+      "anims": {
+       "attack": "2H_Ranged_Shoot"
+      }
+     },
+     "pos": [
+      0,
+      0,
+      1.6
+     ],
+     "face": [
+      0,
+      0,
+      12
+     ]
+    },
+    {
+     "kind": "light",
+     "id": "moon",
+     "pos": [
+      0,
+      6,
+      4
+     ],
+     "color": "#a8c4ff",
+     "energy": 1.5,
+     "range": 14
+    },
+    {
+     "kind": "crystal",
+     "id": "shard",
+     "pos": [
+      0,
+      4.6,
+      -4
+     ],
+     "size": 0.5,
+     "color": "#4fe0c0",
+     "spin": 2.0
+    }
+   ],
+   "cam": {
+    "from": [
+     -7,
+     2.8,
+     9
+    ],
+    "to": [
+     -3.5,
+     2.2,
+     6.5
+    ],
+    "look": [
+     0,
+     1.9,
+     0
+    ]
+   },
+   "title": {
+    "t": 0.3,
+    "text": "Elflar Saltanati",
+    "sub": "Oydin O'rmon — g'arbiy o'rmonlar",
+    "hold": 2.0
+   },
+   "lines": [
+    {
+     "t": 3.0,
+     "speaker": "Hikoyachi",
+     "text": "Uchinchisini ming yillik o'rmonlarning qo'riqchilari — elflar oldi."
+    }
+   ],
+   "actions": [
+    {
+     "t": 3.8,
+     "actor": "elves",
+     "do": "attack",
+     "times": 1
+    },
+    {
+     "t": 3.8,
+     "actor": "oydinoy",
+     "do": "attack",
+     "times": 1
+    }
+   ]
+  },
+  {
+   "duration": 7.5,
+   "env": "day",
+   "spawn": [
+    {
+     "kind": "unit",
+     "id": "navkarlar",
+     "unit": "navkar",
+     "count": 6,
+     "cols": 3,
+     "pos": [
+      0,
+      0,
+      -1.2
+     ],
+     "face": [
+      0,
+      0,
+      12
+     ]
+    },
+    {
+     "kind": "unit",
+     "id": "merganlar",
+     "unit": "mergan",
+     "count": 3,
+     "cols": 3,
+     "pos": [
+      0,
+      0,
+      -4.6
+     ],
+     "face": [
+      0,
+      0,
+      12
+     ]
+    },
+    {
+     "kind": "unit",
+     "id": "alpomish",
+     "faction": "odamlar",
+     "look": {
+      "body": "human",
+      "scale": 1.3,
+      "cloth": "#2d5fa8",
+      "armor": "#d4a63a",
+      "weapon": "sword",
+      "shield": true,
+      "helmet": true,
+      "cape": "#a02020",
+      "model": "kaykit/characters/Knight.glb",
+      "hide": [
+       "1H_Sword_Offhand",
+       "Round_Shield",
+       "Rectangle_Shield",
+       "Spike_Shield",
+       "2H_Sword"
+      ],
+      "anims": {
+       "attack": "1H_Melee_Attack_Slice_Diagonal"
+      }
+     },
+     "pos": [
+      0,
+      0,
+      1.8
+     ],
+     "face": [
+      0,
+      0,
+      12
+     ]
+    },
+    {
+     "kind": "crystal",
+     "id": "shard",
+     "pos": [
+      0,
+      4.6,
+      -6
+     ],
+     "size": 0.5,
+     "color": "#5f9fff",
+     "spin": 2.0
+    }
+   ],
+   "cam": {
+    "from": [
+     6,
+     2.8,
+     9.5
+    ],
+    "to": [
+     3,
+     2.3,
+     6.5
+    ],
+    "look": [
+     0,
+     1.9,
+     0
+    ]
+   },
+   "title": {
+    "t": 0.3,
+    "text": "Odamlar Saltanati",
+    "sub": "Oltin Vodiy — markaziy vodiylar",
+    "hold": 2.0
+   },
+   "lines": [
+    {
+     "t": 3.0,
+     "speaker": "Hikoyachi",
+     "text": "To'rtinchisi esa Oltin Vodiy odamlariga nasib etdi. Ming yil davomida to'rt saltanat tinch yashadi..."
+    }
+   ],
+   "actions": [
+    {
+     "t": 4.2,
+     "actor": "alpomish",
+     "do": "attack",
+     "times": 1
+    }
+   ]
+  },
+  {
+   "duration": 9,
+   "env": "day",
+   "fade_in": true,
+   "spawn": [
+    {
+     "kind": "unit",
+     "id": "alpomish",
+     "faction": "odamlar",
+     "look": {
+      "body": "human",
+      "scale": 1.3,
+      "cloth": "#2d5fa8",
+      "armor": "#d4a63a",
+      "weapon": "sword",
+      "shield": true,
+      "helmet": true,
+      "cape": "#a02020",
+      "model": "kaykit/characters/Knight.glb",
+      "hide": [
+       "1H_Sword_Offhand",
+       "Round_Shield",
+       "Rectangle_Shield",
+       "Spike_Shield",
+       "2H_Sword"
+      ],
+      "anims": {
+       "attack": "1H_Melee_Attack_Slice_Diagonal"
+      }
+     },
+     "pos": [
+      -6,
+      0,
+      3
+     ],
+     "face": [
+      10,
+      0,
+      -3
+     ]
+    },
+    {
+     "kind": "unit",
+     "id": "navkarlar",
+     "unit": "navkar",
+     "count": 5,
+     "cols": 5,
+     "spacing": 1.5,
+     "pos": [
+      -8.5,
+      0,
+      5
+     ],
+     "face": [
+      10,
+      0,
+      -3
+     ]
+    },
+    {
+     "kind": "unit",
+     "id": "trolls",
+     "unit": "toshtish_troll",
+     "count": 6,
+     "cols": 3,
+     "spacing": 1.9,
+     "pos": [
+      17,
+      0,
+      -7
+     ],
+     "face": [
+      -6,
+      0,
+      3
+     ]
+    },
+    {
+     "kind": "unit",
+     "id": "qoyaqul",
+     "faction": "trollar",
+     "look": {
+      "body": "troll",
+      "scale": 1.9,
+      "cloth": "#3a2e22",
+      "armor": "#7d7d7d",
+      "weapon": "axe",
+      "tusks": true,
+      "cape": "#7a2010",
+      "model": "kaykit/characters/Barbarian.glb",
+      "hide": [
+       "1H_Axe_Offhand",
+       "Barbarian_Round_Shield",
+       "1H_Axe",
+       "Mug"
+      ],
+      "tint": "#8fc47e",
+      "model_scale": 0.95,
+      "anims": {
+       "attack": "2H_Melee_Attack_Chop",
+       "idle": "2H_Melee_Idle"
+      }
+     },
+     "pos": [
+      14,
+      0,
+      -4
+     ],
+     "face": [
+      -6,
+      0,
+      3
+     ]
+    }
+   ],
+   "cam": {
+    "from": [
+     -13,
+     4.2,
+     11
+    ],
+    "to": [
+     -11,
+     3.4,
+     9
+    ],
+    "look": [
+     -4,
+     1.6,
+     1
+    ],
+    "look_to": [
+     5,
+     1.4,
+     -2
+    ]
+   },
+   "lines": [
+    {
+     "t": 0.6,
+     "speaker": "Alpomish",
+     "text": "Qaranglar! Tog' tomondan chang ko'tarilyapti..."
+    },
+    {
+     "t": 4.2,
+     "speaker": "Navkar",
+     "text": "Trollar! Ular chegaradan o'tishyapti!"
+    }
+   ],
+   "actions": [
+    {
+     "t": 1.8,
+     "actor": "trolls",
+     "do": "walk_to",
+     "to": [
+      8,
+      0,
+      -3
+     ],
+     "dur": 6.0
+    },
+    {
+     "t": 1.8,
+     "actor": "qoyaqul",
+     "do": "walk_to",
+     "to": [
+      5.5,
+      0,
+      -0.5
+     ],
+     "dur": 6.0
+    }
+   ]
+  },
+  {
+   "duration": 5.5,
+   "clear": false,
+   "cam": {
+    "from": [
+     1.8,
+     3.4,
+     2.4
+    ],
+    "to": [
+     2.6,
+     3.2,
+     1.6
+    ],
+    "look": [
+     5.5,
+     3.0,
+     -0.5
+    ]
+   },
+   "lines": [
+    {
+     "t": 0.4,
+     "speaker": "Qoyaqul — Tog' Devi",
+     "text": "Vodiyning oltinlari endi bizniki! Toshtishlar — hujumga!"
+    }
+   ],
+   "actions": [
+    {
+     "t": 1.8,
+     "actor": "qoyaqul",
+     "do": "attack",
+     "times": 2
+    },
+    {
+     "t": 1.8,
+     "do": "shake",
+     "amount": 0.7
+    },
+    {
+     "t": 2.2,
+     "actor": "trolls",
+     "do": "attack",
+     "times": 2
+    }
+   ]
+  },
+  {
+   "duration": 5.5,
+   "clear": false,
+   "fade_out": true,
+   "cam": {
+    "from": [
+     -1.8,
+     2.7,
+     2.0
+    ],
+    "to": [
+     -2.9,
+     2.5,
+     2.4
+    ],
+    "look": [
+     -6,
+     2.3,
+     3
+    ]
+   },
+   "lines": [
+    {
+     "t": 0.3,
+     "speaker": "Alpomish",
+     "text": "Navkarlar, qalqonlarni ko'taring! Oltin Vodiyni himoya qilamiz!"
+    }
+   ],
+   "actions": [
+    {
+     "t": 1.6,
+     "actor": "alpomish",
+     "do": "attack",
+     "times": 2
+    },
+    {
+     "t": 2.0,
+     "actor": "navkarlar",
+     "do": "attack",
+     "times": 2
+    }
+   ]
+  },
+  {
+   "duration": 4.5,
+   "env": "dark",
+   "fade_in": true,
+   "cam": {
+    "from": [
+     0,
+     9,
+     12
+    ],
+    "to": [
+     0,
+     8,
+     10
+    ],
+    "look": [
+     0,
+     0,
+     0
+    ]
+   },
+   "title": {
+    "t": 0.3,
+    "text": "1-missiya: Chegaradagi jang",
+    "sub": "Trollar hujumini qaytaring",
+    "hold": 2.8
+   }
+  }
+ ]
+}
