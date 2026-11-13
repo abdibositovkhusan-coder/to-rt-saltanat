@@ -1,0 +1,63 @@
+name: Veb-versiya (brauzerda o'ynash)
+# main'ga har push'da: Godot Web eksport → gh-pages tarmog'iga joylanadi.
+# O'yin manzili: https://<akkaunt>.github.io/<repo>/
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  GODOT_VERSION: "4.3"
+
+jobs:
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Loyihani ochish (zip bo'lsa)
+        run: |
+          if [ -f TortSaltanat.zip ]; then unzip -o -q TortSaltanat.zip; fi
+          test -f TortSaltanat/project.godot
+
+      - name: 3D modellarni yuklab olish (KayKit, CC0)
+        run: bash TortSaltanat/tools/fetch_models.sh
+
+      - name: Godot va eksport shablonlari
+        run: |
+          cd "$RUNNER_TEMP"
+          BASE="https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}-stable"
+          wget -q "$BASE/Godot_v${GODOT_VERSION}-stable_linux.x86_64.zip"
+          wget -q "$BASE/Godot_v${GODOT_VERSION}-stable_export_templates.tpz"
+          unzip -q "Godot_v${GODOT_VERSION}-stable_linux.x86_64.zip"
+          sudo mv "Godot_v${GODOT_VERSION}-stable_linux.x86_64" /usr/local/bin/godot
+          TPL="$HOME/.local/share/godot/export_templates/${GODOT_VERSION}.stable"
+          mkdir -p "$TPL"
+          unzip -q "Godot_v${GODOT_VERSION}-stable_export_templates.tpz"
+          mv templates/* "$TPL/"
+
+      - name: Import
+        working-directory: TortSaltanat
+        run: godot --headless --path . --import 2>&1 | tail -5 || true
+
+      - name: Web eksport
+        working-directory: TortSaltanat
+        run: |
+          mkdir -p build/web
+          godot --headless --path . --export-release "Web" build/web/index.html 2>&1 | tee web.log
+          test -f build/web/index.html || (echo "::error::Veb-versiya yaratilmadi" && exit 1)
+          touch build/web/.nojekyll
+          ls -la build/web
+
+      - name: gh-pages tarmog'iga joylash
+        working-directory: TortSaltanat/build/web
+        run: |
+          git init -q
+          git checkout -q -b gh-pages
+          git add -A
+          git -c user.name="github-actions" -c user.email="github-actions@users.noreply.github.com" commit -q -m "Veb-versiya ${{ github.sha }}"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" gh-pages
