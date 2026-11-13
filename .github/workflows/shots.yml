@@ -2,6 +2,9 @@ name: Skrinshotlar (tekshiruv)
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 env:
   GODOT_VERSION: "4.3"
 
@@ -25,9 +28,12 @@ jobs:
       - name: Skrinshot
         working-directory: TortSaltanat
         run: |
-          timeout 300 xvfb-run -a -s "-screen 0 1280x720x24" godot --path . --rendering-driver opengl3 --resolution 1280x720 --script res://tools/shots.gd 2>&1 | grep -vE "^\s*$" | tail -60
+          timeout 400 xvfb-run -a -s "-screen 0 1280x720x24" godot --path . --rendering-driver opengl3 --resolution 1280x720 --script res://tools/shots.gd 2>&1 | grep -vE "^\s*$" | tail -60
           ls -la shots || true
-      - uses: actions/upload-artifact@v4
-        with:
-          name: shots
-          path: TortSaltanat/shots/*.png
+      - name: Skrinshotlarni "shots" tarmog'iga joylash
+        working-directory: TortSaltanat/shots
+        run: |
+          git init -q && git checkout -q -b shots
+          git add -A
+          git -c user.name=ci -c user.email=ci@users.noreply.github.com commit -q -m "shots ${{ github.run_number }}"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" shots

@@ -83,10 +83,14 @@ func _index(pos: Vector3) -> int:
 
 
 func sees(team: int, pos: Vector3) -> bool:
+	if team < 0 or team > 1:
+		return true   # neytral jonzotlar tumandan cheklanmaydi
 	return _vis[team * N + _index(pos)] == 1
 
 
 func is_explored(team: int, pos: Vector3) -> bool:
+	if team < 0 or team > 1:
+		return true
 	return _exp[team * N + _index(pos)] == 1
 
 
