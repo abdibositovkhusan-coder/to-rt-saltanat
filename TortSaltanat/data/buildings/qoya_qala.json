@@ -20,7 +20,7 @@
  "upgrade_to": "vulqon_taxti",
  "model": "kaykit/medieval/building_castle_red.gltf",
  "model_scale": 2.0,
- "tint": "#a8988a",
+ "tint": "#8a8078",
  "id": "qoya_qala",
  "faction": "trollar",
  "armor_type": "mustahkam",

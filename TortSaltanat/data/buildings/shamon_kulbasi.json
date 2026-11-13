@@ -14,7 +14,7 @@
  "bar_height": 4.4,
  "model": "kaykit/medieval/building_home_B_red.gltf",
  "model_scale": 3.0,
- "tint": "#b09a80",
+ "tint": "#8c7a64",
  "id": "shamon_kulbasi",
  "faction": "trollar",
  "armor_type": "mustahkam",

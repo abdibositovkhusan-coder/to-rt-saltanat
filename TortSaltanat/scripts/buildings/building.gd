@@ -68,7 +68,7 @@ func setup_building(d: Dictionary, team_id: int, pos: Vector3, team_color: Color
 	add_child(bv)
 	bv.build_building(str(d.get("style", "")), team_color, team_id, radius, str(d.get("model", "")), float(d.get("model_scale", 1.0)), float(d.get("model_yaw", 0.0)), str(d.get("tint", "")))
 	if bool(d.get("troll_decor", false)):
-		bv.add_troll_decor(radius)
+		bv.add_troll_decor(float(d.get("decor_radius", radius * 1.35)))
 	complete = is_complete
 	if complete:
 		progress = 1.0

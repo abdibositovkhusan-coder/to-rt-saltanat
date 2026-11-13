@@ -19,7 +19,7 @@
  "bar_height": 4.6,
  "model": "kaykit/medieval/building_tavern_red.gltf",
  "model_scale": 3.4,
- "tint": "#b09a80",
+ "tint": "#8c7a64",
  "id": "devlar_chuquri",
  "faction": "trollar",
  "armor_type": "mustahkam",
