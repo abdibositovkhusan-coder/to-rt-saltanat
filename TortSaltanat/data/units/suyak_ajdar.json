@@ -1,0 +1,55 @@
+{
+ "id": "suyak_ajdar",
+ "hp_regen": 0.3,
+ "acquire_range": 9,
+ "sight": 13,
+ "tags": [
+  "ranged",
+  "flying"
+ ],
+ "name": "Suyak Ajdar",
+ "role": "Uchuvchi — o'lik ajdar, la'nat nafasi zaiflashtiradi",
+ "faction": "yalmogiz",
+ "hp": 920,
+ "armor": 3,
+ "armor_type": "ogir",
+ "damage": [
+  30,
+  38
+ ],
+ "attack_type": "sehrli",
+ "attack_range": 5.5,
+ "attack_cooldown": 1.8,
+ "move_speed": 3.8,
+ "radius": 1.1,
+ "bar_height": 6.199999999999999,
+ "flying": true,
+ "projectile": {
+  "kind": "magic_purple",
+  "speed": 17,
+  "arc": 0.2,
+  "splash": 1.6,
+  "weak": 0.25
+ },
+ "cost": {
+  "oltin": 320,
+  "yogoch": 150
+ },
+ "food": 5,
+ "train_time": 42,
+ "requires": {
+  "tier": 3,
+  "buildings": [
+   "ajdar_qoyasi"
+  ]
+ },
+ "look": {
+  "creature": "dragon",
+  "color": "#d8d0c0",
+  "accent": "#b06aff",
+  "heads": 2,
+  "size": 1.4,
+  "fly_height": 3.0,
+  "ring": 1.1
+ }
+}

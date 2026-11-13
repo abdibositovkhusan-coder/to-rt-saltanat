@@ -1,0 +1,54 @@
+{
+ "id": "lava_ajdari",
+ "hp_regen": 0.3,
+ "acquire_range": 9,
+ "sight": 13,
+ "tags": [
+  "ranged",
+  "flying"
+ ],
+ "name": "Lava Ajdari",
+ "role": "Uchuvchi — lava purkaydi, olov sachratmasi",
+ "faction": "trollar",
+ "hp": 950,
+ "armor": 3,
+ "armor_type": "ogir",
+ "damage": [
+  34,
+  42
+ ],
+ "attack_type": "sehrli",
+ "attack_range": 5.5,
+ "attack_cooldown": 1.8,
+ "move_speed": 3.8,
+ "radius": 1.1,
+ "bar_height": 6.199999999999999,
+ "flying": true,
+ "projectile": {
+  "kind": "fire",
+  "speed": 16,
+  "arc": 0.2,
+  "splash": 1.8
+ },
+ "cost": {
+  "oltin": 310,
+  "yogoch": 150
+ },
+ "food": 5,
+ "train_time": 42,
+ "requires": {
+  "tier": 3,
+  "buildings": [
+   "ilonlar_uyasi"
+  ]
+ },
+ "look": {
+  "creature": "dragon",
+  "color": "#a8300e",
+  "accent": "#ffb020",
+  "heads": 1,
+  "size": 1.4,
+  "fly_height": 3.0,
+  "ring": 1.1
+ }
+}

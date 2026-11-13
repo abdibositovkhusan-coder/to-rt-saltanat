@@ -1,0 +1,57 @@
+{
+ "id": "suyak_manjaniq",
+ "hp_regen": 0.3,
+ "acquire_range": 13.0,
+ "sight": 10,
+ "tags": [
+  "siege",
+  "machine"
+ ],
+ "name": "Suyak Manjaniq",
+ "role": "Qamal — bosh suyaklarini otadi",
+ "faction": "yalmogiz",
+ "hp": 380,
+ "armor": 2,
+ "armor_type": "ogir",
+ "damage": [
+  55,
+  72
+ ],
+ "attack_type": "qamal",
+ "attack_range": 13.0,
+ "min_range": 3.0,
+ "attack_cooldown": 3.4,
+ "move_speed": 1.7,
+ "radius": 0.9,
+ "bar_height": 3.2,
+ "projectile": {
+  "kind": "magic_purple",
+  "speed": 13.0,
+  "arc": 4.0,
+  "splash": 2.0
+ },
+ "cost": {
+  "oltin": 200,
+  "yogoch": 110
+ },
+ "food": 3,
+ "train_time": 35,
+ "requires": {
+  "tier": 2,
+  "buildings": [
+   "jodugarlar_qozoni"
+  ]
+ },
+ "look": {
+  "body": "machine",
+  "model": "kaykit/medieval/building_tower_catapult_red.gltf",
+  "model_scale": 1.6,
+  "strip_root": true,
+  "model_offset_y": -1.75,
+  "wheels": true,
+  "machine_arm": "catapult_arm_red",
+  "ring": 1.0,
+  "base": true,
+  "tint": "#d8c8e8"
+ }
+}

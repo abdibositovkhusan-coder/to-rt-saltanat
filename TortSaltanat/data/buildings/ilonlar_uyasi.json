@@ -9,7 +9,8 @@
  },
  "build_time": 40,
  "trains": [
-  "vulqon_ilon"
+  "vulqon_ilon",
+  "lava_ajdari"
  ],
  "requires": {
   "tier": 3

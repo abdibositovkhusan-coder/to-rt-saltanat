@@ -2332,6 +2332,50 @@
 "Vaqt: %d:%02d · Tayyorlangan: %d · Qurilgan: %d\nYo'q qilingan dushman: %d · Yo'qotish: %d · Yig'ilgan oltin: %d": [
 "Время: %d:%02d · Обучено: %d · Построено: %d\nУничтожено врагов: %d · Потери: %d · Собрано золота: %d",
 "Time: %d:%02d · Trained: %d · Built: %d\nEnemies destroyed: %d · Losses: %d · Gold gathered: %d"
+],
+"Ballista": [
+"Баллиста",
+"Ballista"
+],
+"Jang Fili": [
+"Боевой слон",
+"War Elephant"
+],
+"Lava Ajdari": [
+"Лавовый дракон",
+"Lava Dragon"
+],
+"Tosh Manjaniq": [
+"Каменная катапульта",
+"Stone Catapult"
+],
+"Zumrad Ajdar": [
+"Изумрудный дракон",
+"Emerald Dragon"
+],
+"Ildiz Manjaniq": [
+"Корневая катапульта",
+"Root Catapult"
+],
+"Suyak Ajdar": [
+"Костяной дракон",
+"Bone Dragon"
+],
+"Suyak Manjaniq": [
+"Костяная катапульта",
+"Bone Catapult"
+],
+"Yovvoyi Ajdar": [
+"Дикий дракон",
+"Wild Dragon"
+],
+"Kulrang Bo'ri": [
+"Серый волк",
+"Grey Wolf"
+],
+"Ulkan Ilon": [
+"Огромный змей",
+"Giant Serpent"
 ]
 }
 }

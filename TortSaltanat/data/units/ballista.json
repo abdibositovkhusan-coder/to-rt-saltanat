@@ -1,0 +1,57 @@
+{
+ "id": "ballista",
+ "hp_regen": 0.3,
+ "acquire_range": 12,
+ "sight": 11,
+ "tags": [
+  "siege",
+  "machine",
+  "anti_air"
+ ],
+ "name": "Ballista",
+ "role": "Qamal — uzun nayza otadi, uchuvchilarga ayniqsa xavfli",
+ "faction": "odamlar",
+ "hp": 320,
+ "armor": 2,
+ "armor_type": "ogir",
+ "damage": [
+  40,
+  48
+ ],
+ "attack_type": "teshuvchi",
+ "attack_range": 12.0,
+ "min_range": 2.0,
+ "attack_cooldown": 2.6,
+ "move_speed": 1.9,
+ "radius": 0.9,
+ "bar_height": 3.0,
+ "projectile": {
+  "kind": "spear",
+  "speed": 24,
+  "arc": 0.6
+ },
+ "cost": {
+  "oltin": 170,
+  "yogoch": 110
+ },
+ "food": 3,
+ "train_time": 30,
+ "requires": {
+  "tier": 2,
+  "buildings": [
+   "ustaxona"
+  ]
+ },
+ "look": {
+  "body": "machine",
+  "model": "kaykit/medieval/building_tower_catapult_blue.gltf",
+  "model_scale": 1.4,
+  "strip_root": true,
+  "model_offset_y": -1.55,
+  "wheels": true,
+  "machine_arm": "catapult_arm_blue",
+  "ring": 0.95,
+  "base": true,
+  "tint": "#e8d8a8"
+ }
+}

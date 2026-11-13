@@ -9,7 +9,8 @@
  },
  "build_time": 32,
  "trains": [
-  "qarga_jodugar"
+  "qarga_jodugar",
+  "suyak_manjaniq"
  ],
  "research": [
   "suyak_qilich",

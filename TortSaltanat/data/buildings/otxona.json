@@ -10,7 +10,8 @@
  },
  "build_time": 35,
  "trains": [
-  "otliq_botir"
+  "otliq_botir",
+  "jang_fili"
  ],
  "requires": {
   "tier": 2,

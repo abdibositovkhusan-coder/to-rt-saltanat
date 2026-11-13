@@ -255,12 +255,12 @@
    ],
    "units": [
     {
-     "id": "tosh_golem",
-     "count": 1
+     "id": "kulrang_bori",
+     "count": 3
     },
     {
-     "id": "lanatli_jangchi",
-     "count": 2
+     "id": "tosh_golem",
+     "count": 1
     }
    ],
    "drop": "noyob"
@@ -273,11 +273,11 @@
    ],
    "units": [
     {
-     "id": "tosh_golem",
+     "id": "ulkan_ilon",
      "count": 1
     },
     {
-     "id": "lanatli_jangchi",
+     "id": "kulrang_bori",
      "count": 2
     }
    ],
@@ -309,11 +309,11 @@
    ],
    "units": [
     {
-     "id": "tosh_golem",
-     "count": 2
+     "id": "yovvoyi_ajdar",
+     "count": 1
     }
    ],
-   "drop": "epik"
+   "drop": "afsonaviy"
   }
  ],
  "auto_start": true,

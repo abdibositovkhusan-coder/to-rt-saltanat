@@ -1,0 +1,55 @@
+{
+ "id": "zumrad_ajdar",
+ "hp_regen": 0.3,
+ "acquire_range": 9,
+ "sight": 13,
+ "tags": [
+  "ranged",
+  "flying"
+ ],
+ "name": "Zumrad Ajdar",
+ "role": "Uchuvchi — zumrad nafasi dushmanni sekinlashtiradi",
+ "faction": "elflar",
+ "hp": 880,
+ "armor": 3,
+ "armor_type": "ogir",
+ "damage": [
+  28,
+  36
+ ],
+ "attack_type": "sehrli",
+ "attack_range": 5.5,
+ "attack_cooldown": 1.8,
+ "move_speed": 3.8,
+ "radius": 1.1,
+ "bar_height": 6.1,
+ "flying": true,
+ "projectile": {
+  "kind": "magic_green",
+  "speed": 18,
+  "arc": 0.2,
+  "splash": 1.2,
+  "slow": 0.35
+ },
+ "cost": {
+  "oltin": 300,
+  "yogoch": 170
+ },
+ "food": 5,
+ "train_time": 42,
+ "requires": {
+  "tier": 3,
+  "buildings": [
+   "osmon_uyasi"
+  ]
+ },
+ "look": {
+  "creature": "dragon",
+  "color": "#1f8f6a",
+  "accent": "#9fffd8",
+  "heads": 1,
+  "size": 1.3,
+  "fly_height": 3.0,
+  "ring": 1.1
+ }
+}

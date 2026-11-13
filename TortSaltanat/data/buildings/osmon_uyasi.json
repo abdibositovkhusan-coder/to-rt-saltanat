@@ -9,7 +9,8 @@
  },
  "build_time": 40,
  "trains": [
-  "humo_qushi"
+  "humo_qushi",
+  "zumrad_ajdar"
  ],
  "requires": {
   "tier": 2

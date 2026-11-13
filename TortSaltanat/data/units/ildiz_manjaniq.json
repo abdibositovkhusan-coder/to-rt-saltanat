@@ -1,0 +1,58 @@
+{
+ "id": "ildiz_manjaniq",
+ "hp_regen": 0.3,
+ "acquire_range": 13.0,
+ "sight": 10,
+ "tags": [
+  "siege",
+  "machine"
+ ],
+ "name": "Ildiz Manjaniq",
+ "role": "Qamal — tikanli urug' otadi, sekinlashtiradi",
+ "faction": "elflar",
+ "hp": 380,
+ "armor": 2,
+ "armor_type": "ogir",
+ "damage": [
+  48,
+  60
+ ],
+ "attack_type": "qamal",
+ "attack_range": 13.0,
+ "min_range": 3.0,
+ "attack_cooldown": 3.4,
+ "move_speed": 1.7,
+ "radius": 0.9,
+ "bar_height": 3.2,
+ "projectile": {
+  "kind": "magic_green",
+  "speed": 15.0,
+  "arc": 3.5,
+  "splash": 1.8,
+  "slow": 0.3
+ },
+ "cost": {
+  "oltin": 190,
+  "yogoch": 130
+ },
+ "food": 3,
+ "train_time": 35,
+ "requires": {
+  "tier": 2,
+  "buildings": [
+   "kamon_ustaxonasi"
+  ]
+ },
+ "look": {
+  "body": "machine",
+  "model": "kaykit/medieval/building_tower_catapult_green.gltf",
+  "model_scale": 1.6,
+  "strip_root": true,
+  "model_offset_y": -1.75,
+  "wheels": true,
+  "machine_arm": "catapult_arm_green",
+  "ring": 1.0,
+  "base": true,
+  "tint": "#9fe0b0"
+ }
+}

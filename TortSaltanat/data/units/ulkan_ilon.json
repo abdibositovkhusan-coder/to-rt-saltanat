@@ -1,0 +1,34 @@
+{
+ "id": "ulkan_ilon",
+ "hp_regen": 0.5,
+ "acquire_range": 6,
+ "sight": 8,
+ "tags": [],
+ "name": "Ulkan Ilon",
+ "role": "Neytral — zaharli bo'g'uvchi ilon",
+ "faction": "neytral",
+ "hp": 1100,
+ "armor": 3,
+ "armor_type": "ogir",
+ "damage": [
+  28,
+  34
+ ],
+ "attack_type": "oddiy",
+ "attack_range": 1.4,
+ "attack_cooldown": 1.8,
+ "move_speed": 3.0,
+ "radius": 1.0,
+ "bar_height": 3.4,
+ "xp": 140,
+ "bounty": 60,
+ "look": {
+  "creature": "serpent",
+  "color": "#3a7a2a",
+  "accent": "#e0d040",
+  "size": 1.3,
+  "ring": 1.0
+ },
+ "food": 0,
+ "leash": 14
+}

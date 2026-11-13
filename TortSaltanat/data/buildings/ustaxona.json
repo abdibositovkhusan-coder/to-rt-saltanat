@@ -11,7 +11,8 @@
  "build_time": 35,
  "trains": [
   "manjaniq",
-  "uchar_gilam"
+  "uchar_gilam",
+  "ballista"
  ],
  "requires": {
   "tier": 2

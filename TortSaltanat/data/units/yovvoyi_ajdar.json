@@ -1,0 +1,46 @@
+{
+ "id": "yovvoyi_ajdar",
+ "hp_regen": 0.5,
+ "acquire_range": 6,
+ "sight": 8,
+ "tags": [
+  "flying",
+  "ranged"
+ ],
+ "name": "Yovvoyi Ajdar",
+ "role": "Neytral boss — tog' ajdari",
+ "faction": "neytral",
+ "hp": 2200,
+ "armor": 5,
+ "armor_type": "ogir",
+ "damage": [
+  45,
+  58
+ ],
+ "attack_type": "sehrli",
+ "attack_range": 5.0,
+ "attack_cooldown": 1.8,
+ "move_speed": 3.0,
+ "radius": 1.4,
+ "bar_height": 7.0,
+ "xp": 320,
+ "bounty": 160,
+ "look": {
+  "creature": "dragon",
+  "color": "#2a6a2a",
+  "accent": "#ffd040",
+  "heads": 1,
+  "size": 1.9,
+  "fly_height": 2.2,
+  "ring": 1.4
+ },
+ "food": 0,
+ "leash": 14,
+ "flying": true,
+ "projectile": {
+  "kind": "fire",
+  "speed": 16,
+  "arc": 0.2,
+  "splash": 2.0
+ }
+}

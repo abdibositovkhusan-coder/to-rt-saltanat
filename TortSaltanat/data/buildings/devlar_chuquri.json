@@ -11,7 +11,8 @@
  "trains": [
   "ikki_boshli_dev",
   "mamont_chavandoz",
-  "qoya_otar_gigant"
+  "qoya_otar_gigant",
+  "tosh_manjaniq"
  ],
  "requires": {
   "tier": 2

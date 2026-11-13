@@ -1,0 +1,45 @@
+{
+ "id": "jang_fili",
+ "hp_regen": 0.3,
+ "acquire_range": 9,
+ "sight": 11,
+ "tags": [
+  "heavy"
+ ],
+ "name": "Jang Fili",
+ "role": "Og'ir — ustida kamonchi, binolarni toptaydi",
+ "faction": "odamlar",
+ "hp": 1300,
+ "armor": 4,
+ "armor_type": "ogir",
+ "damage": [
+  30,
+  38
+ ],
+ "attack_type": "oddiy",
+ "attack_range": 1.6,
+ "attack_cooldown": 1.9,
+ "move_speed": 2.6,
+ "radius": 1.2,
+ "bar_height": 5.0,
+ "splash_melee": 1.6,
+ "cost": {
+  "oltin": 330,
+  "yogoch": 140
+ },
+ "food": 5,
+ "train_time": 45,
+ "requires": {
+  "tier": 3,
+  "buildings": [
+   "otxona"
+  ]
+ },
+ "look": {
+  "creature": "mammoth",
+  "color": "#8a8a90",
+  "accent": "#d4a63a",
+  "size": 1.15,
+  "ring": 1.2
+ }
+}

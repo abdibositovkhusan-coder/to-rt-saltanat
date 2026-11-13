@@ -49,6 +49,17 @@ func _run() -> void:
 		b.cam.distance = 14.0
 	await _wait(30)
 	await _shot("05_battle_troll")
+	if b != null:
+		var c := Vector3(-20, 0, 20)
+		var ids := ["lava_ajdari", "zumrad_ajdar", "suyak_ajdar", "yovvoyi_ajdar", "tosh_manjaniq", "ildiz_manjaniq", "suyak_manjaniq", "ballista", "jang_fili", "kulrang_bori", "ulkan_ilon"]
+		for i in ids.size():
+			b.spawn_unit(ids[i], 0, c + Vector3((i % 4) * 4.0 - 6.0, 0, (i / 4) * 4.5 - 4.0))
+		if b.fog != null:
+			b.fog.reveal_all(0)
+		b.cam.focus(c, true)
+		b.cam.distance = 22.0
+		await _wait(60)
+		await _shot("07_new_units")
 	main.show_settings()
 	await _wait(20)
 	await _shot("06_settings")
