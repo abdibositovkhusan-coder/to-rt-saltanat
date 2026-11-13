@@ -246,7 +246,7 @@ func _refresh_inventory() -> void:
 				txt += " ×%d" % int(it["charges"])
 		var b := UiStyle.button(txt, Vector2(86, 44))
 		b.add_theme_font_size_override("font_size", 13)
-		var sl := slot
+		var sl: int = slot
 		b.pressed.connect(func(): battle.command_use_item(sl))
 		_inv_box.add_child(b)
 
@@ -444,7 +444,7 @@ func _hero_commands(h) -> void:
 	_ability_buttons = []
 	for i in h.abilities.size():
 		var a: Dictionary = h.abilities[i]
-		var idx := i
+		var idx: int = i
 		var lvl := int(h.ab_levels[i])
 		var maxl: int = h.max_ability_level(i)
 		var dots: String = "%d/%d" % [lvl, maxl]

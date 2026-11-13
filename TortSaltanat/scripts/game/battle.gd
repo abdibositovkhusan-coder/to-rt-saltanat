@@ -54,7 +54,7 @@ var stats: Dictionary = {"trained": 0, "lost": 0, "killed": 0, "built": 0, "gold
 var _bursts: int = 0
 var mission_id: String = ""
 var campaign_mode: bool = false
-var script: MissionScript = null
+var mscript: MissionScript = null
 
 
 func setup(m: Dictionary, state: Dictionary = {}) -> void:
@@ -147,11 +147,11 @@ func setup(m: Dictionary, state: Dictionary = {}) -> void:
 	controller.setup(self, cam, hud)
 
 	Audio.music(str(player_faction.get("id", "odamlar")))
-	script = MissionScript.new()
-	add_child(script)
-	script.setup(self, m, state.get("script", {}) if loading else {})
-	if script.objective != str(m.get("objective", "")):
-		hud.set_objective(script.objective)
+	mscript = MissionScript.new()
+	add_child(mscript)
+	mscript.setup(self, m, state.get("script", {}) if loading else {})
+	if mscript.objective != str(m.get("objective", "")):
+		hud.set_objective(mscript.objective)
 
 	_enemy_attack_timer = float(m.get("enemy_attack_after", 25))
 	if loading:
@@ -505,8 +505,8 @@ func _process(delta: float) -> void:
 	if over or sim == null or sim.paused:
 		return
 	stats["time"] = float(stats["time"]) + delta * sim.speed
-	if script != null:
-		script.step(delta * sim.speed)
+	if mscript != null:
+		mscript.step(delta * sim.speed)
 		if over:
 			return
 	if not bool(mission.get("auto_waves", true)):
@@ -1148,7 +1148,7 @@ func _on_unit_died(u) -> void:
 		return
 	if sim.count_team(0) == 0:
 		_end(false)
-	elif sim.count_team(1) == 0 and (script == null or script.victory_type() == "destroy_all"):
+	elif sim.count_team(1) == 0 and (mscript == null or mscript.victory_type() == "destroy_all"):
 		_end(true)
 
 
@@ -1248,8 +1248,8 @@ func save_state() -> Dictionary:
 	st["drops"] = drops
 	if fog != null:
 		st["fog"] = fog.explored_b64()
-	if script != null:
-		st["script"] = script.save_state()
+	if mscript != null:
+		st["script"] = mscript.save_state()
 	return st
 
 
