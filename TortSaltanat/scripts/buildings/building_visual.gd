@@ -221,3 +221,27 @@ func play_death() -> void:
 	var tw := create_tween()
 	tw.tween_property(body, "scale:y", 0.15, 1.2).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_IN)
 	tw.parallel().tween_property(body, "rotation:z", 0.15, 1.2)
+
+
+## Trollar binolari: atrofida yog'och qoziqlar (palisad), old tomonda ikkita katta so'yloq,
+## tepada bosh suyagi belgisi — odamlar binosidan ajralib tursin.
+func add_troll_decor(r: float) -> void:
+	if body == null:
+		return
+	var wood := mat(Color(0.36, 0.24, 0.13))
+	var bone := mat(Color(0.93, 0.89, 0.76))
+	var n: int = maxi(8, int(r * 6.0))
+	for i in n:
+		var a: float = TAU * float(i) / float(n)
+		if absf(wrapf(a - PI * 0.5, -PI, PI)) < 0.45:
+			continue   # old tomonda kirish yo'li ochiq
+		var p := Vector3(cos(a), 0, sin(a)) * (r * 1.02)
+		var h: float = 1.0 + 0.35 * float(i % 3)
+		var stake := part(body, cone(0.13, h, 0.0, 5), wood, p + Vector3(0, h * 0.5, 0))
+		stake.rotation = Vector3(sin(a) * 0.25, 0, -cos(a) * 0.25)
+	for sx in [-1.0, 1.0]:
+		var t := part(body, cone(0.22, 1.9, 0.0, 6), bone, Vector3(0.95 * sx, 0.9, r * 1.05))
+		t.rotation = Vector3(0.35, 0, -0.45 * sx)
+	part(body, sphere(0.42, 8), bone, Vector3(0, 0.55, r * 1.12))
+	for sx in [-1.0, 1.0]:
+		part(body, sphere(0.09, 5), mat(Color(0.95, 0.35, 0.1), 2.0, true), Vector3(0.15 * sx, 0.6, r * 1.12 + 0.36))

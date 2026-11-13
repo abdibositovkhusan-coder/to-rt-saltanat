@@ -35,5 +35,7 @@
  },
  "model": "kaykit/medieval/building_tower_catapult_red.gltf",
  "model_scale": 2.2,
- "model_yaw": 0
+ "model_yaw": 0,
+ "tint": "#b09a80",
+ "troll_decor": true
 }

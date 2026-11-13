@@ -20,5 +20,6 @@
  "sight": 9,
  "model": "kaykit/medieval/tent.gltf",
  "model_scale": 3.6,
- "model_yaw": 0
+ "model_yaw": 0,
+ "tint": "#c8a070"
 }

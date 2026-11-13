@@ -14,7 +14,7 @@
  "bar_height": 4.4,
  "model": "kaykit/medieval/building_home_B_red.gltf",
  "model_scale": 3.0,
- "tint": "#b8e0a0",
+ "tint": "#b09a80",
  "id": "shamon_kulbasi",
  "faction": "trollar",
  "armor_type": "mustahkam",
@@ -23,5 +23,6 @@
  "food": 0,
  "sight": 9,
  "style": "barracks",
- "armor": 5
+ "armor": 5,
+ "troll_decor": true
 }

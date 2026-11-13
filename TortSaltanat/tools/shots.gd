@@ -46,6 +46,7 @@ func _run() -> void:
 	var b = main._current
 	if b != null and b.get("cam") != null:
 		b.cam.focus(Vector3(-30, 0, 32), true)
+		b.cam.distance = 14.0
 	await _wait(30)
 	await _shot("05_battle_troll")
 	main.show_settings()

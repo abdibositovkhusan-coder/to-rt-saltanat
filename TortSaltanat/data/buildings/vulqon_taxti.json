@@ -20,10 +20,11 @@
  "tier": 3,
  "model": "kaykit/medieval/building_castle_red.gltf",
  "model_scale": 2.4,
- "tint": "#ffb8a0",
+ "tint": "#c87860",
  "id": "vulqon_taxti",
  "faction": "trollar",
  "armor_type": "mustahkam",
  "research": [],
- "style": "barracks"
+ "style": "barracks",
+ "troll_decor": true
 }

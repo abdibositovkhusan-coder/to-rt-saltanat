@@ -25,5 +25,7 @@
  "model_yaw": 0,
  "tier": 1,
  "upgrade_to": "qoya_qala",
- "research": []
+ "research": [],
+ "tint": "#b09a80",
+ "troll_decor": true
 }

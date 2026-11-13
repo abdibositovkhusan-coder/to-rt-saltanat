@@ -50,7 +50,7 @@ func _ready() -> void:
 			ol.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 			ol.add_theme_color_override("font_color", Color(0.85, 0.85, 0.8) if unlocked else Color(0.5, 0.5, 0.5))
 			txt.add_child(ol)
-			var status := UiStyle.label("Bajarildi" if done else ("" if unlocked else "Qulflangan"), 20, Color(0.5, 1.0, 0.55) if done else Color(1.0, 0.5, 0.4))
+			var status := UiStyle.label("Bajarildi" if done else "", 20, Color(0.5, 1.0, 0.55) if done else Color(1.0, 0.5, 0.4))
 			status.custom_minimum_size = Vector2(150, 0)
 			row.add_child(status)
 			if not unlocked and bool(ch.get("requires_all", false)):

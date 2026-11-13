@@ -26,5 +26,7 @@
  "food": 0,
  "sight": 9,
  "style": "barracks",
- "armor": 5
+ "armor": 5,
+ "tint": "#b09a80",
+ "troll_decor": true
 }

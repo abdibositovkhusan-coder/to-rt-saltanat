@@ -52,7 +52,7 @@ func _ready() -> void:
 	vb.add_child(row)
 	for f in FACTIONS:
 		var fd := GameData.faction_def(f)
-		var b := UiStyle.button("%s\n%s" % [fd.get("name", f), fd.get("title", "")], Vector2(270, 90))
+		var b := UiStyle.button("%s\n%s" % [GameData.faction_short(f), fd.get("title", "")], Vector2(270, 90))
 		b.add_theme_font_size_override("font_size", 17)
 		var col := GameData.color(fd.get("color", ""), Color.GRAY)
 		var sb := StyleBoxFlat.new()
