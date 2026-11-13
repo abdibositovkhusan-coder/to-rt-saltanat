@@ -49,14 +49,19 @@
   "hide": [
    "Barbarian_Round_Shield",
    "2H_Axe",
-   "Mug"
+   "Mug",
+   "Barbarian_Hat"
   ],
-  "tint": "#c4dc8a",
+  "tint": "#d6e2c4",
   "model_scale": 0.95,
   "ring": 0.75,
   "anims": {
    "attack": "Dualwield_Melee_Attack_Chop"
-  }
+  },
+  "skin_tint": "#6fbf50",
+  "hair_color": "#8a2a10",
+  "widen": 1.18,
+  "troll_face": true
  },
  "abilities": [
   {

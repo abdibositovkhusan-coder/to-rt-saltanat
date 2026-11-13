@@ -338,6 +338,13 @@ func _build_model(look: Dictionary, tc: Color, team: int) -> bool:
 			ModelLib.set_part_visible(m, str(part_name), false)
 	if look.has("tint"):
 		ModelLib.tint(m, GameData.color(look.get("tint", ""), Color.WHITE))
+	if look.has("skin_tint"):
+		_tint_skin(m, GameData.color(look.get("skin_tint", ""), Color(0.45, 0.8, 0.35)))
+	var widen: float = float(look.get("widen", 1.0))
+	if widen != 1.0:
+		m.scale = Vector3(m.scale.x * widen, m.scale.y, m.scale.z * widen)
+	if bool(look.get("troll_face", false)):
+		_add_troll_face(m, look)
 	_anims = {"idle": "Idle", "walk": "Walking_A", "attack": "1H_Melee_Attack_Chop", "ranged": "", "death": "Death_A"}
 	var extra = look.get("anims", {})
 	if extra is Dictionary:
@@ -597,3 +604,52 @@ func _process(delta: float) -> void:
 		_phase += delta * 2.0
 		if torso:
 			torso.scale = Vector3(1.0 + sin(_phase) * 0.012, 1.0, 1.0)
+
+
+# ---------------- Trollar qiyofasi ----------------
+
+## Faqat teri qismlarini (bosh, qo'llar) bo'yaydi — kiyim o'z rangida qoladi.
+func _tint_skin(root: Node, c: Color) -> void:
+	if root is MeshInstance3D:
+		var n: String = str(root.name)
+		if n.ends_with("_Head") or n.ends_with("_ArmLeft") or n.ends_with("_ArmRight"):
+			ModelLib.tint(root, c)
+	for ch in root.get_children():
+		_tint_skin(ch, c)
+
+
+func _find_skeleton(root: Node) -> Skeleton3D:
+	if root is Skeleton3D:
+		return root
+	for ch in root.get_children():
+		var sk := _find_skeleton(ch)
+		if sk != null:
+			return sk
+	return null
+
+
+## Bosh suyagiga so'yloq tishlar, uzun o'tkir quloqlar, qalin qosh va kokil yopishtiradi.
+func _add_troll_face(m: Node3D, look: Dictionary) -> void:
+	var sk := _find_skeleton(m)
+	if sk == null or sk.find_bone("head") < 0:
+		return
+	var att := BoneAttachment3D.new()
+	att.bone_name = "head"
+	sk.add_child(att)
+	var skin_c: Color = GameData.color(look.get("face_color", ""), Color(0.36, 0.58, 0.26))
+	var tusk_c := Color(0.95, 0.92, 0.78)
+	var hair_c: Color = GameData.color(look.get("hair_color", ""), Color(0.12, 0.08, 0.06))
+	var skin_m := mat(skin_c)
+	var tusk_m := mat(tusk_c)
+	# So'yloq tishlar (pastki jag'dan yuqoriga)
+	for sx in [-1.0, 1.0]:
+		part(att, cone(0.065, 0.3, 0.0, 6), tusk_m, Vector3(0.2 * sx, 0.2, 0.47), Vector3(-0.35, 0, -0.3 * sx))
+	# Uzun o'tkir quloqlar
+	for sx in [-1.0, 1.0]:
+		part(att, cone(0.13, 0.55, 0.0, 6), skin_m, Vector3(0.6 * sx, 0.55, -0.02), Vector3(0, 0, -sx * (PI * 0.5 - 0.35)))
+	# Qalin qosh
+	part(att, box(Vector3(0.78, 0.1, 0.14)), mat(skin_c.darkened(0.35)), Vector3(0, 0.72, 0.47), Vector3(0.25, 0, 0))
+	# Kokil (mohawk)
+	if not bool(look.get("no_hair", false)):
+		part(att, box(Vector3(0.14, 0.3, 0.75)), mat(hair_c), Vector3(0, 1.02, -0.05))
+		part(att, cone(0.08, 0.5, 0.0, 5), mat(hair_c), Vector3(0, 0.9, -0.5), Vector3(-1.9, 0, 0))

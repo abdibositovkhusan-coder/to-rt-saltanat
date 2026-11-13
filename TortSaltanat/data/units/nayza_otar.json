@@ -35,16 +35,20 @@
    "1H_Axe_Offhand",
    "Barbarian_Round_Shield",
    "2H_Axe",
-   "Mug"
+   "Mug",
+   "Barbarian_Hat"
   ],
-  "tint": "#a6c98a",
+  "tint": "#d6e2c4",
   "model_scale": 0.9,
   "ring": 0.7,
   "anims": {
    "attack": "Throw",
    "ranged": "Throw",
    "walk": "Walking_C"
-  }
+  },
+  "skin_tint": "#6fbf50",
+  "widen": 1.18,
+  "troll_face": true
  },
  "voice_select": [
   "Nayzam o'tkir!",

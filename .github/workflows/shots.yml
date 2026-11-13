@@ -1,0 +1,33 @@
+name: Skrinshotlar (tekshiruv)
+on:
+  workflow_dispatch:
+
+env:
+  GODOT_VERSION: "4.3"
+
+jobs:
+  shots:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Modellar
+        run: bash TortSaltanat/tools/fetch_models.sh
+      - name: Godot
+        run: |
+          cd "$RUNNER_TEMP"
+          wget -q "https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}-stable/Godot_v${GODOT_VERSION}-stable_linux.x86_64.zip"
+          unzip -q "Godot_v${GODOT_VERSION}-stable_linux.x86_64.zip"
+          sudo mv "Godot_v${GODOT_VERSION}-stable_linux.x86_64" /usr/local/bin/godot
+          sudo apt-get update -qq && sudo apt-get install -y -qq xvfb libgl1-mesa-dri mesa-utils > /dev/null
+      - name: Import
+        working-directory: TortSaltanat
+        run: godot --headless --path . --import 2>&1 | tail -3 || true
+      - name: Skrinshot
+        working-directory: TortSaltanat
+        run: |
+          timeout 300 xvfb-run -a -s "-screen 0 1280x720x24" godot --path . --rendering-driver opengl3 --resolution 1280x720 --script res://tools/shots.gd 2>&1 | grep -vE "^\s*$" | tail -60
+          ls -la shots || true
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shots
+          path: TortSaltanat/shots/*.png

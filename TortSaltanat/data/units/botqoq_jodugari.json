@@ -52,7 +52,10 @@
   "anims": {
    "attack": "Spellcast_Shoot",
    "ranged": "Spellcast_Shoot"
-  }
+  },
+  "skin_tint": "#6fbf50",
+  "troll_face": true,
+  "no_hair": true
  },
  "voice_select": [
   "Botqoq so'zlaydi...",

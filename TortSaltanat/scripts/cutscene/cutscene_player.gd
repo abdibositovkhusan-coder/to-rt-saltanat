@@ -470,7 +470,7 @@ func _build_ui() -> void:
 	_line_box = PanelContainer.new()
 	_line_box.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	root.add_child(_line_box)
-	_line_box.set_anchors_preset(Control.PRESET_CENTER_BOTTOM)
+	_line_box.set_anchors_and_offsets_preset(Control.PRESET_CENTER_BOTTOM)
 	_line_box.grow_horizontal = Control.GROW_DIRECTION_BOTH
 	_line_box.grow_vertical = Control.GROW_DIRECTION_BEGIN
 	_line_box.offset_bottom = -80
@@ -498,7 +498,7 @@ func _build_ui() -> void:
 
 	_skip = UiStyle.button("O'tkazib yuborish »", Vector2(230, 48))
 	root.add_child(_skip)
-	_skip.set_anchors_preset(Control.PRESET_TOP_RIGHT)
+	_skip.set_anchors_and_offsets_preset(Control.PRESET_TOP_RIGHT)
 	_skip.grow_horizontal = Control.GROW_DIRECTION_BEGIN
 	_skip.offset_right = -12
 	_skip.offset_top = 8

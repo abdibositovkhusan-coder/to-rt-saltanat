@@ -46,16 +46,22 @@
    "Barbarian_Round_Shield",
    "2H_Axe",
    "1H_Axe",
-   "Mug"
+   "Mug",
+   "Barbarian_Hat"
   ],
-  "tint": "#a8a89a",
+  "tint": "#d6e2c4",
   "model_scale": 0.95,
   "ring": 1.1,
   "anims": {
    "attack": "Throw",
    "ranged": "Throw",
    "idle": "Unarmed_Idle"
-  }
+  },
+  "skin_tint": "#9aa6b8",
+  "face_color": "#6f7a86",
+  "no_hair": true,
+  "widen": 1.18,
+  "troll_face": true
  },
  "voice_select": [
   "Qoya qani?"

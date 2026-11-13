@@ -99,7 +99,7 @@ func _build_ui() -> void:
 	var vb := VBoxContainer.new()
 	vb.add_theme_constant_override("separation", 9)
 	root.add_child(vb)
-	vb.set_anchors_preset(Control.PRESET_CENTER_LEFT)
+	vb.set_anchors_and_offsets_preset(Control.PRESET_CENTER_LEFT)
 	vb.grow_vertical = Control.GROW_DIRECTION_BOTH
 	vb.offset_left = 70
 
@@ -130,7 +130,7 @@ func _build_ui() -> void:
 
 	var ver := UiStyle.label("v1.0 · Kay Lousberg (KayKit) CC0", 16, Color(0.85, 0.85, 0.8))
 	root.add_child(ver)
-	ver.set_anchors_preset(Control.PRESET_BOTTOM_RIGHT)
+	ver.set_anchors_and_offsets_preset(Control.PRESET_BOTTOM_RIGHT)
 	ver.grow_horizontal = Control.GROW_DIRECTION_BEGIN
 	ver.grow_vertical = Control.GROW_DIRECTION_BEGIN
 	ver.offset_right = -14

@@ -70,7 +70,7 @@ func setup(b: Battle) -> void:
 func _build_top_bar() -> void:
 	var bar := PanelContainer.new()
 	root.add_child(bar)
-	bar.set_anchors_preset(Control.PRESET_TOP_WIDE)
+	bar.set_anchors_and_offsets_preset(Control.PRESET_TOP_WIDE)
 	bar.offset_left = 8
 	bar.offset_right = -8
 	bar.offset_top = 6
@@ -109,7 +109,7 @@ func _build_top_bar() -> void:
 
 	_pause_label = UiStyle.label("PAUZA — buyruq berishingiz mumkin", 28, Color(1, 0.85, 0.3))
 	root.add_child(_pause_label)
-	_pause_label.set_anchors_preset(Control.PRESET_CENTER_TOP)
+	_pause_label.set_anchors_and_offsets_preset(Control.PRESET_CENTER_TOP)
 	_pause_label.offset_top = 90
 	_pause_label.offset_left = -260
 	_pause_label.offset_right = 260
@@ -120,7 +120,7 @@ func _build_top_bar() -> void:
 func _build_minimap() -> void:
 	var holder := PanelContainer.new()
 	root.add_child(holder)
-	holder.set_anchors_preset(Control.PRESET_TOP_RIGHT)
+	holder.set_anchors_and_offsets_preset(Control.PRESET_TOP_RIGHT)
 	holder.grow_horizontal = Control.GROW_DIRECTION_BEGIN
 	holder.offset_right = -8
 	holder.offset_top = 70
@@ -133,7 +133,7 @@ func _build_minimap() -> void:
 func _build_info_panel() -> void:
 	var p := PanelContainer.new()
 	root.add_child(p)
-	p.set_anchors_preset(Control.PRESET_BOTTOM_LEFT)
+	p.set_anchors_and_offsets_preset(Control.PRESET_BOTTOM_LEFT)
 	p.grow_vertical = Control.GROW_DIRECTION_BEGIN
 	p.offset_left = 8
 	p.offset_bottom = -8
@@ -150,7 +150,7 @@ func _build_info_panel() -> void:
 func _build_commands() -> void:
 	var p := PanelContainer.new()
 	root.add_child(p)
-	p.set_anchors_preset(Control.PRESET_BOTTOM_RIGHT)
+	p.set_anchors_and_offsets_preset(Control.PRESET_BOTTOM_RIGHT)
 	p.grow_horizontal = Control.GROW_DIRECTION_BEGIN
 	p.grow_vertical = Control.GROW_DIRECTION_BEGIN
 	p.offset_right = -8
@@ -166,7 +166,7 @@ func _build_commands() -> void:
 func _build_hero_bar() -> void:
 	var holder := PanelContainer.new()
 	root.add_child(holder)
-	holder.set_anchors_preset(Control.PRESET_TOP_LEFT)
+	holder.set_anchors_and_offsets_preset(Control.PRESET_TOP_LEFT)
 	holder.offset_left = 8
 	holder.offset_top = 70
 	_hero_bar = HBoxContainer.new()
@@ -209,7 +209,7 @@ func refresh_hero_bar() -> void:
 func _build_inventory() -> void:
 	_inv_panel = PanelContainer.new()
 	root.add_child(_inv_panel)
-	_inv_panel.set_anchors_preset(Control.PRESET_BOTTOM_LEFT)
+	_inv_panel.set_anchors_and_offsets_preset(Control.PRESET_BOTTOM_LEFT)
 	_inv_panel.grow_vertical = Control.GROW_DIRECTION_BEGIN
 	_inv_panel.offset_left = 8
 	_inv_panel.offset_bottom = -150
@@ -254,7 +254,7 @@ func _refresh_inventory() -> void:
 func _build_voice() -> void:
 	_voice = UiStyle.label("", 24)
 	root.add_child(_voice)
-	_voice.set_anchors_preset(Control.PRESET_CENTER_BOTTOM)
+	_voice.set_anchors_and_offsets_preset(Control.PRESET_CENTER_BOTTOM)
 	_voice.offset_left = -360
 	_voice.offset_right = 360
 	_voice.offset_top = -200
@@ -728,7 +728,7 @@ func show_end(victory: bool, has_outro: bool) -> void:
 	refresh_commands()
 	_end_panel = PanelContainer.new()
 	root.add_child(_end_panel)
-	_end_panel.set_anchors_preset(Control.PRESET_CENTER)
+	_end_panel.set_anchors_and_offsets_preset(Control.PRESET_CENTER)
 	_end_panel.grow_horizontal = Control.GROW_DIRECTION_BOTH
 	_end_panel.grow_vertical = Control.GROW_DIRECTION_BOTH
 	var vb := VBoxContainer.new()
@@ -862,7 +862,7 @@ func _open_game_menu() -> void:
 	battle.sim.paused = true
 	_game_menu = PanelContainer.new()
 	root.add_child(_game_menu)
-	_game_menu.set_anchors_preset(Control.PRESET_CENTER)
+	_game_menu.set_anchors_and_offsets_preset(Control.PRESET_CENTER)
 	_game_menu.grow_horizontal = Control.GROW_DIRECTION_BOTH
 	_game_menu.grow_vertical = Control.GROW_DIRECTION_BOTH
 	var vb := VBoxContainer.new()

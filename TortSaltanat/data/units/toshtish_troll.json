@@ -30,16 +30,20 @@
    "1H_Axe_Offhand",
    "Barbarian_Round_Shield",
    "1H_Axe",
-   "Mug"
+   "Mug",
+   "Barbarian_Hat"
   ],
-  "tint": "#9ad08a",
+  "tint": "#d6e2c4",
   "model_scale": 0.95,
   "ring": 0.75,
   "anims": {
    "attack": "2H_Melee_Attack_Chop",
    "idle": "2H_Melee_Idle",
    "walk": "Walking_C"
-  }
+  },
+  "skin_tint": "#6fbf50",
+  "widen": 1.18,
+  "troll_face": true
  },
  "voice_select": [
   "Grrr... nima?",
