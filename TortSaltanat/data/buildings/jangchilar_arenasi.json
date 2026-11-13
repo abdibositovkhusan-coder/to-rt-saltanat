@@ -21,9 +21,10 @@
  "dropoff": false,
  "armor_type": "mustahkam",
  "sight": 9,
- "model": "kaykit/medieval/building_barracks_red.gltf",
- "model_scale": 2.8,
+ "model": "kaykit/medieval/tent.gltf",
+ "model_scale": 6.12,
  "model_yaw": 0,
- "tint": "#8c7a64",
- "troll_decor": true
+ "tint": "#a07a56",
+ "troll_decor": true,
+ "decor_radius": 2.4200000000000004
 }
